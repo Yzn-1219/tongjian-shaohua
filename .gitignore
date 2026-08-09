@@ -1,0 +1,19 @@
+# WorkBuddy 项目数据（非项目内容）
+.workbuddy/
+
+# 系统文件
+.DS_Store
+Thumbs.db
+desktop.ini
+ehthumbs.db
+
+# 编辑器临时文件
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# 日志
+*.log
+npm-debug.log*

@@ -1,0 +1,16 @@
+{
+  "name": "童健韶华 · AI健康成长助手",
+  "short_name": "童健韶华",
+  "description": "以动代屏：AI体质评估、儿童防网瘾与运动指导",
+  "lang": "zh-CN",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#f3faf7",
+  "theme_color": "#208c78",
+  "icons": [
+    { "src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" },
+    { "src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "maskable" }
+  ]
+}

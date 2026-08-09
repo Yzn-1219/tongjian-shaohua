@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 192" width="192" height="192">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#208c78"/>
+      <stop offset="1" stop-color="#2ba892"/>
+    </linearGradient>
+  </defs>
+  <rect width="192" height="192" rx="40" fill="url(#g)"/>
+  <text x="96" y="100" font-size="104" fill="#ffffff" text-anchor="middle" dominant-baseline="central"
+        font-family="'Microsoft YaHei','PingFang SC',sans-serif" font-weight="bold">健</text>
+</svg>
