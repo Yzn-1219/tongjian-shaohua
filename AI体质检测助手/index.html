@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<meta name="theme-color" content="#208c78">
+<title>AI 体质检测助手 · 童健韶华</title>
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" type="image/svg+xml" href="icon.svg">
+<link rel="apple-touch-icon" href="icon.svg">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="app-header">
+  <div class="brand">
+    <img src="assets/logo.png" alt="团队logo" class="brand-logo" width="40" height="40">
+    <div>
+      <h1>AI 体质检测助手</h1>
+      <p class="sub">童健韶华 · 智能健康评估</p>
+    </div>
+  </div>
+  <button id="installBtn" class="install-btn" hidden>安装</button>
+</header>
+
+<main id="view">
+
+  <!-- ============ 体质评估 ============ -->
+  <section class="page active" id="page-assess">
+    <div class="container">
+      <h2 class="page-title">AI 体质评估与运动指导</h2>
+      <p class="page-desc">填写身体基础数据，AI 生成专属健康评估、常量参考、运动禁忌与 11 天启动计划。</p>
+
+      <div class="form-group">
+        <label>性别 <span class="required">*</span></label>
+        <select id="a-gender">
+          <option value="male">男</option>
+          <option value="female">女</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label>年龄（周岁） <span class="required">*</span></label>
+        <input id="a-age" type="number" inputmode="numeric" placeholder="范围 6~100">
+      </div>
+      <div class="form-group">
+        <label>身高（cm） <span class="required">*</span></label>
+        <input id="a-height" type="number" inputmode="decimal" placeholder="范围 50~250">
+      </div>
+      <div class="form-group">
+        <label>当前体重（kg） <span class="required">*</span></label>
+        <input id="a-weight" type="number" inputmode="decimal" placeholder="范围 10~300">
+      </div>
+      <div class="form-group">
+        <label>腰围（cm，选填）</label>
+        <input id="a-waist" type="number" inputmode="decimal" placeholder="例如 82">
+      </div>
+      <div class="form-group">
+        <label>臀围（cm，选填）</label>
+        <input id="a-hip" type="number" inputmode="decimal" placeholder="例如 94">
+      </div>
+      <div class="form-group">
+        <label>运动偏好（选填）</label>
+        <select id="a-sport">
+          <option value="">无特殊偏好</option>
+          <option value="居家自重">居家自重训练</option>
+          <option value="健身房器械">健身房器械训练</option>
+          <option value="户外有氧">户外跑步/骑行/徒步</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label>既往伤病、身体限制（选填）</label>
+        <textarea id="a-history" placeholder="关节伤病、慢性病、不能进行的运动等信息"></textarea>
+      </div>
+
+      <button class="btn-primary" id="a-submit">生成我的专属健康报告</button>
+
+      <div class="result-wrap" id="a-result" hidden>
+        <div id="a-loading" class="loading-tip">🔍 AI 正在分析您的体质数据，请稍候…</div>
+        <div id="a-report" class="report-content markdown-body"></div>
+        <button class="btn-ghost" id="a-copy">复制完整报告文本</button>
+      </div>
+
+      <div class="warning-notice">
+        ⚠️ 本工具仅提供通用健康生活、运动参考，不构成医疗诊断；如有疾病请前往正规医疗机构就诊。
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 设置 ============ -->
+  <section class="page" id="page-settings">
+    <div class="container">
+      <h2 class="page-title">设置</h2>
+      <p class="page-desc">AI 调用需要接口。可选择「直连个人 Key」，或使用你自己的「后端代理」隐藏密钥；密钥仅存于本机，不会上传。</p>
+
+      <div class="form-group">
+        <label>调用方式</label>
+        <select id="cfg-mode">
+          <option value="key">直连个人 Key</option>
+          <option value="proxy">后端代理（密钥不暴露）</option>
+        </select>
+      </div>
+
+      <div class="form-group" id="cfg-proxy-wrap">
+        <label>代理地址（你的 Worker / 后端 URL）</label>
+        <input id="cfg-proxy" type="text" placeholder="https://your-proxy.workers.dev/">
+        <p class="tip-text">部署你自己的代理后填入。前端只向此地址发请求，不接触密钥。</p>
+      </div>
+
+      <div class="form-group" id="cfg-key-wrap" hidden>
+        <label>通义千问 API Key</label>
+        <input id="cfg-key" type="password" placeholder="sk-..." autocomplete="off">
+        <p class="tip-text">Key 仅保存在本机浏览器，不会上传到任何服务器。</p>
+      </div>
+
+      <div class="form-group">
+        <label>模型名</label>
+        <input id="cfg-model" type="text" value="qwen-turbo">
+      </div>
+
+      <button class="btn-primary" id="cfg-save">保存设置</button>
+      <p id="cfg-status" class="cfg-status"></p>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <p class="decl">声明：本小程序由山东药品食品职业学院质量管理系「童健韶华」志愿服务队开发，由队长阎宗宁负责运行与维护。</p>
+    <p class="decl-sub">本工具仅用于公益科普与健康参考，不构成医疗诊断建议；如有疾病请前往正规医疗机构就诊。</p>
+  </footer>
+
+</main>
+
+<nav class="tabbar">
+  <button class="tab active" data-tab="assess"><span>📋</span>评估</button>
+  <button class="tab" data-tab="settings"><span>⚙️</span>设置</button>
+</nav>
+
+<script src="vendor/marked.min.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
