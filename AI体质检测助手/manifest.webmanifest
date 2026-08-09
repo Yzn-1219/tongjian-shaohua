@@ -1,0 +1,16 @@
+{
+  "name": "AI 体质检测助手",
+  "short_name": "AI体质检测",
+  "description": "童健韶华志愿服务队 - AI 智能体质评估与运动指导",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#f3faf7",
+  "theme_color": "#208c78",
+  "icons": [
+    {
+      "src": "icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}
