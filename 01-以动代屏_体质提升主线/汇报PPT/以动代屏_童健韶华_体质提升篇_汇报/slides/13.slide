@@ -1,0 +1,110 @@
+<Slide style={{
+    width: 1280,
+    height: 720,
+    background: '#F8FAFC',
+    padding: '28px 60px',
+    display: 'flex',
+    flexDirection: 'column',
+    justifyContent: 'space-between'
+}}>
+    {/* A区：标题栏 */}
+    <Box style={{ flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center' }}>
+        <Box style={{ flexDirection: 'column', gap: 2 }}>
+            <Text style={{ fontSize: 30, fontWeight: 'bold', color: '#1E3A8A' }}>
+                长效资产篇 · 开源共享沉淀：打造可复制推广样板
+            </Text>
+            <Text style={{ fontSize: 13, color: '#64748B' }}>
+                篇章四 · 志愿服务成果转化 · 开源精神与社会价值延续
+            </Text>
+        </Box>
+        <Box style={{ background: '#F0FDF4', padding: '5px 12px', borderRadius: 6, border: '1px solid #BBF7D0' }}>
+            <Text style={{ fontSize: 12, color: '#15803D', fontWeight: 'bold' }}>
+                💡 长效机制与资产沉淀
+            </Text>
+        </Box>
+    </Box>
+
+    {/* B区：三大长效支撑卡片 */}
+    <Box style={{ flexDirection: 'row', gap: 16 }}>
+        {/* 资产 1 */}
+        <Box style={{
+            flex: 1,
+            background: '#FFFFFF',
+            borderRadius: 10,
+            padding: '18px',
+            border: '1px solid #E2E8F0',
+            boxShadow: '0 4px 8px rgba(0,0,0,0.03)',
+            flexDirection: 'column',
+            gap: 8
+        }}>
+            <Box style={{ width: 36, height: 36, borderRadius: 8, background: '#EFF6FF', justifyContent: 'center', alignItems: 'center' }}>
+                <Text style={{ fontSize: 18 }}>💻</Text>
+            </Box>
+            <Text style={{ fontSize: 16, fontWeight: 'bold', color: '#0F172A' }}>
+                全栈代码完全开源
+            </Text>
+            <Box style={{ background: '#F1F5F9', padding: '4px 8px', borderRadius: 4 }}>
+                <Text style={{ fontSize: 11, color: '#475569', fontWeight: 'bold' }}>GitHub: tongjian-shaohua</Text>
+            </Box>
+            <Text style={{ fontSize: 12, color: '#64748B', lineHeight: 1.4 }}>
+                遵守志愿服务非商用开源协议，将 88+ 前端与 AI 架构文件完全开源，供全国高校支教与公益团队免费复用。
+            </Text>
+        </Box>
+
+        {/* 资产 2 */}
+        <Box style={{
+            flex: 1,
+            background: '#FFFFFF',
+            borderRadius: 10,
+            padding: '18px',
+            border: '1px solid #E2E8F0',
+            boxShadow: '0 4px 8px rgba(0,0,0,0.03)',
+            flexDirection: 'column',
+            gap: 8
+        }}>
+            <Box style={{ width: 36, height: 36, borderRadius: 8, background: '#FFF7ED', justifyContent: 'center', alignItems: 'center' }}>
+                <Text style={{ fontSize: 18 }}>📖</Text>
+            </Box>
+            <Text style={{ fontSize: 16, fontWeight: 'bold', color: '#0F172A' }}>
+                标准化落地操作手册
+            </Text>
+            <Box style={{ background: '#FFEDD5', padding: '4px 8px', borderRadius: 4 }}>
+                <Text style={{ fontSize: 11, color: '#C2410C', fontWeight: 'bold' }}>《社区以动代屏实施指南》</Text>
+            </Box>
+            <Text style={{ fontSize: 12, color: '#64748B', lineHeight: 1.4 }}>
+                提炼《网络素养教案》、《趣味运动会道具与规则清单》、《家庭公约范本》，实现“新手志愿者拿来即用”。
+            </Text>
+        </Box>
+
+        {/* 资产 3 */}
+        <Box style={{
+            flex: 1,
+            background: '#FFFFFF',
+            borderRadius: 10,
+            padding: '18px',
+            border: '1px solid #E2E8F0',
+            boxShadow: '0 4px 8px rgba(0,0,0,0.03)',
+            flexDirection: 'column',
+            gap: 8
+        }}>
+            <Box style={{ width: 36, height: 36, borderRadius: 8, background: '#ECFDF5', justifyContent: 'center', alignItems: 'center' }}>
+                <Text style={{ fontSize: 18 }}>🤝</Text>
+            </Box>
+            <Text style={{ fontSize: 16, fontWeight: 'bold', color: '#0F172A' }}>
+                校地共建常态化联络
+            </Text>
+            <Box style={{ background: '#DCFCE7', padding: '4px 8px', borderRadius: 4 }}>
+                <Text style={{ fontSize: 11, color: '#15803D', fontWeight: 'bold' }}>高校智力 + 基层阵地</Text>
+            </Box>
+            <Text style={{ fontSize: 12, color: '#64748B', lineHeight: 1.4 }}>
+                与环翠区多个基层社区建立常态化志愿服务驿站，设立“童健韶华云端信箱”，寒暑假轮换常态化跟进。
+            </Text>
+        </Box>
+    </Box>
+
+    {/* C区：页脚 */}
+    <Box style={{ flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center', borderTop: '1px solid #E2E8F0', paddingTop: 10 }}>
+        <Text style={{ fontSize: 12, color: '#94A3B8' }}>童健韶华 · 青少年体质提升与数字赋能行动</Text>
+        <Text style={{ fontSize: 12, color: '#94A3B8' }}>13 / 15</Text>
+    </Box>
+</Slide>

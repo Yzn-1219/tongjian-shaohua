@@ -1,0 +1,39 @@
+<Slide style={{
+    width: 1280,
+    height: 720,
+    background: '#FFFFFF',
+    padding: '50px 70px',
+    display: 'flex',
+    flexDirection: 'column',
+    gap: 24
+}}>
+    <Box style={{ flexDirection: 'column', gap: 8 }}>
+        <Box style={{ background: '#EFF6FF', padding: '5px 14px', borderRadius: 6, width: 150 }}>
+            <Text style={{ fontSize: 14, color: '#1D4ED8', fontWeight: 'bold' }}>汇报演讲文稿</Text>
+        </Box>
+        <Text style={{ fontSize: 38, fontWeight: 'bold', color: '#0F172A' }}>
+            童健韶华 · 三下乡汇报演讲稿
+        </Text>
+        <Text style={{ fontSize: 18, color: '#64748B' }}>
+            可直接复制粘贴至 Word / 讲稿文档使用
+        </Text>
+    </Box>
+
+    <Box style={{ flexDirection: 'column', gap: 10, background: '#F8FAFC', padding: '20px 24px', borderRadius: 8, borderLeft: '4px solid #1E3A8A' }}>
+        <Text style={{ fontSize: 17, fontWeight: 'bold', color: '#1E3A8A' }}>本稿包含以下内容</Text>
+        <Text style={{ fontSize: 15, color: '#334155', lineHeight: 1.8 }}>
+            01 ｜ 第一章 · 时代之问（开场演讲稿全文，约 3 分钟）<br />
+            02 ｜ 第三章 · 国家战略指引方向（政策小格子文案）<br />
+            03 ｜ 第四章 · 调研设计（三版问卷页文案）
+        </Text>
+    </Box>
+
+    <Box style={{ flexDirection: 'column', gap: 6 }}>
+        <Text style={{ fontSize: 14, color: '#94A3B8' }}>
+            团队：“童健韶华”志愿服务队 ｜ 队长：阎宗宁
+        </Text>
+        <Text style={{ fontSize: 14, color: '#94A3B8' }}>
+            指导老师：董怡静、张红朗
+        </Text>
+    </Box>
+</Slide>

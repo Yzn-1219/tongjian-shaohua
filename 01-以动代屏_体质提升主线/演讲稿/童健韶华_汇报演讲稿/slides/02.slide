@@ -1,0 +1,43 @@
+<Slide style={{
+    width: 1280,
+    height: 720,
+    background: '#FFFFFF',
+    padding: '44px 70px',
+    display: 'flex',
+    flexDirection: 'column',
+    gap: 16
+}}>
+    <Box style={{ flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center' }}>
+        <Text style={{ fontSize: 26, fontWeight: 'bold', color: '#1E3A8A' }}>
+            第一章 · 时代之问（开场演讲稿）
+        </Text>
+        <Box style={{ background: '#EFF6FF', padding: '4px 12px', borderRadius: 6 }}>
+            <Text style={{ fontSize: 13, color: '#1D4ED8' }}>约 3 分钟</Text>
+        </Box>
+    </Box>
+
+    <Box style={{
+        flexDirection: 'column',
+        gap: 10,
+        background: '#F8FAFC',
+        padding: '20px 24px',
+        borderRadius: 8,
+        border: '1px solid #E2E8F0'
+    }}>
+        <Text style={{ fontSize: 15, color: '#334155', lineHeight: 1.8 }}>
+            各位评委老师，大家好。我是"童健韶华"志愿服务队队长阎宗宁。今天我汇报的题目是《以动代屏 · 童健韶华——青少年体质提升与数字赋能志愿服务行动》。
+        </Text>
+        <Text style={{ fontSize: 15, color: '#334155', lineHeight: 1.8 }}>
+            我们的故事，要从 2026 年 6 月说起。那个月，院团委下发了暑期"三下乡"社会实践的通知，我们的项目正式起航。可说实话，通知下来那天，团队里最强烈的情绪不是兴奋，而是忐忑。
+        </Text>
+        <Text style={{ fontSize: 15, color: '#334155', lineHeight: 1.8 }}>
+            因为有一个问题，一直萦绕在每个人的耳边：三下乡，我们到底能做成什么？我们究竟能真正为那些孩子留下点什么？我们怕——怕的是兴冲冲地去了，热热闹闹地办一场活动，拍几张合影，写一篇推文，然后，什么都没留下。这样的实践，我们不想做。
+        </Text>
+        <Text style={{ fontSize: 15, color: '#334155', lineHeight: 1.8 }}>
+            于是我们决定先去找答案，而不是坐在宿舍里空想。我们走进社区、走进学校、走到孩子们身边。很快，一个普遍的事实摆在了眼前：青少年的体质，正在逐年下滑。
+        </Text>
+        <Text style={{ fontSize: 15, color: '#334155', lineHeight: 1.8 }}>
+            视力表上越来越靠上的那一行，跑两步就喘的体育课，放学后抱着手机一动不动的小小身影——这些不再是新闻里的数字，而是我们亲眼看见的孩子。
+        </Text>
+    </Box>
+</Slide>

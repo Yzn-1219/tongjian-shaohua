@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+<meta name="theme-color" content="#208c78">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="健身助手">
+<title>童健韶华 · 健身助手</title>
+<link rel="stylesheet" href="style.css">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="assets/logo.png">
+</head>
+<body>
+
+<!-- ===== Header ===== -->
+<header class="app-header">
+  <div class="brand">
+    <img src="assets/logo.png" alt="logo" class="brand-logo">
+    <div>
+      <h1>健身助手</h1>
+      <div class="sub">童健韶华 · 个人健身追踪</div>
+    </div>
+    <div class="brand-badges" aria-label="院系徽章">
+      <a class="badge-link" href="http://www.sddfvc.edu.cn/" target="_blank" rel="noopener" title="访问山东药品食品职业学院官网"><img src="assets/school_badge.png" alt="山东药品食品职业学院校徽" title="山东药品食品职业学院"></a>
+      <a class="badge-link" href="http://zlgl.wzq.sddfvc.edu.cn/index.htm" target="_blank" rel="noopener" title="访问质量管理系官网"><img src="assets/dept_badge.png" alt="质量管理系系徽" title="质量管理系"></a>
+    </div>
+  </div>
+  <button class="install-btn" id="installBtn" hidden>安装</button>
+</header>
+
+<!-- ===== Main ===== -->
+<main id="view">
+
+  <!-- ===== 首页 ===== -->
+  <section class="page active" id="page-home">
+    <div class="container">
+      <h2 class="page-title">今日健身概览</h2>
+      <p class="page-desc" id="todayDate"></p>
+
+      <div class="stat-grid" id="homeStats">
+        <div class="stat-card">
+          <span class="stat-num" id="statStreak">0</span>
+          <span class="stat-label">连续打卡</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-num" id="statWeekDays">0</span>
+          <span class="stat-label">本周训练天</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-num" id="statTodayCount">0</span>
+          <span class="stat-label">今日训练</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-num" id="statWeekCalories">0</span>
+          <span class="stat-label">本周消耗(kcal)</span>
+        </div>
+      </div>
+
+      <div class="card-block" id="weekChartBlock">
+        <h3 class="block-title">本周运动量</h3>
+        <div id="weekChart"></div>
+      </div>
+
+      <div class="card-block">
+        <h3 class="block-title">最近训练</h3>
+        <div id="recentTrainings"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== 训练记录 ===== -->
+  <section class="page" id="page-training">
+    <div class="container">
+      <h2 class="page-title">记录训练</h2>
+      <p class="page-desc">选部位 + 写动作，或直接输入自然语言</p>
+
+      <!-- 部位选择 -->
+      <div class="part-chips" id="partChips"></div>
+
+      <!-- 快捷模板 -->
+      <div class="quick-templates">
+        <button class="qt-btn" data-tpl="跑步30min" data-part="cardio">跑步30min</button>
+        <button class="qt-btn" data-tpl="卧推4×8 @70kg" data-part="chest">卧推4×8</button>
+        <button class="qt-btn" data-tpl="引体向上4×8" data-part="back">引体4×8</button>
+        <button class="qt-btn" data-tpl="深蹲5×5 @80kg" data-part="legs">深蹲5×5</button>
+      </div>
+
+      <!-- 自然语言输入 -->
+      <div class="form-group">
+        <label>动作描述</label>
+        <textarea id="trainInput" placeholder="如：今天练胸 卧推4×8@70kg 夹胸3×12" rows="3"></textarea>
+      </div>
+
+      <!-- 实时解析预览 -->
+      <div id="parsePreview" class="parse-preview" hidden></div>
+
+      <!-- 手动补充 -->
+      <div class="form-row">
+        <div class="form-group" style="flex:1">
+          <label>时长(分钟)</label>
+          <input type="number" id="trainDuration" placeholder="自动识别" min="0">
+        </div>
+        <div class="form-group" style="flex:1">
+          <label>消耗(kcal)</label>
+          <input type="number" id="trainCalories" placeholder="自动估算" min="0">
+        </div>
+      </div>
+
+      <button class="btn-primary" id="saveTrainBtn">保存训练记录</button>
+    </div>
+
+    <!-- 训练历史 -->
+    <div class="container" style="margin-top:14px">
+      <h3 class="block-title">训练历史</h3>
+      <div id="trainHistory"></div>
+    </div>
+  </section>
+
+  <!-- ===== 身体数据 ===== -->
+  <section class="page" id="page-body">
+    <div class="container">
+      <h2 class="page-title">身体数据</h2>
+      <p class="page-desc">记录体重与身体成分变化</p>
+
+      <div class="form-row">
+        <div class="form-group" style="flex:1">
+          <label>体重(kg)</label>
+          <input type="number" id="bodyWeight" step="0.1" placeholder="如 65.5">
+        </div>
+        <div class="form-group" style="flex:1">
+          <label>体脂率(%)</label>
+          <input type="number" id="bodyFat" step="0.1" placeholder="如 18.5">
+        </div>
+      </div>
+
+      <button class="btn-primary" id="saveBodyBtn">保存身体数据</button>
+
+      <div class="card-block" id="bodyCompCard">
+        <h3 class="block-title">身体成分</h3>
+        <div id="bodyCompGrid" class="body-comp-grid">
+          <div class="bc-item"><span class="bc-val" id="bcWeight">--</span><span class="bc-label">体重(kg)</span></div>
+          <div class="bc-item"><span class="bc-val" id="bcBMI">--</span><span class="bc-label">BMI</span></div>
+          <div class="bc-item"><span class="bc-val" id="bcBMR">--</span><span class="bc-label">基础代谢</span></div>
+          <div class="bc-item"><span class="bc-val" id="bcBodyFat">--</span><span class="bc-label">体脂率(%)</span></div>
+          <div class="bc-item"><span class="bc-val" id="bcMuscle">--</span><span class="bc-label">肌肉量(kg)</span></div>
+          <div class="bc-item"><span class="bc-val" id="bcWater">--</span><span class="bc-label">水分率(%)</span></div>
+          <div class="bc-item"><span class="bc-val" id="bcBone">--</span><span class="bc-label">骨量(kg)</span></div>
+          <div class="bc-item"><span class="bc-val" id="bcProtein">--</span><span class="bc-label">蛋白质(%)</span></div>
+        </div>
+      </div>
+
+      <div class="card-block">
+        <h3 class="block-title">身体趋势</h3>
+        <div class="trend-grid">
+          <div class="mini-trend" id="trendWeight"></div>
+          <div class="mini-trend" id="trendBmi"></div>
+          <div class="mini-trend" id="trendFat"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== AI 教练 ===== -->
+  <section class="page" id="page-coach">
+    <div class="container">
+      <h2 class="page-title">AI 健身教练</h2>
+      <p class="page-desc">基于训练历史给出分析、建议与营养指导</p>
+
+      <button class="btn-primary" id="coachBtn">🤔 生成教练分析</button>
+
+      <div id="coachResult" class="result-wrap" hidden></div>
+
+      <!-- 目标进度 -->
+      <div class="card-block" id="goalProgressBlock" hidden>
+        <h3 class="block-title">目标进度</h3>
+        <div class="goal-progress-bar">
+          <div class="goal-progress-fill" id="goalProgressFill"></div>
+        </div>
+        <p class="goal-progress-text" id="goalProgressText"></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== 设置 ===== -->
+  <section class="page" id="page-settings">
+    <div class="container">
+      <h2 class="page-title">设置</h2>
+
+      <!-- 基础身体数据 -->
+      <div class="card-block">
+        <h3 class="block-title">基础身体数据</h3>
+        <div class="form-row">
+          <div class="form-group" style="flex:1">
+            <label>身高(cm)</label>
+            <input type="number" id="cfgHeight" placeholder="如 175" min="100" max="250">
+          </div>
+          <div class="form-group" style="flex:1">
+            <label>年龄</label>
+            <input type="number" id="cfgAge" placeholder="如 20" min="1" max="120">
+          </div>
+        </div>
+        <div class="form-group">
+          <label>性别</label>
+          <select id="cfgGender">
+            <option value="male">男</option>
+            <option value="female">女</option>
+          </select>
+        </div>
+      </div>
+
+      <!-- 训练目标 -->
+      <div class="card-block">
+        <h3 class="block-title">训练目标</h3>
+        <div class="form-group">
+          <label>目标类型</label>
+          <select id="cfgGoal">
+            <option value="build">增肌</option>
+            <option value="cut">减脂</option>
+            <option value="maintain">维持</option>
+          </select>
+        </div>
+        <div class="form-row">
+          <div class="form-group" style="flex:1">
+            <label>目标体重(kg)</label>
+            <input type="number" id="cfgTargetWeight" step="0.1" placeholder="如 70">
+          </div>
+          <div class="form-group" style="flex:1">
+            <label>每周训练(次)</label>
+            <input type="number" id="cfgWeeklyFreq" placeholder="如 4" min="1" max="14">
+          </div>
+        </div>
+      </div>
+
+      <!-- 营养目标 -->
+      <div class="card-block">
+        <h3 class="block-title">营养目标</h3>
+        <div class="form-row">
+          <div class="form-group" style="flex:1">
+            <label>每日热量(kcal)</label>
+            <input type="number" id="cfgCalories" placeholder="如 2200">
+          </div>
+          <div class="form-group" style="flex:1">
+            <label>蛋白质(g)</label>
+            <input type="number" id="cfgProtein" placeholder="如 140">
+          </div>
+        </div>
+      </div>
+
+      <!-- AI 密钥 -->
+      <div class="card-block">
+        <h3 class="block-title">AI 密钥</h3>
+        <div class="form-group">
+          <label>API Key</label>
+          <input type="password" id="apiKey" placeholder="扫码或手动填入" autocomplete="off">
+        </div>
+        <div class="form-group">
+          <label>模型名称</label>
+          <input type="text" id="modelName" placeholder="如 qwen-turbo" autocomplete="off">
+        </div>
+        <div class="inline-btns">
+          <button class="btn-ghost" id="scanKeyBtn">📷 扫码填入</button>
+          <button class="btn-ghost" id="genQrBtn">🔲 生成二维码</button>
+          <button class="btn-ghost" id="clearKeyBtn">🗑 清除</button>
+        </div>
+        <p class="cfg-status" id="keyStatus"></p>
+      </div>
+
+      <!-- 数据管理 -->
+      <div class="card-block">
+        <h3 class="block-title">数据管理</h3>
+        <div class="inline-btns">
+          <button class="btn-ghost" id="exportBtn">📤 导出数据</button>
+          <button class="btn-ghost" id="importBtn">📥 导入数据</button>
+        </div>
+        <input type="file" id="importFile" accept=".json" hidden>
+      </div>
+
+      <!-- 关于团队 -->
+      <div class="card-block team-card">
+        <h3 class="block-title">关于我们</h3>
+        <div class="team-row">
+          <img src="assets/logo.png" alt="童健韶华 logo" class="team-logo">
+          <div class="team-txt">
+            <div class="team-name">「童健韶华」志愿服务队</div>
+            <div class="team-sub">山东药品食品职业学院 · 质量管理系</div>
+          </div>
+        </div>
+        <div class="affiliation">
+          <a class="badge-link" href="http://www.sddfvc.edu.cn/" target="_blank" rel="noopener" title="访问山东药品食品职业学院官网"><img src="assets/school_badge.png" alt="山东药品食品职业学院校徽"></a>
+          <a class="badge-link" href="http://zlgl.wzq.sddfvc.edu.cn/index.htm" target="_blank" rel="noopener" title="访问质量管理系官网"><img src="assets/dept_badge.png" alt="质量管理系系徽"></a>
+        </div>
+        <p class="team-tip">👆 点击徽章可一键访问学校与院系官网</p>
+        <a class="visit-site" href="http://www.sddfvc.edu.cn/" target="_blank" rel="noopener">↗ 访问学校官网</a>
+        <a class="visit-site alt" href="http://zlgl.wzq.sddfvc.edu.cn/index.htm" target="_blank" rel="noopener">↗ 访问质量管理系官网</a>
+        <p class="team-desc">团队以"青春奉献、专业赋能"为宗旨，2026 年暑期赴威海开展"三下乡"社会实践，围绕"以动代屏"主线，面向儿童开展网络素养启蒙与趣味运动，疏堵结合远离屏幕依赖。本小程序为团队公益科普作品，结合 AI 技术助力"以动代屏、向光而行"。</p>
+        <p class="team-teacher">指导老师：董怡静　张红朗</p>
+        <div class="team-members">
+          <div class="tm captain">阎宗宁<small>队长</small></div>
+          <div class="tm">郭亦彤<small>宣讲工作</small></div>
+          <div class="tm">李响<small>社区联系</small></div>
+          <div class="tm">陈虹宇<small>准备宣讲</small></div>
+          <div class="tm">祝鸣轩<small>合理评分</small></div>
+          <div class="tm">段文烁<small>队员</small></div>
+        </div>
+        <div class="gallery" id="group-gallery">
+          <div class="gallery-track" id="group-track">
+            <img src="assets/gallery/photo01.jpg" alt="童健韶华志愿服务队活动掠影（一）">
+            <img src="assets/gallery/photo02.jpg" alt="童健韶华志愿服务队活动掠影（二）">
+            <img src="assets/gallery/photo03.jpg" alt="童健韶华志愿服务队活动掠影（三）">
+            <img src="assets/gallery/photo04.jpg" alt="童健韶华志愿服务队活动掠影（四）">
+            <img src="assets/gallery/photo05.jpg" alt="童健韶华志愿服务队活动掠影（五）">
+            <img src="assets/gallery/photo06.jpg" alt="童健韶华志愿服务队活动掠影（六）">
+            <img src="assets/gallery/photo07.jpg" alt="童健韶华志愿服务队活动掠影（七）">
+            <img src="assets/gallery/photo08.jpg" alt="童健韶华志愿服务队活动掠影（八）">
+            <img src="assets/gallery/photo09.jpg" alt="童健韶华志愿服务队活动掠影（九）">
+            <img src="assets/gallery/photo10.jpg" alt="童健韶华志愿服务队活动掠影（十）">
+            <img src="assets/gallery/photo11.jpg" alt="童健韶华志愿服务队合影（一）">
+            <img src="assets/gallery/photo12.jpg" alt="童健韶华志愿服务队合影（二）">
+            <img src="assets/gallery/photo13.jpg" alt="童健韶华志愿服务队活动掠影（十一）">
+          </div>
+          <button class="gallery-arrow left" id="group-prev" aria-label="上一张">‹</button>
+          <button class="gallery-arrow right" id="group-next" aria-label="下一张">›</button>
+        </div>
+        <div class="gallery-dots" id="group-dots"></div>
+        <p class="tip-text">📸 志愿服务队活动剪影（可左右滑动、自动轮播）</p>
+      </div>
+
+      <p class="cfg-status" id="cfgSaveStatus"></p>
+    </div>
+
+    <!-- 页脚 -->
+    <div class="site-footer">
+      <p class="decl">童健韶华 · 健身助手 | 个人健身追踪 PWA</p>
+      <p class="decl-sub">山东药品食品职业学院 质量管理系「童健韶华」志愿服务队<br>© 2026 仅限志愿服务使用 禁止商用</p>
+    </div>
+  </section>
+
+</main>
+
+<!-- ===== Tabbar ===== -->
+<nav class="tabbar">
+  <button class="tab active" data-page="home"><span>🏠</span>首页</button>
+  <button class="tab" data-page="training"><span>💪</span>训练</button>
+  <button class="tab" data-page="body"><span>⚖</span>身体</button>
+  <button class="tab" data-page="coach"><span>🤔</span>教练</button>
+  <button class="tab" data-page="settings"><span>⚙</span>设置</button>
+</nav>
+
+<!-- ===== Offline Toast ===== -->
+<div class="offline-toast" id="offlineToast">📡 当前离线，数据保存在本地</div>
+
+<!-- ===== Scan Modal ===== -->
+<div class="modal" id="scanModal" hidden>
+  <div class="modal-box">
+    <div class="modal-head">扫码填入 API Key <button class="modal-close" id="scanCloseBtn">✕</button></div>
+    <div class="scan-area" id="scanArea">
+      <div class="scan-frame"></div>
+    </div>
+    <p class="scan-tip" id="scanTip">将二维码对准框内</p>
+  </div>
+</div>
+
+<!-- ===== QR Show Modal ===== -->
+<div class="modal" id="qrModal" hidden>
+  <div class="modal-box">
+    <div class="modal-head">API Key 二维码 <button class="modal-close" id="qrCloseBtn">✕</button></div>
+    <div class="qr-show" id="qrShow"></div>
+    <p class="scan-tip">用其他设备扫码即可导入</p>
+  </div>
+</div>
+
+<!-- ===== Scripts ===== -->
+<script src="vendor/marked.min.js"></script>
+<script src="vendor/jsqr.min.js"></script>
+<script src="vendor/qrcode.min.js"></script>
+<script src="db.js"></script>
+<script src="training-parser.js"></script>
+<script src="fitness.js"></script>
+<script src="coach.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

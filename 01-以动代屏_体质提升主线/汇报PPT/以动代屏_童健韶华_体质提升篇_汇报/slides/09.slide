@@ -1,0 +1,53 @@
+<Slide style={{
+    width: 1280,
+    height: 720,
+    background: '#F8FAFC',
+    padding: '20px 50px',
+    display: 'flex',
+    flexDirection: 'column',
+    justifyContent: 'space-between'
+}}>
+    {/* A区：标题栏 */}
+    <Box style={{ flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center' }}>
+        <Box style={{ flexDirection: 'column', gap: 2 }}>
+            <Text style={{ fontSize: 26, fontWeight: 'bold', color: '#1E3A8A' }}>
+                数智赋能篇 · 自研AI工具矩阵：科技普惠长效护航
+            </Text>
+            <Text style={{ fontSize: 13, color: '#64748B' }}>
+                篇章三 · 自主研发轻量化 PWA 小程序 · 突破时空限制的健康私教
+            </Text>
+        </Box>
+        <Box style={{ background: '#EFF6FF', padding: '4px 12px', borderRadius: 6, border: '1px solid #3B82F6' }}>
+            <Text style={{ fontSize: 12, color: '#1D4ED8', fontWeight: 'bold' }}>
+                🌟 核心亮点 · 数字化赋能
+            </Text>
+        </Box>
+    </Box>
+
+    {/* B区：主视觉大图 */}
+    <Box style={{
+        background: '#FFFFFF',
+        borderRadius: 10,
+        padding: '8px',
+        border: '1px solid #CBD5E1',
+        boxShadow: '0 4px 12px rgba(0,0,0,0.05)',
+        flexDirection: 'column',
+        alignItems: 'center'
+    }}>
+        <Image
+            src="assets/PPT展示_双应用合一_4x3.png"
+            style={{
+                width: 1100,
+                height: 560,
+                borderRadius: 6,
+                objectFit: 'contain'
+            }}
+        />
+    </Box>
+
+    {/* C区：页脚 */}
+    <Box style={{ flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center', borderTop: '1px solid #E2E8F0', paddingTop: 8 }}>
+        <Text style={{ fontSize: 12, color: '#94A3B8' }}>童健韶华 · 青少年体质提升与数字赋能行动（自研 PWA 轻量矩阵）</Text>
+        <Text style={{ fontSize: 12, color: '#94A3B8' }}>09 / 15</Text>
+    </Box>
+</Slide>

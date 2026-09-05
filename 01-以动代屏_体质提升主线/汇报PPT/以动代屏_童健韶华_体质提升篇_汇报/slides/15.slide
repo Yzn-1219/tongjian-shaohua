@@ -1,0 +1,66 @@
+<Slide style={{
+    width: 1280,
+    height: 720,
+    background: 'linear-gradient(135deg, #0F172A 0%, #1E3A8A 50%, #0369A1 100%)',
+    padding: '36px 60px',
+    display: 'flex',
+    flexDirection: 'column',
+    justifyContent: 'space-between',
+    alignItems: 'center'
+}}>
+    {/* 顶部胶囊 */}
+    <Box style={{
+        background: 'rgba(255, 255, 255, 0.15)',
+        padding: '6px 18px',
+        borderRadius: 20,
+        border: '1px solid rgba(255, 255, 255, 0.25)'
+    }}>
+        <Text style={{ fontSize: 14, color: '#BAE6FD', fontWeight: 'bold', letterSpacing: 1 }}>
+            笃行致远 · 科技向善 · 青春筑梦
+        </Text>
+    </Box>
+
+    {/* 中部核心金句 */}
+    <Box style={{ flexDirection: 'column', alignItems: 'center', gap: 14 }}>
+        <Text style={{
+            fontSize: 46,
+            fontWeight: 'bold',
+            color: '#FFFFFF',
+            letterSpacing: 2
+        }}>
+            聚微光 筑童心 · 为童健韶华
+        </Text>
+        <Text style={{
+            fontSize: 20,
+            color: '#38BDF8',
+            letterSpacing: 1
+        }}>
+            以青春之力护航少年健康 · 用数字智能赋能基层治理
+        </Text>
+        <Text style={{
+            fontSize: 26,
+            fontWeight: 'bold',
+            color: '#FFFFFF',
+            marginTop: 12
+        }}>
+            恳请各位评委与老师批评指正！
+        </Text>
+    </Box>
+
+    {/* 底部团队与致谢信息 */}
+    <Box style={{
+        flexDirection: 'column',
+        alignItems: 'center',
+        gap: 6,
+        borderTop: '1px solid rgba(255, 255, 255, 0.2)',
+        width: '100%',
+        paddingTop: 16
+    }}>
+        <Text style={{ fontSize: 15, color: '#FFFFFF', fontWeight: 'bold' }}>
+            汇报团队：“童健韶华”志愿服务队（队长：阎宗宁）
+        </Text>
+        <Text style={{ fontSize: 13, color: '#94A3B8' }}>
+            指导教师：董怡静、张红朗 | 团队成员：郭亦彤、李响、陈虹宇、祝鸣轩、段文烁
+        </Text>
+    </Box>
+</Slide>

@@ -1,0 +1,194 @@
+<Slide style={{
+    width: 1280,
+    height: 720,
+    background: '#F8FAFC',
+    padding: '26px 60px',
+    display: 'flex',
+    flexDirection: 'column',
+    justifyContent: 'space-between'
+}}>
+    {/* A区：标题栏 */}
+    <Box style={{ flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center' }}>
+        <Box style={{ flexDirection: 'column', gap: 2 }}>
+            <Text style={{ fontSize: 30, fontWeight: 'bold', color: '#1E3A8A' }}>
+                宣传传播篇 · 中青校园刊发与全平台融合发声
+            </Text>
+            <Text style={{ fontSize: 13, color: '#64748B' }}>
+                篇章四 · 融媒体传播矩阵 · 从社区实践走向国家级青年媒体
+            </Text>
+        </Box>
+        <Box style={{ background: '#FFFBEB', padding: '5px 12px', borderRadius: 6, border: '1px solid #FDE68A' }}>
+            <Text style={{ fontSize: 12, color: '#D97706', fontWeight: 'bold' }}>
+                📣 传播声量与媒体突破
+            </Text>
+        </Box>
+    </Box>
+
+    {/* B区：非对称双栏（左侧巨型数字 38% + 右侧媒体矩阵 62%） */}
+    <Box style={{ flexDirection: 'row', gap: 16 }}>
+        {/* 左栏：核心传播数据锚点 */}
+        <Box style={{
+            flex: 38,
+            background: 'linear-gradient(160deg, #1E3A8A 0%, #0284C7 100%)',
+            borderRadius: 12,
+            padding: '22px 20px',
+            flexDirection: 'column',
+            justifyContent: 'space-between',
+            boxShadow: '0 6px 16px rgba(2, 132, 199, 0.18)'
+        }}>
+            <Box style={{ flexDirection: 'column', gap: 6 }}>
+                <Box style={{ background: 'rgba(255, 255, 255, 0.18)', padding: '4px 10px', borderRadius: 4, width: 92 }}>
+                    <Text style={{ fontSize: 11, color: '#E0F2FE', fontWeight: 'bold' }}>全平台传播</Text>
+                </Box>
+                <Text style={{ fontSize: 15, color: '#BAE6FD', fontWeight: 'bold' }}>
+                    累计浏览量 / 阅读量
+                </Text>
+            </Box>
+
+            <Box style={{ flexDirection: 'row', alignItems: 'baseline', gap: 6 }}>
+                <Text style={{ fontSize: 62, fontWeight: 'bold', color: '#FFFFFF', letterSpacing: -2 }}>1</Text>
+                <Text style={{ fontSize: 28, fontWeight: 'bold', color: '#7DD3FC' }}>万 +</Text>
+            </Box>
+
+            <Box style={{ flexDirection: 'column', gap: 4 }}>
+                <Text style={{ fontSize: 12, color: '#E0F2FE', lineHeight: 1.5 }}>
+                    以自撰实践纪实文章为内容底座，联动短视频与图文多形态分发，让“以动代屏”理念突破社区围墙，形成持续扩散的青年志愿服务线上声量。
+                </Text>
+                <Box style={{ height: 3, width: 60, background: '#7DD3FC', borderRadius: 2, marginTop: 4 }} />
+            </Box>
+        </Box>
+
+        {/* 右栏：媒体矩阵 */}
+        <Box style={{ flex: 62, flexDirection: 'column', gap: 12 }}>
+            {/* 国家级媒体投稿卡片 */}
+            <Box style={{
+                background: '#FFFFFF',
+                borderRadius: 10,
+                padding: '14px 18px',
+                border: '1px solid #E2E8F0',
+                borderLeft: '4px solid #DC2626',
+                boxShadow: '0 3px 8px rgba(0,0,0,0.03)',
+                flexDirection: 'column',
+                gap: 4
+            }}>
+                <Box style={{ flexDirection: 'row', alignItems: 'center', gap: 8 }}>
+                    <Box style={{ background: '#FEF2F2', padding: '3px 8px', borderRadius: 4 }}>
+                        <Text style={{ fontSize: 11, color: '#DC2626', fontWeight: 'bold' }}>国家级青年媒体</Text>
+                    </Box>
+                    <Text style={{ fontSize: 16, fontWeight: 'bold', color: '#0F172A' }}>
+                        中国青年网「中青校园」成功刊发
+                    </Text>
+                </Box>
+                <Text style={{ fontSize: 12, color: '#64748B', lineHeight: 1.5 }}>
+                    项目通讯稿通过中国青年网「中青校园」平台审核并正式发表，实现校级社会实践成果向国家级青年主流媒体的跨越，显著提升项目公信力与示范价值。
+                </Text>
+            </Box>
+
+            {/* 三平台同步分发卡片 */}
+            <Box style={{ flexDirection: 'row', gap: 10 }}>
+                {/* 抖音 */}
+                <Box style={{
+                    flex: 1,
+                    background: '#FFFFFF',
+                    borderRadius: 10,
+                    padding: '12px 10px',
+                    border: '1px solid #E2E8F0',
+                    flexDirection: 'column',
+                    gap: 6,
+                    alignItems: 'center'
+                }}>
+                    <Box style={{
+                        width: 34, height: 34, borderRadius: 17,
+                        background: 'linear-gradient(135deg, #0F172A 0%, #334155 100%)',
+                        justifyContent: 'center', alignItems: 'center'
+                    }}>
+                        <Text style={{ fontSize: 15, color: '#FFFFFF', fontWeight: 'bold' }}>♪</Text>
+                    </Box>
+                    <Text style={{ fontSize: 14, fontWeight: 'bold', color: '#0F172A' }}>抖音</Text>
+                    <Text style={{ fontSize: 10, color: '#64748B', textAlign: 'center', lineHeight: 1.4 }}>
+                        活动现场短视频<br />纪实化轻量传播
+                    </Text>
+                </Box>
+
+                {/* B站 */}
+                <Box style={{
+                    flex: 1,
+                    background: '#FFFFFF',
+                    borderRadius: 10,
+                    padding: '12px 10px',
+                    border: '1px solid #E2E8F0',
+                    flexDirection: 'column',
+                    gap: 6,
+                    alignItems: 'center'
+                }}>
+                    <Box style={{
+                        width: 34, height: 34, borderRadius: 17,
+                        background: 'linear-gradient(135deg, #FB7299 0%, #FCA5C5 100%)',
+                        justifyContent: 'center', alignItems: 'center'
+                    }}>
+                        <Text style={{ fontSize: 15, color: '#FFFFFF', fontWeight: 'bold' }}>bil</Text>
+                    </Box>
+                    <Text style={{ fontSize: 14, fontWeight: 'bold', color: '#0F172A' }}>哔哩哔哩</Text>
+                    <Text style={{ fontSize: 10, color: '#64748B', textAlign: 'center', lineHeight: 1.4 }}>
+                        实践纪录片长视频<br />深度内容沉淀
+                    </Text>
+                </Box>
+
+                {/* 微信公众号 */}
+                <Box style={{
+                    flex: 1,
+                    background: '#FFFFFF',
+                    borderRadius: 10,
+                    padding: '12px 10px',
+                    border: '1px solid #E2E8F0',
+                    flexDirection: 'column',
+                    gap: 6,
+                    alignItems: 'center'
+                }}>
+                    <Box style={{
+                        width: 34, height: 34, borderRadius: 17,
+                        background: 'linear-gradient(135deg, #10B981 0%, #6EE7B7 100%)',
+                        justifyContent: 'center', alignItems: 'center'
+                    }}>
+                        <Text style={{ fontSize: 15, color: '#FFFFFF', fontWeight: 'bold' }}>✉</Text>
+                    </Box>
+                    <Text style={{ fontSize: 14, fontWeight: 'bold', color: '#0F172A' }}>微信公众号</Text>
+                    <Text style={{ fontSize: 10, color: '#64748B', textAlign: 'center', lineHeight: 1.4 }}>
+                        自撰纪实长文推送<br />精准触达家长群体
+                    </Text>
+                </Box>
+            </Box>
+
+            {/* 内容说明条 */}
+            <Box style={{
+                background: '#EFF6FF',
+                borderRadius: 8,
+                padding: '10px 16px',
+                border: '1px dashed #93C5FD'
+            }}>
+                <Text style={{ fontSize: 11, color: '#1E40AF', lineHeight: 1.5 }}>
+                    ✍️ <strong>内容同源 · 多形态改编</strong>：以团队自撰实践纪实文章为统一内容底座，按平台调性改编为短视频、长视频与图文推文，实现一次创作、多端共鸣。
+                </Text>
+            </Box>
+        </Box>
+    </Box>
+
+    {/* 底部金句条 */}
+    <Box style={{
+        background: 'linear-gradient(135deg, #EFF6FF 0%, #DBEAFE 100%)',
+        borderRadius: 8,
+        padding: '11px 22px',
+        border: '1px solid #BFDBFE',
+        borderLeft: '5px solid #1E3A8A'
+    }}>
+        <Text style={{ fontSize: 13, color: '#1E3A8A', lineHeight: 1.5 }}>
+            从社区广场到国家级媒体平台，<strong>“以动代屏”</strong>的实践故事被看见、被传播、被复制——青年志愿服务的价值，在每一次点击中转化为社会共识。
+        </Text>
+    </Box>
+
+    {/* C区：页脚 */}
+    <Box style={{ flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center', borderTop: '1px solid #E2E8F0', paddingTop: 8 }}>
+        <Text style={{ fontSize: 12, color: '#94A3B8' }}>童健韶华 · 青少年体质提升与数字赋能行动</Text>
+        <Text style={{ fontSize: 12, color: '#94A3B8' }}>12 / 15</Text>
+    </Box>
+</Slide>

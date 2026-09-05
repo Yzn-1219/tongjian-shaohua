@@ -1,0 +1,109 @@
+<Slide style={{
+    width: 1280,
+    height: 720,
+    background: '#F8FAFC',
+    padding: '28px 60px',
+    display: 'flex',
+    flexDirection: 'column',
+    justifyContent: 'space-between'
+}}>
+    {/* A区：标题栏 */}
+    <Box style={{ flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center' }}>
+        <Box style={{ flexDirection: 'column', gap: 2 }}>
+            <Text style={{ fontSize: 30, fontWeight: 'bold', color: '#1E3A8A' }}>
+                线下实践篇 · 活力运动筑基：趣味替代屏幕依赖
+            </Text>
+            <Text style={{ fontSize: 13, color: '#64748B' }}>
+                篇章二 · 线下双轨互动实践 · 趣味运动会与物理替代
+            </Text>
+        </Box>
+        <Box style={{ background: '#FFF7ED', padding: '5px 12px', borderRadius: 6, border: '1px solid #FFEDD5' }}>
+            <Text style={{ fontSize: 12, color: '#C2410C', fontWeight: 'bold' }}>
+                以趣促动 · 行为转化
+            </Text>
+        </Box>
+    </Box>
+
+    {/* B区：左图右文结构 */}
+    <Box style={{ flexDirection: 'row', gap: 20 }}>
+        {/* 左侧实景卡片 */}
+        <Box style={{
+            flex: 45,
+            background: '#FFFFFF',
+            borderRadius: 10,
+            padding: '14px',
+            border: '1px solid #E2E8F0',
+            boxShadow: '0 4px 10px rgba(0,0,0,0.03)',
+            flexDirection: 'column',
+            gap: 10
+        }}>
+            <Image src="assets/crop_im2.png" style={{ width: '100%', height: 310, borderRadius: 6, objectFit: 'cover' }} />
+            <Box style={{ background: '#F8FAFC', padding: '8px 12px', borderRadius: 6 }}>
+                <Text style={{ fontSize: 12, color: '#475569', lineHeight: 1.4 }}>
+                    🏃 <strong>现场直击</strong>：趣味运动会火热开展，亲子接力、敏捷跳跃点燃全场，让运动汗水替代屏幕蓝光。
+                </Text>
+            </Box>
+        </Box>
+
+        {/* 右侧核心运动矩阵 */}
+        <Box style={{
+            flex: 55,
+            flexDirection: 'column',
+            gap: 10
+        }}>
+            {/* 矩阵一 */}
+            <Box style={{
+                background: '#FFFFFF',
+                borderRadius: 8,
+                padding: '14px 18px',
+                border: '1px solid #E2E8F0',
+                borderLeft: '4px solid #F97316'
+            }}>
+                <Text style={{ fontSize: 15, fontWeight: 'bold', color: '#0F172A' }}>
+                    1. 低门槛趣味运动矩阵 · 降低参与门槛
+                </Text>
+                <Text style={{ fontSize: 12, color: '#64748B', marginTop: 4, lineHeight: 1.4 }}>
+                    定制“敏捷梯跳跃、跳绳接力、趣味投壶、亲子障碍跑”等趣味项目，不设复杂器械门槛，人人可参与、人人能出汗。
+                </Text>
+            </Box>
+
+            {/* 矩阵二 */}
+            <Box style={{
+                background: '#FFFFFF',
+                borderRadius: 8,
+                padding: '14px 18px',
+                border: '1px solid #E2E8F0',
+                borderLeft: '4px solid #0284C7'
+            }}>
+                <Text style={{ fontSize: 15, fontWeight: 'bold', color: '#0F172A' }}>
+                    2. 亲子协同与团队竞争 · 重塑真实社交乐趣
+                </Text>
+                <Text style={{ fontSize: 12, color: '#64748B', marginTop: 4, lineHeight: 1.4 }}>
+                    推行“小手拉大手”亲子协作积分制，用奔跑竞技的欢笑声取代虚拟世界的点赞，修复因屏幕疏离的家庭亲情。
+                </Text>
+            </Box>
+
+            {/* 矩阵三 */}
+            <Box style={{
+                background: '#FFFFFF',
+                borderRadius: 8,
+                padding: '14px 18px',
+                border: '1px solid #E2E8F0',
+                borderLeft: '4px solid #10B981'
+            }}>
+                <Text style={{ fontSize: 15, fontWeight: 'bold', color: '#0F172A' }}>
+                    3. 每日运动打卡激励 · 沉淀长效习惯
+                </Text>
+                <Text style={{ fontSize: 12, color: '#64748B', marginTop: 4, lineHeight: 1.4 }}>
+                    现场发放《童健韶华每日运动打卡卡》，设定 11 天周期连续打卡徽章激励，推动运动从“单次活动”变为“终身习惯”。
+                </Text>
+            </Box>
+        </Box>
+    </Box>
+
+    {/* C区：页脚 */}
+    <Box style={{ flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center', borderTop: '1px solid #E2E8F0', paddingTop: 10 }}>
+        <Text style={{ fontSize: 12, color: '#94A3B8' }}>童健韶华 · 青少年体质提升与数字赋能行动</Text>
+        <Text style={{ fontSize: 12, color: '#94A3B8' }}>07 / 15</Text>
+    </Box>
+</Slide>

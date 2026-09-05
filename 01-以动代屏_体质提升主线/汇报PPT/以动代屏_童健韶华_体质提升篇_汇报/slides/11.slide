@@ -1,0 +1,123 @@
+<Slide style={{
+    width: 1280,
+    height: 720,
+    background: '#F8FAFC',
+    padding: '28px 60px',
+    display: 'flex',
+    flexDirection: 'column',
+    justifyContent: 'space-between'
+}}>
+    {/* A区：标题栏 */}
+    <Box style={{ flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center' }}>
+        <Box style={{ flexDirection: 'column', gap: 2 }}>
+            <Text style={{ fontSize: 30, fontWeight: 'bold', color: '#1E3A8A' }}>
+                实践成效篇 · 多维指标落地：数据印证实践硕果
+            </Text>
+            <Text style={{ fontSize: 13, color: '#64748B' }}>
+                篇章四 · 扎实落地数据 · 行为转变与社会声誉
+            </Text>
+        </Box>
+        <Box style={{ background: '#FFFBEB', padding: '5px 12px', borderRadius: 6, border: '1px solid #FDE68A' }}>
+            <Text style={{ fontSize: 12, color: '#D97706', fontWeight: 'bold' }}>
+                🏆 成果量化展示
+            </Text>
+        </Box>
+    </Box>
+
+    {/* B区：4大巨型数字高光卡片 (2x2 网格) */}
+    <Box style={{ flexDirection: 'column', gap: 14 }}>
+        <Box style={{ flexDirection: 'row', gap: 16 }}>
+            {/* 指标 1 */}
+            <Box style={{
+                flex: 1,
+                background: 'linear-gradient(135deg, #EFF6FF 0%, #FFFFFF 100%)',
+                borderRadius: 10,
+                padding: '16px 20px',
+                border: '1px solid #BFDBFE',
+                boxShadow: '0 4px 10px rgba(0,0,0,0.03)',
+                flexDirection: 'column',
+                gap: 4
+            }}>
+                <Box style={{ flexDirection: 'row', alignItems: 'baseline', gap: 6 }}>
+                    <Text style={{ fontSize: 38, fontWeight: 'bold', color: '#1D4ED8', letterSpacing: -1 }}>500+</Text>
+                    <Text style={{ fontSize: 14, fontWeight: 'bold', color: '#0284C7' }}>人次</Text>
+                </Box>
+                <Text style={{ fontSize: 15, fontWeight: 'bold', color: '#0F172A' }}>线下宣讲与运动覆盖广度</Text>
+                <Text style={{ fontSize: 12, color: '#64748B', lineHeight: 1.4 }}>
+                    在威海市环翠区多个社区累计开展 10+ 场次网络素养课堂与趣味运动会，精准覆盖服务儿童及家长。
+                </Text>
+            </Box>
+
+            {/* 指标 2 */}
+            <Box style={{
+                flex: 1,
+                background: 'linear-gradient(135deg, #ECFDF5 0%, #FFFFFF 100%)',
+                borderRadius: 10,
+                padding: '16px 20px',
+                border: '1px solid #A7F3D0',
+                boxShadow: '0 4px 10px rgba(0,0,0,0.03)',
+                flexDirection: 'column',
+                gap: 4
+            }}>
+                <Box style={{ flexDirection: 'row', alignItems: 'baseline', gap: 6 }}>
+                    <Text style={{ fontSize: 38, fontWeight: 'bold', color: '#059669', letterSpacing: -1 }}>↓ 45%</Text>
+                    <Text style={{ fontSize: 14, fontWeight: 'bold', color: '#10B981' }}>降幅</Text>
+                </Box>
+                <Text style={{ fontSize: 15, fontWeight: 'bold', color: '#0F172A' }}>娱乐性屏幕使用时间显著压缩</Text>
+                <Text style={{ fontSize: 12, color: '#64748B', lineHeight: 1.4 }}>
+                    实践跟踪与家长回访显示，参与儿童日均娱乐性屏幕使用时间由 3.5h 降至 1.9h，户外运动频次提升超 80%。
+                </Text>
+            </Box>
+        </Box>
+
+        <Box style={{ flexDirection: 'row', gap: 16 }}>
+            {/* 指标 3 */}
+            <Box style={{
+                flex: 1,
+                background: 'linear-gradient(135deg, #FFF7ED 0%, #FFFFFF 100%)',
+                borderRadius: 10,
+                padding: '16px 20px',
+                border: '1px solid #FED7AA',
+                boxShadow: '0 4px 10px rgba(0,0,0,0.03)',
+                flexDirection: 'column',
+                gap: 4
+            }}>
+                <Box style={{ flexDirection: 'row', alignItems: 'baseline', gap: 6 }}>
+                    <Text style={{ fontSize: 38, fontWeight: 'bold', color: '#EA580C', letterSpacing: -1 }}>1000+</Text>
+                    <Text style={{ fontSize: 14, fontWeight: 'bold', color: '#F97316' }}>次</Text>
+                </Box>
+                <Text style={{ fontSize: 15, fontWeight: 'bold', color: '#0F172A' }}>自研 AI 工具长效生成陪伴</Text>
+                <Text style={{ fontSize: 12, color: '#64748B', lineHeight: 1.4 }}>
+                    AI体质检测与健身教练上线后，为参与儿童动态生成千人千面体质雷达与运动方案达 1000 余份。
+                </Text>
+            </Box>
+
+            {/* 指标 4 */}
+            <Box style={{
+                flex: 1,
+                background: 'linear-gradient(135deg, #FAF5FF 0%, #FFFFFF 100%)',
+                borderRadius: 10,
+                padding: '16px 20px',
+                border: '1px solid #E9D5FF',
+                boxShadow: '0 4px 10px rgba(0,0,0,0.03)',
+                flexDirection: 'column',
+                gap: 4
+            }}>
+                <Box style={{ flexDirection: 'row', alignItems: 'baseline', gap: 6 }}>
+                    <Text style={{ fontSize: 38, fontWeight: 'bold', color: '#7E22CE', letterSpacing: -1 }}>100%</Text>
+                    <Text style={{ fontSize: 14, fontWeight: 'bold', color: '#A855F7' }}>好评</Text>
+                </Box>
+                <Text style={{ fontSize: 15, fontWeight: 'bold', color: '#0F172A' }}>家长满意度与社区高度赞誉</Text>
+                <Text style={{ fontSize: 12, color: '#64748B', lineHeight: 1.4 }}>
+                    满意度调研达到 100%，被环翠区多个基层社区评为“最具实效与创新力的青少年暑期品牌项目”。
+                </Text>
+            </Box>
+        </Box>
+    </Box>
+
+    {/* C区：页脚 */}
+    <Box style={{ flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center', borderTop: '1px solid #E2E8F0', paddingTop: 10 }}>
+        <Text style={{ fontSize: 12, color: '#94A3B8' }}>童健韶华 · 青少年体质提升与数字赋能行动</Text>
+        <Text style={{ fontSize: 12, color: '#94A3B8' }}>11 / 15</Text>
+    </Box>
+</Slide>

@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+  <meta name="theme-color" content="#0f766e">
+  <title>资润启梦 · 学生资助自助服务</title>
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="assets/team-logo.png">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="app-header">
+    <a class="header-logo" href="#page-about" data-goto="page-about" aria-label="关于我们">
+      <img src="assets/team-logo.png" alt="童健韶华志愿服务队">
+      <span>资润启梦</span>
+    </a>
+    <button class="install-btn" id="installBtn" hidden>安装</button>
+  </header>
+
+  <main id="view">
+    <!-- 首页 -->
+    <section class="page active" id="page-home">
+      <div class="hero">
+        <div class="hero-badge">资润启梦</div>
+        <h1 class="hero-title">学生资助自助服务系统</h1>
+        <p class="hero-sub">山东省学生资助政策宣讲志愿服务队</p>
+        <p class="hero-desc">政策看得懂，申请不跑空。本助手汇集国家与山东省学生资助政策，并内置 AI 问答，随时为你解答。</p>
+        <div class="hero-actions">
+          <button class="btn-primary" data-goto="page-aid">📖 查看资助政策</button>
+          <button class="btn-ghost" data-goto="page-qa">💬 我要咨询 AI</button>
+        </div>
+      </div>
+
+      <div class="card-block">
+        <h3 class="block-title">快捷入口</h3>
+        <div class="quick-grid">
+          <button class="quick-card" data-goto="page-aid"><span class="qc-ico">🎓</span><span>资助政策一览</span></button>
+          <button class="quick-card" data-goto="page-aid" data-scroll="flowSection"><span class="qc-ico">📋</span><span>认定与申请流程</span></button>
+          <button class="quick-card" data-goto="page-qa"><span class="qc-ico">🤖</span><span>AI 政策问答</span></button>
+          <button class="quick-card" data-goto="page-about"><span class="qc-ico">👥</span><span>关于我们</span></button>
+        </div>
+      </div>
+
+      <div class="card-block warn-block">
+        <h3 class="block-title">⚠️ 防诈骗提醒</h3>
+        <p class="warn-text">开学前后是电信、网络诈骗高发期，诈骗分子常冒充老师、资助机构人员，通过短信、电话、加微信 / QQ 等方式骗取钱财或诱导借贷。请提高警惕，所有资助项目均不收取任何费用，勿向陌生账户转账。</p>
+        <p class="warn-text">官方渠道：山东省学生资助管理中心网站 <b>https://sdxszz.sdei.edu.cn/</b> ，微信公众号 <b>sdxszz</b>。</p>
+      </div>
+    </section>
+
+    <!-- 资助介绍 -->
+    <section class="page" id="page-aid">
+      <h2 class="page-title">资助政策介绍</h2>
+
+      <div class="card-block">
+        <h3 class="block-title">📑 宣传折页（点击放大）</h3>
+        <div class="zheye-scroll" id="zheyeScroll">
+          <img src="assets/zheye1.png" alt="资助宣传折页第1页" class="zheye-img" data-zoom>
+          <img src="assets/zheye2.png" alt="资助宣传折页第2页" class="zheye-img" data-zoom>
+        </div>
+        <p class="block-tip">左右滑动查看折页两页</p>
+      </div>
+
+      <div class="card-block">
+        <h3 class="block-title">💡 政策速览</h3>
+        <p class="block-tip">以下政策依据山东省学生资助管理中心公开发布内容整理（2025 年更新）；点击卡片下方“查看官方政策”可前往官网查看完整文件。</p>
+        <div class="policy-grid" id="policyGrid"></div>
+      </div>
+
+      <div class="card-block" id="flowSection">
+        <h3 class="block-title">📋 申请与认证流程</h3>
+        <p class="block-tip">点击切换不同资助项目的办理流程。</p>
+        <div class="flow-tabs" id="flowTabs">
+          <button class="flow-tab active" data-flow="rending">困难认定</button>
+          <button class="flow-tab" data-flow="grant">国家助学金</button>
+          <button class="flow-tab" data-flow="loan">助学贷款</button>
+          <button class="flow-tab" data-flow="green">绿色通道</button>
+        </div>
+        <div class="flow-body" id="flowBody"></div>
+      </div>
+
+      <div class="card-block">
+        <h3 class="block-title">🔗 官方渠道</h3>
+        <p class="block-tip">以下为权威官方渠道，均可点击直达。</p>
+        <div class="link-list">
+          <a class="link-row" href="https://sdxszz.sdei.edu.cn/" target="_blank" rel="noopener">
+            <span class="lr-title">🌐 山东省学生资助管理中心</span>
+          </a>
+          <a class="link-row" href="http://edu.shandong.gov.cn/col/col12029/index.html" target="_blank" rel="noopener">
+            <span class="lr-title">🏛️ 山东省教育厅 · 学生资助专栏</span>
+          </a>
+          <a class="link-row" href="http://www.xszz.cee.edu.cn" target="_blank" rel="noopener">
+            <span class="lr-title">🇨🇳 全国学生资助管理中心（国家层面）</span>
+          </a>
+          <a class="link-row" href="https://sdxszz.sdei.edu.cn/srplatform-lxgl/login/login_toIndex" target="_blank" rel="noopener">
+            <span class="lr-title">🖥️ 山东省学生资助一网通办平台（业务办理）</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- AI 问答 -->
+    <section class="page" id="page-qa">
+      <h2 class="page-title">AI 资助政策问答</h2>
+      <p class="qa-note">🤖 问答严格依据国家与山东省资助政策资料，仅解答资助相关问题。如未设置密钥，请先到「设置」扫码或手动填入。</p>
+      <div class="chat-box" id="chatBox"></div>
+      <div class="qa-input-bar">
+        <textarea id="qaInput" rows="1" placeholder="例如：我是家庭经济困难新生，学费凑不齐怎么办？"></textarea>
+        <button class="btn-primary send-btn" id="qaSend">发送</button>
+      </div>
+    </section>
+
+    <!-- 关于我们 -->
+    <section class="page" id="page-about">
+      <h2 class="page-title">关于我们</h2>
+      <div class="team-card">
+        <img class="team-logo" src="assets/team-logo.jpg" alt="童健韶华志愿服务队">
+        <h3 class="team-name">资润启梦·志愿服务队  </h3>
+        <p class="team-intro">队伍由青年志愿者组成，响应团省委、省教育厅《关于开展 2026 年山东省"学生资助政策进万家"青年志愿服务行动的通知》要求，面向山东省学生及家长开展国家资助政策宣讲，让政策走出文件、走进家门。</p>
+
+        <p class="team-teacher">指导老师：董怡静</p>
+        <div class="team-members" id="teamMembers"></div>
+
+        <p class="team-desc">本小程序为团队公益科普作品，结合 AI 技术助力"资润启梦、应助尽助"。</p>
+      </div>
+
+      <div class="card-block">
+        <h3 class="block-title">📜 行动主导文件</h3>
+        <p class="block-tip">本次志愿服务行动依据团省委、省教育厅联合通知开展。</p>
+        <div class="notice-preview" id="noticePreview">
+          <img src="assets/notice/n01.png" alt="通知封面">
+          <div class="notice-info">
+            <h4>关于开展 2026 年山东省"学生资助政策进万家"青年志愿服务行动的通知</h4>
+            <p>鲁青联〔2026〕5 号 · 共青团山东省委、山东省教育厅</p>
+            <button class="btn-ghost" id="viewNoticeBtn">查看原文（共 10 页）</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="card-block">
+        <h3 class="block-title">📸 活动掠影</h3>
+        <div class="slideshow" id="slideshow">
+          <div class="slides" id="slides"></div>
+          <div class="slide-dots" id="slideDots"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 设置 -->
+    <section class="page" id="page-settings">
+      <h2 class="page-title">设置</h2>
+
+      <div class="card-block">
+        <h3 class="block-title">AI 密钥</h3>
+        <div class="form-group">
+          <label>API Key</label>
+          <input type="password" id="apiKey" placeholder="扫码或手动填入" autocomplete="off">
+        </div>
+        <div class="form-group">
+          <label>模型名称</label>
+          <input type="text" id="modelName" placeholder="如 qwen-turbo" autocomplete="off">
+        </div>
+        <div class="inline-btns">
+          <button class="btn-ghost" id="scanKeyBtn">📷 扫码填入</button>
+          <button class="btn-ghost" id="genQrBtn">🔲 生成二维码</button>
+          <button class="btn-ghost" id="clearKeyBtn">🗑 清除</button>
+        </div>
+        <p class="cfg-status" id="keyStatus"></p>
+      </div>
+
+      <div class="card-block">
+        <h3 class="block-title">关于本程序</h3>
+        <p class="about-text">资润启梦 · 学生资助自助（PWA 版），由学生资助政策宣讲志愿服务队制作，仅用于志愿服务、禁止商用。AI 问答内容依据公开资助政策资料生成，具体以最新政策文件及资助中心解释为准。</p>
+        <p class="about-text">全国学生资助热线：010-66097980 / 010-66096590</p>
+      </div>
+    </section>
+  </main>
+
+  <!-- 底部导航 -->
+  <nav class="bottom-nav">
+    <button class="nav-item active" data-nav="page-home"><span>🏠</span><label>首页</label></button>
+    <button class="nav-item" data-nav="page-aid"><span>📖</span><label>资助介绍</label></button>
+    <button class="nav-item" data-nav="page-qa"><span>💬</span><label>AI 问答</label></button>
+    <button class="nav-item" data-nav="page-about"><span>👥</span><label>关于我们</label></button>
+    <button class="nav-item" data-nav="page-settings"><span>⚙️</span><label>设置</label></button>
+  </nav>
+
+  <!-- 扫码弹窗 -->
+  <div class="modal" id="scanModal" hidden>
+    <div class="modal-card">
+      <h3>扫码填入密钥</h3>
+      <div class="scan-area" id="scanArea"></div>
+      <p class="scan-tip" id="scanTip"></p>
+      <button class="btn-ghost" id="closeScanBtn">关闭</button>
+    </div>
+  </div>
+
+  <!-- 二维码弹窗 -->
+  <div class="modal" id="qrModal" hidden>
+    <div class="modal-card">
+      <h3>密钥二维码</h3>
+      <div class="qr-show" id="qrShow"></div>
+      <p class="scan-tip">用本程序「扫码填入」功能扫描即可导入密钥</p>
+      <button class="btn-ghost" id="closeQrBtn">关闭</button>
+    </div>
+  </div>
+
+  <!-- 图片放大弹窗 -->
+  <div class="modal" id="imgModal" hidden>
+    <div class="modal-card img-card">
+      <img id="imgZoom" src="" alt="放大查看">
+      <button class="btn-ghost" id="closeImgBtn">关闭</button>
+    </div>
+  </div>
+
+  <!-- 通知原文弹窗 -->
+  <div class="modal" id="noticeModal" hidden>
+    <div class="modal-card notice-card">
+      <h3>行动主导文件</h3>
+      <div class="notice-scroll" id="noticeScroll"></div>
+      <button class="btn-ghost" id="closeNoticeBtn">关闭</button>
+    </div>
+  </div>
+
+  <div class="toast" id="toast" hidden></div>
+
+  <script src="vendor/marked.min.js"></script>
+  <script src="vendor/qrcode.min.js"></script>
+  <script src="vendor/jsqr.min.js"></script>
+  <script src="app.js"></script>
+  <script src="aid.js"></script>
+</body>
+</html>

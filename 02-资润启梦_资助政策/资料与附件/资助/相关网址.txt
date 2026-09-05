@@ -1,0 +1,5 @@
+网站名称	网站地址	简要说明
+山东省学生资助管理中心官网山东省学生...	https://sdxszz.sdei.edu.cn/	山东省级学生资助权威官网，发布资助政策、助学贷款通知、热线、获奖公示等信息
+山东省教育厅‑学生资助专栏山东省教育...	http://edu.shandong.gov.cn/col/col12029/index.html	省教育厅下属资助板块，政策文件、管理办法、各学段资助政策解读
+全国学生资助管理中心官网（国家层面）	http://www.xszz.cee.edu.cn	全国统一资助政策、预警通知，可对照查阅国家资助标准
+山东省学生资助一网通办平台（业务办理入口）山东省学生...	https://sdxszz.sdei.edu.cn/srplatform-lxgl/login/login_toIndex	线上办理家庭经济困难认定、助学金、免学费等业务，需统一身份认证登录

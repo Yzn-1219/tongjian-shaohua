@@ -1,0 +1,105 @@
+<Slide style={{
+    width: 1280,
+    height: 720,
+    background: '#F8FAFC',
+    padding: '28px 60px',
+    display: 'flex',
+    flexDirection: 'column',
+    justifyContent: 'space-between'
+}}>
+    {/* A区：标题栏 */}
+    <Box style={{ flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center' }}>
+        <Box style={{ flexDirection: 'column', gap: 2 }}>
+            <Text style={{ fontSize: 30, fontWeight: 'bold', color: '#1E3A8A' }}>
+                数智赋能篇 · 架构与安全：端侧轻量与隐私合规
+            </Text>
+            <Text style={{ fontSize: 13, color: '#64748B' }}>
+                篇章三 · 技术创新架构 · 未成年人数据安全与多端极速体验
+            </Text>
+        </Box>
+        <Box style={{ background: '#F0FDF4', padding: '5px 12px', borderRadius: 6, border: '1px solid #BBF7D0' }}>
+            <Text style={{ fontSize: 12, color: '#15803D', fontWeight: 'bold' }}>
+                🔒 隐私安全与技术自主
+            </Text>
+        </Box>
+    </Box>
+
+    {/* B区：双栏技术特性与架构保障 */}
+    <Box style={{ flexDirection: 'row', gap: 20 }}>
+        {/* 左卡：极简轻量 PWA 架构 */}
+        <Box style={{
+            flex: 1,
+            background: '#FFFFFF',
+            borderRadius: 10,
+            padding: '18px 20px',
+            border: '1px solid #E2E8F0',
+            boxShadow: '0 4px 8px rgba(0,0,0,0.03)',
+            flexDirection: 'column',
+            gap: 12
+        }}>
+            <Box style={{ flexDirection: 'row', alignItems: 'center', gap: 8 }}>
+                <Box style={{ width: 28, height: 28, borderRadius: 6, background: '#EFF6FF', justifyContent: 'center', alignItems: 'center' }}>
+                    <Text style={{ fontSize: 14, fontWeight: 'bold', color: '#1D4ED8' }}>⚡</Text>
+                </Box>
+                <Text style={{ fontSize: 17, fontWeight: 'bold', color: '#0F172A' }}>
+                    极简轻量 PWA 架构
+                </Text>
+            </Box>
+
+            <Box style={{ background: '#F8FAFC', padding: '10px 12px', borderRadius: 6 }}>
+                <Text style={{ fontSize: 13, fontWeight: 'bold', color: '#334155' }}>零门槛 · 免安装跨平台运行</Text>
+                <Text style={{ fontSize: 12, color: '#64748B', marginTop: 2, lineHeight: 1.4 }}>
+                    基于现代 PWA 标准构建，微信、浏览器扫码即开；支持一键添加至手机桌面，体验媲美原生应用。
+                </Text>
+            </Box>
+
+            <Box style={{ background: '#F8FAFC', padding: '10px 12px', borderRadius: 6 }}>
+                <Text style={{ fontSize: 13, fontWeight: 'bold', color: '#334155' }}>离线缓存 · 弱网秒级加载</Text>
+                <Text style={{ fontSize: 12, color: '#64748B', marginTop: 2, lineHeight: 1.4 }}>
+                    搭载 Service Worker 离线缓存静态资源与运动指南，在社区地下室或偏远户外均可秒开查看动作要领。
+                </Text>
+            </Box>
+        </Box>
+
+        {/* 右卡：端侧安全与防越狱机制 */}
+        <Box style={{
+            flex: 1,
+            background: '#FFFFFF',
+            borderRadius: 10,
+            padding: '18px 20px',
+            border: '1px solid #E2E8F0',
+            boxShadow: '0 4px 8px rgba(0,0,0,0.03)',
+            flexDirection: 'column',
+            gap: 12
+        }}>
+            <Box style={{ flexDirection: 'row', alignItems: 'center', gap: 8 }}>
+                <Box style={{ width: 28, height: 28, borderRadius: 6, background: '#ECFDF5', justifyContent: 'center', alignItems: 'center' }}>
+                    <Text style={{ fontSize: 14, fontWeight: 'bold', color: '#059669' }}>🛡️</Text>
+                </Box>
+                <Text style={{ fontSize: 17, fontWeight: 'bold', color: '#0F172A' }}>
+                    三层安全与隐私合规
+                </Text>
+            </Box>
+
+            <Box style={{ background: '#F8FAFC', padding: '10px 12px', borderRadius: 6 }}>
+                <Text style={{ fontSize: 13, fontWeight: 'bold', color: '#334155' }}>数据端侧存储 · 零隐私上云</Text>
+                <Text style={{ fontSize: 12, color: '#64748B', marginTop: 2, lineHeight: 1.4 }}>
+                    儿童身高体重、日常打卡均存放在手机 localStorage 中，不设中心化数据库，杜绝敏感健康隐私泄露。
+                </Text>
+            </Box>
+
+            <Box style={{ background: '#F8FAFC', padding: '10px 12px', borderRadius: 6 }}>
+                <Text style={{ fontSize: 13, fontWeight: 'bold', color: '#334155' }}>三层防越狱 · 严守健康边界</Text>
+                <Text style={{ fontSize: 12, color: '#64748B', marginTop: 2, lineHeight: 1.4 }}>
+                    前端关键词拦截 + System Prompt 最高优先级约束 + 响应侧泄露兜底过滤，确保 AI 回答严格局限于健康与运动。
+                </Text>
+            </Box>
+        </Box>
+    </Box>
+
+    {/* C区：页脚 */}
+    <Box style={{ flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center', borderTop: '1px solid #E2E8F0', paddingTop: 10 }}>
+        <Text style={{ fontSize: 12, color: '#94A3B8' }}>童健韶华 · 青少年体质提升与数字赋能行动</Text>
+        <Text style={{ fontSize: 12, color: '#94A3B8' }}>10 / 15</Text>
+    </Box>
+</Slide>

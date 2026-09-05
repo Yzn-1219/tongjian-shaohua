@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>微光向暖 · 资润启梦 · 使用指引</title>
+<style>
+  :root{
+    --primary:#0f766e; --primary-d:#115e59; --primary-l:#14b8a6;
+    --bg:#f1f5f4; --card:#fff; --text:#1f2937; --text-2:#6b7280; --line:#e5e7eb;
+    --radius:16px; --shadow:0 2px 14px rgba(15,118,110,.10);
+  }
+  *{box-sizing:border-box}
+  body{
+    margin:0; font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei","Segoe UI",sans-serif;
+    background:var(--bg); color:var(--text); line-height:1.65; font-size:15px;
+  }
+  .wrap{max-width:560px; margin:0 auto; padding:22px 16px 50px;}
+
+  /* 头部 — 层级式徽章 */
+  .hero{
+    background:linear-gradient(135deg,var(--primary-l) 0%,var(--primary) 100%);
+    color:#fff; border-radius:var(--radius); padding:22px; text-align:center; box-shadow:var(--shadow);
+  }
+  .badge-stack{
+    display:flex; flex-direction:column; align-items:center; gap:10px; margin-bottom:12px;
+  }
+  .badge-main{
+    width:116px; height:116px; border-radius:50%; background:#fff; padding:5px;
+    box-shadow:0 3px 12px rgba(0,0,0,.18);
+  }
+  .badge-main img{width:100%; height:100%; border-radius:50%; display:block; object-fit:cover;}
+  .badge-subs{display:flex; align-items:center; gap:14px;}
+  .badge-subs img{
+    width:50px; height:50px; border-radius:50%; background:#fff; padding:3px;
+    box-shadow:0 2px 8px rgba(0,0,0,.15);
+  }
+  .badge-line{height:1px; width:40px; background:rgba(255,255,255,.45);}
+  .hero h1{margin:2px 0 4px; font-size:22px; letter-spacing:1px;}
+  .hero p{margin:0; font-size:13px; opacity:.94;}
+
+  /* 两个二维码 */
+  .qr-row{display:flex; gap:14px; margin-top:18px;}
+  .qr-card{
+    flex:1; background:var(--card); border-radius:var(--radius); padding:16px 12px; text-align:center;
+    box-shadow:var(--shadow); border:1px solid var(--line);
+  }
+  .qr-card .qimg{width:150px; height:150px; margin:0 auto 10px; background:#fff; border-radius:12px; padding:8px; box-shadow:var(--shadow);}
+  .qr-card .qimg img{width:100%; height:100%; display:block;}
+  .qr-card .qtitle{font-weight:700; color:var(--primary-d); font-size:15px;}
+  .qr-card .qsub{font-size:12px; color:var(--text-2); margin-top:2px;}
+
+  /* 步骤 */
+  .steps-box{background:var(--card); border-radius:var(--radius); padding:18px; margin-top:16px; box-shadow:var(--shadow);}
+  .steps-box h3{margin:0 0 12px; font-size:16px; color:var(--primary-d);}
+  .steps{counter-reset:s; list-style:none; padding:0; margin:0;}
+  .steps li{position:relative; padding:11px 12px 11px 46px; background:var(--bg); border:1px solid var(--line); border-radius:12px; margin-bottom:9px; font-size:14px;}
+  .steps li::before{counter-increment:s; content:counter(s); position:absolute; left:11px; top:11px; width:24px; height:24px; background:var(--primary); color:#fff; border-radius:50%; display:flex; align-items:center; justify-content:center; font-weight:700; font-size:13px;}
+  .steps li b{color:var(--primary-d);}
+
+  /* 页脚 */
+  .footer{margin-top:18px; text-align:center; font-size:12px; color:var(--text-2);}
+  .footer .decl{background:#fff; border:1px solid var(--line); border-radius:10px; padding:9px 12px; display:inline-block; line-height:1.6;}
+
+  @media print{
+    body{background:#fff;}
+    .wrap{max-width:100%; padding:0 6px;}
+    .hero,.qr-card,.steps-box{box-shadow:none; break-inside:avoid;}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header class="hero">
+    <div class="badge-stack">
+      <div class="badge-main"><img src="assets/team-logo.png" alt="微光向暖志愿服务队"></div>
+    </div>
+    <h1>微光向暖 · 资润启梦</h1>
+    <p>学生资助自助小程序 · 使用指引</p>
+  </header>
+
+  <div class="qr-row">
+    <div class="qr-card">
+      <div class="qimg"><img src="assets/app-aid-qr.png" alt="网站二维码"></div>
+      <div class="qtitle">① 网站二维码</div>
+      <div class="qsub">扫码打开小程序</div>
+    </div>
+    <div class="qr-card">
+      <div class="qimg"><img src="assets/api-key-qr.png" alt="AI 密钥二维码"></div>
+      <div class="qtitle">② AI 密钥二维码</div>
+      <div class="qsub">扫码填入密钥</div>
+    </div>
+  </div>
+
+  <div class="steps-box">
+    <h3>三步上手</h3>
+    <ul class="steps">
+      <li>用手机扫<b>左边「网站二维码」</b>打开小程序（或浏览器访问网址，建议"添加到主屏幕"安装）。</li>
+      <li>进入底部「设置」，点「📷 扫码填入」扫<b>右边「AI 密钥二维码」</b>自动导入；也可手动粘贴密钥到「API Key」框。</li>
+      <li>密钥填好后即可畅用：浏览资助政策、查看原文，并随时向 <b>AI 问答</b>咨询资助问题。</li>
+    </ul>
+  </div>
+
+  <div class="footer">
+    <div class="decl">本小程序为志愿服务公益作品，<b>禁止商用</b>。AI 内容依据公开资助政策资料生成，具体以最新政策文件及资助中心解释为准。</div>
+  </div>
+
+</div>
+</body>
+</html>

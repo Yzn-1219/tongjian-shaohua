@@ -1,0 +1,172 @@
+<Slide style={{
+    width: 1280,
+    height: 720,
+    background: '#F8FAFC',
+    padding: '26px 60px',
+    display: 'flex',
+    flexDirection: 'column',
+    justifyContent: 'space-between'
+}}>
+    {/* A区：标题栏 */}
+    <Box style={{ flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center' }}>
+        <Box style={{ flexDirection: 'column', gap: 2 }}>
+            <Text style={{ fontSize: 30, fontWeight: 'bold', color: '#1E3A8A' }}>
+                调研先行 · 三版问卷精准把脉真实需求
+            </Text>
+            <Text style={{ fontSize: 13, color: '#64748B' }}>
+                篇章一 · 前期实证调研 · 教工版 / 社工版 / 家长版多视角交叉验证
+            </Text>
+        </Box>
+        <Box style={{ background: '#F5F3FF', padding: '5px 12px', borderRadius: 6, border: '1px solid #DDD6FE' }}>
+            <Text style={{ fontSize: 12, color: '#6D28D9', fontWeight: 'bold' }}>
+                📋 用数据代替"我觉得"
+            </Text>
+        </Box>
+    </Box>
+
+    {/* B区：左侧调研缘起 + 右侧三版问卷 */}
+    <Box style={{ flexDirection: 'row', gap: 16 }}>
+        {/* 左栏：调研缘起 */}
+        <Box style={{
+            flex: 30,
+            background: 'linear-gradient(160deg, #FFFFFF 0%, #EFF6FF 100%)',
+            borderRadius: 12,
+            padding: '20px 18px',
+            border: '1px solid #BFDBFE',
+            flexDirection: 'column',
+            gap: 12
+        }}>
+            <Text style={{ fontSize: 17, fontWeight: 'bold', color: '#1E3A8A' }}>
+                我们为什么先调研
+            </Text>
+            <Text style={{ fontSize: 12, color: '#475569', lineHeight: 1.6 }}>
+                项目启动时，团队反复追问同一个问题：<strong>三下乡，我们究竟能为孩子们做成什么？</strong>
+            </Text>
+            <Text style={{ fontSize: 12, color: '#475569', lineHeight: 1.6 }}>
+                不愿做一场"拍照即结束"的活动，就必须先弄清孩子真正的缺口在哪里。
+            </Text>
+            <Box style={{ background: '#FFFFFF', borderRadius: 8, padding: '10px 12px', borderLeft: '4px solid #0284C7' }}>
+                <Text style={{ fontSize: 11, color: '#0369A1', lineHeight: 1.5 }}>
+                    观察到一个普遍事实：<strong>青少年体质正逐年下滑</strong>——于是从问题出发设计问卷，开启实践调查之旅。
+                </Text>
+            </Box>
+            <Box style={{ flexDirection: 'row', gap: 6, flexWrap: 'wrap' }}>
+                <Box style={{ background: '#DBEAFE', padding: '3px 8px', borderRadius: 4 }}>
+                    <Text style={{ fontSize: 10, color: '#1E40AF', fontWeight: 'bold' }}>多视角</Text>
+                </Box>
+                <Box style={{ background: '#DBEAFE', padding: '3px 8px', borderRadius: 4 }}>
+                    <Text style={{ fontSize: 10, color: '#1E40AF', fontWeight: 'bold' }}>可量化</Text>
+                </Box>
+                <Box style={{ background: '#DBEAFE', padding: '3px 8px', borderRadius: 4 }}>
+                    <Text style={{ fontSize: 10, color: '#1E40AF', fontWeight: 'bold' }}>可交叉验证</Text>
+                </Box>
+            </Box>
+        </Box>
+
+        {/* 右栏：三版问卷卡片 */}
+        <Box style={{ flex: 70, flexDirection: 'row', gap: 12 }}>
+            {/* 教工版 */}
+            <Box style={{
+                flex: 1,
+                background: '#FFFFFF',
+                borderRadius: 10,
+                padding: '16px 14px',
+                border: '1px solid #E2E8F0',
+                boxShadow: '0 3px 8px rgba(0,0,0,0.03)',
+                flexDirection: 'column',
+                gap: 8
+            }}>
+                <Box style={{ flexDirection: 'row', alignItems: 'center', gap: 6 }}>
+                    <Box style={{ width: 28, height: 28, borderRadius: 8, background: '#EFF6FF', justifyContent: 'center', alignItems: 'center' }}>
+                        <Text style={{ fontSize: 14 }}>🏫</Text>
+                    </Box>
+                    <Text style={{ fontSize: 16, fontWeight: 'bold', color: '#0F172A' }}>教工版</Text>
+                </Box>
+                <Box style={{ background: '#F8FAFC', padding: '4px 8px', borderRadius: 4 }}>
+                    <Text style={{ fontSize: 10, color: '#64748B', fontWeight: 'bold' }}>面向：学校教师与教育工作者</Text>
+                </Box>
+                <Text style={{ fontSize: 11, color: '#64748B', lineHeight: 1.6 }}>
+                    • 在校学生体质达标与体育课参与状况<br />
+                    • 视力不良、体重超重的年度变化趋势<br />
+                    • 教师视角下最迫切的健康干预需求<br />
+                    • 学校现有体育与健康教育资源盘点
+                </Text>
+            </Box>
+
+            {/* 社工版 */}
+            <Box style={{
+                flex: 1,
+                background: '#FFFFFF',
+                borderRadius: 10,
+                padding: '16px 14px',
+                border: '1px solid #E2E8F0',
+                boxShadow: '0 3px 8px rgba(0,0,0,0.03)',
+                flexDirection: 'column',
+                gap: 8
+            }}>
+                <Box style={{ flexDirection: 'row', alignItems: 'center', gap: 6 }}>
+                    <Box style={{ width: 28, height: 28, borderRadius: 8, background: '#ECFDF5', justifyContent: 'center', alignItems: 'center' }}>
+                        <Text style={{ fontSize: 14 }}>🏘️</Text>
+                    </Box>
+                    <Text style={{ fontSize: 16, fontWeight: 'bold', color: '#0F172A' }}>社工版</Text>
+                </Box>
+                <Box style={{ background: '#F8FAFC', padding: '4px 8px', borderRadius: 4 }}>
+                    <Text style={{ fontSize: 10, color: '#64748B', fontWeight: 'bold' }}>面向：社区工作者与网格员</Text>
+                </Box>
+                <Text style={{ fontSize: 11, color: '#64748B', lineHeight: 1.6 }}>
+                    • 社区青少年活动场地与器材供给情况<br />
+                    • 假期托管与课外活动的实际缺口<br />
+                    • 既往青少年服务的成效与难点反馈<br />
+                    • 社区可调动的协同资源与阵地条件
+                </Text>
+            </Box>
+
+            {/* 家长版 */}
+            <Box style={{
+                flex: 1,
+                background: '#FFFFFF',
+                borderRadius: 10,
+                padding: '16px 14px',
+                border: '1px solid #E2E8F0',
+                boxShadow: '0 3px 8px rgba(0,0,0,0.03)',
+                flexDirection: 'column',
+                gap: 8
+            }}>
+                <Box style={{ flexDirection: 'row', alignItems: 'center', gap: 6 }}>
+                    <Box style={{ width: 28, height: 28, borderRadius: 8, background: '#FFF7ED', justifyContent: 'center', alignItems: 'center' }}>
+                        <Text style={{ fontSize: 14 }}>👨‍👩‍👧</Text>
+                    </Box>
+                    <Text style={{ fontSize: 16, fontWeight: 'bold', color: '#0F172A' }}>家长版</Text>
+                </Box>
+                <Box style={{ background: '#F8FAFC', padding: '4px 8px', borderRadius: 4 }}>
+                    <Text style={{ fontSize: 10, color: '#64748B', fontWeight: 'bold' }}>面向：中小学生家长</Text>
+                </Box>
+                <Text style={{ fontSize: 11, color: '#64748B', lineHeight: 1.6 }}>
+                    • 家庭日均屏幕使用时长与使用场景<br />
+                    • 孩子户外运动频次与运动项目偏好<br />
+                    • 家长在监管用网上的真实困难<br />
+                    • 对社区健康活动的期待与参与意愿
+                </Text>
+            </Box>
+        </Box>
+    </Box>
+
+    {/* 底部金句条 */}
+    <Box style={{
+        background: 'linear-gradient(135deg, #EFF6FF 0%, #DBEAFE 100%)',
+        borderRadius: 8,
+        padding: '11px 22px',
+        border: '1px solid #BFDBFE',
+        borderLeft: '5px solid #1E3A8A'
+    }}>
+        <Text style={{ fontSize: 13, color: '#1E3A8A', lineHeight: 1.5 }}>
+            三份问卷、三个视角——让<strong>"我觉得孩子缺什么"</strong>变成<strong>"数据告诉我们该做什么"</strong>，后续每一个模块设计，都从这份调研结果里长出来。
+        </Text>
+    </Box>
+
+    {/* C区：页脚 */}
+    <Box style={{ flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center', borderTop: '1px solid #E2E8F0', paddingTop: 8 }}>
+        <Text style={{ fontSize: 12, color: '#94A3B8' }}>童健韶华 · 青少年体质提升与数字赋能行动</Text>
+        <Text style={{ fontSize: 12, color: '#94A3B8' }}>04 / 15</Text>
+    </Box>
+</Slide>

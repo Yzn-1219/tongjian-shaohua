@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI健康体质评估与运动指导助手</title>
+    <!-- Markdown解析库CDN -->
+    <script src="https://unpkg.com/marked@4.2.12/marked.min.js"></script>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: system-ui, -apple-system, "Microsoft YaHei", sans-serif;
+        }
+        body {
+            background-color: #f3faf7;
+            padding: 20px 14px;
+            color: #2d3748;
+        }
+        .container {
+            max-width: 680px;
+            margin: 0 auto;
+            background: #ffffff;
+            border-radius: 18px;
+            padding: 30px;
+            box-shadow: 0 4px 18px rgba(42,157,143,0.08);
+        }
+        h1 {
+            text-align: center;
+            color: #208c78;
+            font-size: 24px;
+            margin-bottom: 28px;
+        }
+        .form-group {
+            margin-bottom: 16px;
+        }
+        label {
+            display:block;
+            font-size:15px;
+            margin-bottom:6px;
+            color:#344e41;
+        }
+        input, select, textarea {
+            width:100%;
+            padding:12px 14px;
+            border:1px solid #cce8e2;
+            border-radius:10px;
+            font-size:16px;
+            background:#fdfffe;
+        }
+        textarea {
+            min-height:70px;
+            resize:vertical;
+        }
+        .btn-generate {
+            width:100%;
+            padding:14px;
+            border:none;
+            border-radius:10px;
+            background:#208c78;
+            color:#fff;
+            font-size:17px;
+            cursor:pointer;
+            margin-top:12px;
+            transition:0.2s;
+        }
+        .btn-generate:disabled {
+            background:#87bcb0;
+            cursor:not-allowed;
+        }
+        .btn-generate:hover:not(:disabled) {
+            background:#187061;
+        }
+        .result-wrap {
+            margin-top:30px;
+            padding:24px;
+            background:#f0f9f6;
+            border-radius:14px;
+            display:none;
+        }
+        .loading-tip {
+            text-align:center;
+            padding:30px;
+            color:#208c78;
+            font-size:16px;
+        }
+        .report-content h2,h3{
+            color:#187061;
+            margin:16px 0 8px;
+        }
+        .report-content p, .report-content li{
+            line-height:1.75;
+            font-size:15px;
+        }
+        .report-content ul{
+            padding-left:22px;
+        }
+        .copy-btn {
+            margin-top:20px;
+            padding:11px;
+            width:100%;
+            border:1px solid #208c78;
+            background:#fff;
+            color:#208c78;
+            border-radius:10px;
+            font-size:15px;
+            cursor:pointer;
+        }
+        .required-tag{
+            color:#e63946;
+        }
+        .tip-text{
+            font-size:13px;
+            color:#6b8a82;
+            margin-top:6px;
+        }
+        .warning-notice{
+            margin-top:24px;
+            font-size:13px;
+            color:#994121;
+            padding:12px;
+            background:#fff3e8;
+            border-radius:8px;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h1>AI健康体质评估与运动指导助手</h1>
+    <div class="form-group">
+        <label>性别 <span class="required-tag">*</span></label>
+        <select id="gender">
+            <option value="male">男</option>
+            <option value="female">女</option>
+        </select>
+    </div>
+    <div class="form-group">
+        <label>年龄（周岁） <span class="required-tag">*</span></label>
+        <input id="age" type="number" placeholder="范围6~100">
+    </div>
+    <div class="form-group">
+        <label>身高（cm） <span class="required-tag">*</span></label>
+        <input id="height" type="number" placeholder="范围50~250">
+    </div>
+    <div class="form-group">
+        <label>当前体重（kg） <span class="required-tag">*</span></label>
+        <input id="weight" type="number" placeholder="范围10~300">
+    </div>
+    <div class="form-group">
+        <label>腰围（cm，选填）</label>
+        <input id="waist" type="number" placeholder="例如82">
+    </div>
+    <div class="form-group">
+        <label>臀围（cm，选填）</label>
+        <input id="hip" type="number" placeholder="例如94">
+    </div>
+    <div class="form-group">
+        <label>运动偏好（选填）</label>
+        <select id="sportLike">
+            <option value="">无特殊偏好</option>
+            <option value="居家自重">居家自重训练</option>
+            <option value="健身房器械">健身房器械训练</option>
+            <option value="户外有氧">户外跑步/骑行/徒步</option>
+        </select>
+    </div>
+    <div class="form-group">
+        <label>既往伤病、身体限制（选填）</label>
+        <textarea id="history" placeholder="关节伤病、慢性病、不能进行的运动等信息"></textarea>
+    </div>
+
+    <button class="btn-generate" id="submitBtn" onclick="startAnalysis()">生成我的专属健康报告</button>
+
+    <div class="result-wrap" id="resultWrap">
+        <div id="loadingBlock" class="loading-tip">🔍 AI正在分析您的体质数据，请稍候...</div>
+        <div id="reportBlock" class="report-content" style="display:none;"></div>
+        <button class="copy-btn" onclick="copyReport()">复制完整报告文本</button>
+    </div>
+
+    <div class="warning-notice">
+        ⚠️声明：本工具仅提供通用健康生活、运动参考，不构成医疗诊断、诊疗方案；如有疾病请前往正规医疗机构就诊。
+    </div>
+</div>
+
+<script>
+// =====================【配置区域】=====================
+// 【重要】正式部署务必使用代理！本地调试临时方案风险极高
+const CONFIG = {
+    // 模式切换：local=本地调试直连API（仅自己临时测试，不要公网部署） proxy=代理中转（推荐正式使用）
+    runMode: "local",
+    // 通义千问接口地址（如更换文心一言，替换url与请求体格式）
+    apiUrl: "https://dashscope.aliyuncs.com/api/v1/services/aigc/text-generation/generation",
+    // 填入你的API Key（runMode=local时生效，公网打开页面密钥会泄露！）
+    apiKey: "sk-ca87939523b34cae954eae4614053d12",
+    modelName: "qwen-turbo",
+    // 代理服务地址（runMode=proxy时启用）
+    proxyUrl: "https://damp-tooth-b307.yanzongning.workers.dev/"
+};
+
+// 系统固定Prompt（严格约束输出结构，满足需求文档四大板块）
+function buildPrompt(userData, bmi, bmr){
+    const baseSys = `你是资深运动医学、健康管理专家。严格按照4大板块输出Markdown格式报告，不要输出无关闲聊。
+必须包含4个部分：
+## 1.体质综合评估
+根据BMI数值判断偏瘦/正常/超重/肥胖，分析当前身体状态、潜在健康风险。
+## 2.健康常量参考
+给出基础代谢BMR数值、每日建议饮水量区间、适配年龄的推荐睡眠时长。
+## 3.运动禁忌与风险提示
+结合体重、伤病情况给出运动保护建议：超重重点提示膝踝关节防护；偏瘦提示避免高强度空腹训练、预防低血糖；存在旧伤标注对应规避动作。
+## 4.11天启动健身计划
+生成连续11天训练日程表，区分有氧、力量训练；标注每日训练部位、动作示例、组数/时长；安排合理休息日，兼顾新手友好。
+
+禁止任何医疗诊断话术，只做健康生活指导。
+用户基础数据：
+性别：${userData.gender==='male'?'男':'女'}
+年龄：${userData.age}岁
+身高：${userData.height}cm
+体重：${userData.weight}kg
+BMI：${bmi.toFixed(2)}
+估算基础代谢BMR：${Math.round(bmr)} kcal/天
+腰围：${userData.waist||'未填写'}
+臀围：${userData.hip||'未填写'}
+运动偏好：${userData.sportLike||'无'}
+既往身体情况：${userData.history||'无特殊伤病记录'}
+`;
+    return baseSys;
+}
+
+// 表单校验
+function validateForm(){
+    const age = Number(document.getElementById('age').value);
+    const height = Number(document.getElementById('height').value);
+    const weight = Number(document.getElementById('weight').value);
+    if(!age || !height || !weight){
+        alert("请填写【性别、年龄、身高、体重】必填项");
+        return null;
+    }
+    if(age<6 || age>100){
+        alert("年龄范围限制：6~100周岁");
+        return null;
+    }
+    if(height<50 || height>250){
+        alert("身高范围限制：50~250cm");
+        return null;
+    }
+    if(weight<10 || weight>300){
+        alert("体重范围限制：10~300kg");
+        return null;
+    }
+    return {
+        gender: document.getElementById('gender').value,
+        age,height,weight,
+        waist: document.getElementById('waist').value,
+        hip: document.getElementById('hip').value,
+        sportLike: document.getElementById('sportLike').value,
+        history: document.getElementById('history').value
+    }
+}
+
+// 计算BMI、BMR
+function calcBaseMetric(data){
+    const hM = data.height / 100;
+    const bmi = data.weight / (hM*hM);
+    let bmr;
+    if(data.gender === 'male'){
+        bmr = 10*data.weight + 6.25*data.height - 5*data.age +5;
+    }else{
+        bmr = 10*data.weight + 6.25*data.height - 5*data.age -161;
+    }
+    return {bmi,bmr};
+}
+
+// 主入口
+async function startAnalysis(){
+    const userData = validateForm();
+    if(!userData) return;
+    const {bmi,bmr} = calcBaseMetric(userData);
+    const submitBtn = document.getElementById('submitBtn');
+    const resultWrap = document.getElementById('resultWrap');
+    const loadingBlock = document.getElementById('loadingBlock');
+    const reportBlock = document.getElementById('reportBlock');
+
+    submitBtn.disabled = true;
+    resultWrap.style.display = "block";
+    loadingBlock.style.display = "block";
+    reportBlock.style.display = "none";
+
+    try{
+        const promptText = buildPrompt(userData,bmi,bmr);
+        let fetchRes;
+        if(CONFIG.runMode === "local"){
+            fetchRes = await fetch(CONFIG.apiUrl,{
+                method:"POST",
+                headers:{
+                    "Content-Type":"application/json",
+                    "Authorization":`Bearer ${CONFIG.apiKey}`
+                },
+                body:JSON.stringify({
+                    model: CONFIG.modelName,
+                    input: {messages:[{role:"user",content:promptText}]},
+                    parameters: {result_format:"message"}
+                })
+            })
+        }else{
+            // 代理模式，请求转发服务
+            fetchRes = await fetch(CONFIG.proxyUrl,{
+                method:"POST",
+                headers:{"Content-Type":"application/json"},
+                body:JSON.stringify({prompt:promptText})
+            })
+        }
+        const resJson = await fetchRes.json();
+        let content;
+        if(CONFIG.runMode === "local"){
+            content = resJson.output.choices[0].message.content;
+        }else{
+            content = resJson.content;
+        }
+        // Markdown渲染
+        reportBlock.innerHTML = marked.parse(content);
+        loadingBlock.style.display = "none";
+        reportBlock.style.display = "block";
+        // 缓存报告用于复制
+        window.cacheReportText = content;
+    }catch(err){
+        console.error(err);
+        loadingBlock.innerText = "生成失败！跨域/密钥错误，请检查配置。";
+    }finally{
+        submitBtn.disabled = false;
+    }
+}
+
+function copyReport(){
+    if(!window.cacheReportText) return;
+    navigator.clipboard.writeText(window.cacheReportText).then(()=>{
+        alert("✅报告已复制");
+    })
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,62 @@
+<Slide style={{
+    width: 1280,
+    height: 720,
+    background: '#FFFFFF',
+    padding: '44px 70px',
+    display: 'flex',
+    flexDirection: 'column',
+    gap: 14
+}}>
+    <Text style={{ fontSize: 26, fontWeight: 'bold', color: '#1E3A8A' }}>
+        第三章 · 国家战略指引方向（政策小格子文案）
+    </Text>
+
+    <Box style={{
+        flexDirection: 'column',
+        gap: 8,
+        background: '#FFFFFF',
+        padding: '16px 20px',
+        borderRadius: 8,
+        border: '1px solid #E2E8F0',
+        borderLeft: '4px solid #3B82F6'
+    }}>
+        <Text style={{ fontSize: 16, fontWeight: 'bold', color: '#0F172A' }}>《全民健身计划（2026—2030年）》</Text>
+        <Text style={{ fontSize: 13, color: '#94A3B8' }}>国发〔2026〕26号 · 2026年7月印发</Text>
+        <Text style={{ fontSize: 14, color: '#475569', lineHeight: 1.7 }}>
+            政策要点：深化体教融合，保障青少年每天校内校外各 1 小时体育活动，有效遏制近视高发与肥胖低龄化。
+        </Text>
+        <Text style={{ fontSize: 14, color: '#1D4ED8', lineHeight: 1.7 }}>
+            我们的回应：把"每天 1 小时"拆解成可落地的社区趣味运动模块，让孩子放学后与假期里同样动起来。
+        </Text>
+    </Box>
+
+    <Box style={{
+        flexDirection: 'column',
+        gap: 8,
+        background: '#FFFFFF',
+        padding: '16px 20px',
+        borderRadius: 8,
+        border: '1px solid #E2E8F0',
+        borderLeft: '4px solid #0284C7'
+    }}>
+        <Text style={{ fontSize: 16, fontWeight: 'bold', color: '#0F172A' }}>《体育强国建设"十五五"规划》</Text>
+        <Text style={{ fontSize: 13, color: '#94A3B8' }}>国家顶层设计 · 全民健身智慧化转型导向</Text>
+        <Text style={{ fontSize: 14, color: '#475569', lineHeight: 1.7 }}>
+            政策要点：推动全民健身智慧化转型，引导青年志愿服务深入基层社区，培育青少年终身体育意识。
+        </Text>
+        <Text style={{ fontSize: 14, color: '#1D4ED8', lineHeight: 1.7 }}>
+            我们的回应：以高校志愿力量常态化下沉社区，并用自研 AI 工具把"智慧化"真正落到家庭端。
+        </Text>
+    </Box>
+
+    <Box style={{
+        background: '#EFF6FF',
+        padding: '14px 20px',
+        borderRadius: 8,
+        border: '1px dashed #93C5FD'
+    }}>
+        <Text style={{ fontSize: 14, color: '#1E40AF', lineHeight: 1.7 }}>
+            💡 口播串联词：正是这两份文件，给了我们答案的方向——国家要的是"体教融合"与"智慧化转型"，而我们能做的，就是把这两件事，搬进社区、送进家庭。
+        </Text>
+    </Box>
+</Slide>

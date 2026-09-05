@@ -1,0 +1,52 @@
+<Slide style={{
+    width: 1280,
+    height: 720,
+    background: '#FFFFFF',
+    padding: '44px 70px',
+    display: 'flex',
+    flexDirection: 'column',
+    gap: 16
+}}>
+    <Box style={{ flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center' }}>
+        <Text style={{ fontSize: 26, fontWeight: 'bold', color: '#1E3A8A' }}>
+            第一章 · 时代之问（承接段）
+        </Text>
+        <Box style={{ background: '#EFF6FF', padding: '4px 12px', borderRadius: 6 }}>
+            <Text style={{ fontSize: 13, color: '#1D4ED8' }}>接上页</Text>
+        </Box>
+    </Box>
+
+    <Box style={{
+        flexDirection: 'column',
+        gap: 10,
+        background: '#F8FAFC',
+        padding: '20px 24px',
+        borderRadius: 8,
+        border: '1px solid #E2E8F0'
+    }}>
+        <Text style={{ fontSize: 15, color: '#334155', lineHeight: 1.8 }}>
+            但看见问题，只是第一步。我们更想知道：为什么会这样？孩子自己怎么看？家长到底管不管得住？社区又能做些什么？
+        </Text>
+        <Text style={{ fontSize: 15, color: '#334155', lineHeight: 1.8 }}>
+            带着这一连串的问号，我们设计了一套问卷，并且分成了三个版本——教工版、社工版、家长版。三个视角，交叉验证，去听听老师、社区工作者和家长的真实声音，把"我觉得孩子缺什么"，变成"数据告诉我们该做什么"。
+        </Text>
+        <Text style={{ fontSize: 15, color: '#334155', lineHeight: 1.8 }}>
+            就这样，我们的实践调查之旅，正式开始了。而接下来所有的模块设计，都从这份调研结果里长出来。
+        </Text>
+    </Box>
+
+    <Box style={{
+        background: '#EFF6FF',
+        padding: '16px 22px',
+        borderRadius: 8,
+        borderLeft: '5px solid #1E3A8A',
+        flexDirection: 'column',
+        gap: 6
+    }}>
+        <Text style={{ fontSize: 14, fontWeight: 'bold', color: '#1E3A8A' }}>💡 演讲提示</Text>
+        <Text style={{ fontSize: 14, color: '#1E40AF', lineHeight: 1.7 }}>
+            念到"三下乡，我们到底能做成什么"时建议停顿 2 秒再继续，这是全场第一个情绪落点；<br />
+            念到教工版、社工版、家长版时可配合手势逐一点出，与 PPT 第 04 页三张问卷卡片同步。
+        </Text>
+    </Box>
+</Slide>

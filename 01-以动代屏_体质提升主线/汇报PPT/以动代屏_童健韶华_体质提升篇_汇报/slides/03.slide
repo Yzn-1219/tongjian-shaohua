@@ -1,0 +1,135 @@
+<Slide style={{
+    width: 1280,
+    height: 720,
+    background: '#F8FAFC',
+    padding: '28px 60px',
+    display: 'flex',
+    flexDirection: 'column',
+    justifyContent: 'space-between'
+}}>
+    {/* A区：标题栏 */}
+    <Box style={{ flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center' }}>
+        <Box style={{ flexDirection: 'column', gap: 2 }}>
+            <Text style={{ fontSize: 30, fontWeight: 'bold', color: '#1E3A8A' }}>
+                时代之问：电子屏幕时代的青少年体质挑战
+            </Text>
+            <Text style={{ fontSize: 13, color: '#64748B' }}>
+                篇章一 · 国家战略引领与现实痛点洞察
+            </Text>
+        </Box>
+        <Box style={{ background: '#FEF2F2', padding: '5px 12px', borderRadius: 6, border: '1px solid #FECACA' }}>
+            <Text style={{ fontSize: 12, color: '#DC2626', fontWeight: 'bold' }}>
+                现实危机与紧迫需求
+            </Text>
+        </Box>
+    </Box>
+
+    {/* B区：非对称双栏 */}
+    <Box style={{ flexDirection: 'row', gap: 20 }}>
+        {/* 左栏：国家政策导向 */}
+        <Box style={{
+            flex: 45,
+            background: 'linear-gradient(180deg, #EFF6FF 0%, #FFFFFF 100%)',
+            borderRadius: 10,
+            padding: '20px',
+            border: '1px solid #BFDBFE',
+            flexDirection: 'column',
+            gap: 12
+        }}>
+            <Text style={{ fontSize: 18, fontWeight: 'bold', color: '#1D4ED8' }}>
+                📜 国家战略指引方向
+            </Text>
+
+            <Box style={{ background: '#FFFFFF', padding: '12px 14px', borderRadius: 8, borderLeft: '4px solid #3B82F6' }}>
+                <Text style={{ fontSize: 14, fontWeight: 'bold', color: '#1E293B' }}>
+                    《全民健身计划（2026—2030年）》
+                </Text>
+                <Text style={{ fontSize: 11, color: '#94A3B8', marginTop: 2 }}>
+                    国发〔2026〕26号 · 2026年7月印发
+                </Text>
+                <Text style={{ fontSize: 12, color: '#64748B', marginTop: 4, lineHeight: 1.5 }}>
+                    深化体教融合，保障青少年每天校内校外各 1 小时体育活动，有效遏制近视高发与肥胖低龄化。
+                </Text>
+                <Box style={{ background: '#EFF6FF', borderRadius: 4, padding: '5px 8px', marginTop: 5 }}>
+                    <Text style={{ fontSize: 11, color: '#1D4ED8', lineHeight: 1.4 }}>
+                        ▶ 我们的回应：把"每天 1 小时"拆解成可落地的社区趣味运动模块，让孩子放学后与假期里同样动起来。
+                    </Text>
+                </Box>
+            </Box>
+
+            <Box style={{ background: '#FFFFFF', padding: '12px 14px', borderRadius: 8, borderLeft: '4px solid #0284C7' }}>
+                <Text style={{ fontSize: 14, fontWeight: 'bold', color: '#1E293B' }}>
+                    《体育强国建设"十五五"规划》
+                </Text>
+                <Text style={{ fontSize: 11, color: '#94A3B8', marginTop: 2 }}>
+                    国家顶层设计 · 全民健身智慧化转型导向
+                </Text>
+                <Text style={{ fontSize: 12, color: '#64748B', marginTop: 4, lineHeight: 1.5 }}>
+                    推动全民健身智慧化转型，引导青年志愿服务深入基层社区，培育青少年终身体育意识。
+                </Text>
+                <Box style={{ background: '#EFF6FF', borderRadius: 4, padding: '5px 8px', marginTop: 5 }}>
+                    <Text style={{ fontSize: 11, color: '#1D4ED8', lineHeight: 1.4 }}>
+                        ▶ 我们的回应：以高校志愿力量常态化下沉社区，并用自研 AI 工具把"智慧化"真正落到家庭端。
+                    </Text>
+                </Box>
+            </Box>
+        </Box>
+
+        {/* 右栏：基层现实痛点 */}
+        <Box style={{
+            flex: 55,
+            background: '#FFFFFF',
+            borderRadius: 10,
+            padding: '20px',
+            border: '1px solid #E2E8F0',
+            flexDirection: 'column',
+            gap: 10
+        }}>
+            <Text style={{ fontSize: 18, fontWeight: 'bold', color: '#0F172A' }}>
+                ⚠️ 社区青少年面临的现实困局
+            </Text>
+
+            <Box style={{ flexDirection: 'row', gap: 10, alignItems: 'center', background: '#F8FAFC', padding: '10px 14px', borderRadius: 8 }}>
+                <Box style={{ width: 28, height: 28, borderRadius: 14, background: '#FEE2E2', justifyContent: 'center', alignItems: 'center' }}>
+                    <Text style={{ fontSize: 14, fontWeight: 'bold', color: '#EF4444' }}>1</Text>
+                </Box>
+                <Box style={{ flex: 1 }}>
+                    <Text style={{ fontSize: 14, fontWeight: 'bold', color: '#334155' }}>屏幕成瘾加剧 · 户外活动严重匮乏</Text>
+                    <Text style={{ fontSize: 12, color: '#64748B', marginTop: 2 }}>
+                        暑期儿童日均屏幕时间达 3.5+ 小时，沉迷短视频与游戏挤占真实社交与运动时间。
+                    </Text>
+                </Box>
+            </Box>
+
+            <Box style={{ flexDirection: 'row', gap: 10, alignItems: 'center', background: '#F8FAFC', padding: '10px 14px', borderRadius: 8 }}>
+                <Box style={{ width: 28, height: 28, borderRadius: 14, background: '#FEF3C7', justifyContent: 'center', alignItems: 'center' }}>
+                    <Text style={{ fontSize: 14, fontWeight: 'bold', color: '#F59E0B' }}>2</Text>
+                </Box>
+                <Box style={{ flex: 1 }}>
+                    <Text style={{ fontSize: 14, fontWeight: 'bold', color: '#334155' }}>体质指标下滑 · 视力肥胖双重预警</Text>
+                    <Text style={{ fontSize: 12, color: '#64748B', marginTop: 2 }}>
+                        社区儿童肺活量、核心肌力达标率走低，假性近视与脊柱侧弯低龄化趋势显著。
+                    </Text>
+                </Box>
+            </Box>
+
+            <Box style={{ flexDirection: 'row', gap: 10, alignItems: 'center', background: '#F8FAFC', padding: '10px 14px', borderRadius: 8 }}>
+                <Box style={{ width: 28, height: 28, borderRadius: 14, background: '#E0F2FE', justifyContent: 'center', alignItems: 'center' }}>
+                    <Text style={{ fontSize: 14, fontWeight: 'bold', color: '#0284C7' }}>3</Text>
+                </Box>
+                <Box style={{ flex: 1 }}>
+                    <Text style={{ fontSize: 14, fontWeight: 'bold', color: '#334155' }}>缺乏长效抓手 · 单次宣讲难以持续</Text>
+                    <Text style={{ fontSize: 12, color: '#64748B', marginTop: 2 }}>
+                        传统社会实践多停留在“一阵风式讲座”，缺乏家庭端常态化、低门槛的陪伴与指导工具。
+                    </Text>
+                </Box>
+            </Box>
+        </Box>
+    </Box>
+
+    {/* C区：页脚 */}
+    <Box style={{ flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center', borderTop: '1px solid #E2E8F0', paddingTop: 10 }}>
+        <Text style={{ fontSize: 12, color: '#94A3B8' }}>童健韶华 · 青少年体质提升与数字赋能行动</Text>
+        <Text style={{ fontSize: 12, color: '#94A3B8' }}>03 / 15</Text>
+    </Box>
+</Slide>

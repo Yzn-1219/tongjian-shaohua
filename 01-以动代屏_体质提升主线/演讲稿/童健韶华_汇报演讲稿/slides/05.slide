@@ -1,0 +1,83 @@
+<Slide style={{
+    width: 1280,
+    height: 720,
+    background: '#FFFFFF',
+    padding: '44px 70px',
+    display: 'flex',
+    flexDirection: 'column',
+    gap: 14
+}}>
+    <Text style={{ fontSize: 26, fontWeight: 'bold', color: '#1E3A8A' }}>
+        第四章 · 调研设计（三版问卷页文案）
+    </Text>
+
+    <Box style={{ flexDirection: 'row', gap: 12 }}>
+        <Box style={{
+            flex: 1,
+            background: '#F8FAFC',
+            padding: '14px 16px',
+            borderRadius: 8,
+            border: '1px solid #E2E8F0',
+            flexDirection: 'column',
+            gap: 6
+        }}>
+            <Text style={{ fontSize: 16, fontWeight: 'bold', color: '#0F172A' }}>教工版</Text>
+            <Text style={{ fontSize: 12, color: '#64748B' }}>面向：学校教师与教育工作者</Text>
+            <Text style={{ fontSize: 13, color: '#475569', lineHeight: 1.7 }}>
+                • 在校学生体质达标与体育课参与状况<br />
+                • 视力不良、体重超重的年度变化趋势<br />
+                • 教师视角下最迫切的健康干预需求<br />
+                • 学校现有体育与健康教育资源盘点
+            </Text>
+        </Box>
+
+        <Box style={{
+            flex: 1,
+            background: '#F8FAFC',
+            padding: '14px 16px',
+            borderRadius: 8,
+            border: '1px solid #E2E8F0',
+            flexDirection: 'column',
+            gap: 6
+        }}>
+            <Text style={{ fontSize: 16, fontWeight: 'bold', color: '#0F172A' }}>社工版</Text>
+            <Text style={{ fontSize: 12, color: '#64748B' }}>面向：社区工作者与网格员</Text>
+            <Text style={{ fontSize: 13, color: '#475569', lineHeight: 1.7 }}>
+                • 社区青少年活动场地与器材供给情况<br />
+                • 假期托管与课外活动的实际缺口<br />
+                • 既往青少年服务的成效与难点反馈<br />
+                • 社区可调动的协同资源与阵地条件
+            </Text>
+        </Box>
+
+        <Box style={{
+            flex: 1,
+            background: '#F8FAFC',
+            padding: '14px 16px',
+            borderRadius: 8,
+            border: '1px solid #E2E8F0',
+            flexDirection: 'column',
+            gap: 6
+        }}>
+            <Text style={{ fontSize: 16, fontWeight: 'bold', color: '#0F172A' }}>家长版</Text>
+            <Text style={{ fontSize: 12, color: '#64748B' }}>面向：中小学生家长</Text>
+            <Text style={{ fontSize: 13, color: '#475569', lineHeight: 1.7 }}>
+                • 家庭日均屏幕使用时长与使用场景<br />
+                • 孩子户外运动频次与运动项目偏好<br />
+                • 家长在监管用网上的真实困难<br />
+                • 对社区健康活动的期待与参与意愿
+            </Text>
+        </Box>
+    </Box>
+
+    <Box style={{
+        background: '#EFF6FF',
+        padding: '14px 20px',
+        borderRadius: 8,
+        borderLeft: '5px solid #1E3A8A'
+    }}>
+        <Text style={{ fontSize: 14, color: '#1E3A8A', lineHeight: 1.7 }}>
+            💡 页面金句：三份问卷、三个视角——让"我觉得孩子缺什么"变成"数据告诉我们该做什么"，后续每一个模块设计，都从这份调研结果里长出来。
+        </Text>
+    </Box>
+</Slide>

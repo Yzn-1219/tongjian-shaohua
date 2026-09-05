@@ -1,0 +1,109 @@
+<Slide style={{
+    width: 1280,
+    height: 720,
+    background: '#F8FAFC',
+    padding: '28px 60px',
+    display: 'flex',
+    flexDirection: 'column',
+    justifyContent: 'space-between'
+}}>
+    {/* A区：标题栏 */}
+    <Box style={{ flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center' }}>
+        <Box style={{ flexDirection: 'column', gap: 2 }}>
+            <Text style={{ fontSize: 30, fontWeight: 'bold', color: '#1E3A8A' }}>
+                线下实践篇 · 专题课堂启智：筑牢数字自律防线
+            </Text>
+            <Text style={{ fontSize: 13, color: '#64748B' }}>
+                篇章二 · 线下双轨互动实践 · 网络素养认知启蒙
+            </Text>
+        </Box>
+        <Box style={{ background: '#EFF6FF', padding: '5px 12px', borderRadius: 6, border: '1px solid #BFDBFE' }}>
+            <Text style={{ fontSize: 12, color: '#1D4ED8', fontWeight: 'bold' }}>
+                认知重塑 · 源头治理
+            </Text>
+        </Box>
+    </Box>
+
+    {/* B区：左图右文结构 */}
+    <Box style={{ flexDirection: 'row', gap: 20 }}>
+        {/* 左侧实景卡片 */}
+        <Box style={{
+            flex: 45,
+            background: '#FFFFFF',
+            borderRadius: 10,
+            padding: '14px',
+            border: '1px solid #E2E8F0',
+            boxShadow: '0 4px 10px rgba(0,0,0,0.03)',
+            flexDirection: 'column',
+            gap: 10
+        }}>
+            <Image src="assets/crop_im1.png" style={{ width: '100%', height: 310, borderRadius: 6, objectFit: 'cover' }} />
+            <Box style={{ background: '#F8FAFC', padding: '8px 12px', borderRadius: 6 }}>
+                <Text style={{ fontSize: 12, color: '#475569', lineHeight: 1.4 }}>
+                    📷 <strong>现场直击</strong>：志愿者开展网络沉迷科普宣讲，组织孩子们签署家庭用网公约并积极互动答题。
+                </Text>
+            </Box>
+        </Box>
+
+        {/* 右侧核心策略与落地成效 */}
+        <Box style={{
+            flex: 55,
+            flexDirection: 'column',
+            gap: 10
+        }}>
+            {/* 模块一 */}
+            <Box style={{
+                background: '#FFFFFF',
+                borderRadius: 8,
+                padding: '14px 18px',
+                border: '1px solid #E2E8F0',
+                borderLeft: '4px solid #0284C7'
+            }}>
+                <Text style={{ fontSize: 15, fontWeight: 'bold', color: '#0F172A' }}>
+                    1. 沉迷危害情景式警示 · 破除被动认知
+                </Text>
+                <Text style={{ fontSize: 12, color: '#64748B', marginTop: 4, lineHeight: 1.4 }}>
+                    以动漫短片、真实案例剖析长时间刷手机对大脑专注力、脊柱发育与视力的损伤，变“家长唠叨”为“主动警醒”。
+                </Text>
+            </Box>
+
+            {/* 模块二 */}
+            <Box style={{
+                background: '#FFFFFF',
+                borderRadius: 8,
+                padding: '14px 18px',
+                border: '1px solid #E2E8F0',
+                borderLeft: '4px solid #F59E0B'
+            }}>
+                <Text style={{ fontSize: 15, fontWeight: 'bold', color: '#0F172A' }}>
+                    2. 《家庭健康用网微公约》· 确立契约自律
+                </Text>
+                <Text style={{ fontSize: 12, color: '#64748B', marginTop: 4, lineHeight: 1.4 }}>
+                    现场引导青少年与家长共同制定“无屏用餐”、“睡前控屏”家庭公约，建立平等协商与自我监督的长效机制。
+                </Text>
+            </Box>
+
+            {/* 模块三 */}
+            <Box style={{
+                background: '#FFFFFF',
+                borderRadius: 8,
+                padding: '14px 18px',
+                border: '1px solid #E2E8F0',
+                borderLeft: '4px solid #10B981'
+            }}>
+                <Text style={{ fontSize: 15, fontWeight: 'bold', color: '#0F172A' }}>
+                    3. 趣味素养问答抢答 · 激发自主内驱力
+                </Text>
+                <Text style={{ fontSize: 12, color: '#64748B', marginTop: 4, lineHeight: 1.4 }}>
+                    设置护眼知识、健康作息积分抢答，全员参与率 100%，让健康护眼与自律用网的理念在欢笑中深植童心。
+                </Text>
+            </Box>
+        </Box>
+    </Box>
+
+    {/* C区：页脚 */}
+    <Box style={{ flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center', borderTop: '1px solid #E2E8F0', paddingTop: 10 }}>
+        <Text style={{ fontSize: 12, color: '#94A3B8' }}>童健韶华 · 青少年体质提升与数字赋能行动</Text>
+        <Text style={{ fontSize: 12, color: '#94A3B8' }}>06 / 15</Text>
+    </Box>
+</Slide>

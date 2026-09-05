@@ -1,0 +1,104 @@
+<Slide style={{
+    width: 1280,
+    height: 720,
+    background: '#F8FAFC',
+    padding: '28px 60px',
+    display: 'flex',
+    flexDirection: 'column',
+    justifyContent: 'space-between'
+}}>
+    {/* A区：标题栏 */}
+    <Box style={{ flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center' }}>
+        <Box style={{ flexDirection: 'column', gap: 2 }}>
+            <Text style={{ fontSize: 30, fontWeight: 'bold', color: '#1E3A8A' }}>
+                总结展望 · 聚微光筑童心：让青春在基层绽放
+            </Text>
+            <Text style={{ fontSize: 13, color: '#64748B' }}>
+                篇章四 · 未来规划与示范辐射 · 青年担当与健康中国
+            </Text>
+        </Box>
+        <Box style={{ background: '#EFF6FF', padding: '5px 12px', borderRadius: 6, border: '1px solid #BFDBFE' }}>
+            <Text style={{ fontSize: 12, color: '#1D4ED8', fontWeight: 'bold' }}>
+                🚀 发展蓝图
+            </Text>
+        </Box>
+    </Box>
+
+    {/* B区：阶梯式发展规划 */}
+    <Box style={{ flexDirection: 'row', gap: 16 }}>
+        {/* 阶段 1 */}
+        <Box style={{
+            flex: 1,
+            background: '#FFFFFF',
+            borderRadius: 10,
+            padding: '20px 18px',
+            border: '1px solid #E2E8F0',
+            boxShadow: '0 4px 8px rgba(0,0,0,0.03)',
+            flexDirection: 'column',
+            gap: 10
+        }}>
+            <Box style={{ background: '#E0F2FE', padding: '4px 10px', borderRadius: 4, width: 75 }}>
+                <Text style={{ fontSize: 12, color: '#0369A1', fontWeight: 'bold' }}>近期 · 深耕</Text>
+            </Box>
+            <Text style={{ fontSize: 17, fontWeight: 'bold', color: '#0F172A' }}>
+                模型微调与端侧迭代
+            </Text>
+            <Text style={{ fontSize: 12, color: '#64748B', lineHeight: 1.5 }}>
+                • 优化 AI 健身教练的动作库与少儿骨骼发育适配算法<br />
+                • 完善离线打卡徽章与家长端体质周报生成能力
+            </Text>
+        </Box>
+
+        {/* 阶段 2 */}
+        <Box style={{
+            flex: 1,
+            background: '#FFFFFF',
+            borderRadius: 10,
+            padding: '20px 18px',
+            border: '1px solid #E2E8F0',
+            boxShadow: '0 4px 8px rgba(0,0,0,0.03)',
+            flexDirection: 'column',
+            gap: 10
+        }}>
+            <Box style={{ background: '#FEF3C7', padding: '4px 10px', borderRadius: 4, width: 75 }}>
+                <Text style={{ fontSize: 12, color: '#92400E', fontWeight: 'bold' }}>中期 · 扩面</Text>
+            </Box>
+            <Text style={{ fontSize: 17, fontWeight: 'bold', color: '#0F172A' }}>
+                全省高校志愿联盟辐射
+            </Text>
+            <Text style={{ fontSize: 12, color: '#64748B', lineHeight: 1.5 }}>
+                • 依托开源项目向全省乃至全国更多高校志愿队伍推广<br />
+                • 联合基层团委打造“百个社区以动代屏示范驿站”
+            </Text>
+        </Box>
+
+        {/* 阶段 3 */}
+        <Box style={{
+            flex: 1,
+            background: '#FFFFFF',
+            borderRadius: 10,
+            padding: '20px 18px',
+            border: '1px solid #E2E8F0',
+            boxShadow: '0 4px 8px rgba(0,0,0,0.03)',
+            flexDirection: 'column',
+            gap: 10
+        }}>
+            <Box style={{ background: '#DCFCE7', padding: '4px 10px', borderRadius: 4, width: 75 }}>
+                <Text style={{ fontSize: 12, color: '#166534', fontWeight: 'bold' }}>远期 · 融合</Text>
+            </Box>
+            <Text style={{ fontSize: 17, fontWeight: 'bold', color: '#0F172A' }}>
+                体教融合智慧生态
+            </Text>
+            <Text style={{ fontSize: 12, color: '#64748B', lineHeight: 1.5 }}>
+                • 接入地方全民健身大数据平台，赋能基层公共卫生体系<br />
+                • 持续贡献青年智慧，书写“健康中国”青春答卷
+            </Text>
+        </Box>
+    </Box>
+
+    {/* C区：页脚 */}
+    <Box style={{ flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center', borderTop: '1px solid #E2E8F0', paddingTop: 10 }}>
+        <Text style={{ fontSize: 12, color: '#94A3B8' }}>童健韶华 · 青少年体质提升与数字赋能行动</Text>
+        <Text style={{ fontSize: 12, color: '#94A3B8' }}>14 / 15</Text>
+    </Box>
+</Slide>

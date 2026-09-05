@@ -1,0 +1,133 @@
+<Slide style={{
+    width: 1280,
+    height: 720,
+    background: '#F8FAFC',
+    padding: '28px 60px',
+    display: 'flex',
+    flexDirection: 'column',
+    justifyContent: 'space-between'
+}}>
+    {/* A区：标题栏 */}
+    <Box style={{ flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center' }}>
+        <Box style={{ flexDirection: 'column', gap: 2 }}>
+            <Text style={{ fontSize: 30, fontWeight: 'bold', color: '#1E3A8A' }}>
+                破局之道：构建“认知-行为-数智”三位一体闭环
+            </Text>
+            <Text style={{ fontSize: 13, color: '#64748B' }}>
+                篇章一 · 童健韶华团队创新服务模式设计
+            </Text>
+        </Box>
+        <Box style={{ background: '#ECFDF5', padding: '5px 12px', borderRadius: 6, border: '1px solid #A7F3D0' }}>
+            <Text style={{ fontSize: 12, color: '#059669', fontWeight: 'bold' }}>
+                创新机制闭环
+            </Text>
+        </Box>
+    </Box>
+
+    {/* B区：三位一体架构 */}
+    <Box style={{ flexDirection: 'column', gap: 12 }}>
+        {/* 顶部引导语 */}
+        <Box style={{ background: '#EFF6FF', padding: '10px 18px', borderRadius: 8, borderLeft: '4px solid #0284C7' }}>
+            <Text style={{ fontSize: 14, color: '#1E40AF', lineHeight: 1.4 }}>
+                打破“单向说教”传统局限，童健韶华团队首创<strong>“以动代屏·三位一体”</strong>长效育人与健康促进模式：
+            </Text>
+        </Box>
+
+        {/* 三大支柱卡片 */}
+        <Box style={{ flexDirection: 'row', gap: 16 }}>
+            {/* 支柱一：认知重塑 */}
+            <Box style={{
+                flex: 1,
+                background: '#FFFFFF',
+                borderRadius: 10,
+                padding: '16px',
+                border: '1px solid #E2E8F0',
+                boxShadow: '0 4px 8px rgba(0,0,0,0.03)',
+                flexDirection: 'column',
+                gap: 8
+            }}>
+                <Box style={{ background: '#DBEAFE', padding: '4px 10px', borderRadius: 4, width: 85 }}>
+                    <Text style={{ fontSize: 12, color: '#1E40AF', fontWeight: 'bold' }}>阶段一 · 认知</Text>
+                </Box>
+                <Text style={{ fontSize: 17, fontWeight: 'bold', color: '#0F172A' }}>
+                    网络素养课堂
+                </Text>
+                <Text style={{ fontSize: 12, color: '#0284C7', fontWeight: 'bold' }}>
+                    “知其弊 · 立契约 · 懂自律”
+                </Text>
+                <Text style={{ fontSize: 12, color: '#64748B', lineHeight: 1.4 }}>
+                    • 沉迷危害情景式警示<br />
+                    • 《家庭健康用网微公约》<br />
+                    • 互动竞赛树立科学时间观
+                </Text>
+            </Box>
+
+            {/* 支柱二：行为替代 */}
+            <Box style={{
+                flex: 1,
+                background: '#FFFFFF',
+                borderRadius: 10,
+                padding: '16px',
+                border: '1px solid #E2E8F0',
+                boxShadow: '0 4px 8px rgba(0,0,0,0.03)',
+                flexDirection: 'column',
+                gap: 8
+            }}>
+                <Box style={{ background: '#FEF3C7', padding: '4px 10px', borderRadius: 4, width: 85 }}>
+                    <Text style={{ fontSize: 12, color: '#92400E', fontWeight: 'bold' }}>阶段二 · 行为</Text>
+                </Box>
+                <Text style={{ fontSize: 17, fontWeight: 'bold', color: '#0F172A' }}>
+                    趣味运动替代
+                </Text>
+                <Text style={{ fontSize: 12, color: '#D97706', fontWeight: 'bold' }}>
+                    “以趣促动 · 强体魄 · 享社交”
+                </Text>
+                <Text style={{ fontSize: 12, color: '#64748B', lineHeight: 1.4 }}>
+                    • 低门槛高趣味运动矩阵<br />
+                    • 亲子互动与团队接力竞逐<br />
+                    • 每日运动打卡积分激励
+                </Text>
+            </Box>
+
+            {/* 支柱三：数智长效 */}
+            <Box style={{
+                flex: 1,
+                background: '#FFFFFF',
+                borderRadius: 10,
+                padding: '16px',
+                border: '1px solid #E2E8F0',
+                boxShadow: '0 4px 8px rgba(0,0,0,0.03)',
+                flexDirection: 'column',
+                gap: 8
+            }}>
+                <Box style={{ background: '#DCFCE7', padding: '4px 10px', borderRadius: 4, width: 85 }}>
+                    <Text style={{ fontSize: 12, color: '#166534', fontWeight: 'bold' }}>阶段三 · 数智</Text>
+                </Box>
+                <Text style={{ fontSize: 17, fontWeight: 'bold', color: '#0F172A' }}>
+                    自研AI工具护航
+                </Text>
+                <Text style={{ fontSize: 12, color: '#059669', fontWeight: 'bold' }}>
+                    “千人千面 · 随身教 · 长守护”
+                </Text>
+                <Text style={{ fontSize: 12, color: '#64748B', lineHeight: 1.4 }}>
+                    • AI体质检测秒级雷达评估<br />
+                    • AI健身教练个性化方案<br />
+                    • PWA扫码即用 7×24h陪伴
+                </Text>
+            </Box>
+        </Box>
+
+        {/* 底部闭环保障机制 */}
+        <Box style={{ background: '#FFFFFF', borderRadius: 6, padding: '10px 18px', border: '1px dashed #94A3B8' }}>
+            <Text style={{ fontSize: 12, color: '#475569', textAlign: 'center' }}>
+                🔄 <strong>闭环目标</strong>：从“被动限制屏幕”升级为“主动拥抱健康运动”，实现高校智力与基层社区常态化衔接。
+            </Text>
+        </Box>
+    </Box>
+
+    {/* C区：页脚 */}
+    <Box style={{ flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center', borderTop: '1px solid #E2E8F0', paddingTop: 10 }}>
+        <Text style={{ fontSize: 12, color: '#94A3B8' }}>童健韶华 · 青少年体质提升与数字赋能行动</Text>
+        <Text style={{ fontSize: 12, color: '#94A3B8' }}>05 / 15</Text>
+    </Box>
+</Slide>

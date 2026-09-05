@@ -1,0 +1,132 @@
+<Slide style={{
+    width: 1280,
+    height: 720,
+    background: '#F8FAFC',
+    padding: '26px 60px',
+    display: 'flex',
+    flexDirection: 'column',
+    justifyContent: 'space-between'
+}}>
+    {/* A区：标题栏 */}
+    <Box style={{ flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center' }}>
+        <Box style={{ flexDirection: 'column', gap: 2 }}>
+            <Text style={{ fontSize: 30, fontWeight: 'bold', color: '#1E3A8A' }}>
+                三场活动 · 三点位依次铺开
+            </Text>
+            <Text style={{ fontSize: 13, color: '#64748B' }}>
+                篇章二 · 线下双轨互动实践 · 模块弹性组合与社区因地制宜适配
+            </Text>
+        </Box>
+        <Box style={{ background: '#EFF6FF', padding: '5px 12px', borderRadius: 6, border: '1px solid #BFDBFE' }}>
+            <Text style={{ fontSize: 12, color: '#1D4ED8', fontWeight: 'bold' }}>
+                🧩 灵动组合 · 可复制推广
+            </Text>
+        </Box>
+    </Box>
+
+    {/* B区：三点位卡片 */}
+    <Box style={{ flexDirection: 'row', gap: 16 }}>
+        {/* 点位 1：黄家皂幼儿园 */}
+        <Box style={{
+            flex: 1,
+            background: '#FFFFFF',
+            borderRadius: 10,
+            padding: '12px',
+            border: '1px solid #E2E8F0',
+            boxShadow: '0 4px 10px rgba(0,0,0,0.04)',
+            flexDirection: 'column',
+            gap: 8
+        }}>
+            <Image src="assets/site_huangjiazhao.png" style={{ width: '100%', height: 180, borderRadius: 6, objectFit: 'cover' }} />
+            <Box style={{ flexDirection: 'row', alignItems: 'center', gap: 6 }}>
+                <Box style={{ background: '#1E3A8A', padding: '3px 8px', borderRadius: 4 }}>
+                    <Text style={{ fontSize: 11, color: '#FFFFFF', fontWeight: 'bold' }}>第 1 场</Text>
+                </Box>
+                <Text style={{ fontSize: 15, fontWeight: 'bold', color: '#0F172A' }}>黄家皂幼儿园</Text>
+            </Box>
+            <Box style={{ background: '#EFF6FF', padding: '4px 8px', borderRadius: 4 }}>
+                <Text style={{ fontSize: 11, color: '#0369A1', fontWeight: 'bold' }}>模块：网络素养科普宣讲</Text>
+            </Box>
+            <Text style={{ fontSize: 11, color: '#64748B', lineHeight: 1.5 }}>
+                • 沉迷危害案例警示 + 用网契约共签<br />
+                • 互动问答全员参与，护眼知识入童心<br />
+                • 室内场地灵活，短课时精准适配
+            </Text>
+        </Box>
+
+        {/* 点位 2：蓝海社区 */}
+        <Box style={{
+            flex: 1,
+            background: '#FFFFFF',
+            borderRadius: 10,
+            padding: '12px',
+            border: '1px solid #E2E8F0',
+            boxShadow: '0 4px 10px rgba(0,0,0,0.04)',
+            flexDirection: 'column',
+            gap: 8
+        }}>
+            <Image src="assets/site_lanhai.png" style={{ width: '100%', height: 180, borderRadius: 6, objectFit: 'cover' }} />
+            <Box style={{ flexDirection: 'row', alignItems: 'center', gap: 6 }}>
+                <Box style={{ background: '#0284C7', padding: '3px 8px', borderRadius: 4 }}>
+                    <Text style={{ fontSize: 11, color: '#FFFFFF', fontWeight: 'bold' }}>第 2 场</Text>
+                </Box>
+                <Text style={{ fontSize: 15, fontWeight: 'bold', color: '#0F172A' }}>蓝海社区</Text>
+            </Box>
+            <Box style={{ background: '#FFF7ED', padding: '4px 8px', borderRadius: 4 }}>
+                <Text style={{ fontSize: 11, color: '#C2410C', fontWeight: 'bold' }}>模块：体质提升趣味运动会</Text>
+            </Box>
+            <Text style={{ fontSize: 11, color: '#64748B', lineHeight: 1.5 }}>
+                • 跳房子 / 沙包 / 接力，低门槛全员可参与<br />
+                • 亲子协作积分，重塑真实社交的乐趣<br />
+                • 户外开阔场地，11 天打卡持续激励
+            </Text>
+        </Box>
+
+        {/* 点位 3：西海社区 */}
+        <Box style={{
+            flex: 1,
+            background: '#FFFFFF',
+            borderRadius: 10,
+            padding: '12px',
+            border: '1px solid #E2E8F0',
+            boxShadow: '0 4px 10px rgba(0,0,0,0.04)',
+            flexDirection: 'column',
+            gap: 8
+        }}>
+            <Image src="assets/site_xihai.png" style={{ width: '100%', height: 180, borderRadius: 6, objectFit: 'cover' }} />
+            <Box style={{ flexDirection: 'row', alignItems: 'center', gap: 6 }}>
+                <Box style={{ background: '#059669', padding: '3px 8px', borderRadius: 4 }}>
+                    <Text style={{ fontSize: 11, color: '#FFFFFF', fontWeight: 'bold' }}>第 3 场</Text>
+                </Box>
+                <Text style={{ fontSize: 15, fontWeight: 'bold', color: '#0F172A' }}>西海社区</Text>
+            </Box>
+            <Box style={{ background: '#ECFDF5', padding: '4px 8px', borderRadius: 4 }}>
+                <Text style={{ fontSize: 11, color: '#15803D', fontWeight: 'bold' }}>模块：综合模式（宣讲+运动+反诈）</Text>
+            </Box>
+            <Text style={{ fontSize: 11, color: '#64748B', lineHeight: 1.5 }}>
+                • 双模块叠加 + 社区反诈宣讲联合开展<br />
+                • 室内宣讲与室外运动分时段灵活切换<br />
+                • 多部门协同联动，一次进场多重成效
+            </Text>
+        </Box>
+    </Box>
+
+    {/* 底部金句条 */}
+    <Box style={{
+        background: 'linear-gradient(135deg, #EFF6FF 0%, #DBEAFE 100%)',
+        borderRadius: 8,
+        padding: '12px 22px',
+        border: '1px solid #BFDBFE',
+        borderLeft: '5px solid #1E3A8A'
+    }}>
+        <Text style={{ fontSize: 13, color: '#1E3A8A', lineHeight: 1.5 }}>
+            服务拆为 <strong>「宣讲 + 运动会」两大模块</strong>，按社区实际条件弹性组合、可组装可适配——同一支队伍，因点施策、各展所长。
+        </Text>
+    </Box>
+
+    {/* C区：页脚 */}
+    <Box style={{ flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center', borderTop: '1px solid #E2E8F0', paddingTop: 8 }}>
+        <Text style={{ fontSize: 12, color: '#94A3B8' }}>童健韶华 · 青少年体质提升与数字赋能行动</Text>
+        <Text style={{ fontSize: 12, color: '#94A3B8' }}>08 / 15</Text>
+    </Box>
+</Slide>

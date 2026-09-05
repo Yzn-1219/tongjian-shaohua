@@ -1,0 +1,139 @@
+<Slide style={{
+    width: 1280,
+    height: 720,
+    background: '#F8FAFC',
+    padding: '28px 60px',
+    display: 'flex',
+    flexDirection: 'column',
+    justifyContent: 'space-between'
+}}>
+    {/* A区：标题栏 */}
+    <Box style={{ flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center' }}>
+        <Box style={{ flexDirection: 'column', gap: 2 }}>
+            <Text style={{ fontSize: 32, fontWeight: 'bold', color: '#1E3A8A' }}>
+                汇报大纲 · 核心脉络
+            </Text>
+            <Text style={{ fontSize: 13, color: '#64748B' }}>
+                AGENDA & CORE WORKFLOW
+            </Text>
+        </Box>
+        <Box style={{ background: '#E0F2FE', padding: '6px 14px', borderRadius: 6 }}>
+            <Text style={{ fontSize: 13, color: '#0369A1', fontWeight: 'bold' }}>
+                以动代屏全流程闭环
+            </Text>
+        </Box>
+    </Box>
+
+    {/* B区：4大篇章卡片 (2x2 非对称卡片设计) */}
+    <Box style={{ flexDirection: 'column', gap: 14 }}>
+        <Box style={{ flexDirection: 'row', gap: 16 }}>
+            {/* 01 篇章 */}
+            <Box style={{
+                flex: 1,
+                background: '#FFFFFF',
+                borderRadius: 10,
+                padding: '18px 22px',
+                border: '1px solid #E2E8F0',
+                boxShadow: '0 4px 10px rgba(0,0,0,0.03)',
+                flexDirection: 'column',
+                gap: 8
+            }}>
+                <Box style={{ flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between' }}>
+                    <Text style={{ fontSize: 26, fontWeight: 'bold', color: '#0284C7' }}>01</Text>
+                    <Box style={{ background: '#F0F9FF', padding: '3px 8px', borderRadius: 4 }}>
+                        <Text style={{ fontSize: 12, color: '#0369A1', fontWeight: 'bold' }}>政策引领 & 痛点</Text>
+                    </Box>
+                </Box>
+                <Text style={{ fontSize: 17, fontWeight: 'bold', color: '#0F172A' }}>
+                    时代之问与实践初心
+                </Text>
+                <Text style={{ fontSize: 13, color: '#64748B', lineHeight: 1.4 }}>
+                    对标《全民健身计划》国家战略，直击青少年屏幕依赖与体质下滑痛点，确立“以动代屏”主线。
+                </Text>
+            </Box>
+
+            {/* 02 篇章 */}
+            <Box style={{
+                flex: 1,
+                background: '#FFFFFF',
+                borderRadius: 10,
+                padding: '18px 22px',
+                border: '1px solid #E2E8F0',
+                boxShadow: '0 4px 10px rgba(0,0,0,0.03)',
+                flexDirection: 'column',
+                gap: 8
+            }}>
+                <Box style={{ flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between' }}>
+                    <Text style={{ fontSize: 26, fontWeight: 'bold', color: '#0284C7' }}>02</Text>
+                    <Box style={{ background: '#F0F9FF', padding: '3px 8px', borderRadius: 4 }}>
+                        <Text style={{ fontSize: 12, color: '#0369A1', fontWeight: 'bold' }}>双轨联动实践</Text>
+                    </Box>
+                </Box>
+                <Text style={{ fontSize: 17, fontWeight: 'bold', color: '#0F172A' }}>
+                    线下破局：认知与行为替代
+                </Text>
+                <Text style={{ fontSize: 13, color: '#64748B', lineHeight: 1.4 }}>
+                    构建“网络素养专题课堂”树立自律意识，开展“趣味运动会”以趣促动，完成物理级屏幕替代。
+                </Text>
+            </Box>
+        </Box>
+
+        <Box style={{ flexDirection: 'row', gap: 16 }}>
+            {/* 03 篇章 */}
+            <Box style={{
+                flex: 1,
+                background: '#FFFFFF',
+                borderRadius: 10,
+                padding: '18px 22px',
+                border: '1px solid #E2E8F0',
+                boxShadow: '0 4px 10px rgba(0,0,0,0.03)',
+                flexDirection: 'column',
+                gap: 8
+            }}>
+                <Box style={{ flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between' }}>
+                    <Text style={{ fontSize: 26, fontWeight: 'bold', color: '#0284C7' }}>03</Text>
+                    <Box style={{ background: '#F0F9FF', padding: '3px 8px', borderRadius: 4 }}>
+                        <Text style={{ fontSize: 12, color: '#0369A1', fontWeight: 'bold' }}>数智赋能创新</Text>
+                    </Box>
+                </Box>
+                <Text style={{ fontSize: 17, fontWeight: 'bold', color: '#0F172A' }}>
+                    自研AI工具矩阵长效护航
+                </Text>
+                <Text style={{ fontSize: 13, color: '#64748B', lineHeight: 1.4 }}>
+                    自研“AI体质检测助手 + AI健身教练”PWA矩阵，扫码即用，提供7×24h个性化科学陪伴。
+                </Text>
+            </Box>
+
+            {/* 04 篇章 */}
+            <Box style={{
+                flex: 1,
+                background: '#FFFFFF',
+                borderRadius: 10,
+                padding: '18px 22px',
+                border: '1px solid #E2E8F0',
+                boxShadow: '0 4px 10px rgba(0,0,0,0.03)',
+                flexDirection: 'column',
+                gap: 8
+            }}>
+                <Box style={{ flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between' }}>
+                    <Text style={{ fontSize: 26, fontWeight: 'bold', color: '#0284C7' }}>04</Text>
+                    <Box style={{ background: '#F0F9FF', padding: '3px 8px', borderRadius: 4 }}>
+                        <Text style={{ fontSize: 12, color: '#0369A1', fontWeight: 'bold' }}>实践成效与长效</Text>
+                    </Box>
+                </Box>
+                <Text style={{ fontSize: 17, fontWeight: 'bold', color: '#0F172A' }}>
+                    多维成效与开源示范
+                </Text>
+                <Text style={{ fontSize: 13, color: '#64748B', lineHeight: 1.4 }}>
+                    多维指标量化落地，沉淀全套开源技术资产与标准化工作手册，打造高校实践可复制样板。
+                </Text>
+            </Box>
+        </Box>
+    </Box>
+
+    {/* C区：页脚 */}
+    <Box style={{ flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center', borderTop: '1px solid #E2E8F0', paddingTop: 10 }}>
+        <Text style={{ fontSize: 12, color: '#94A3B8' }}>童健韶华 · 青少年体质提升与数字赋能行动</Text>
+        <Text style={{ fontSize: 12, color: '#94A3B8' }}>02 / 15</Text>
+    </Box>
+</Slide>

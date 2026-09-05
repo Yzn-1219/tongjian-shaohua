@@ -1,0 +1,104 @@
+<Slide style={{
+    width: 1280,
+    height: 720,
+    background: '#F8FAFC',
+    position: 'relative',
+    display: 'flex',
+    flexDirection: 'column',
+    justifyContent: 'space-between',
+    padding: '36px 60px'
+}}>
+    {/* 背景底图 (纯色舒缓平和蓝白渐变底图) */}
+    <Image
+        src="assets/cover_bg_pure_blue_white.png"
+        style={{
+            position: 'absolute',
+            top: 0,
+            left: 0,
+            width: 1280,
+            height: 720,
+            objectFit: 'cover'
+        }}
+    />
+
+    {/* 顶部标签 */}
+    <Box style={{ flexDirection: 'row', alignItems: 'center', gap: 16, position: 'relative', zIndex: 2 }}>
+        <Box style={{
+            background: 'linear-gradient(135deg, #1E3A8A 0%, #0284C7 100%)',
+            padding: '6px 18px',
+            borderRadius: 20,
+            boxShadow: '0 2px 8px rgba(2, 132, 199, 0.25)'
+        }}>
+            <Text style={{ fontSize: 13, color: '#FFFFFF', fontWeight: 'bold', letterSpacing: 1 }}>
+                2026年大学生暑期“三下乡”社会实践 · 优秀成果汇报
+            </Text>
+        </Box>
+        <Text style={{ fontSize: 14, color: '#475569', fontWeight: 'bold' }}>
+            威海市环翠区专项实践
+        </Text>
+    </Box>
+
+    {/* 中部核心标题与副标 */}
+    <Box style={{ flexDirection: 'column', gap: 14, position: 'relative', zIndex: 2, marginTop: 10 }}>
+        <Text style={{
+            fontSize: 54,
+            fontWeight: 'bold',
+            color: '#0F172A',
+            lineHeight: 1.2,
+            letterSpacing: 2
+        }}>
+            以动代屏 · 童健韶华
+        </Text>
+        <Text style={{
+            fontSize: 24,
+            fontWeight: 'bold',
+            color: '#0284C7',
+            lineHeight: 1.4
+        }}>
+            青少年体质提升与数字赋能志愿服务行动
+        </Text>
+        
+        {/* 核心理念胶囊 */}
+        <Box style={{ flexDirection: 'row', gap: 12, marginTop: 6 }}>
+            <Box style={{ background: 'rgba(255, 255, 255, 0.9)', padding: '6px 16px', borderRadius: 8, border: '1px solid #BAE6FD', boxShadow: '0 2px 6px rgba(0,0,0,0.04)' }}>
+                <Text style={{ fontSize: 13, color: '#0369A1', fontWeight: 'bold' }}>双轨互动实践</Text>
+            </Box>
+            <Box style={{ background: 'rgba(255, 255, 255, 0.9)', padding: '6px 16px', borderRadius: 8, border: '1px solid #BAE6FD', boxShadow: '0 2px 6px rgba(0,0,0,0.04)' }}>
+                <Text style={{ fontSize: 13, color: '#0369A1', fontWeight: 'bold' }}>自研AI工具矩阵</Text>
+            </Box>
+            <Box style={{ background: 'rgba(255, 255, 255, 0.9)', padding: '6px 16px', borderRadius: 8, border: '1px solid #BAE6FD', boxShadow: '0 2px 6px rgba(0,0,0,0.04)' }}>
+                <Text style={{ fontSize: 13, color: '#0369A1', fontWeight: 'bold' }}>长效健康护航</Text>
+            </Box>
+        </Box>
+    </Box>
+
+    {/* 底部信息栏 */}
+    <Box style={{
+        flexDirection: 'row',
+        justifyContent: 'space-between',
+        alignItems: 'flex-end',
+        borderTop: '1px solid rgba(148, 163, 184, 0.4)',
+        paddingTop: 16,
+        position: 'relative',
+        zIndex: 2
+    }}>
+        <Box style={{ flexDirection: 'column', gap: 4 }}>
+            <Text style={{ fontSize: 15, color: '#1E293B', fontWeight: 'bold' }}>
+                汇报团队：“童健韶华”志愿服务队
+            </Text>
+            <Text style={{ fontSize: 13, color: '#64748B' }}>
+                队长：阎宗宁 | 指导老师：董怡静、张红朗
+            </Text>
+        </Box>
+        <Box style={{
+            background: 'rgba(255, 255, 255, 0.85)',
+            padding: '6px 16px',
+            borderRadius: 8,
+            border: '1px solid #E2E8F0'
+        }}>
+            <Text style={{ fontSize: 13, color: '#475569', fontWeight: 'bold' }}>
+                聚微光 筑童心 · 为童健韶华
+            </Text>
+        </Box>
+    </Box>
+</Slide>
