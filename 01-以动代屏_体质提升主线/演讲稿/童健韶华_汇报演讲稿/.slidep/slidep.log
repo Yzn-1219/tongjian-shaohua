@@ -1,0 +1,317 @@
+=== boot pid=49996 ts=2026-09-01 22:53:13.976 cwd=C:\Users\Yanzongning\Desktop\童健韶华资料库\童健韶华_汇报演讲稿 argv=C:\Users\Yanzongning\.workbuddy\binaries\node\versions\22.22.2\node_modules\@tencent\slidep\dist\slidep-start.js --project . --filename 童健韶华_汇报演讲稿.pptx ===
+[2026-09-01 22:53:13.973] [INFO ] [pid=49996] [start] invoked pid=49996 cwd=C:\Users\Yanzongning\Desktop\童健韶华资料库\童健韶华_汇报演讲稿 daemonChild=no dev=no argv=[--project . --filename 童健韶华_汇报演讲稿.pptx]
+[2026-09-01 22:53:13.977] [INFO ] [pid=49996] [start] spawning daemon projectDir=C:\Users\Yanzongning\Desktop\童健韶华资料库\童健韶华_汇报演讲稿 filename=童健韶华_汇报演讲稿.pptx
+[2026-09-01 22:53:13.991] [INFO ] [pid=49996] [start] daemon spawned childPid=27604; waiting started ipc
+=== boot pid=27604 ts=2026-09-01 22:53:15.506 cwd=C:\Users\Yanzongning\Desktop\童健韶华资料库\童健韶华_汇报演讲稿 argv=C:\Users\Yanzongning\.workbuddy\binaries\node\versions\22.22.2\node_modules\@tencent\slidep\dist\slidep-start.js --project . --filename 童健韶华_汇报演讲稿.pptx --__daemon-child ===
+[2026-09-01 22:53:15.504] [INFO ] [pid=27604] [start] invoked pid=27604 cwd=C:\Users\Yanzongning\Desktop\童健韶华资料库\童健韶华_汇报演讲稿 daemonChild=yes dev=no argv=[--project . --filename 童健韶华_汇报演讲稿.pptx --__daemon-child]
+[2026-09-01 22:53:15.508] [INFO ] [pid=27604] [start] daemon child runWorker ppid=49996
+[2026-09-01 22:53:15.508] [INFO ] [pid=27604] [worker] start projectDir=C:\Users\Yanzongning\Desktop\童健韶华资料库\童健韶华_汇报演讲稿 filename=童健韶华_汇报演讲稿.pptx version=5.4.4
+[2026-09-01 22:53:15.510] [INFO ] [pid=27604] [worker] init ok dirs=ready
+[2026-09-01 22:53:15.510] [INFO ] [pid=27604] [server-url] env TENCENT_DOCS_LOCAL_MCP = http://127.0.0.1:39099/mcp
+[2026-09-01 22:53:15.511] [INFO ] [pid=27604] [worker] openFile start
+[2026-09-01 22:53:15.513] [INFO ] [pid=27604] [open-file] copy blank.pptx start src=C:\Users\Yanzongning\.workbuddy\binaries\node\versions\22.22.2\node_modules\@tencent\slidep\dist\resources\pptx\blank.pptx dest=C:\Users\Yanzongning\Desktop\童健韶华资料库\童健韶华_汇报演讲稿\童健韶华_汇报演讲稿.pptx
+[2026-09-01 22:53:15.522] [INFO ] [pid=27604] [open-file] copy blank.pptx ok dest=C:\Users\Yanzongning\Desktop\童健韶华资料库\童健韶华_汇报演讲稿\童健韶华_汇报演讲稿.pptx ms=8
+[2026-09-01 22:53:15.558] [ERROR] [pid=27604] [http] editorStatus http 404 url=http://127.0.0.1:39099/api/editor/status body={"code":-1,"message":"no editor open for file_path=C:\\Users\\Yanzongning\\Desktop\\童健韶华资料库\\童健韶华_汇报演讲稿\\童健韶华_汇报演讲稿.pptx"} ms=35
+[2026-09-01 22:53:15.559] [INFO ] [pid=27604] [open-file] open send url=http://127.0.0.1:39099/localapi/open filePath=C:\Users\Yanzongning\Desktop\童健韶华资料库\童健韶华_汇报演讲稿\童健韶华_汇报演讲稿.pptx
+[2026-09-01 22:53:15.568] [INFO ] [pid=27604] [open-file] open ok fileId=BA843CCA fileType=slide filePath=C:\Users\Yanzongning\Desktop\童健韶华资料库\童健韶华_汇报演讲稿\童健韶华_汇报演讲稿.pptx ms=7
+[2026-09-01 22:53:15.568] [INFO ] [pid=27604] [worker] openFile ok fileId=BA843CCA filePath=C:\Users\Yanzongning\Desktop\童健韶华资料库\童健韶华_汇报演讲稿\童健韶华_汇报演讲稿.pptx
+[2026-09-01 22:53:15.569] [INFO ] [pid=27604] [worker] previewUrl=http://127.0.0.1:39099/static/slide/pc.html?local_edit=1&client=sdk_local&localFilePath=C%3A%5CUsers%5CYanzongning%5CDesktop%5C%E7%AB%A5%E5%81%A5%E9%9F%B6%E5%8D%8E%E8%B5%84%E6%96%99%E5%BA%93%5C%E7%AB%A5%E5%81%A5%E9%9F%B6%E5%8D%8E_%E6%B1%87%E6%8A%A5%E6%BC%94%E8%AE%B2%E7%A8%BF%5C%E7%AB%A5%E5%81%A5%E9%9F%B6%E5%8D%8E_%E6%B1%87%E6%8A%A5%E6%BC%94%E8%AE%B2%E7%A8%BF.pptx
+[2026-09-01 22:53:15.570] [INFO ] [pid=27604] [state] state.json not found, creating path=C:\Users\Yanzongning\Desktop\童健韶华资料库\童健韶华_汇报演讲稿\.slidep\state.json filePath=C:\Users\Yanzongning\Desktop\童健韶华资料库\童健韶华_汇报演讲稿\童健韶华_汇报演讲稿.pptx
+[2026-09-01 22:53:15.573] [INFO ] [pid=27604] [worker] commitEndpoint=http://127.0.0.1:39099/localapi/commitrevision
+[2026-09-01 22:53:15.577] [INFO ] [pid=27604] [mcp] mcp:slide_get_info send url=http://127.0.0.1:39099/mcp args={"file_id":"BA843CCA-2213-4013-B0B9-541580482FBC"}
+[2026-09-01 22:53:15.581] [INFO ] [pid=27604] [mcp] mcp:slide_get_info ok ms=3
+[2026-09-01 22:53:15.582] [INFO ] [pid=27604] [purge] purge start backendSlideCount=0
+[2026-09-01 22:53:15.582] [INFO ] [pid=27604] [purge] purge ok removed=0 ms=8
+[2026-09-01 22:53:15.583] [INFO ] [pid=27604] [worker] initial sync submitted pages=5
+[2026-09-01 22:53:15.584] [INFO ] [pid=27604] [sync] submit nextRound=1 dirty=<none> pendingDirtySize=0 merged=no
+[2026-09-01 22:53:15.585] [INFO ] [pid=27604] [sync] drain start round=1 pendingDirtySize=0
+[2026-09-01 22:53:15.586] [INFO ] [pid=27604] [sync] step=add round=1 attempt=1 pageId=01 index=0
+[2026-09-01 22:53:15.587] [INFO ] [pid=27604] [backend-ops] addSlideAt start pageId=01 index=0
+[2026-09-01 22:53:15.588] [INFO ] [pid=27604] [render] start pageId=01 file=C:\Users\Yanzongning\Desktop\童健韶华资料库\童健韶华_汇报演讲稿\slides\01.slide
+[2026-09-01 22:53:15.595] [INFO ] [pid=27604] [worker] ready fileId=BA843CCA backendUrl=http://127.0.0.1:39099 initialPages=5 ms=87
+[2026-09-01 22:53:15.595] [INFO ] [pid=49996] [start] daemon started childPid=27604 ms=1618
+[2026-09-01 22:53:16.358] [INFO ] [pid=27604] [render] ok pageId=01 slides=1 ms=770
+[2026-09-01 22:53:16.359] [INFO ] [pid=27604] [render] renderSlideData result.resources={ images: {}, videos: {}, audios: {}, fonts: {} }
+[2026-09-01 22:53:16.372] [INFO ] [pid=27604] [commit] commit send pageId=77e8e3 targetIndex=0 version=1 baseVersion=0 revisionBytes=12244
+[2026-09-01 22:53:16.380] [INFO ] [pid=27604] [commit] commit ok pageId=77e8e3 revisionId=11f9f489 ms=6
+[2026-09-01 22:53:16.382] [INFO ] [pid=27604] [backend-ops] addSlideAt ok pageId=01 slideId=77e8e3 index=0 version=1 baseVersion=0 revisionId=11f9f489 code=0 images=[local=0 remote=0 cached=0 failed=0] ms=795
+[2026-09-01 22:53:16.383] [INFO ] [pid=27604] [sync] step=add round=1 attempt=1 pageId=02 index=1
+[2026-09-01 22:53:16.384] [INFO ] [pid=27604] [backend-ops] addSlideAt start pageId=02 index=1
+[2026-09-01 22:53:16.384] [INFO ] [pid=27604] [render] start pageId=02 file=C:\Users\Yanzongning\Desktop\童健韶华资料库\童健韶华_汇报演讲稿\slides\02.slide
+[2026-09-01 22:53:16.441] [INFO ] [pid=27604] [render] ok pageId=02 slides=1 ms=57
+[2026-09-01 22:53:16.442] [INFO ] [pid=27604] [render] renderSlideData result.resources={ images: {}, videos: {}, audios: {}, fonts: {} }
+[2026-09-01 22:53:16.447] [INFO ] [pid=27604] [commit] commit send pageId=2b40d1 targetIndex=1 version=2 baseVersion=1 revisionBytes=12480
+[2026-09-01 22:53:16.455] [INFO ] [pid=27604] [watcher] ready dir=C:\Users\Yanzongning\Desktop\童健韶华资料库\童健韶华_汇报演讲稿\slides
+[2026-09-01 22:53:16.458] [INFO ] [pid=27604] [commit] commit ok pageId=2b40d1 revisionId=b12e82cf ms=10
+[2026-09-01 22:53:16.461] [INFO ] [pid=27604] [backend-ops] addSlideAt ok pageId=02 slideId=2b40d1 index=1 version=2 baseVersion=1 revisionId=b12e82cf code=0 images=[local=0 remote=0 cached=0 failed=0] ms=77
+[2026-09-01 22:53:16.461] [INFO ] [pid=27604] [sync] step=add round=1 attempt=1 pageId=03 index=2
+[2026-09-01 22:53:16.462] [INFO ] [pid=27604] [backend-ops] addSlideAt start pageId=03 index=2
+[2026-09-01 22:53:16.463] [INFO ] [pid=27604] [render] start pageId=03 file=C:\Users\Yanzongning\Desktop\童健韶华资料库\童健韶华_汇报演讲稿\slides\03.slide
+[2026-09-01 22:53:16.506] [INFO ] [pid=27604] [render] ok pageId=03 slides=1 ms=43
+[2026-09-01 22:53:16.507] [INFO ] [pid=27604] [render] renderSlideData result.resources={ images: {}, videos: {}, audios: {}, fonts: {} }
+[2026-09-01 22:53:16.512] [INFO ] [pid=27604] [commit] commit send pageId=287fca targetIndex=2 version=3 baseVersion=2 revisionBytes=13456
+[2026-09-01 22:53:16.517] [INFO ] [pid=27604] [commit] commit ok pageId=287fca revisionId=795c454d ms=4
+[2026-09-01 22:53:16.521] [INFO ] [pid=27604] [backend-ops] addSlideAt ok pageId=03 slideId=287fca index=2 version=3 baseVersion=2 revisionId=795c454d code=0 images=[local=0 remote=0 cached=0 failed=0] ms=59
+[2026-09-01 22:53:16.522] [INFO ] [pid=27604] [sync] step=add round=1 attempt=1 pageId=04 index=3
+[2026-09-01 22:53:16.522] [INFO ] [pid=27604] [backend-ops] addSlideAt start pageId=04 index=3
+[2026-09-01 22:53:16.523] [INFO ] [pid=27604] [render] start pageId=04 file=C:\Users\Yanzongning\Desktop\童健韶华资料库\童健韶华_汇报演讲稿\slides\04.slide
+[2026-09-01 22:53:16.564] [INFO ] [pid=27604] [render] ok pageId=04 slides=1 ms=41
+[2026-09-01 22:53:16.565] [INFO ] [pid=27604] [render] renderSlideData result.resources={ images: {}, videos: {}, audios: {}, fonts: {} }
+[2026-09-01 22:53:16.569] [INFO ] [pid=27604] [commit] commit send pageId=ec4e3f targetIndex=3 version=4 baseVersion=3 revisionBytes=18976
+[2026-09-01 22:53:16.574] [INFO ] [pid=27604] [commit] commit ok pageId=ec4e3f revisionId=6d26e2bc ms=5
+[2026-09-01 22:53:16.576] [INFO ] [pid=27604] [backend-ops] addSlideAt ok pageId=04 slideId=ec4e3f index=3 version=4 baseVersion=3 revisionId=6d26e2bc code=0 images=[local=0 remote=0 cached=0 failed=0] ms=54
+[2026-09-01 22:53:16.577] [INFO ] [pid=27604] [sync] step=add round=1 attempt=1 pageId=05 index=4
+[2026-09-01 22:53:16.578] [INFO ] [pid=27604] [backend-ops] addSlideAt start pageId=05 index=4
+[2026-09-01 22:53:16.579] [INFO ] [pid=27604] [render] start pageId=05 file=C:\Users\Yanzongning\Desktop\童健韶华资料库\童健韶华_汇报演讲稿\slides\05.slide
+[2026-09-01 22:53:16.625] [INFO ] [pid=27604] [render] ok pageId=05 slides=1 ms=46
+[2026-09-01 22:53:16.626] [INFO ] [pid=27604] [render] renderSlideData result.resources={ images: {}, videos: {}, audios: {}, fonts: {} }
+[2026-09-01 22:53:16.630] [INFO ] [pid=27604] [commit] commit send pageId=27fe3e targetIndex=4 version=5 baseVersion=4 revisionBytes=19240
+[2026-09-01 22:53:16.636] [INFO ] [pid=27604] [commit] commit ok pageId=27fe3e revisionId=b1ba991f ms=6
+[2026-09-01 22:53:16.639] [INFO ] [pid=27604] [backend-ops] addSlideAt ok pageId=05 slideId=27fe3e index=4 version=5 baseVersion=4 revisionId=b1ba991f code=0 images=[local=0 remote=0 cached=0 failed=0] ms=61
+[2026-09-01 22:53:16.639] [INFO ] [pid=27604] [sync] aligned round=1 attempt=1 size=5 desired=5 pendingDirtySize=0
+[2026-09-01 22:53:16.640] [INFO ] [pid=27604] [sync] reconcile ok round=1 attempt=1 ms=1055
+[2026-09-01 22:53:16.641] [INFO ] [pid=27604] [backend-ops] save start file=C:\Users\Yanzongning\Desktop\童健韶华资料库\童健韶华_汇报演讲稿\童健韶华_汇报演讲稿.pptx
+[2026-09-01 22:53:16.641] [INFO ] [pid=27604] [commit] save send filePath=C:\Users\Yanzongning\Desktop\童健韶华资料库\童健韶华_汇报演讲稿\童健韶华_汇报演讲稿.pptx
+[2026-09-01 22:53:16.676] [INFO ] [pid=27604] [commit] save ok file_path=C:\Users\Yanzongning\Desktop\童健韶华资料库\童健韶华_汇报演讲稿\童健韶华_汇报演讲稿.pptx ms=34
+[2026-09-01 22:53:16.677] [INFO ] [pid=27604] [backend-ops] save ok file_path=C:\Users\Yanzongning\Desktop\童健韶华资料库\童健韶华_汇报演讲稿\童健韶华_汇报演讲稿.pptx ms=37
+[2026-09-01 22:53:16.677] [INFO ] [pid=27604] [sync] drain end round=1 reconciles=1 mergedSubmits=1 pendingDirtySize=0 ms=1092
+=== boot pid=18048 ts=2026-09-01 22:53:29.459 cwd=C:\Users\Yanzongning\Desktop\童健韶华资料库\童健韶华_汇报演讲稿 argv=C:\Users\Yanzongning\.workbuddy\binaries\node\versions\22.22.2\node_modules\@tencent\slidep\dist\slidep-validate.js --all --project . ===
+[2026-09-01 22:53:29.456] [INFO ] [pid=18048] [validate] --all mode: found 5 files in C:\Users\Yanzongning\Desktop\童健韶华资料库\童健韶华_汇报演讲稿\slides
+[2026-09-01 22:53:29.461] [INFO ] [pid=18048] [validate] batch start files=5 checkOverflow=true
+[2026-09-01 22:53:30.549] [INFO ] [pid=18048] [validate] batch done total=5 passed=5 failed=0 ms=1094
+[2026-09-01 23:17:50.732] [INFO ] [pid=27604] [watcher] event=unlink file=slides\05.slide
+[2026-09-01 23:17:50.733] [INFO ] [pid=27604] [sync] submit nextRound=2 dirty=<none> pendingDirtySize=0 merged=no
+[2026-09-01 23:17:50.734] [INFO ] [pid=27604] [sync] drain start round=2 pendingDirtySize=0
+[2026-09-01 23:17:50.735] [INFO ] [pid=27604] [sync] step=remove-orphan round=2 attempt=1 pageId=05 index=4
+[2026-09-01 23:17:50.736] [INFO ] [pid=27604] [backend-ops] removeSlideAt start index=4
+[2026-09-01 23:17:50.741] [INFO ] [pid=27604] [mcp] mcp:slide_remove_slide send url=http://127.0.0.1:39099/mcp args={"file_id":"sid_mtisf1b5_joqpf942","page_index":4}
+[2026-09-01 23:17:50.746] [INFO ] [pid=27604] [mcp] mcp:slide_remove_slide ok ms=3
+[2026-09-01 23:17:50.747] [INFO ] [pid=27604] [backend-ops] removeSlideAt ok index=4 serverVersion=6 ms=11
+[2026-09-01 23:17:50.748] [INFO ] [pid=27604] [sync] step=add round=2 attempt=1 pageId=06 index=4
+[2026-09-01 23:17:50.749] [INFO ] [pid=27604] [backend-ops] addSlideAt start pageId=06 index=4
+[2026-09-01 23:17:50.751] [INFO ] [pid=27604] [render] start pageId=06 file=C:\Users\Yanzongning\Desktop\童健韶华资料库\童健韶华_汇报演讲稿\slides\06.slide
+[2026-09-01 23:17:50.835] [INFO ] [pid=27604] [render] ok pageId=06 slides=1 ms=84
+[2026-09-01 23:17:50.836] [INFO ] [pid=27604] [render] renderSlideData result.resources={ images: {}, videos: {}, audios: {}, fonts: {} }
+[2026-09-01 23:17:50.846] [INFO ] [pid=27604] [commit] commit send pageId=57abb3 targetIndex=4 version=6 baseVersion=6 revisionBytes=19252
+[2026-09-01 23:17:50.850] [INFO ] [pid=27604] [watcher] event=add file=slides\06.slide
+[2026-09-01 23:17:50.854] [INFO ] [pid=27604] [commit] commit ok pageId=57abb3 revisionId=3b818449 ms=6
+[2026-09-01 23:17:50.858] [INFO ] [pid=27604] [backend-ops] addSlideAt ok pageId=06 slideId=57abb3 index=4 version=6 baseVersion=6 revisionId=3b818449 code=0 images=[local=0 remote=0 cached=0 failed=0] ms=109
+[2026-09-01 23:17:50.861] [INFO ] [pid=27604] [sync] aligned round=2 attempt=1 size=5 desired=5 pendingDirtySize=0
+[2026-09-01 23:17:50.862] [INFO ] [pid=27604] [sync] reconcile ok round=2 attempt=1 ms=127
+[2026-09-01 23:17:50.863] [INFO ] [pid=27604] [backend-ops] save start file=C:\Users\Yanzongning\Desktop\童健韶华资料库\童健韶华_汇报演讲稿\童健韶华_汇报演讲稿.pptx
+[2026-09-01 23:17:50.864] [INFO ] [pid=27604] [commit] save send filePath=C:\Users\Yanzongning\Desktop\童健韶华资料库\童健韶华_汇报演讲稿\童健韶华_汇报演讲稿.pptx
+[2026-09-01 23:17:50.869] [ERROR] [pid=27604] [http] save http 500 url=http://127.0.0.1:39099/localapi/save body={"code":10201,"message":"[10201]Export file is occupied: C:\\Users\\Yanzongning\\Desktop\\童健韶华资料库\\童健韶华_汇报演讲稿\\童健韶华_汇报演讲稿.pptx@TimePointBegin1788275870868|0@TimePointEnd"} ms=5
+[2026-09-01 23:17:50.870] [ERROR] [pid=27604] [backend-ops] save FAIL file=C:\Users\Yanzongning\Desktop\童健韶华资料库\童健韶华_汇报演讲稿\童健韶华_汇报演讲稿.pptx ms=7
+[2026-09-01 23:17:50.871] [ERROR] [pid=27604] [sync] save FAIL round=2 HttpStatusError: save bad response: HTTP 500 body={"code":10201,"message":"[10201]Export file is occupied: C:\\Users\\Yanzongning\\Desktop\\童健韶华资料库\\童健韶华_汇报演讲稿\\童健韶华_汇报演讲稿.pptx@TimePointBegin1788275870868|0@TimePointEnd"}
+    at v6 (C:\Users\Yanzongning\.workbuddy\binaries\node\versions\22.22.2\node_modules\@tencent\slidep\dist\slidep.js:5995:476590)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async C:\Users\Yanzongning\.workbuddy\binaries\node\versions\22.22.2\node_modules\@tencent\slidep\dist\slidep.js:5995:485008
+    at async Sw.withReopenRetry (C:\Users\Yanzongning\.workbuddy\binaries\node\versions\22.22.2\node_modules\@tencent\slidep\dist\slidep.js:5995:483350)
+    at async mh.save (C:\Users\Yanzongning\.workbuddy\binaries\node\versions\22.22.2\node_modules\@tencent\slidep\dist\slidep.js:5993:19870)
+    at async L.drain (C:\Users\Yanzongning\.workbuddy\binaries\node\versions\22.22.2\node_modules\@tencent\slidep\dist\slidep.js:5993:22625)
+[2026-09-01 23:17:50.901] [INFO ] [pid=27604] [sync] drain end round=2 reconciles=1 mergedSubmits=1 pendingDirtySize=0 ms=167
+[2026-09-01 23:17:51.351] [INFO ] [pid=27604] [watcher] event=unlink file=slides\04.slide
+[2026-09-01 23:17:51.352] [INFO ] [pid=27604] [watcher] flush batch dirty=[06] size=1
+[2026-09-01 23:17:51.353] [INFO ] [pid=27604] [sync] submit nextRound=3 dirty=06 pendingDirtySize=1 merged=no
+[2026-09-01 23:17:51.354] [INFO ] [pid=27604] [sync] drain start round=3 pendingDirtySize=1
+[2026-09-01 23:17:51.355] [INFO ] [pid=27604] [sync] step=remove-orphan round=3 attempt=1 pageId=04 index=3
+[2026-09-01 23:17:51.356] [INFO ] [pid=27604] [backend-ops] removeSlideAt start index=3
+[2026-09-01 23:17:51.357] [INFO ] [pid=27604] [sync] submit round=3 dirty=<none> pendingDirtySize=1 merged=yes
+[2026-09-01 23:17:51.360] [INFO ] [pid=27604] [mcp] mcp:slide_remove_slide send url=http://127.0.0.1:39099/mcp args={"file_id":"sid_mtisf1b5_joqpf942","page_index":3}
+[2026-09-01 23:17:51.364] [INFO ] [pid=27604] [mcp] mcp:slide_remove_slide ok ms=3
+[2026-09-01 23:17:51.365] [INFO ] [pid=27604] [backend-ops] removeSlideAt ok index=3 serverVersion=8 ms=9
+[2026-09-01 23:17:51.366] [INFO ] [pid=27604] [sync] step=remove-dirty round=3 attempt=1 pageId=06 index=3
+[2026-09-01 23:17:51.367] [INFO ] [pid=27604] [backend-ops] removeSlideAt start index=3
+[2026-09-01 23:17:51.370] [INFO ] [pid=27604] [mcp] mcp:slide_remove_slide send url=http://127.0.0.1:39099/mcp args={"file_id":"sid_mtisf1b5_joqpf942","page_index":3}
+[2026-09-01 23:17:51.374] [INFO ] [pid=27604] [mcp] mcp:slide_remove_slide ok ms=2
+[2026-09-01 23:17:51.375] [INFO ] [pid=27604] [backend-ops] removeSlideAt ok index=3 serverVersion=9 ms=8
+[2026-09-01 23:17:51.376] [INFO ] [pid=27604] [sync] step=add round=3 attempt=1 pageId=05 index=3
+[2026-09-01 23:17:51.377] [INFO ] [pid=27604] [backend-ops] addSlideAt start pageId=05 index=3
+[2026-09-01 23:17:51.379] [INFO ] [pid=27604] [render] start pageId=05 file=C:\Users\Yanzongning\Desktop\童健韶华资料库\童健韶华_汇报演讲稿\slides\05.slide
+[2026-09-01 23:17:51.417] [INFO ] [pid=27604] [render] ok pageId=05 slides=1 ms=38
+[2026-09-01 23:17:51.418] [INFO ] [pid=27604] [render] renderSlideData result.resources={ images: {}, videos: {}, audios: {}, fonts: {} }
+[2026-09-01 23:17:51.423] [INFO ] [pid=27604] [commit] commit send pageId=91f271 targetIndex=3 version=7 baseVersion=9 revisionBytes=18988
+[2026-09-01 23:17:51.430] [INFO ] [pid=27604] [commit] commit ok pageId=91f271 revisionId=09be4b29 ms=5
+[2026-09-01 23:17:51.436] [INFO ] [pid=27604] [backend-ops] addSlideAt ok pageId=05 slideId=91f271 index=3 version=7 baseVersion=9 revisionId=09be4b29 code=0 images=[local=0 remote=0 cached=0 failed=0] ms=59
+[2026-09-01 23:17:51.437] [INFO ] [pid=27604] [sync] step=add round=3 attempt=1 pageId=06 index=4
+[2026-09-01 23:17:51.438] [INFO ] [pid=27604] [backend-ops] addSlideAt start pageId=06 index=4
+[2026-09-01 23:17:51.440] [INFO ] [pid=27604] [render] start pageId=06 file=C:\Users\Yanzongning\Desktop\童健韶华资料库\童健韶华_汇报演讲稿\slides\06.slide
+[2026-09-01 23:17:51.484] [INFO ] [pid=27604] [render] ok pageId=06 slides=1 ms=44
+[2026-09-01 23:17:51.486] [INFO ] [pid=27604] [render] renderSlideData result.resources={ images: {}, videos: {}, audios: {}, fonts: {} }
+[2026-09-01 23:17:51.490] [INFO ] [pid=27604] [commit] commit send pageId=983523 targetIndex=4 version=8 baseVersion=10 revisionBytes=19256
+[2026-09-01 23:17:51.493] [INFO ] [pid=27604] [watcher] event=add file=slides\05.slide
+[2026-09-01 23:17:51.497] [INFO ] [pid=27604] [commit] commit ok pageId=983523 revisionId=93b784d0 ms=6
+[2026-09-01 23:17:51.501] [INFO ] [pid=27604] [backend-ops] addSlideAt ok pageId=06 slideId=983523 index=4 version=8 baseVersion=10 revisionId=93b784d0 code=0 images=[local=0 remote=0 cached=0 failed=0] ms=63
+[2026-09-01 23:17:51.502] [INFO ] [pid=27604] [sync] aligned round=3 attempt=1 size=5 desired=5 pendingDirtySize=0
+[2026-09-01 23:17:51.503] [INFO ] [pid=27604] [sync] reconcile ok round=3 attempt=1 ms=148
+[2026-09-01 23:17:51.505] [INFO ] [pid=27604] [sync] aligned round=3 attempt=2 size=5 desired=5 pendingDirtySize=0
+[2026-09-01 23:17:51.506] [INFO ] [pid=27604] [sync] reconcile ok round=3 attempt=2 ms=2
+[2026-09-01 23:17:51.506] [INFO ] [pid=27604] [backend-ops] save start file=C:\Users\Yanzongning\Desktop\童健韶华资料库\童健韶华_汇报演讲稿\童健韶华_汇报演讲稿.pptx
+[2026-09-01 23:17:51.508] [INFO ] [pid=27604] [commit] save send filePath=C:\Users\Yanzongning\Desktop\童健韶华资料库\童健韶华_汇报演讲稿\童健韶华_汇报演讲稿.pptx
+[2026-09-01 23:17:51.514] [ERROR] [pid=27604] [http] save http 500 url=http://127.0.0.1:39099/localapi/save body={"code":10201,"message":"[10201]Export file is occupied: C:\\Users\\Yanzongning\\Desktop\\童健韶华资料库\\童健韶华_汇报演讲稿\\童健韶华_汇报演讲稿.pptx@TimePointBegin1788275871513|0@TimePointEnd"} ms=5
+[2026-09-01 23:17:51.516] [ERROR] [pid=27604] [backend-ops] save FAIL file=C:\Users\Yanzongning\Desktop\童健韶华资料库\童健韶华_汇报演讲稿\童健韶华_汇报演讲稿.pptx ms=10
+[2026-09-01 23:17:51.517] [ERROR] [pid=27604] [sync] save FAIL round=3 HttpStatusError: save bad response: HTTP 500 body={"code":10201,"message":"[10201]Export file is occupied: C:\\Users\\Yanzongning\\Desktop\\童健韶华资料库\\童健韶华_汇报演讲稿\\童健韶华_汇报演讲稿.pptx@TimePointBegin1788275871513|0@TimePointEnd"}
+    at v6 (C:\Users\Yanzongning\.workbuddy\binaries\node\versions\22.22.2\node_modules\@tencent\slidep\dist\slidep.js:5995:476590)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async C:\Users\Yanzongning\.workbuddy\binaries\node\versions\22.22.2\node_modules\@tencent\slidep\dist\slidep.js:5995:485008
+    at async Sw.withReopenRetry (C:\Users\Yanzongning\.workbuddy\binaries\node\versions\22.22.2\node_modules\@tencent\slidep\dist\slidep.js:5995:483350)
+    at async mh.save (C:\Users\Yanzongning\.workbuddy\binaries\node\versions\22.22.2\node_modules\@tencent\slidep\dist\slidep.js:5993:19870)
+    at async L.drain (C:\Users\Yanzongning\.workbuddy\binaries\node\versions\22.22.2\node_modules\@tencent\slidep\dist\slidep.js:5993:22625)
+[2026-09-01 23:17:51.518] [INFO ] [pid=27604] [sync] drain end round=3 reconciles=2 mergedSubmits=2 pendingDirtySize=0 ms=164
+[2026-09-01 23:17:51.995] [INFO ] [pid=27604] [watcher] flush batch dirty=[05] size=1
+[2026-09-01 23:17:51.996] [INFO ] [pid=27604] [sync] submit nextRound=4 dirty=05 pendingDirtySize=1 merged=no
+[2026-09-01 23:17:51.997] [INFO ] [pid=27604] [sync] drain start round=4 pendingDirtySize=1
+[2026-09-01 23:17:51.998] [INFO ] [pid=27604] [sync] step=remove-dirty round=4 attempt=1 pageId=05 index=3
+[2026-09-01 23:17:51.999] [INFO ] [pid=27604] [backend-ops] removeSlideAt start index=3
+[2026-09-01 23:17:52.004] [INFO ] [pid=27604] [mcp] mcp:slide_remove_slide send url=http://127.0.0.1:39099/mcp args={"file_id":"sid_mtisf1b5_joqpf942","page_index":3}
+[2026-09-01 23:17:52.008] [INFO ] [pid=27604] [mcp] mcp:slide_remove_slide ok ms=3
+[2026-09-01 23:17:52.010] [INFO ] [pid=27604] [backend-ops] removeSlideAt ok index=3 serverVersion=12 ms=11
+[2026-09-01 23:17:52.011] [INFO ] [pid=27604] [sync] step=add round=4 attempt=1 pageId=05 index=3
+[2026-09-01 23:17:52.012] [INFO ] [pid=27604] [backend-ops] addSlideAt start pageId=05 index=3
+[2026-09-01 23:17:52.014] [INFO ] [pid=27604] [render] start pageId=05 file=C:\Users\Yanzongning\Desktop\童健韶华资料库\童健韶华_汇报演讲稿\slides\05.slide
+[2026-09-01 23:17:52.054] [INFO ] [pid=27604] [render] ok pageId=05 slides=1 ms=40
+[2026-09-01 23:17:52.055] [INFO ] [pid=27604] [render] renderSlideData result.resources={ images: {}, videos: {}, audios: {}, fonts: {} }
+[2026-09-01 23:17:52.061] [INFO ] [pid=27604] [commit] commit send pageId=11ce27 targetIndex=3 version=9 baseVersion=12 revisionBytes=18988
+[2026-09-01 23:17:52.067] [INFO ] [pid=27604] [commit] commit ok pageId=11ce27 revisionId=9a34bf6c ms=5
+[2026-09-01 23:17:52.071] [INFO ] [pid=27604] [backend-ops] addSlideAt ok pageId=05 slideId=11ce27 index=3 version=9 baseVersion=12 revisionId=9a34bf6c code=0 images=[local=0 remote=0 cached=0 failed=0] ms=59
+[2026-09-01 23:17:52.072] [INFO ] [pid=27604] [sync] aligned round=4 attempt=1 size=5 desired=5 pendingDirtySize=0
+[2026-09-01 23:17:52.073] [INFO ] [pid=27604] [sync] reconcile ok round=4 attempt=1 ms=75
+[2026-09-01 23:17:52.074] [INFO ] [pid=27604] [backend-ops] save start file=C:\Users\Yanzongning\Desktop\童健韶华资料库\童健韶华_汇报演讲稿\童健韶华_汇报演讲稿.pptx
+[2026-09-01 23:17:52.074] [INFO ] [pid=27604] [commit] save send filePath=C:\Users\Yanzongning\Desktop\童健韶华资料库\童健韶华_汇报演讲稿\童健韶华_汇报演讲稿.pptx
+[2026-09-01 23:17:52.080] [ERROR] [pid=27604] [http] save http 500 url=http://127.0.0.1:39099/localapi/save body={"code":10201,"message":"[10201]Export file is occupied: C:\\Users\\Yanzongning\\Desktop\\童健韶华资料库\\童健韶华_汇报演讲稿\\童健韶华_汇报演讲稿.pptx@TimePointBegin1788275872078|0@TimePointEnd"} ms=4
+[2026-09-01 23:17:52.081] [ERROR] [pid=27604] [backend-ops] save FAIL file=C:\Users\Yanzongning\Desktop\童健韶华资料库\童健韶华_汇报演讲稿\童健韶华_汇报演讲稿.pptx ms=7
+[2026-09-01 23:17:52.081] [ERROR] [pid=27604] [sync] save FAIL round=4 HttpStatusError: save bad response: HTTP 500 body={"code":10201,"message":"[10201]Export file is occupied: C:\\Users\\Yanzongning\\Desktop\\童健韶华资料库\\童健韶华_汇报演讲稿\\童健韶华_汇报演讲稿.pptx@TimePointBegin1788275872078|0@TimePointEnd"}
+    at v6 (C:\Users\Yanzongning\.workbuddy\binaries\node\versions\22.22.2\node_modules\@tencent\slidep\dist\slidep.js:5995:476590)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async C:\Users\Yanzongning\.workbuddy\binaries\node\versions\22.22.2\node_modules\@tencent\slidep\dist\slidep.js:5995:485008
+    at async Sw.withReopenRetry (C:\Users\Yanzongning\.workbuddy\binaries\node\versions\22.22.2\node_modules\@tencent\slidep\dist\slidep.js:5995:483350)
+    at async mh.save (C:\Users\Yanzongning\.workbuddy\binaries\node\versions\22.22.2\node_modules\@tencent\slidep\dist\slidep.js:5993:19870)
+    at async L.drain (C:\Users\Yanzongning\.workbuddy\binaries\node\versions\22.22.2\node_modules\@tencent\slidep\dist\slidep.js:5993:22625)
+[2026-09-01 23:17:52.082] [INFO ] [pid=27604] [sync] drain end round=4 reconciles=1 mergedSubmits=1 pendingDirtySize=0 ms=85
+[2026-09-01 23:18:09.545] [INFO ] [pid=27604] [watcher] event=add file=slides\04.slide
+[2026-09-01 23:18:10.059] [INFO ] [pid=27604] [watcher] flush batch dirty=[04] size=1
+[2026-09-01 23:18:10.060] [INFO ] [pid=27604] [sync] submit nextRound=5 dirty=04 pendingDirtySize=1 merged=no
+[2026-09-01 23:18:10.061] [INFO ] [pid=27604] [sync] drain start round=5 pendingDirtySize=1
+[2026-09-01 23:18:10.061] [INFO ] [pid=27604] [sync] step=add round=5 attempt=1 pageId=04 index=3
+[2026-09-01 23:18:10.062] [INFO ] [pid=27604] [backend-ops] addSlideAt start pageId=04 index=3
+[2026-09-01 23:18:10.064] [INFO ] [pid=27604] [render] start pageId=04 file=C:\Users\Yanzongning\Desktop\童健韶华资料库\童健韶华_汇报演讲稿\slides\04.slide
+[2026-09-01 23:18:10.113] [INFO ] [pid=27604] [render] ok pageId=04 slides=1 ms=49
+[2026-09-01 23:18:10.114] [INFO ] [pid=27604] [render] renderSlideData result.resources={ images: {}, videos: {}, audios: {}, fonts: {} }
+[2026-09-01 23:18:10.117] [INFO ] [pid=27604] [commit] commit send pageId=a952de targetIndex=3 version=10 baseVersion=13 revisionBytes=19968
+[2026-09-01 23:18:10.123] [INFO ] [pid=27604] [commit] commit ok pageId=a952de revisionId=5cc9e889 ms=5
+[2026-09-01 23:18:10.128] [INFO ] [pid=27604] [backend-ops] addSlideAt ok pageId=04 slideId=a952de index=3 version=10 baseVersion=13 revisionId=5cc9e889 code=0 images=[local=0 remote=0 cached=0 failed=0] ms=66
+[2026-09-01 23:18:10.129] [INFO ] [pid=27604] [sync] aligned round=5 attempt=1 size=6 desired=6 pendingDirtySize=0
+[2026-09-01 23:18:10.130] [INFO ] [pid=27604] [sync] reconcile ok round=5 attempt=1 ms=69
+[2026-09-01 23:18:10.130] [INFO ] [pid=27604] [backend-ops] save start file=C:\Users\Yanzongning\Desktop\童健韶华资料库\童健韶华_汇报演讲稿\童健韶华_汇报演讲稿.pptx
+[2026-09-01 23:18:10.131] [INFO ] [pid=27604] [commit] save send filePath=C:\Users\Yanzongning\Desktop\童健韶华资料库\童健韶华_汇报演讲稿\童健韶华_汇报演讲稿.pptx
+[2026-09-01 23:18:10.136] [ERROR] [pid=27604] [http] save http 500 url=http://127.0.0.1:39099/localapi/save body={"code":10201,"message":"[10201]Export file is occupied: C:\\Users\\Yanzongning\\Desktop\\童健韶华资料库\\童健韶华_汇报演讲稿\\童健韶华_汇报演讲稿.pptx@TimePointBegin1788275890135|0@TimePointEnd"} ms=5
+[2026-09-01 23:18:10.138] [ERROR] [pid=27604] [backend-ops] save FAIL file=C:\Users\Yanzongning\Desktop\童健韶华资料库\童健韶华_汇报演讲稿\童健韶华_汇报演讲稿.pptx ms=8
+[2026-09-01 23:18:10.139] [ERROR] [pid=27604] [sync] save FAIL round=5 HttpStatusError: save bad response: HTTP 500 body={"code":10201,"message":"[10201]Export file is occupied: C:\\Users\\Yanzongning\\Desktop\\童健韶华资料库\\童健韶华_汇报演讲稿\\童健韶华_汇报演讲稿.pptx@TimePointBegin1788275890135|0@TimePointEnd"}
+    at v6 (C:\Users\Yanzongning\.workbuddy\binaries\node\versions\22.22.2\node_modules\@tencent\slidep\dist\slidep.js:5995:476590)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async C:\Users\Yanzongning\.workbuddy\binaries\node\versions\22.22.2\node_modules\@tencent\slidep\dist\slidep.js:5995:485008
+    at async Sw.withReopenRetry (C:\Users\Yanzongning\.workbuddy\binaries\node\versions\22.22.2\node_modules\@tencent\slidep\dist\slidep.js:5995:483350)
+    at async mh.save (C:\Users\Yanzongning\.workbuddy\binaries\node\versions\22.22.2\node_modules\@tencent\slidep\dist\slidep.js:5993:19870)
+    at async L.drain (C:\Users\Yanzongning\.workbuddy\binaries\node\versions\22.22.2\node_modules\@tencent\slidep\dist\slidep.js:5993:22625)
+[2026-09-01 23:18:10.139] [INFO ] [pid=27604] [sync] drain end round=5 reconciles=1 mergedSubmits=1 pendingDirtySize=0 ms=78
+[2026-09-01 23:19:47.948] [INFO ] [pid=27604] [watcher] event=unlink file=slides\04.slide
+[2026-09-01 23:19:47.951] [INFO ] [pid=27604] [sync] submit nextRound=6 dirty=<none> pendingDirtySize=0 merged=no
+[2026-09-01 23:19:47.953] [INFO ] [pid=27604] [sync] drain start round=6 pendingDirtySize=0
+[2026-09-01 23:19:47.957] [INFO ] [pid=27604] [sync] step=remove-orphan round=6 attempt=1 pageId=04 index=3
+[2026-09-01 23:19:47.958] [INFO ] [pid=27604] [backend-ops] removeSlideAt start index=3
+[2026-09-01 23:19:47.963] [INFO ] [pid=27604] [mcp] mcp:slide_remove_slide send url=http://127.0.0.1:39099/mcp args={"file_id":"sid_mtisf1b5_joqpf942","page_index":3}
+[2026-09-01 23:19:47.971] [INFO ] [pid=27604] [mcp] mcp:slide_remove_slide ok ms=7
+[2026-09-01 23:19:47.978] [INFO ] [pid=27604] [backend-ops] removeSlideAt ok index=3 serverVersion=15 ms=20
+[2026-09-01 23:19:47.983] [INFO ] [pid=27604] [sync] aligned round=6 attempt=1 size=5 desired=5 pendingDirtySize=0
+[2026-09-01 23:19:47.984] [INFO ] [pid=27604] [sync] reconcile ok round=6 attempt=1 ms=27
+[2026-09-01 23:19:47.985] [INFO ] [pid=27604] [backend-ops] save start file=C:\Users\Yanzongning\Desktop\童健韶华资料库\童健韶华_汇报演讲稿\童健韶华_汇报演讲稿.pptx
+[2026-09-01 23:19:47.987] [INFO ] [pid=27604] [commit] save send filePath=C:\Users\Yanzongning\Desktop\童健韶华资料库\童健韶华_汇报演讲稿\童健韶华_汇报演讲稿.pptx
+[2026-09-01 23:19:48.014] [ERROR] [pid=27604] [http] save http 500 url=http://127.0.0.1:39099/localapi/save body={"code":10201,"message":"[10201]Export file is occupied: C:\\Users\\Yanzongning\\Desktop\\童健韶华资料库\\童健韶华_汇报演讲稿\\童健韶华_汇报演讲稿.pptx@TimePointBegin1788275988012|1@TimePointEnd"} ms=11
+[2026-09-01 23:19:48.015] [ERROR] [pid=27604] [backend-ops] save FAIL file=C:\Users\Yanzongning\Desktop\童健韶华资料库\童健韶华_汇报演讲稿\童健韶华_汇报演讲稿.pptx ms=29
+[2026-09-01 23:19:48.015] [ERROR] [pid=27604] [sync] save FAIL round=6 HttpStatusError: save bad response: HTTP 500 body={"code":10201,"message":"[10201]Export file is occupied: C:\\Users\\Yanzongning\\Desktop\\童健韶华资料库\\童健韶华_汇报演讲稿\\童健韶华_汇报演讲稿.pptx@TimePointBegin1788275988012|1@TimePointEnd"}
+    at v6 (C:\Users\Yanzongning\.workbuddy\binaries\node\versions\22.22.2\node_modules\@tencent\slidep\dist\slidep.js:5995:476590)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async C:\Users\Yanzongning\.workbuddy\binaries\node\versions\22.22.2\node_modules\@tencent\slidep\dist\slidep.js:5995:485008
+    at async Sw.withReopenRetry (C:\Users\Yanzongning\.workbuddy\binaries\node\versions\22.22.2\node_modules\@tencent\slidep\dist\slidep.js:5995:483350)
+    at async mh.save (C:\Users\Yanzongning\.workbuddy\binaries\node\versions\22.22.2\node_modules\@tencent\slidep\dist\slidep.js:5993:19870)
+    at async L.drain (C:\Users\Yanzongning\.workbuddy\binaries\node\versions\22.22.2\node_modules\@tencent\slidep\dist\slidep.js:5993:22625)
+[2026-09-01 23:19:48.016] [INFO ] [pid=27604] [sync] drain end round=6 reconciles=1 mergedSubmits=1 pendingDirtySize=0 ms=63
+[2026-09-01 23:20:00.883] [INFO ] [pid=27604] [watcher] event=unlink file=slides\06.slide
+[2026-09-01 23:20:00.884] [INFO ] [pid=27604] [sync] submit nextRound=7 dirty=<none> pendingDirtySize=0 merged=no
+[2026-09-01 23:20:00.885] [INFO ] [pid=27604] [sync] drain start round=7 pendingDirtySize=0
+[2026-09-01 23:20:00.886] [INFO ] [pid=27604] [sync] step=remove-orphan round=7 attempt=1 pageId=06 index=4
+[2026-09-01 23:20:00.887] [INFO ] [pid=27604] [backend-ops] removeSlideAt start index=4
+[2026-09-01 23:20:00.890] [INFO ] [pid=27604] [mcp] mcp:slide_remove_slide send url=http://127.0.0.1:39099/mcp args={"file_id":"sid_mtisf1b5_joqpf942","page_index":4}
+[2026-09-01 23:20:00.893] [INFO ] [pid=27604] [mcp] mcp:slide_remove_slide ok ms=2
+[2026-09-01 23:20:00.894] [INFO ] [pid=27604] [backend-ops] removeSlideAt ok index=4 serverVersion=16 ms=7
+[2026-09-01 23:20:00.895] [INFO ] [pid=27604] [sync] step=add round=7 attempt=1 pageId=04 index=3
+[2026-09-01 23:20:00.896] [INFO ] [pid=27604] [backend-ops] addSlideAt start pageId=04 index=3
+[2026-09-01 23:20:00.897] [INFO ] [pid=27604] [render] start pageId=04 file=C:\Users\Yanzongning\Desktop\童健韶华资料库\童健韶华_汇报演讲稿\slides\04.slide
+[2026-09-01 23:20:00.927] [INFO ] [pid=27604] [render] ok pageId=04 slides=1 ms=30
+[2026-09-01 23:20:00.928] [INFO ] [pid=27604] [render] renderSlideData result.resources={ images: {}, videos: {}, audios: {}, fonts: {} }
+[2026-09-01 23:20:00.932] [INFO ] [pid=27604] [commit] commit send pageId=edea11 targetIndex=3 version=11 baseVersion=16 revisionBytes=18972
+[2026-09-01 23:20:00.937] [INFO ] [pid=27604] [commit] commit ok pageId=edea11 revisionId=bd50fd7f ms=4
+[2026-09-01 23:20:00.942] [INFO ] [pid=27604] [backend-ops] addSlideAt ok pageId=04 slideId=edea11 index=3 version=11 baseVersion=16 revisionId=bd50fd7f code=0 images=[local=0 remote=0 cached=0 failed=0] ms=46
+[2026-09-01 23:20:00.943] [INFO ] [pid=27604] [sync] aligned round=7 attempt=1 size=5 desired=5 pendingDirtySize=0
+[2026-09-01 23:20:00.943] [INFO ] [pid=27604] [sync] reconcile ok round=7 attempt=1 ms=58
+[2026-09-01 23:20:00.944] [INFO ] [pid=27604] [backend-ops] save start file=C:\Users\Yanzongning\Desktop\童健韶华资料库\童健韶华_汇报演讲稿\童健韶华_汇报演讲稿.pptx
+[2026-09-01 23:20:00.946] [INFO ] [pid=27604] [commit] save send filePath=C:\Users\Yanzongning\Desktop\童健韶华资料库\童健韶华_汇报演讲稿\童健韶华_汇报演讲稿.pptx
+[2026-09-01 23:20:00.951] [ERROR] [pid=27604] [http] save http 500 url=http://127.0.0.1:39099/localapi/save body={"code":10201,"message":"[10201]Export file is occupied: C:\\Users\\Yanzongning\\Desktop\\童健韶华资料库\\童健韶华_汇报演讲稿\\童健韶华_汇报演讲稿.pptx@TimePointBegin1788276000950|0@TimePointEnd"} ms=4
+[2026-09-01 23:20:00.952] [ERROR] [pid=27604] [backend-ops] save FAIL file=C:\Users\Yanzongning\Desktop\童健韶华资料库\童健韶华_汇报演讲稿\童健韶华_汇报演讲稿.pptx ms=8
+[2026-09-01 23:20:00.952] [ERROR] [pid=27604] [sync] save FAIL round=7 HttpStatusError: save bad response: HTTP 500 body={"code":10201,"message":"[10201]Export file is occupied: C:\\Users\\Yanzongning\\Desktop\\童健韶华资料库\\童健韶华_汇报演讲稿\\童健韶华_汇报演讲稿.pptx@TimePointBegin1788276000950|0@TimePointEnd"}
+    at v6 (C:\Users\Yanzongning\.workbuddy\binaries\node\versions\22.22.2\node_modules\@tencent\slidep\dist\slidep.js:5995:476590)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async C:\Users\Yanzongning\.workbuddy\binaries\node\versions\22.22.2\node_modules\@tencent\slidep\dist\slidep.js:5995:485008
+    at async Sw.withReopenRetry (C:\Users\Yanzongning\.workbuddy\binaries\node\versions\22.22.2\node_modules\@tencent\slidep\dist\slidep.js:5995:483350)
+    at async mh.save (C:\Users\Yanzongning\.workbuddy\binaries\node\versions\22.22.2\node_modules\@tencent\slidep\dist\slidep.js:5993:19870)
+    at async L.drain (C:\Users\Yanzongning\.workbuddy\binaries\node\versions\22.22.2\node_modules\@tencent\slidep\dist\slidep.js:5993:22625)
+[2026-09-01 23:20:00.953] [INFO ] [pid=27604] [sync] drain end round=7 reconciles=1 mergedSubmits=1 pendingDirtySize=0 ms=68
+[2026-09-01 23:20:00.992] [INFO ] [pid=27604] [watcher] event=add file=slides\04.slide
+[2026-09-01 23:20:01.041] [INFO ] [pid=27604] [watcher] event=change file=slides\05.slide
+[2026-09-01 23:20:01.547] [INFO ] [pid=27604] [watcher] flush batch dirty=[04,05] size=2
+[2026-09-01 23:20:01.548] [INFO ] [pid=27604] [sync] submit nextRound=8 dirty=04,05 pendingDirtySize=2 merged=no
+[2026-09-01 23:20:01.549] [INFO ] [pid=27604] [sync] drain start round=8 pendingDirtySize=2
+[2026-09-01 23:20:01.550] [INFO ] [pid=27604] [sync] step=remove-dirty round=8 attempt=1 pageId=04 index=3
+[2026-09-01 23:20:01.550] [INFO ] [pid=27604] [backend-ops] removeSlideAt start index=3
+[2026-09-01 23:20:01.553] [INFO ] [pid=27604] [mcp] mcp:slide_remove_slide send url=http://127.0.0.1:39099/mcp args={"file_id":"sid_mtisf1b5_joqpf942","page_index":3}
+[2026-09-01 23:20:01.557] [INFO ] [pid=27604] [mcp] mcp:slide_remove_slide ok ms=3
+[2026-09-01 23:20:01.557] [INFO ] [pid=27604] [backend-ops] removeSlideAt ok index=3 serverVersion=18 ms=7
+[2026-09-01 23:20:01.558] [INFO ] [pid=27604] [sync] step=remove-dirty round=8 attempt=1 pageId=05 index=3
+[2026-09-01 23:20:01.559] [INFO ] [pid=27604] [backend-ops] removeSlideAt start index=3
+[2026-09-01 23:20:01.562] [INFO ] [pid=27604] [mcp] mcp:slide_remove_slide send url=http://127.0.0.1:39099/mcp args={"file_id":"sid_mtisf1b5_joqpf942","page_index":3}
+[2026-09-01 23:20:01.567] [INFO ] [pid=27604] [mcp] mcp:slide_remove_slide ok ms=3
+[2026-09-01 23:20:01.568] [INFO ] [pid=27604] [backend-ops] removeSlideAt ok index=3 serverVersion=19 ms=9
+[2026-09-01 23:20:01.569] [INFO ] [pid=27604] [sync] step=add round=8 attempt=1 pageId=04 index=3
+[2026-09-01 23:20:01.570] [INFO ] [pid=27604] [backend-ops] addSlideAt start pageId=04 index=3
+[2026-09-01 23:20:01.571] [INFO ] [pid=27604] [render] start pageId=04 file=C:\Users\Yanzongning\Desktop\童健韶华资料库\童健韶华_汇报演讲稿\slides\04.slide
+[2026-09-01 23:20:01.599] [INFO ] [pid=27604] [render] ok pageId=04 slides=1 ms=28
+[2026-09-01 23:20:01.600] [INFO ] [pid=27604] [render] renderSlideData result.resources={ images: {}, videos: {}, audios: {}, fonts: {} }
+[2026-09-01 23:20:01.603] [INFO ] [pid=27604] [commit] commit send pageId=b4d217 targetIndex=3 version=12 baseVersion=19 revisionBytes=18968
+[2026-09-01 23:20:01.608] [INFO ] [pid=27604] [commit] commit ok pageId=b4d217 revisionId=592fd091 ms=4
+[2026-09-01 23:20:01.610] [INFO ] [pid=27604] [backend-ops] addSlideAt ok pageId=04 slideId=b4d217 index=3 version=12 baseVersion=19 revisionId=592fd091 code=0 images=[local=0 remote=0 cached=0 failed=0] ms=40
+[2026-09-01 23:20:01.611] [INFO ] [pid=27604] [sync] step=add round=8 attempt=1 pageId=05 index=4
+[2026-09-01 23:20:01.611] [INFO ] [pid=27604] [backend-ops] addSlideAt start pageId=05 index=4
+[2026-09-01 23:20:01.612] [INFO ] [pid=27604] [render] start pageId=05 file=C:\Users\Yanzongning\Desktop\童健韶华资料库\童健韶华_汇报演讲稿\slides\05.slide
+[2026-09-01 23:20:01.644] [INFO ] [pid=27604] [render] ok pageId=05 slides=1 ms=32
+[2026-09-01 23:20:01.645] [INFO ] [pid=27604] [render] renderSlideData result.resources={ images: {}, videos: {}, audios: {}, fonts: {} }
+[2026-09-01 23:20:01.648] [INFO ] [pid=27604] [commit] commit send pageId=7e9c91 targetIndex=4 version=13 baseVersion=20 revisionBytes=19256
+[2026-09-01 23:20:01.653] [INFO ] [pid=27604] [commit] commit ok pageId=7e9c91 revisionId=ce6142ab ms=5
+[2026-09-01 23:20:01.657] [INFO ] [pid=27604] [backend-ops] addSlideAt ok pageId=05 slideId=7e9c91 index=4 version=13 baseVersion=20 revisionId=ce6142ab code=0 images=[local=0 remote=0 cached=0 failed=0] ms=46
+[2026-09-01 23:20:01.658] [INFO ] [pid=27604] [sync] aligned round=8 attempt=1 size=5 desired=5 pendingDirtySize=0
+[2026-09-01 23:20:01.659] [INFO ] [pid=27604] [sync] reconcile ok round=8 attempt=1 ms=110
+[2026-09-01 23:20:01.659] [INFO ] [pid=27604] [backend-ops] save start file=C:\Users\Yanzongning\Desktop\童健韶华资料库\童健韶华_汇报演讲稿\童健韶华_汇报演讲稿.pptx
+[2026-09-01 23:20:01.660] [INFO ] [pid=27604] [commit] save send filePath=C:\Users\Yanzongning\Desktop\童健韶华资料库\童健韶华_汇报演讲稿\童健韶华_汇报演讲稿.pptx
+[2026-09-01 23:20:01.667] [ERROR] [pid=27604] [http] save http 500 url=http://127.0.0.1:39099/localapi/save body={"code":10201,"message":"[10201]Export file is occupied: C:\\Users\\Yanzongning\\Desktop\\童健韶华资料库\\童健韶华_汇报演讲稿\\童健韶华_汇报演讲稿.pptx@TimePointBegin1788276001664|0@TimePointEnd"} ms=6
+[2026-09-01 23:20:01.668] [ERROR] [pid=27604] [backend-ops] save FAIL file=C:\Users\Yanzongning\Desktop\童健韶华资料库\童健韶华_汇报演讲稿\童健韶华_汇报演讲稿.pptx ms=9
+[2026-09-01 23:20:01.669] [ERROR] [pid=27604] [sync] save FAIL round=8 HttpStatusError: save bad response: HTTP 500 body={"code":10201,"message":"[10201]Export file is occupied: C:\\Users\\Yanzongning\\Desktop\\童健韶华资料库\\童健韶华_汇报演讲稿\\童健韶华_汇报演讲稿.pptx@TimePointBegin1788276001664|0@TimePointEnd"}
+    at v6 (C:\Users\Yanzongning\.workbuddy\binaries\node\versions\22.22.2\node_modules\@tencent\slidep\dist\slidep.js:5995:476590)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async C:\Users\Yanzongning\.workbuddy\binaries\node\versions\22.22.2\node_modules\@tencent\slidep\dist\slidep.js:5995:485008
+    at async Sw.withReopenRetry (C:\Users\Yanzongning\.workbuddy\binaries\node\versions\22.22.2\node_modules\@tencent\slidep\dist\slidep.js:5995:483350)
+    at async mh.save (C:\Users\Yanzongning\.workbuddy\binaries\node\versions\22.22.2\node_modules\@tencent\slidep\dist\slidep.js:5993:19870)
+    at async L.drain (C:\Users\Yanzongning\.workbuddy\binaries\node\versions\22.22.2\node_modules\@tencent\slidep\dist\slidep.js:5993:22625)
+[2026-09-01 23:20:01.670] [INFO ] [pid=27604] [sync] drain end round=8 reconciles=1 mergedSubmits=1 pendingDirtySize=0 ms=121
+=== boot pid=46752 ts=2026-09-01 23:20:02.943 cwd=C:\Users\Yanzongning\Desktop\童健韶华资料库\童健韶华_汇报演讲稿 argv=C:\Users\Yanzongning\.workbuddy\binaries\node\versions\22.22.2\node_modules\@tencent\slidep\dist\slidep-validate.js --all --project . ===
+[2026-09-01 23:20:02.940] [INFO ] [pid=46752] [validate] --all mode: found 5 files in C:\Users\Yanzongning\Desktop\童健韶华资料库\童健韶华_汇报演讲稿\slides
+[2026-09-01 23:20:02.944] [INFO ] [pid=46752] [validate] batch start files=5 checkOverflow=true
+[2026-09-01 23:20:03.984] [INFO ] [pid=46752] [validate] batch done total=5 passed=5 failed=0 ms=1044

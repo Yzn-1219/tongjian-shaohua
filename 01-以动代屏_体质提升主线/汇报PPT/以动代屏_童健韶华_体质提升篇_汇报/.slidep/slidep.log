@@ -1,0 +1,1392 @@
+=== boot pid=40144 ts=2026-08-28 21:21:00.623 cwd=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报 argv=C:\Users\Yanzongning\.workbuddy\binaries\node\versions\22.22.2\node_modules\@tencent\slidep\dist\slidep-start.js --project . --filename 以动代屏_童健韶华_体质提升篇_汇报.pptx ===
+[2026-08-28 21:21:00.619] [INFO ] [pid=40144] [start] invoked pid=40144 cwd=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报 daemonChild=no dev=no argv=[--project . --filename 以动代屏_童健韶华_体质提升篇_汇报.pptx]
+[2026-08-28 21:21:00.625] [INFO ] [pid=40144] [start] spawning daemon projectDir=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报 filename=以动代屏_童健韶华_体质提升篇_汇报.pptx
+[2026-08-28 21:21:00.648] [INFO ] [pid=40144] [start] daemon spawned childPid=67396; waiting started ipc
+=== boot pid=67396 ts=2026-08-28 21:21:02.100 cwd=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报 argv=C:\Users\Yanzongning\.workbuddy\binaries\node\versions\22.22.2\node_modules\@tencent\slidep\dist\slidep-start.js --project . --filename 以动代屏_童健韶华_体质提升篇_汇报.pptx --__daemon-child ===
+[2026-08-28 21:21:02.097] [INFO ] [pid=67396] [start] invoked pid=67396 cwd=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报 daemonChild=yes dev=no argv=[--project . --filename 以动代屏_童健韶华_体质提升篇_汇报.pptx --__daemon-child]
+[2026-08-28 21:21:02.101] [INFO ] [pid=67396] [start] daemon child runWorker ppid=40144
+[2026-08-28 21:21:02.102] [INFO ] [pid=67396] [worker] start projectDir=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报 filename=以动代屏_童健韶华_体质提升篇_汇报.pptx version=5.4.4
+[2026-08-28 21:21:02.103] [INFO ] [pid=67396] [worker] init ok dirs=ready
+[2026-08-28 21:21:02.104] [INFO ] [pid=67396] [server-url] env TENCENT_DOCS_LOCAL_MCP = http://127.0.0.1:39099/mcp
+[2026-08-28 21:21:02.104] [INFO ] [pid=67396] [worker] openFile start
+[2026-08-28 21:21:02.106] [INFO ] [pid=67396] [open-file] copy blank.pptx start src=C:\Users\Yanzongning\.workbuddy\binaries\node\versions\22.22.2\node_modules\@tencent\slidep\dist\resources\pptx\blank.pptx dest=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报\以动代屏_童健韶华_体质提升篇_汇报.pptx
+[2026-08-28 21:21:02.123] [INFO ] [pid=67396] [open-file] copy blank.pptx ok dest=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报\以动代屏_童健韶华_体质提升篇_汇报.pptx ms=17
+[2026-08-28 21:21:02.156] [ERROR] [pid=67396] [http] editorStatus http 404 url=http://127.0.0.1:39099/api/editor/status body={"code":-1,"message":"no editor open for file_path=C:\\Users\\Yanzongning\\Desktop\\童健韶华资料库\\以动代屏_童健韶华_体质提升篇_汇报\\以动代屏_童健韶华_体质提升篇_汇报.pptx"} ms=31
+[2026-08-28 21:21:02.157] [INFO ] [pid=67396] [open-file] open send url=http://127.0.0.1:39099/localapi/open filePath=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报\以动代屏_童健韶华_体质提升篇_汇报.pptx
+[2026-08-28 21:21:02.165] [INFO ] [pid=67396] [open-file] open ok fileId=27491E07 fileType=slide filePath=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报\以动代屏_童健韶华_体质提升篇_汇报.pptx ms=8
+[2026-08-28 21:21:02.166] [INFO ] [pid=67396] [worker] openFile ok fileId=27491E07 filePath=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报\以动代屏_童健韶华_体质提升篇_汇报.pptx
+[2026-08-28 21:21:02.167] [INFO ] [pid=67396] [worker] previewUrl=http://127.0.0.1:39099/static/slide/pc.html?local_edit=1&client=sdk_local&localFilePath=C%3A%5CUsers%5CYanzongning%5CDesktop%5C%E7%AB%A5%E5%81%A5%E9%9F%B6%E5%8D%8E%E8%B5%84%E6%96%99%E5%BA%93%5C%E4%BB%A5%E5%8A%A8%E4%BB%A3%E5%B1%8F_%E7%AB%A5%E5%81%A5%E9%9F%B6%E5%8D%8E_%E4%BD%93%E8%B4%A8%E6%8F%90%E5%8D%87%E7%AF%87_%E6%B1%87%E6%8A%A5%5C%E4%BB%A5%E5%8A%A8%E4%BB%A3%E5%B1%8F_%E7%AB%A5%E5%81%A5%E9%9F%B6%E5%8D%8E_%E4%BD%93%E8%B4%A8%E6%8F%90%E5%8D%87%E7%AF%87_%E6%B1%87%E6%8A%A5.pptx
+[2026-08-28 21:21:02.168] [INFO ] [pid=67396] [state] state.json not found, creating path=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报\.slidep\state.json filePath=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报\以动代屏_童健韶华_体质提升篇_汇报.pptx
+[2026-08-28 21:21:02.171] [INFO ] [pid=67396] [worker] commitEndpoint=http://127.0.0.1:39099/localapi/commitrevision
+[2026-08-28 21:21:02.175] [INFO ] [pid=67396] [mcp] mcp:slide_get_info send url=http://127.0.0.1:39099/mcp args={"file_id":"27491E07-A229-4553-B663-579F324C62C3"}
+[2026-08-28 21:21:02.178] [INFO ] [pid=67396] [mcp] mcp:slide_get_info ok ms=3
+[2026-08-28 21:21:02.179] [INFO ] [pid=67396] [purge] purge start backendSlideCount=0
+[2026-08-28 21:21:02.179] [INFO ] [pid=67396] [purge] purge ok removed=0 ms=8
+[2026-08-28 21:21:02.180] [INFO ] [pid=67396] [worker] initial sync submitted pages=0
+[2026-08-28 21:21:02.181] [INFO ] [pid=67396] [sync] submit nextRound=1 dirty=<none> pendingDirtySize=0 merged=no
+[2026-08-28 21:21:02.182] [INFO ] [pid=67396] [sync] drain start round=1 pendingDirtySize=0
+[2026-08-28 21:21:02.182] [INFO ] [pid=67396] [sync] aligned round=1 attempt=1 size=0 desired=0 pendingDirtySize=0
+[2026-08-28 21:21:02.186] [INFO ] [pid=67396] [worker] ready fileId=27491E07 backendUrl=http://127.0.0.1:39099 initialPages=0 ms=84
+[2026-08-28 21:21:02.187] [INFO ] [pid=40144] [start] daemon started childPid=67396 ms=1562
+[2026-08-28 21:21:02.186] [INFO ] [pid=67396] [sync] reconcile ok round=1 attempt=1 ms=4
+[2026-08-28 21:21:02.187] [INFO ] [pid=67396] [sync] drain end round=1 reconciles=1 mergedSubmits=1 pendingDirtySize=0 ms=5
+[2026-08-28 21:21:02.190] [INFO ] [pid=67396] [watcher] ready dir=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报\slides
+[2026-08-28 21:21:23.679] [INFO ] [pid=67396] [watcher] event=add file=slides\01.slide
+[2026-08-28 21:21:24.194] [INFO ] [pid=67396] [watcher] flush batch dirty=[01] size=1
+[2026-08-28 21:21:24.194] [INFO ] [pid=67396] [sync] submit nextRound=2 dirty=01 pendingDirtySize=1 merged=no
+[2026-08-28 21:21:24.195] [INFO ] [pid=67396] [sync] drain start round=2 pendingDirtySize=1
+[2026-08-28 21:21:24.196] [INFO ] [pid=67396] [sync] step=add round=2 attempt=1 pageId=01 index=0
+[2026-08-28 21:21:24.196] [INFO ] [pid=67396] [backend-ops] addSlideAt start pageId=01 index=0
+[2026-08-28 21:21:24.198] [INFO ] [pid=67396] [render] start pageId=01 file=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报\slides\01.slide
+[2026-08-28 21:21:25.011] [INFO ] [pid=67396] [render] ok pageId=01 slides=1 ms=814
+[2026-08-28 21:21:25.012] [INFO ] [pid=67396] [render] renderSlideData result.resources={ images: {}, videos: {}, audios: {}, fonts: {} }
+[2026-08-28 21:21:25.023] [INFO ] [pid=67396] [commit] commit send pageId=353a19 targetIndex=0 version=1 baseVersion=0 revisionBytes=15372
+[2026-08-28 21:21:25.032] [INFO ] [pid=67396] [commit] commit ok pageId=353a19 revisionId=aef2e50b ms=8
+[2026-08-28 21:21:25.035] [INFO ] [pid=67396] [backend-ops] addSlideAt ok pageId=01 slideId=353a19 index=0 version=1 baseVersion=0 revisionId=aef2e50b code=0 images=[local=0 remote=0 cached=0 failed=0] ms=839
+[2026-08-28 21:21:25.036] [INFO ] [pid=67396] [sync] aligned round=2 attempt=1 size=1 desired=1 pendingDirtySize=0
+[2026-08-28 21:21:25.036] [INFO ] [pid=67396] [sync] reconcile ok round=2 attempt=1 ms=841
+[2026-08-28 21:21:25.037] [INFO ] [pid=67396] [backend-ops] save start file=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报\以动代屏_童健韶华_体质提升篇_汇报.pptx
+[2026-08-28 21:21:25.037] [INFO ] [pid=67396] [commit] save send filePath=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报\以动代屏_童健韶华_体质提升篇_汇报.pptx
+[2026-08-28 21:21:25.104] [INFO ] [pid=67396] [commit] save ok file_path=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报\以动代屏_童健韶华_体质提升篇_汇报.pptx ms=66
+[2026-08-28 21:21:25.105] [INFO ] [pid=67396] [backend-ops] save ok file_path=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报\以动代屏_童健韶华_体质提升篇_汇报.pptx ms=68
+[2026-08-28 21:21:25.105] [INFO ] [pid=67396] [sync] drain end round=2 reconciles=1 mergedSubmits=1 pendingDirtySize=0 ms=910
+[2026-08-28 21:21:48.118] [INFO ] [pid=67396] [watcher] event=add file=slides\02.slide
+[2026-08-28 21:21:48.620] [INFO ] [pid=67396] [watcher] flush batch dirty=[02] size=1
+[2026-08-28 21:21:48.621] [INFO ] [pid=67396] [sync] submit nextRound=3 dirty=02 pendingDirtySize=1 merged=no
+[2026-08-28 21:21:48.621] [INFO ] [pid=67396] [sync] drain start round=3 pendingDirtySize=1
+[2026-08-28 21:21:48.622] [INFO ] [pid=67396] [sync] step=add round=3 attempt=1 pageId=02 index=1
+[2026-08-28 21:21:48.622] [INFO ] [pid=67396] [backend-ops] addSlideAt start pageId=02 index=1
+[2026-08-28 21:21:48.623] [INFO ] [pid=67396] [render] start pageId=02 file=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报\slides\02.slide
+[2026-08-28 21:21:48.756] [INFO ] [pid=67396] [render] ok pageId=02 slides=1 ms=133
+[2026-08-28 21:21:48.757] [INFO ] [pid=67396] [render] renderSlideData result.resources={ images: {}, videos: {}, audios: {}, fonts: {} }
+[2026-08-28 21:21:48.766] [INFO ] [pid=67396] [commit] commit send pageId=3583b8 targetIndex=1 version=2 baseVersion=1 revisionBytes=28768
+[2026-08-28 21:21:48.775] [INFO ] [pid=67396] [commit] commit ok pageId=3583b8 revisionId=f101bf94 ms=7
+[2026-08-28 21:21:48.777] [INFO ] [pid=67396] [backend-ops] addSlideAt ok pageId=02 slideId=3583b8 index=1 version=2 baseVersion=1 revisionId=f101bf94 code=0 images=[local=0 remote=0 cached=0 failed=0] ms=155
+[2026-08-28 21:21:48.778] [INFO ] [pid=67396] [sync] aligned round=3 attempt=1 size=2 desired=2 pendingDirtySize=0
+[2026-08-28 21:21:48.778] [INFO ] [pid=67396] [sync] reconcile ok round=3 attempt=1 ms=157
+[2026-08-28 21:21:48.779] [INFO ] [pid=67396] [backend-ops] save start file=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报\以动代屏_童健韶华_体质提升篇_汇报.pptx
+[2026-08-28 21:21:48.779] [INFO ] [pid=67396] [commit] save send filePath=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报\以动代屏_童健韶华_体质提升篇_汇报.pptx
+[2026-08-28 21:21:48.901] [INFO ] [pid=67396] [commit] save ok file_path=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报\以动代屏_童健韶华_体质提升篇_汇报.pptx ms=121
+[2026-08-28 21:21:48.902] [INFO ] [pid=67396] [backend-ops] save ok file_path=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报\以动代屏_童健韶华_体质提升篇_汇报.pptx ms=123
+[2026-08-28 21:21:48.903] [INFO ] [pid=67396] [sync] drain end round=3 reconciles=1 mergedSubmits=1 pendingDirtySize=0 ms=282
+[2026-08-28 21:22:00.271] [INFO ] [pid=67396] [watcher] event=add file=slides\03.slide
+[2026-08-28 21:22:00.786] [INFO ] [pid=67396] [watcher] flush batch dirty=[03] size=1
+[2026-08-28 21:22:00.787] [INFO ] [pid=67396] [sync] submit nextRound=4 dirty=03 pendingDirtySize=1 merged=no
+[2026-08-28 21:22:00.787] [INFO ] [pid=67396] [sync] drain start round=4 pendingDirtySize=1
+[2026-08-28 21:22:00.788] [INFO ] [pid=67396] [sync] step=add round=4 attempt=1 pageId=03 index=2
+[2026-08-28 21:22:00.788] [INFO ] [pid=67396] [backend-ops] addSlideAt start pageId=03 index=2
+[2026-08-28 21:22:00.789] [INFO ] [pid=67396] [render] start pageId=03 file=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报\slides\03.slide
+[2026-08-28 21:22:00.906] [INFO ] [pid=67396] [render] ok pageId=03 slides=1 ms=117
+[2026-08-28 21:22:00.907] [INFO ] [pid=67396] [render] renderSlideData result.resources={ images: {}, videos: {}, audios: {}, fonts: {} }
+[2026-08-28 21:22:00.912] [INFO ] [pid=67396] [commit] commit send pageId=e667a1 targetIndex=2 version=3 baseVersion=2 revisionBytes=30356
+[2026-08-28 21:22:00.922] [INFO ] [pid=67396] [commit] commit ok pageId=e667a1 revisionId=6fb74646 ms=9
+[2026-08-28 21:22:00.926] [INFO ] [pid=67396] [backend-ops] addSlideAt ok pageId=03 slideId=e667a1 index=2 version=3 baseVersion=2 revisionId=6fb74646 code=0 images=[local=0 remote=0 cached=0 failed=0] ms=138
+[2026-08-28 21:22:00.927] [INFO ] [pid=67396] [sync] aligned round=4 attempt=1 size=3 desired=3 pendingDirtySize=0
+[2026-08-28 21:22:00.927] [INFO ] [pid=67396] [sync] reconcile ok round=4 attempt=1 ms=139
+[2026-08-28 21:22:00.928] [INFO ] [pid=67396] [backend-ops] save start file=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报\以动代屏_童健韶华_体质提升篇_汇报.pptx
+[2026-08-28 21:22:00.928] [INFO ] [pid=67396] [commit] save send filePath=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报\以动代屏_童健韶华_体质提升篇_汇报.pptx
+[2026-08-28 21:22:00.999] [INFO ] [pid=67396] [commit] save ok file_path=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报\以动代屏_童健韶华_体质提升篇_汇报.pptx ms=70
+[2026-08-28 21:22:01.000] [INFO ] [pid=67396] [backend-ops] save ok file_path=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报\以动代屏_童健韶华_体质提升篇_汇报.pptx ms=72
+[2026-08-28 21:22:01.001] [INFO ] [pid=67396] [sync] drain end round=4 reconciles=1 mergedSubmits=1 pendingDirtySize=0 ms=214
+[2026-08-28 21:22:06.249] [INFO ] [pid=67396] [watcher] event=add file=slides\04.slide
+[2026-08-28 21:22:06.763] [INFO ] [pid=67396] [watcher] flush batch dirty=[04] size=1
+[2026-08-28 21:22:06.765] [INFO ] [pid=67396] [sync] submit nextRound=5 dirty=04 pendingDirtySize=1 merged=no
+[2026-08-28 21:22:06.766] [INFO ] [pid=67396] [sync] drain start round=5 pendingDirtySize=1
+[2026-08-28 21:22:06.767] [INFO ] [pid=67396] [sync] step=add round=5 attempt=1 pageId=04 index=3
+[2026-08-28 21:22:06.767] [INFO ] [pid=67396] [backend-ops] addSlideAt start pageId=04 index=3
+[2026-08-28 21:22:06.768] [INFO ] [pid=67396] [render] start pageId=04 file=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报\slides\04.slide
+[2026-08-28 21:22:06.849] [INFO ] [pid=67396] [render] ok pageId=04 slides=1 ms=81
+[2026-08-28 21:22:06.850] [INFO ] [pid=67396] [render] renderSlideData result.resources={ images: {}, videos: {}, audios: {}, fonts: {} }
+[2026-08-28 21:22:06.857] [INFO ] [pid=67396] [commit] commit send pageId=3b8616 targetIndex=3 version=4 baseVersion=3 revisionBytes=32384
+[2026-08-28 21:22:06.866] [INFO ] [pid=67396] [commit] commit ok pageId=3b8616 revisionId=00845173 ms=8
+[2026-08-28 21:22:06.869] [INFO ] [pid=67396] [backend-ops] addSlideAt ok pageId=04 slideId=3b8616 index=3 version=4 baseVersion=3 revisionId=00845173 code=0 images=[local=0 remote=0 cached=0 failed=0] ms=102
+[2026-08-28 21:22:06.870] [INFO ] [pid=67396] [sync] aligned round=5 attempt=1 size=4 desired=4 pendingDirtySize=0
+[2026-08-28 21:22:06.870] [INFO ] [pid=67396] [sync] reconcile ok round=5 attempt=1 ms=104
+[2026-08-28 21:22:06.871] [INFO ] [pid=67396] [backend-ops] save start file=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报\以动代屏_童健韶华_体质提升篇_汇报.pptx
+[2026-08-28 21:22:06.871] [INFO ] [pid=67396] [commit] save send filePath=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报\以动代屏_童健韶华_体质提升篇_汇报.pptx
+[2026-08-28 21:22:06.945] [INFO ] [pid=67396] [commit] save ok file_path=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报\以动代屏_童健韶华_体质提升篇_汇报.pptx ms=73
+[2026-08-28 21:22:06.946] [INFO ] [pid=67396] [backend-ops] save ok file_path=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报\以动代屏_童健韶华_体质提升篇_汇报.pptx ms=75
+[2026-08-28 21:22:06.946] [INFO ] [pid=67396] [sync] drain end round=5 reconciles=1 mergedSubmits=1 pendingDirtySize=0 ms=180
+[2026-08-28 21:22:10.527] [INFO ] [pid=67396] [watcher] event=add file=slides\05.slide
+[2026-08-28 21:22:11.042] [INFO ] [pid=67396] [watcher] flush batch dirty=[05] size=1
+[2026-08-28 21:22:11.043] [INFO ] [pid=67396] [sync] submit nextRound=6 dirty=05 pendingDirtySize=1 merged=no
+[2026-08-28 21:22:11.044] [INFO ] [pid=67396] [sync] drain start round=6 pendingDirtySize=1
+[2026-08-28 21:22:11.045] [INFO ] [pid=67396] [sync] step=add round=6 attempt=1 pageId=05 index=4
+[2026-08-28 21:22:11.045] [INFO ] [pid=67396] [backend-ops] addSlideAt start pageId=05 index=4
+[2026-08-28 21:22:11.046] [INFO ] [pid=67396] [render] start pageId=05 file=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报\slides\05.slide
+[2026-08-28 21:22:11.152] [INFO ] [pid=67396] [render] ok pageId=05 slides=1 ms=106
+[2026-08-28 21:22:11.154] [INFO ] [pid=67396] [render] renderSlideData result.resources={
+  images: {
+    'rel:00pglfes': {
+      id: 'rel:00pglfes',
+      src: 'C:\\Users\\Yanzongning\\Desktop\\童健韶华资料库\\以动代屏_童健韶华_体质提升篇_汇报\\.cache\\media\\images\\100e9f24436476aefece39d7395a4c07.png'
+    }
+  },
+  videos: {},
+  audios: {},
+  fonts: {}
+}
+[2026-08-28 21:22:11.162] [INFO ] [pid=67396] [commit] commit send pageId=913816 targetIndex=4 version=5 baseVersion=4 revisionBytes=83428
+[2026-08-28 21:22:11.172] [INFO ] [pid=67396] [commit] commit ok pageId=913816 revisionId=2ec2dee8 ms=10
+[2026-08-28 21:22:11.174] [INFO ] [pid=67396] [backend-ops] addSlideAt ok pageId=05 slideId=913816 index=4 version=5 baseVersion=4 revisionId=2ec2dee8 code=0 images=[local=1 remote=0 cached=0 failed=0] ms=129
+[2026-08-28 21:22:11.175] [INFO ] [pid=67396] [sync] aligned round=6 attempt=1 size=5 desired=5 pendingDirtySize=0
+[2026-08-28 21:22:11.175] [INFO ] [pid=67396] [sync] reconcile ok round=6 attempt=1 ms=131
+[2026-08-28 21:22:11.176] [INFO ] [pid=67396] [backend-ops] save start file=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报\以动代屏_童健韶华_体质提升篇_汇报.pptx
+[2026-08-28 21:22:11.176] [INFO ] [pid=67396] [commit] save send filePath=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报\以动代屏_童健韶华_体质提升篇_汇报.pptx
+[2026-08-28 21:22:11.281] [INFO ] [pid=67396] [commit] save ok file_path=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报\以动代屏_童健韶华_体质提升篇_汇报.pptx ms=104
+[2026-08-28 21:22:11.282] [INFO ] [pid=67396] [backend-ops] save ok file_path=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报\以动代屏_童健韶华_体质提升篇_汇报.pptx ms=106
+[2026-08-28 21:22:11.283] [INFO ] [pid=67396] [sync] drain end round=6 reconciles=1 mergedSubmits=1 pendingDirtySize=0 ms=239
+[2026-08-28 21:22:14.301] [INFO ] [pid=67396] [watcher] event=add file=slides\06.slide
+[2026-08-28 21:22:14.804] [INFO ] [pid=67396] [watcher] flush batch dirty=[06] size=1
+[2026-08-28 21:22:14.804] [INFO ] [pid=67396] [sync] submit nextRound=7 dirty=06 pendingDirtySize=1 merged=no
+[2026-08-28 21:22:14.805] [INFO ] [pid=67396] [sync] drain start round=7 pendingDirtySize=1
+[2026-08-28 21:22:14.806] [INFO ] [pid=67396] [sync] step=add round=7 attempt=1 pageId=06 index=5
+[2026-08-28 21:22:14.806] [INFO ] [pid=67396] [backend-ops] addSlideAt start pageId=06 index=5
+[2026-08-28 21:22:14.807] [INFO ] [pid=67396] [render] start pageId=06 file=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报\slides\06.slide
+[2026-08-28 21:22:14.886] [INFO ] [pid=67396] [render] ok pageId=06 slides=1 ms=79
+[2026-08-28 21:22:14.887] [INFO ] [pid=67396] [render] renderSlideData result.resources={
+  images: {
+    'rel:009b86mu': {
+      id: 'rel:009b86mu',
+      src: 'C:\\Users\\Yanzongning\\Desktop\\童健韶华资料库\\以动代屏_童健韶华_体质提升篇_汇报\\.cache\\media\\images\\088aa08b57d4ea0fe252c57bab8cc7ac.png'
+    }
+  },
+  videos: {},
+  audios: {},
+  fonts: {}
+}
+[2026-08-28 21:22:14.895] [INFO ] [pid=67396] [commit] commit send pageId=8cf15a targetIndex=5 version=6 baseVersion=5 revisionBytes=118384
+[2026-08-28 21:22:14.909] [INFO ] [pid=67396] [commit] commit ok pageId=8cf15a revisionId=73344a99 ms=13
+[2026-08-28 21:22:14.918] [INFO ] [pid=67396] [backend-ops] addSlideAt ok pageId=06 slideId=8cf15a index=5 version=6 baseVersion=5 revisionId=73344a99 code=0 images=[local=1 remote=0 cached=0 failed=0] ms=112
+[2026-08-28 21:22:14.919] [INFO ] [pid=67396] [sync] aligned round=7 attempt=1 size=6 desired=6 pendingDirtySize=0
+[2026-08-28 21:22:14.920] [INFO ] [pid=67396] [sync] reconcile ok round=7 attempt=1 ms=114
+[2026-08-28 21:22:14.920] [INFO ] [pid=67396] [backend-ops] save start file=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报\以动代屏_童健韶华_体质提升篇_汇报.pptx
+[2026-08-28 21:22:14.921] [INFO ] [pid=67396] [commit] save send filePath=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报\以动代屏_童健韶华_体质提升篇_汇报.pptx
+[2026-08-28 21:22:15.027] [INFO ] [pid=67396] [commit] save ok file_path=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报\以动代屏_童健韶华_体质提升篇_汇报.pptx ms=104
+[2026-08-28 21:22:15.027] [INFO ] [pid=67396] [backend-ops] save ok file_path=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报\以动代屏_童健韶华_体质提升篇_汇报.pptx ms=107
+[2026-08-28 21:22:15.028] [INFO ] [pid=67396] [sync] drain end round=7 reconciles=1 mergedSubmits=1 pendingDirtySize=0 ms=223
+[2026-08-28 21:22:18.157] [INFO ] [pid=67396] [watcher] event=add file=slides\07.slide
+[2026-08-28 21:22:18.659] [INFO ] [pid=67396] [watcher] flush batch dirty=[07] size=1
+[2026-08-28 21:22:18.660] [INFO ] [pid=67396] [sync] submit nextRound=8 dirty=07 pendingDirtySize=1 merged=no
+[2026-08-28 21:22:18.661] [INFO ] [pid=67396] [sync] drain start round=8 pendingDirtySize=1
+[2026-08-28 21:22:18.662] [INFO ] [pid=67396] [sync] step=add round=8 attempt=1 pageId=07 index=6
+[2026-08-28 21:22:18.662] [INFO ] [pid=67396] [backend-ops] addSlideAt start pageId=07 index=6
+[2026-08-28 21:22:18.663] [INFO ] [pid=67396] [render] start pageId=07 file=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报\slides\07.slide
+[2026-08-28 21:22:18.699] [INFO ] [pid=67396] [render] ok pageId=07 slides=1 ms=36
+[2026-08-28 21:22:18.700] [INFO ] [pid=67396] [render] renderSlideData result.resources={
+  images: {
+    'rel:00csu4y8': {
+      id: 'rel:00csu4y8',
+      src: 'C:\\Users\\Yanzongning\\Desktop\\童健韶华资料库\\以动代屏_童健韶华_体质提升篇_汇报\\.cache\\media\\images\\6d1536b2c1ea0f0423079c635a26417c.png'
+    }
+  },
+  videos: {},
+  audios: {},
+  fonts: {}
+}
+[2026-08-28 21:22:18.705] [INFO ] [pid=67396] [commit] commit send pageId=492952 targetIndex=6 version=7 baseVersion=6 revisionBytes=981560
+[2026-08-28 21:22:18.723] [INFO ] [pid=67396] [commit] commit ok pageId=492952 revisionId=9bee3b05 ms=17
+[2026-08-28 21:22:18.725] [INFO ] [pid=67396] [backend-ops] addSlideAt ok pageId=07 slideId=492952 index=6 version=7 baseVersion=6 revisionId=9bee3b05 code=0 images=[local=1 remote=0 cached=0 failed=0] ms=63
+[2026-08-28 21:22:18.726] [INFO ] [pid=67396] [sync] aligned round=8 attempt=1 size=7 desired=7 pendingDirtySize=0
+[2026-08-28 21:22:18.726] [INFO ] [pid=67396] [sync] reconcile ok round=8 attempt=1 ms=65
+[2026-08-28 21:22:18.727] [INFO ] [pid=67396] [backend-ops] save start file=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报\以动代屏_童健韶华_体质提升篇_汇报.pptx
+[2026-08-28 21:22:18.727] [INFO ] [pid=67396] [commit] save send filePath=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报\以动代屏_童健韶华_体质提升篇_汇报.pptx
+[2026-08-28 21:22:18.808] [INFO ] [pid=67396] [commit] save ok file_path=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报\以动代屏_童健韶华_体质提升篇_汇报.pptx ms=79
+[2026-08-28 21:22:18.808] [INFO ] [pid=67396] [backend-ops] save ok file_path=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报\以动代屏_童健韶华_体质提升篇_汇报.pptx ms=81
+[2026-08-28 21:22:18.809] [INFO ] [pid=67396] [sync] drain end round=8 reconciles=1 mergedSubmits=1 pendingDirtySize=0 ms=148
+[2026-08-28 21:22:23.529] [INFO ] [pid=67396] [watcher] event=add file=slides\08.slide
+[2026-08-28 21:22:24.043] [INFO ] [pid=67396] [watcher] flush batch dirty=[08] size=1
+[2026-08-28 21:22:24.044] [INFO ] [pid=67396] [sync] submit nextRound=9 dirty=08 pendingDirtySize=1 merged=no
+[2026-08-28 21:22:24.044] [INFO ] [pid=67396] [sync] drain start round=9 pendingDirtySize=1
+[2026-08-28 21:22:24.045] [INFO ] [pid=67396] [sync] step=add round=9 attempt=1 pageId=08 index=7
+[2026-08-28 21:22:24.046] [INFO ] [pid=67396] [backend-ops] addSlideAt start pageId=08 index=7
+[2026-08-28 21:22:24.046] [INFO ] [pid=67396] [render] start pageId=08 file=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报\slides\08.slide
+[2026-08-28 21:22:24.118] [INFO ] [pid=67396] [render] ok pageId=08 slides=1 ms=72
+[2026-08-28 21:22:24.119] [INFO ] [pid=67396] [render] renderSlideData result.resources={ images: {}, videos: {}, audios: {}, fonts: {} }
+[2026-08-28 21:22:24.123] [INFO ] [pid=67396] [commit] commit send pageId=1b9fcc targetIndex=7 version=8 baseVersion=7 revisionBytes=26352
+[2026-08-28 21:22:24.128] [INFO ] [pid=67396] [commit] commit ok pageId=1b9fcc revisionId=60069367 ms=5
+[2026-08-28 21:22:24.132] [INFO ] [pid=67396] [backend-ops] addSlideAt ok pageId=08 slideId=1b9fcc index=7 version=8 baseVersion=7 revisionId=60069367 code=0 images=[local=0 remote=0 cached=0 failed=0] ms=86
+[2026-08-28 21:22:24.133] [INFO ] [pid=67396] [sync] aligned round=9 attempt=1 size=8 desired=8 pendingDirtySize=0
+[2026-08-28 21:22:24.133] [INFO ] [pid=67396] [sync] reconcile ok round=9 attempt=1 ms=88
+[2026-08-28 21:22:24.134] [INFO ] [pid=67396] [backend-ops] save start file=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报\以动代屏_童健韶华_体质提升篇_汇报.pptx
+[2026-08-28 21:22:24.134] [INFO ] [pid=67396] [commit] save send filePath=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报\以动代屏_童健韶华_体质提升篇_汇报.pptx
+[2026-08-28 21:22:24.213] [INFO ] [pid=67396] [commit] save ok file_path=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报\以动代屏_童健韶华_体质提升篇_汇报.pptx ms=78
+[2026-08-28 21:22:24.214] [INFO ] [pid=67396] [backend-ops] save ok file_path=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报\以动代屏_童健韶华_体质提升篇_汇报.pptx ms=80
+[2026-08-28 21:22:24.215] [INFO ] [pid=67396] [sync] drain end round=9 reconciles=1 mergedSubmits=1 pendingDirtySize=0 ms=171
+[2026-08-28 21:22:28.255] [INFO ] [pid=67396] [watcher] event=add file=slides\09.slide
+[2026-08-28 21:22:28.770] [INFO ] [pid=67396] [watcher] flush batch dirty=[09] size=1
+[2026-08-28 21:22:28.771] [INFO ] [pid=67396] [sync] submit nextRound=10 dirty=09 pendingDirtySize=1 merged=no
+[2026-08-28 21:22:28.771] [INFO ] [pid=67396] [sync] drain start round=10 pendingDirtySize=1
+[2026-08-28 21:22:28.772] [INFO ] [pid=67396] [sync] step=add round=10 attempt=1 pageId=09 index=8
+[2026-08-28 21:22:28.772] [INFO ] [pid=67396] [backend-ops] addSlideAt start pageId=09 index=8
+[2026-08-28 21:22:28.773] [INFO ] [pid=67396] [render] start pageId=09 file=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报\slides\09.slide
+[2026-08-28 21:22:28.841] [INFO ] [pid=67396] [render] ok pageId=09 slides=1 ms=68
+[2026-08-28 21:22:28.842] [INFO ] [pid=67396] [render] renderSlideData result.resources={ images: {}, videos: {}, audios: {}, fonts: {} }
+[2026-08-28 21:22:28.845] [INFO ] [pid=67396] [commit] commit send pageId=0e6e28 targetIndex=8 version=9 baseVersion=8 revisionBytes=28396
+[2026-08-28 21:22:28.853] [INFO ] [pid=67396] [commit] commit ok pageId=0e6e28 revisionId=75ffc719 ms=7
+[2026-08-28 21:22:28.855] [INFO ] [pid=67396] [backend-ops] addSlideAt ok pageId=09 slideId=0e6e28 index=8 version=9 baseVersion=8 revisionId=75ffc719 code=0 images=[local=0 remote=0 cached=0 failed=0] ms=83
+[2026-08-28 21:22:28.856] [INFO ] [pid=67396] [sync] aligned round=10 attempt=1 size=9 desired=9 pendingDirtySize=0
+[2026-08-28 21:22:28.857] [INFO ] [pid=67396] [sync] reconcile ok round=10 attempt=1 ms=85
+[2026-08-28 21:22:28.857] [INFO ] [pid=67396] [backend-ops] save start file=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报\以动代屏_童健韶华_体质提升篇_汇报.pptx
+[2026-08-28 21:22:28.858] [INFO ] [pid=67396] [commit] save send filePath=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报\以动代屏_童健韶华_体质提升篇_汇报.pptx
+[2026-08-28 21:22:28.938] [INFO ] [pid=67396] [commit] save ok file_path=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报\以动代屏_童健韶华_体质提升篇_汇报.pptx ms=79
+[2026-08-28 21:22:28.938] [INFO ] [pid=67396] [backend-ops] save ok file_path=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报\以动代屏_童健韶华_体质提升篇_汇报.pptx ms=81
+[2026-08-28 21:22:28.939] [INFO ] [pid=67396] [sync] drain end round=10 reconciles=1 mergedSubmits=1 pendingDirtySize=0 ms=168
+[2026-08-28 21:22:33.707] [INFO ] [pid=67396] [watcher] event=add file=slides\10.slide
+[2026-08-28 21:22:34.209] [INFO ] [pid=67396] [watcher] flush batch dirty=[10] size=1
+[2026-08-28 21:22:34.210] [INFO ] [pid=67396] [sync] submit nextRound=11 dirty=10 pendingDirtySize=1 merged=no
+[2026-08-28 21:22:34.210] [INFO ] [pid=67396] [sync] drain start round=11 pendingDirtySize=1
+[2026-08-28 21:22:34.211] [INFO ] [pid=67396] [sync] step=add round=11 attempt=1 pageId=10 index=9
+[2026-08-28 21:22:34.212] [INFO ] [pid=67396] [backend-ops] addSlideAt start pageId=10 index=9
+[2026-08-28 21:22:34.212] [INFO ] [pid=67396] [render] start pageId=10 file=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报\slides\10.slide
+[2026-08-28 21:22:34.268] [INFO ] [pid=67396] [render] ok pageId=10 slides=1 ms=56
+[2026-08-28 21:22:34.269] [INFO ] [pid=67396] [render] renderSlideData result.resources={ images: {}, videos: {}, audios: {}, fonts: {} }
+[2026-08-28 21:22:34.273] [INFO ] [pid=67396] [commit] commit send pageId=57a304 targetIndex=9 version=10 baseVersion=9 revisionBytes=24188
+[2026-08-28 21:22:34.278] [INFO ] [pid=67396] [commit] commit ok pageId=57a304 revisionId=402fa619 ms=5
+[2026-08-28 21:22:34.281] [INFO ] [pid=67396] [backend-ops] addSlideAt ok pageId=10 slideId=57a304 index=9 version=10 baseVersion=9 revisionId=402fa619 code=0 images=[local=0 remote=0 cached=0 failed=0] ms=69
+[2026-08-28 21:22:34.282] [INFO ] [pid=67396] [sync] aligned round=11 attempt=1 size=10 desired=10 pendingDirtySize=0
+[2026-08-28 21:22:34.283] [INFO ] [pid=67396] [sync] reconcile ok round=11 attempt=1 ms=72
+[2026-08-28 21:22:34.283] [INFO ] [pid=67396] [backend-ops] save start file=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报\以动代屏_童健韶华_体质提升篇_汇报.pptx
+[2026-08-28 21:22:34.284] [INFO ] [pid=67396] [commit] save send filePath=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报\以动代屏_童健韶华_体质提升篇_汇报.pptx
+[2026-08-28 21:22:34.376] [INFO ] [pid=67396] [commit] save ok file_path=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报\以动代屏_童健韶华_体质提升篇_汇报.pptx ms=92
+[2026-08-28 21:22:34.376] [INFO ] [pid=67396] [backend-ops] save ok file_path=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报\以动代屏_童健韶华_体质提升篇_汇报.pptx ms=93
+[2026-08-28 21:22:34.377] [INFO ] [pid=67396] [sync] drain end round=11 reconciles=1 mergedSubmits=1 pendingDirtySize=0 ms=167
+[2026-08-28 21:22:39.242] [INFO ] [pid=67396] [watcher] event=add file=slides\11.slide
+[2026-08-28 21:22:39.757] [INFO ] [pid=67396] [watcher] flush batch dirty=[11] size=1
+[2026-08-28 21:22:39.759] [INFO ] [pid=67396] [sync] submit nextRound=12 dirty=11 pendingDirtySize=1 merged=no
+[2026-08-28 21:22:39.761] [INFO ] [pid=67396] [sync] drain start round=12 pendingDirtySize=1
+[2026-08-28 21:22:39.763] [INFO ] [pid=67396] [sync] step=add round=12 attempt=1 pageId=11 index=10
+[2026-08-28 21:22:39.766] [INFO ] [pid=67396] [backend-ops] addSlideAt start pageId=11 index=10
+[2026-08-28 21:22:39.768] [INFO ] [pid=67396] [render] start pageId=11 file=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报\slides\11.slide
+[2026-08-28 21:22:39.805] [INFO ] [pid=67396] [render] ok pageId=11 slides=1 ms=37
+[2026-08-28 21:22:39.806] [INFO ] [pid=67396] [render] renderSlideData result.resources={ images: {}, videos: {}, audios: {}, fonts: {} }
+[2026-08-28 21:22:39.809] [INFO ] [pid=67396] [commit] commit send pageId=98d65b targetIndex=10 version=11 baseVersion=10 revisionBytes=22120
+[2026-08-28 21:22:39.815] [INFO ] [pid=67396] [commit] commit ok pageId=98d65b revisionId=24f8b947 ms=5
+[2026-08-28 21:22:39.823] [INFO ] [pid=67396] [backend-ops] addSlideAt ok pageId=11 slideId=98d65b index=10 version=11 baseVersion=10 revisionId=24f8b947 code=0 images=[local=0 remote=0 cached=0 failed=0] ms=57
+[2026-08-28 21:22:39.825] [INFO ] [pid=67396] [sync] aligned round=12 attempt=1 size=11 desired=11 pendingDirtySize=0
+[2026-08-28 21:22:39.825] [INFO ] [pid=67396] [sync] reconcile ok round=12 attempt=1 ms=62
+[2026-08-28 21:22:39.826] [INFO ] [pid=67396] [backend-ops] save start file=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报\以动代屏_童健韶华_体质提升篇_汇报.pptx
+[2026-08-28 21:22:39.826] [INFO ] [pid=67396] [commit] save send filePath=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报\以动代屏_童健韶华_体质提升篇_汇报.pptx
+[2026-08-28 21:22:39.918] [INFO ] [pid=67396] [commit] save ok file_path=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报\以动代屏_童健韶华_体质提升篇_汇报.pptx ms=91
+[2026-08-28 21:22:39.918] [INFO ] [pid=67396] [backend-ops] save ok file_path=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报\以动代屏_童健韶华_体质提升篇_汇报.pptx ms=92
+[2026-08-28 21:22:39.919] [INFO ] [pid=67396] [sync] drain end round=12 reconciles=1 mergedSubmits=1 pendingDirtySize=0 ms=158
+[2026-08-28 21:22:42.462] [INFO ] [pid=67396] [watcher] event=add file=slides\12.slide
+[2026-08-28 21:22:42.978] [INFO ] [pid=67396] [watcher] flush batch dirty=[12] size=1
+[2026-08-28 21:22:42.978] [INFO ] [pid=67396] [sync] submit nextRound=13 dirty=12 pendingDirtySize=1 merged=no
+[2026-08-28 21:22:42.979] [INFO ] [pid=67396] [sync] drain start round=13 pendingDirtySize=1
+[2026-08-28 21:22:42.980] [INFO ] [pid=67396] [sync] step=add round=13 attempt=1 pageId=12 index=11
+[2026-08-28 21:22:42.980] [INFO ] [pid=67396] [backend-ops] addSlideAt start pageId=12 index=11
+[2026-08-28 21:22:42.982] [INFO ] [pid=67396] [render] start pageId=12 file=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报\slides\12.slide
+[2026-08-28 21:22:43.004] [INFO ] [pid=67396] [render] ok pageId=12 slides=1 ms=23
+[2026-08-28 21:22:43.005] [INFO ] [pid=67396] [render] renderSlideData result.resources={ images: {}, videos: {}, audios: {}, fonts: {} }
+[2026-08-28 21:22:43.009] [INFO ] [pid=67396] [commit] commit send pageId=3b19ad targetIndex=11 version=12 baseVersion=11 revisionBytes=9956
+[2026-08-28 21:22:43.013] [INFO ] [pid=67396] [commit] commit ok pageId=3b19ad revisionId=6233f37c ms=4
+[2026-08-28 21:22:43.017] [INFO ] [pid=67396] [backend-ops] addSlideAt ok pageId=12 slideId=3b19ad index=11 version=12 baseVersion=11 revisionId=6233f37c code=0 images=[local=0 remote=0 cached=0 failed=0] ms=37
+[2026-08-28 21:22:43.018] [INFO ] [pid=67396] [sync] aligned round=13 attempt=1 size=12 desired=12 pendingDirtySize=0
+[2026-08-28 21:22:43.018] [INFO ] [pid=67396] [sync] reconcile ok round=13 attempt=1 ms=39
+[2026-08-28 21:22:43.019] [INFO ] [pid=67396] [backend-ops] save start file=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报\以动代屏_童健韶华_体质提升篇_汇报.pptx
+[2026-08-28 21:22:43.019] [INFO ] [pid=67396] [commit] save send filePath=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报\以动代屏_童健韶华_体质提升篇_汇报.pptx
+[2026-08-28 21:22:43.133] [INFO ] [pid=67396] [commit] save ok file_path=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报\以动代屏_童健韶华_体质提升篇_汇报.pptx ms=112
+[2026-08-28 21:22:43.133] [INFO ] [pid=67396] [backend-ops] save ok file_path=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报\以动代屏_童健韶华_体质提升篇_汇报.pptx ms=114
+[2026-08-28 21:22:43.134] [INFO ] [pid=67396] [sync] drain end round=13 reconciles=1 mergedSubmits=1 pendingDirtySize=0 ms=155
+=== boot pid=56696 ts=2026-08-28 21:22:55.825 cwd=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报 argv=C:\Users\Yanzongning\.workbuddy\binaries\node\versions\22.22.2\node_modules\@tencent\slidep\dist\slidep-validate.js --all --project . ===
+[2026-08-28 21:22:55.823] [INFO ] [pid=56696] [validate] --all mode: found 12 files in C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报\slides
+[2026-08-28 21:22:55.826] [INFO ] [pid=56696] [validate] batch start files=12 checkOverflow=true
+[2026-08-28 21:22:57.262] [INFO ] [pid=56696] [validate] batch done total=12 passed=0 failed=12 ms=1439
+[2026-08-28 21:23:01.302] [INFO ] [pid=67396] [watcher] event=change file=slides\01.slide
+[2026-08-28 21:23:01.807] [INFO ] [pid=67396] [watcher] flush batch dirty=[01] size=1
+[2026-08-28 21:23:01.808] [INFO ] [pid=67396] [sync] submit nextRound=14 dirty=01 pendingDirtySize=1 merged=no
+[2026-08-28 21:23:01.808] [INFO ] [pid=67396] [sync] drain start round=14 pendingDirtySize=1
+[2026-08-28 21:23:01.809] [INFO ] [pid=67396] [sync] step=remove-dirty round=14 attempt=1 pageId=01 index=0
+[2026-08-28 21:23:01.809] [INFO ] [pid=67396] [backend-ops] removeSlideAt start index=0
+[2026-08-28 21:23:01.813] [INFO ] [pid=67396] [mcp] mcp:slide_remove_slide send url=http://127.0.0.1:39099/mcp args={"file_id":"sid_mtczclb9_bqipml9k","page_index":0}
+[2026-08-28 21:23:01.820] [INFO ] [pid=67396] [mcp] mcp:slide_remove_slide ok ms=7
+[2026-08-28 21:23:01.821] [INFO ] [pid=67396] [backend-ops] removeSlideAt ok index=0 serverVersion=13 ms=12
+[2026-08-28 21:23:01.822] [INFO ] [pid=67396] [sync] step=add round=14 attempt=1 pageId=01 index=0
+[2026-08-28 21:23:01.822] [INFO ] [pid=67396] [backend-ops] addSlideAt start pageId=01 index=0
+[2026-08-28 21:23:01.823] [INFO ] [pid=67396] [render] start pageId=01 file=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报\slides\01.slide
+[2026-08-28 21:23:01.892] [INFO ] [pid=67396] [render] ok pageId=01 slides=1 ms=69
+[2026-08-28 21:23:01.895] [INFO ] [pid=67396] [render] renderSlideData result.resources={ images: {}, videos: {}, audios: {}, fonts: {} }
+[2026-08-28 21:23:01.907] [INFO ] [pid=67396] [commit] commit send pageId=19521e targetIndex=0 version=13 baseVersion=13 revisionBytes=15308
+[2026-08-28 21:23:01.913] [INFO ] [pid=67396] [commit] commit ok pageId=19521e revisionId=779dd749 ms=5
+[2026-08-28 21:23:01.917] [INFO ] [pid=67396] [backend-ops] addSlideAt ok pageId=01 slideId=19521e index=0 version=13 baseVersion=13 revisionId=779dd749 code=0 images=[local=0 remote=0 cached=0 failed=0] ms=95
+[2026-08-28 21:23:01.918] [INFO ] [pid=67396] [sync] aligned round=14 attempt=1 size=12 desired=12 pendingDirtySize=0
+[2026-08-28 21:23:01.919] [INFO ] [pid=67396] [sync] reconcile ok round=14 attempt=1 ms=110
+[2026-08-28 21:23:01.919] [INFO ] [pid=67396] [backend-ops] save start file=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报\以动代屏_童健韶华_体质提升篇_汇报.pptx
+[2026-08-28 21:23:01.920] [INFO ] [pid=67396] [commit] save send filePath=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报\以动代屏_童健韶华_体质提升篇_汇报.pptx
+[2026-08-28 21:23:02.020] [INFO ] [pid=67396] [commit] save ok file_path=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报\以动代屏_童健韶华_体质提升篇_汇报.pptx ms=100
+[2026-08-28 21:23:02.021] [INFO ] [pid=67396] [backend-ops] save ok file_path=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报\以动代屏_童健韶华_体质提升篇_汇报.pptx ms=102
+[2026-08-28 21:23:02.021] [INFO ] [pid=67396] [sync] drain end round=14 reconciles=1 mergedSubmits=1 pendingDirtySize=0 ms=213
+[2026-08-28 21:23:06.129] [INFO ] [pid=67396] [watcher] event=change file=slides\02.slide
+[2026-08-28 21:23:06.645] [INFO ] [pid=67396] [watcher] flush batch dirty=[02] size=1
+[2026-08-28 21:23:06.645] [INFO ] [pid=67396] [sync] submit nextRound=15 dirty=02 pendingDirtySize=1 merged=no
+[2026-08-28 21:23:06.646] [INFO ] [pid=67396] [sync] drain start round=15 pendingDirtySize=1
+[2026-08-28 21:23:06.647] [INFO ] [pid=67396] [sync] step=remove-dirty round=15 attempt=1 pageId=02 index=1
+[2026-08-28 21:23:06.647] [INFO ] [pid=67396] [backend-ops] removeSlideAt start index=1
+[2026-08-28 21:23:06.652] [INFO ] [pid=67396] [mcp] mcp:slide_remove_slide send url=http://127.0.0.1:39099/mcp args={"file_id":"sid_mtczclb9_bqipml9k","page_index":1}
+[2026-08-28 21:23:06.655] [INFO ] [pid=67396] [mcp] mcp:slide_remove_slide ok ms=2
+[2026-08-28 21:23:06.656] [INFO ] [pid=67396] [backend-ops] removeSlideAt ok index=1 serverVersion=15 ms=9
+[2026-08-28 21:23:06.657] [INFO ] [pid=67396] [sync] step=add round=15 attempt=1 pageId=02 index=1
+[2026-08-28 21:23:06.657] [INFO ] [pid=67396] [backend-ops] addSlideAt start pageId=02 index=1
+[2026-08-28 21:23:06.658] [INFO ] [pid=67396] [render] start pageId=02 file=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报\slides\02.slide
+[2026-08-28 21:23:06.737] [INFO ] [pid=67396] [render] ok pageId=02 slides=1 ms=79
+[2026-08-28 21:23:06.760] [INFO ] [pid=67396] [render] renderSlideData result.resources={ images: {}, videos: {}, audios: {}, fonts: {} }
+[2026-08-28 21:23:06.766] [INFO ] [pid=67396] [commit] commit send pageId=44af75 targetIndex=1 version=14 baseVersion=15 revisionBytes=28684
+[2026-08-28 21:23:06.777] [INFO ] [pid=67396] [commit] commit ok pageId=44af75 revisionId=e36f6028 ms=6
+[2026-08-28 21:23:06.780] [INFO ] [pid=67396] [backend-ops] addSlideAt ok pageId=02 slideId=44af75 index=1 version=14 baseVersion=15 revisionId=e36f6028 code=0 images=[local=0 remote=0 cached=0 failed=0] ms=123
+[2026-08-28 21:23:06.782] [INFO ] [pid=67396] [sync] aligned round=15 attempt=1 size=12 desired=12 pendingDirtySize=0
+[2026-08-28 21:23:06.786] [INFO ] [pid=67396] [sync] reconcile ok round=15 attempt=1 ms=139
+[2026-08-28 21:23:06.787] [INFO ] [pid=67396] [backend-ops] save start file=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报\以动代屏_童健韶华_体质提升篇_汇报.pptx
+[2026-08-28 21:23:06.788] [INFO ] [pid=67396] [commit] save send filePath=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报\以动代屏_童健韶华_体质提升篇_汇报.pptx
+[2026-08-28 21:23:06.908] [INFO ] [pid=67396] [commit] save ok file_path=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报\以动代屏_童健韶华_体质提升篇_汇报.pptx ms=120
+[2026-08-28 21:23:06.909] [INFO ] [pid=67396] [backend-ops] save ok file_path=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报\以动代屏_童健韶华_体质提升篇_汇报.pptx ms=122
+[2026-08-28 21:23:06.910] [INFO ] [pid=67396] [sync] drain end round=15 reconciles=1 mergedSubmits=1 pendingDirtySize=0 ms=264
+[2026-08-28 21:23:17.419] [INFO ] [pid=67396] [watcher] event=change file=slides\03.slide
+[2026-08-28 21:23:17.921] [INFO ] [pid=67396] [watcher] flush batch dirty=[03] size=1
+[2026-08-28 21:23:17.922] [INFO ] [pid=67396] [sync] submit nextRound=16 dirty=03 pendingDirtySize=1 merged=no
+[2026-08-28 21:23:17.922] [INFO ] [pid=67396] [sync] drain start round=16 pendingDirtySize=1
+[2026-08-28 21:23:17.923] [INFO ] [pid=67396] [sync] step=remove-dirty round=16 attempt=1 pageId=03 index=2
+[2026-08-28 21:23:17.923] [INFO ] [pid=67396] [backend-ops] removeSlideAt start index=2
+[2026-08-28 21:23:17.927] [INFO ] [pid=67396] [mcp] mcp:slide_remove_slide send url=http://127.0.0.1:39099/mcp args={"file_id":"sid_mtczclb9_bqipml9k","page_index":2}
+[2026-08-28 21:23:17.929] [INFO ] [pid=67396] [mcp] mcp:slide_remove_slide ok ms=2
+[2026-08-28 21:23:17.930] [INFO ] [pid=67396] [backend-ops] removeSlideAt ok index=2 serverVersion=17 ms=7
+[2026-08-28 21:23:17.931] [INFO ] [pid=67396] [sync] step=add round=16 attempt=1 pageId=03 index=2
+[2026-08-28 21:23:17.932] [INFO ] [pid=67396] [backend-ops] addSlideAt start pageId=03 index=2
+[2026-08-28 21:23:17.933] [INFO ] [pid=67396] [render] start pageId=03 file=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报\slides\03.slide
+[2026-08-28 21:23:18.039] [INFO ] [pid=67396] [render] ok pageId=03 slides=1 ms=106
+[2026-08-28 21:23:18.041] [INFO ] [pid=67396] [render] renderSlideData result.resources={ images: {}, videos: {}, audios: {}, fonts: {} }
+[2026-08-28 21:23:18.047] [INFO ] [pid=67396] [commit] commit send pageId=a38235 targetIndex=2 version=15 baseVersion=17 revisionBytes=30248
+[2026-08-28 21:23:18.054] [INFO ] [pid=67396] [commit] commit ok pageId=a38235 revisionId=c7f6b92b ms=6
+[2026-08-28 21:23:18.056] [INFO ] [pid=67396] [backend-ops] addSlideAt ok pageId=03 slideId=a38235 index=2 version=15 baseVersion=17 revisionId=c7f6b92b code=0 images=[local=0 remote=0 cached=0 failed=0] ms=124
+[2026-08-28 21:23:18.057] [INFO ] [pid=67396] [sync] aligned round=16 attempt=1 size=12 desired=12 pendingDirtySize=0
+[2026-08-28 21:23:18.058] [INFO ] [pid=67396] [sync] reconcile ok round=16 attempt=1 ms=135
+[2026-08-28 21:23:18.058] [INFO ] [pid=67396] [backend-ops] save start file=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报\以动代屏_童健韶华_体质提升篇_汇报.pptx
+[2026-08-28 21:23:18.059] [INFO ] [pid=67396] [commit] save send filePath=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报\以动代屏_童健韶华_体质提升篇_汇报.pptx
+[2026-08-28 21:23:18.156] [INFO ] [pid=67396] [commit] save ok file_path=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报\以动代屏_童健韶华_体质提升篇_汇报.pptx ms=96
+[2026-08-28 21:23:18.156] [INFO ] [pid=67396] [backend-ops] save ok file_path=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报\以动代屏_童健韶华_体质提升篇_汇报.pptx ms=98
+[2026-08-28 21:23:18.157] [INFO ] [pid=67396] [sync] drain end round=16 reconciles=1 mergedSubmits=1 pendingDirtySize=0 ms=235
+[2026-08-28 21:23:21.770] [INFO ] [pid=67396] [watcher] event=change file=slides\04.slide
+[2026-08-28 21:23:22.285] [INFO ] [pid=67396] [watcher] flush batch dirty=[04] size=1
+[2026-08-28 21:23:22.286] [INFO ] [pid=67396] [sync] submit nextRound=17 dirty=04 pendingDirtySize=1 merged=no
+[2026-08-28 21:23:22.286] [INFO ] [pid=67396] [sync] drain start round=17 pendingDirtySize=1
+[2026-08-28 21:23:22.287] [INFO ] [pid=67396] [sync] step=remove-dirty round=17 attempt=1 pageId=04 index=3
+[2026-08-28 21:23:22.288] [INFO ] [pid=67396] [backend-ops] removeSlideAt start index=3
+[2026-08-28 21:23:22.290] [INFO ] [pid=67396] [mcp] mcp:slide_remove_slide send url=http://127.0.0.1:39099/mcp args={"file_id":"sid_mtczclb9_bqipml9k","page_index":3}
+[2026-08-28 21:23:22.293] [INFO ] [pid=67396] [mcp] mcp:slide_remove_slide ok ms=2
+[2026-08-28 21:23:22.294] [INFO ] [pid=67396] [backend-ops] removeSlideAt ok index=3 serverVersion=19 ms=6
+[2026-08-28 21:23:22.294] [INFO ] [pid=67396] [sync] step=add round=17 attempt=1 pageId=04 index=3
+[2026-08-28 21:23:22.295] [INFO ] [pid=67396] [backend-ops] addSlideAt start pageId=04 index=3
+[2026-08-28 21:23:22.296] [INFO ] [pid=67396] [render] start pageId=04 file=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报\slides\04.slide
+[2026-08-28 21:23:22.388] [INFO ] [pid=67396] [render] ok pageId=04 slides=1 ms=92
+[2026-08-28 21:23:22.391] [INFO ] [pid=67396] [render] renderSlideData result.resources={ images: {}, videos: {}, audios: {}, fonts: {} }
+[2026-08-28 21:23:22.395] [INFO ] [pid=67396] [commit] commit send pageId=3846d7 targetIndex=3 version=16 baseVersion=19 revisionBytes=32284
+[2026-08-28 21:23:22.405] [INFO ] [pid=67396] [commit] commit ok pageId=3846d7 revisionId=e2673ca0 ms=9
+[2026-08-28 21:23:22.414] [INFO ] [pid=67396] [backend-ops] addSlideAt ok pageId=04 slideId=3846d7 index=3 version=16 baseVersion=19 revisionId=e2673ca0 code=0 images=[local=0 remote=0 cached=0 failed=0] ms=119
+[2026-08-28 21:23:22.416] [INFO ] [pid=67396] [sync] aligned round=17 attempt=1 size=12 desired=12 pendingDirtySize=0
+[2026-08-28 21:23:22.417] [INFO ] [pid=67396] [sync] reconcile ok round=17 attempt=1 ms=130
+[2026-08-28 21:23:22.417] [INFO ] [pid=67396] [backend-ops] save start file=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报\以动代屏_童健韶华_体质提升篇_汇报.pptx
+[2026-08-28 21:23:22.418] [INFO ] [pid=67396] [commit] save send filePath=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报\以动代屏_童健韶华_体质提升篇_汇报.pptx
+[2026-08-28 21:23:22.550] [INFO ] [pid=67396] [commit] save ok file_path=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报\以动代屏_童健韶华_体质提升篇_汇报.pptx ms=132
+[2026-08-28 21:23:22.551] [INFO ] [pid=67396] [backend-ops] save ok file_path=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报\以动代屏_童健韶华_体质提升篇_汇报.pptx ms=134
+[2026-08-28 21:23:22.551] [INFO ] [pid=67396] [sync] drain end round=17 reconciles=1 mergedSubmits=1 pendingDirtySize=0 ms=265
+[2026-08-28 21:23:27.094] [INFO ] [pid=67396] [watcher] event=change file=slides\05.slide
+[2026-08-28 21:23:27.596] [INFO ] [pid=67396] [watcher] flush batch dirty=[05] size=1
+[2026-08-28 21:23:27.597] [INFO ] [pid=67396] [sync] submit nextRound=18 dirty=05 pendingDirtySize=1 merged=no
+[2026-08-28 21:23:27.598] [INFO ] [pid=67396] [sync] drain start round=18 pendingDirtySize=1
+[2026-08-28 21:23:27.599] [INFO ] [pid=67396] [sync] step=remove-dirty round=18 attempt=1 pageId=05 index=4
+[2026-08-28 21:23:27.600] [INFO ] [pid=67396] [backend-ops] removeSlideAt start index=4
+[2026-08-28 21:23:27.603] [INFO ] [pid=67396] [mcp] mcp:slide_remove_slide send url=http://127.0.0.1:39099/mcp args={"file_id":"sid_mtczclb9_bqipml9k","page_index":4}
+[2026-08-28 21:23:27.605] [INFO ] [pid=67396] [mcp] mcp:slide_remove_slide ok ms=2
+[2026-08-28 21:23:27.606] [INFO ] [pid=67396] [backend-ops] removeSlideAt ok index=4 serverVersion=21 ms=6
+[2026-08-28 21:23:27.606] [INFO ] [pid=67396] [sync] step=add round=18 attempt=1 pageId=05 index=4
+[2026-08-28 21:23:27.607] [INFO ] [pid=67396] [backend-ops] addSlideAt start pageId=05 index=4
+[2026-08-28 21:23:27.608] [INFO ] [pid=67396] [render] start pageId=05 file=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报\slides\05.slide
+[2026-08-28 21:23:27.659] [INFO ] [pid=67396] [render] ok pageId=05 slides=1 ms=51
+[2026-08-28 21:23:27.660] [INFO ] [pid=67396] [render] renderSlideData result.resources={
+  images: {
+    'rel:00pglfes': {
+      id: 'rel:00pglfes',
+      src: 'C:\\Users\\Yanzongning\\Desktop\\童健韶华资料库\\以动代屏_童健韶华_体质提升篇_汇报\\.cache\\media\\images\\100e9f24436476aefece39d7395a4c07.png'
+    }
+  },
+  videos: {},
+  audios: {},
+  fonts: {}
+}
+[2026-08-28 21:23:27.666] [INFO ] [pid=67396] [commit] commit send pageId=3eb0a4 targetIndex=4 version=17 baseVersion=21 revisionBytes=83320
+[2026-08-28 21:23:27.674] [INFO ] [pid=67396] [commit] commit ok pageId=3eb0a4 revisionId=9d8894b4 ms=7
+[2026-08-28 21:23:27.676] [INFO ] [pid=67396] [backend-ops] addSlideAt ok pageId=05 slideId=3eb0a4 index=4 version=17 baseVersion=21 revisionId=9d8894b4 code=0 images=[local=1 remote=0 cached=0 failed=0] ms=69
+[2026-08-28 21:23:27.677] [INFO ] [pid=67396] [sync] aligned round=18 attempt=1 size=12 desired=12 pendingDirtySize=0
+[2026-08-28 21:23:27.678] [INFO ] [pid=67396] [sync] reconcile ok round=18 attempt=1 ms=79
+[2026-08-28 21:23:27.678] [INFO ] [pid=67396] [backend-ops] save start file=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报\以动代屏_童健韶华_体质提升篇_汇报.pptx
+[2026-08-28 21:23:27.679] [INFO ] [pid=67396] [commit] save send filePath=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报\以动代屏_童健韶华_体质提升篇_汇报.pptx
+[2026-08-28 21:23:27.808] [INFO ] [pid=67396] [commit] save ok file_path=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报\以动代屏_童健韶华_体质提升篇_汇报.pptx ms=129
+[2026-08-28 21:23:27.809] [INFO ] [pid=67396] [backend-ops] save ok file_path=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报\以动代屏_童健韶华_体质提升篇_汇报.pptx ms=131
+[2026-08-28 21:23:27.809] [INFO ] [pid=67396] [sync] drain end round=18 reconciles=1 mergedSubmits=1 pendingDirtySize=0 ms=211
+[2026-08-28 21:23:31.852] [INFO ] [pid=67396] [watcher] event=change file=slides\06.slide
+[2026-08-28 21:23:32.366] [INFO ] [pid=67396] [watcher] flush batch dirty=[06] size=1
+[2026-08-28 21:23:32.367] [INFO ] [pid=67396] [sync] submit nextRound=19 dirty=06 pendingDirtySize=1 merged=no
+[2026-08-28 21:23:32.367] [INFO ] [pid=67396] [sync] drain start round=19 pendingDirtySize=1
+[2026-08-28 21:23:32.368] [INFO ] [pid=67396] [sync] step=remove-dirty round=19 attempt=1 pageId=06 index=5
+[2026-08-28 21:23:32.368] [INFO ] [pid=67396] [backend-ops] removeSlideAt start index=5
+[2026-08-28 21:23:32.371] [INFO ] [pid=67396] [mcp] mcp:slide_remove_slide send url=http://127.0.0.1:39099/mcp args={"file_id":"sid_mtczclb9_bqipml9k","page_index":5}
+[2026-08-28 21:23:32.374] [INFO ] [pid=67396] [mcp] mcp:slide_remove_slide ok ms=2
+[2026-08-28 21:23:32.374] [INFO ] [pid=67396] [backend-ops] removeSlideAt ok index=5 serverVersion=23 ms=6
+[2026-08-28 21:23:32.375] [INFO ] [pid=67396] [sync] step=add round=19 attempt=1 pageId=06 index=5
+[2026-08-28 21:23:32.375] [INFO ] [pid=67396] [backend-ops] addSlideAt start pageId=06 index=5
+[2026-08-28 21:23:32.376] [INFO ] [pid=67396] [render] start pageId=06 file=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报\slides\06.slide
+[2026-08-28 21:23:32.425] [INFO ] [pid=67396] [render] ok pageId=06 slides=1 ms=49
+[2026-08-28 21:23:32.426] [INFO ] [pid=67396] [render] renderSlideData result.resources={
+  images: {
+    'rel:009b86mu': {
+      id: 'rel:009b86mu',
+      src: 'C:\\Users\\Yanzongning\\Desktop\\童健韶华资料库\\以动代屏_童健韶华_体质提升篇_汇报\\.cache\\media\\images\\088aa08b57d4ea0fe252c57bab8cc7ac.png'
+    }
+  },
+  videos: {},
+  audios: {},
+  fonts: {}
+}
+[2026-08-28 21:23:32.430] [INFO ] [pid=67396] [commit] commit send pageId=eb8ab6 targetIndex=5 version=18 baseVersion=23 revisionBytes=118292
+[2026-08-28 21:23:32.439] [INFO ] [pid=67396] [commit] commit ok pageId=eb8ab6 revisionId=e984bf17 ms=8
+[2026-08-28 21:23:32.442] [INFO ] [pid=67396] [backend-ops] addSlideAt ok pageId=06 slideId=eb8ab6 index=5 version=18 baseVersion=23 revisionId=e984bf17 code=0 images=[local=1 remote=0 cached=0 failed=0] ms=67
+[2026-08-28 21:23:32.443] [INFO ] [pid=67396] [sync] aligned round=19 attempt=1 size=12 desired=12 pendingDirtySize=0
+[2026-08-28 21:23:32.443] [INFO ] [pid=67396] [sync] reconcile ok round=19 attempt=1 ms=75
+[2026-08-28 21:23:32.444] [INFO ] [pid=67396] [backend-ops] save start file=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报\以动代屏_童健韶华_体质提升篇_汇报.pptx
+[2026-08-28 21:23:32.445] [INFO ] [pid=67396] [commit] save send filePath=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报\以动代屏_童健韶华_体质提升篇_汇报.pptx
+[2026-08-28 21:23:32.574] [INFO ] [pid=67396] [commit] save ok file_path=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报\以动代屏_童健韶华_体质提升篇_汇报.pptx ms=129
+[2026-08-28 21:23:32.574] [INFO ] [pid=67396] [backend-ops] save ok file_path=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报\以动代屏_童健韶华_体质提升篇_汇报.pptx ms=130
+[2026-08-28 21:23:32.575] [INFO ] [pid=67396] [sync] drain end round=19 reconciles=1 mergedSubmits=1 pendingDirtySize=0 ms=208
+[2026-08-28 21:23:34.618] [INFO ] [pid=67396] [watcher] event=change file=slides\07.slide
+[2026-08-28 21:23:35.133] [INFO ] [pid=67396] [watcher] flush batch dirty=[07] size=1
+[2026-08-28 21:23:35.134] [INFO ] [pid=67396] [sync] submit nextRound=20 dirty=07 pendingDirtySize=1 merged=no
+[2026-08-28 21:23:35.135] [INFO ] [pid=67396] [sync] drain start round=20 pendingDirtySize=1
+[2026-08-28 21:23:35.136] [INFO ] [pid=67396] [sync] step=remove-dirty round=20 attempt=1 pageId=07 index=6
+[2026-08-28 21:23:35.136] [INFO ] [pid=67396] [backend-ops] removeSlideAt start index=6
+[2026-08-28 21:23:35.139] [INFO ] [pid=67396] [mcp] mcp:slide_remove_slide send url=http://127.0.0.1:39099/mcp args={"file_id":"sid_mtczclb9_bqipml9k","page_index":6}
+[2026-08-28 21:23:35.142] [INFO ] [pid=67396] [mcp] mcp:slide_remove_slide ok ms=1
+[2026-08-28 21:23:35.142] [INFO ] [pid=67396] [backend-ops] removeSlideAt ok index=6 serverVersion=25 ms=6
+[2026-08-28 21:23:35.143] [INFO ] [pid=67396] [sync] step=add round=20 attempt=1 pageId=07 index=6
+[2026-08-28 21:23:35.143] [INFO ] [pid=67396] [backend-ops] addSlideAt start pageId=07 index=6
+[2026-08-28 21:23:35.144] [INFO ] [pid=67396] [render] start pageId=07 file=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报\slides\07.slide
+[2026-08-28 21:23:35.162] [INFO ] [pid=67396] [render] ok pageId=07 slides=1 ms=18
+[2026-08-28 21:23:35.162] [INFO ] [pid=67396] [render] renderSlideData result.resources={
+  images: {
+    'rel:00csu4y8': {
+      id: 'rel:00csu4y8',
+      src: 'C:\\Users\\Yanzongning\\Desktop\\童健韶华资料库\\以动代屏_童健韶华_体质提升篇_汇报\\.cache\\media\\images\\6d1536b2c1ea0f0423079c635a26417c.png'
+    }
+  },
+  videos: {},
+  audios: {},
+  fonts: {}
+}
+[2026-08-28 21:23:35.168] [INFO ] [pid=67396] [commit] commit send pageId=4292e8 targetIndex=6 version=19 baseVersion=25 revisionBytes=981476
+[2026-08-28 21:23:35.188] [INFO ] [pid=67396] [commit] commit ok pageId=4292e8 revisionId=becb51b2 ms=19
+[2026-08-28 21:23:35.191] [INFO ] [pid=67396] [backend-ops] addSlideAt ok pageId=07 slideId=4292e8 index=6 version=19 baseVersion=25 revisionId=becb51b2 code=0 images=[local=1 remote=0 cached=0 failed=0] ms=48
+[2026-08-28 21:23:35.192] [INFO ] [pid=67396] [sync] aligned round=20 attempt=1 size=12 desired=12 pendingDirtySize=0
+[2026-08-28 21:23:35.192] [INFO ] [pid=67396] [sync] reconcile ok round=20 attempt=1 ms=56
+[2026-08-28 21:23:35.192] [INFO ] [pid=67396] [backend-ops] save start file=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报\以动代屏_童健韶华_体质提升篇_汇报.pptx
+[2026-08-28 21:23:35.193] [INFO ] [pid=67396] [commit] save send filePath=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报\以动代屏_童健韶华_体质提升篇_汇报.pptx
+[2026-08-28 21:23:35.295] [INFO ] [pid=67396] [commit] save ok file_path=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报\以动代屏_童健韶华_体质提升篇_汇报.pptx ms=102
+[2026-08-28 21:23:35.296] [INFO ] [pid=67396] [backend-ops] save ok file_path=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报\以动代屏_童健韶华_体质提升篇_汇报.pptx ms=104
+[2026-08-28 21:23:35.297] [INFO ] [pid=67396] [sync] drain end round=20 reconciles=1 mergedSubmits=1 pendingDirtySize=0 ms=161
+[2026-08-28 21:23:39.084] [INFO ] [pid=67396] [watcher] event=change file=slides\08.slide
+[2026-08-28 21:23:39.599] [INFO ] [pid=67396] [watcher] flush batch dirty=[08] size=1
+[2026-08-28 21:23:39.600] [INFO ] [pid=67396] [sync] submit nextRound=21 dirty=08 pendingDirtySize=1 merged=no
+[2026-08-28 21:23:39.601] [INFO ] [pid=67396] [sync] drain start round=21 pendingDirtySize=1
+[2026-08-28 21:23:39.602] [INFO ] [pid=67396] [sync] step=remove-dirty round=21 attempt=1 pageId=08 index=7
+[2026-08-28 21:23:39.602] [INFO ] [pid=67396] [backend-ops] removeSlideAt start index=7
+[2026-08-28 21:23:39.605] [INFO ] [pid=67396] [mcp] mcp:slide_remove_slide send url=http://127.0.0.1:39099/mcp args={"file_id":"sid_mtczclb9_bqipml9k","page_index":7}
+[2026-08-28 21:23:39.608] [INFO ] [pid=67396] [mcp] mcp:slide_remove_slide ok ms=2
+[2026-08-28 21:23:39.608] [INFO ] [pid=67396] [backend-ops] removeSlideAt ok index=7 serverVersion=27 ms=6
+[2026-08-28 21:23:39.609] [INFO ] [pid=67396] [sync] step=add round=21 attempt=1 pageId=08 index=7
+[2026-08-28 21:23:39.610] [INFO ] [pid=67396] [backend-ops] addSlideAt start pageId=08 index=7
+[2026-08-28 21:23:39.610] [INFO ] [pid=67396] [render] start pageId=08 file=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报\slides\08.slide
+[2026-08-28 21:23:39.669] [INFO ] [pid=67396] [render] ok pageId=08 slides=1 ms=59
+[2026-08-28 21:23:39.670] [INFO ] [pid=67396] [render] renderSlideData result.resources={ images: {}, videos: {}, audios: {}, fonts: {} }
+[2026-08-28 21:23:39.675] [INFO ] [pid=67396] [commit] commit send pageId=491a16 targetIndex=7 version=20 baseVersion=27 revisionBytes=26308
+[2026-08-28 21:23:39.681] [INFO ] [pid=67396] [commit] commit ok pageId=491a16 revisionId=9c849464 ms=5
+[2026-08-28 21:23:39.685] [INFO ] [pid=67396] [backend-ops] addSlideAt ok pageId=08 slideId=491a16 index=7 version=20 baseVersion=27 revisionId=9c849464 code=0 images=[local=0 remote=0 cached=0 failed=0] ms=75
+[2026-08-28 21:23:39.686] [INFO ] [pid=67396] [sync] aligned round=21 attempt=1 size=12 desired=12 pendingDirtySize=0
+[2026-08-28 21:23:39.686] [INFO ] [pid=67396] [sync] reconcile ok round=21 attempt=1 ms=85
+[2026-08-28 21:23:39.687] [INFO ] [pid=67396] [backend-ops] save start file=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报\以动代屏_童健韶华_体质提升篇_汇报.pptx
+[2026-08-28 21:23:39.687] [INFO ] [pid=67396] [commit] save send filePath=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报\以动代屏_童健韶华_体质提升篇_汇报.pptx
+[2026-08-28 21:23:39.818] [INFO ] [pid=67396] [commit] save ok file_path=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报\以动代屏_童健韶华_体质提升篇_汇报.pptx ms=130
+[2026-08-28 21:23:39.819] [INFO ] [pid=67396] [backend-ops] save ok file_path=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报\以动代屏_童健韶华_体质提升篇_汇报.pptx ms=132
+[2026-08-28 21:23:39.820] [INFO ] [pid=67396] [sync] drain end round=21 reconciles=1 mergedSubmits=1 pendingDirtySize=0 ms=219
+[2026-08-28 21:23:43.787] [INFO ] [pid=67396] [watcher] event=change file=slides\09.slide
+[2026-08-28 21:23:44.291] [INFO ] [pid=67396] [watcher] flush batch dirty=[09] size=1
+[2026-08-28 21:23:44.292] [INFO ] [pid=67396] [sync] submit nextRound=22 dirty=09 pendingDirtySize=1 merged=no
+[2026-08-28 21:23:44.292] [INFO ] [pid=67396] [sync] drain start round=22 pendingDirtySize=1
+[2026-08-28 21:23:44.293] [INFO ] [pid=67396] [sync] step=remove-dirty round=22 attempt=1 pageId=09 index=8
+[2026-08-28 21:23:44.293] [INFO ] [pid=67396] [backend-ops] removeSlideAt start index=8
+[2026-08-28 21:23:44.297] [INFO ] [pid=67396] [mcp] mcp:slide_remove_slide send url=http://127.0.0.1:39099/mcp args={"file_id":"sid_mtczclb9_bqipml9k","page_index":8}
+[2026-08-28 21:23:44.300] [INFO ] [pid=67396] [mcp] mcp:slide_remove_slide ok ms=3
+[2026-08-28 21:23:44.301] [INFO ] [pid=67396] [backend-ops] removeSlideAt ok index=8 serverVersion=29 ms=8
+[2026-08-28 21:23:44.302] [INFO ] [pid=67396] [sync] step=add round=22 attempt=1 pageId=09 index=8
+[2026-08-28 21:23:44.302] [INFO ] [pid=67396] [backend-ops] addSlideAt start pageId=09 index=8
+[2026-08-28 21:23:44.303] [INFO ] [pid=67396] [render] start pageId=09 file=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报\slides\09.slide
+[2026-08-28 21:23:44.396] [INFO ] [pid=67396] [render] ok pageId=09 slides=1 ms=93
+[2026-08-28 21:23:44.397] [INFO ] [pid=67396] [render] renderSlideData result.resources={ images: {}, videos: {}, audios: {}, fonts: {} }
+[2026-08-28 21:23:44.405] [INFO ] [pid=67396] [commit] commit send pageId=765bf1 targetIndex=8 version=21 baseVersion=29 revisionBytes=28376
+[2026-08-28 21:23:44.411] [INFO ] [pid=67396] [commit] commit ok pageId=765bf1 revisionId=2e257c0a ms=5
+[2026-08-28 21:23:44.413] [INFO ] [pid=67396] [backend-ops] addSlideAt ok pageId=09 slideId=765bf1 index=8 version=21 baseVersion=29 revisionId=2e257c0a code=0 images=[local=0 remote=0 cached=0 failed=0] ms=111
+[2026-08-28 21:23:44.414] [INFO ] [pid=67396] [sync] aligned round=22 attempt=1 size=12 desired=12 pendingDirtySize=0
+[2026-08-28 21:23:44.416] [INFO ] [pid=67396] [sync] reconcile ok round=22 attempt=1 ms=123
+[2026-08-28 21:23:44.417] [INFO ] [pid=67396] [backend-ops] save start file=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报\以动代屏_童健韶华_体质提升篇_汇报.pptx
+[2026-08-28 21:23:44.417] [INFO ] [pid=67396] [commit] save send filePath=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报\以动代屏_童健韶华_体质提升篇_汇报.pptx
+[2026-08-28 21:23:44.521] [INFO ] [pid=67396] [commit] save ok file_path=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报\以动代屏_童健韶华_体质提升篇_汇报.pptx ms=103
+[2026-08-28 21:23:44.522] [INFO ] [pid=67396] [backend-ops] save ok file_path=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报\以动代屏_童健韶华_体质提升篇_汇报.pptx ms=105
+[2026-08-28 21:23:44.523] [INFO ] [pid=67396] [sync] drain end round=22 reconciles=1 mergedSubmits=1 pendingDirtySize=0 ms=231
+[2026-08-28 21:23:48.444] [INFO ] [pid=67396] [watcher] event=change file=slides\10.slide
+[2026-08-28 21:23:48.947] [INFO ] [pid=67396] [watcher] flush batch dirty=[10] size=1
+[2026-08-28 21:23:48.949] [INFO ] [pid=67396] [sync] submit nextRound=23 dirty=10 pendingDirtySize=1 merged=no
+[2026-08-28 21:23:48.950] [INFO ] [pid=67396] [sync] drain start round=23 pendingDirtySize=1
+[2026-08-28 21:23:48.950] [INFO ] [pid=67396] [sync] step=remove-dirty round=23 attempt=1 pageId=10 index=9
+[2026-08-28 21:23:48.951] [INFO ] [pid=67396] [backend-ops] removeSlideAt start index=9
+[2026-08-28 21:23:48.954] [INFO ] [pid=67396] [mcp] mcp:slide_remove_slide send url=http://127.0.0.1:39099/mcp args={"file_id":"sid_mtczclb9_bqipml9k","page_index":9}
+[2026-08-28 21:23:48.957] [INFO ] [pid=67396] [mcp] mcp:slide_remove_slide ok ms=3
+[2026-08-28 21:23:48.957] [INFO ] [pid=67396] [backend-ops] removeSlideAt ok index=9 serverVersion=31 ms=6
+[2026-08-28 21:23:48.958] [INFO ] [pid=67396] [sync] step=add round=23 attempt=1 pageId=10 index=9
+[2026-08-28 21:23:48.958] [INFO ] [pid=67396] [backend-ops] addSlideAt start pageId=10 index=9
+[2026-08-28 21:23:48.959] [INFO ] [pid=67396] [render] start pageId=10 file=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报\slides\10.slide
+[2026-08-28 21:23:49.021] [INFO ] [pid=67396] [render] ok pageId=10 slides=1 ms=62
+[2026-08-28 21:23:49.022] [INFO ] [pid=67396] [render] renderSlideData result.resources={ images: {}, videos: {}, audios: {}, fonts: {} }
+[2026-08-28 21:23:49.029] [INFO ] [pid=67396] [commit] commit send pageId=d92962 targetIndex=9 version=22 baseVersion=31 revisionBytes=24144
+[2026-08-28 21:23:49.049] [INFO ] [pid=67396] [commit] commit ok pageId=d92962 revisionId=640feee2 ms=18
+[2026-08-28 21:23:49.053] [INFO ] [pid=67396] [backend-ops] addSlideAt ok pageId=10 slideId=d92962 index=9 version=22 baseVersion=31 revisionId=640feee2 code=0 images=[local=0 remote=0 cached=0 failed=0] ms=95
+[2026-08-28 21:23:49.054] [INFO ] [pid=67396] [sync] aligned round=23 attempt=1 size=12 desired=12 pendingDirtySize=0
+[2026-08-28 21:23:49.055] [INFO ] [pid=67396] [sync] reconcile ok round=23 attempt=1 ms=105
+[2026-08-28 21:23:49.055] [INFO ] [pid=67396] [backend-ops] save start file=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报\以动代屏_童健韶华_体质提升篇_汇报.pptx
+[2026-08-28 21:23:49.056] [INFO ] [pid=67396] [commit] save send filePath=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报\以动代屏_童健韶华_体质提升篇_汇报.pptx
+[2026-08-28 21:23:49.155] [INFO ] [pid=67396] [commit] save ok file_path=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报\以动代屏_童健韶华_体质提升篇_汇报.pptx ms=99
+[2026-08-28 21:23:49.156] [INFO ] [pid=67396] [backend-ops] save ok file_path=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报\以动代屏_童健韶华_体质提升篇_汇报.pptx ms=101
+[2026-08-28 21:23:49.157] [INFO ] [pid=67396] [sync] drain end round=23 reconciles=1 mergedSubmits=1 pendingDirtySize=0 ms=207
+[2026-08-28 21:23:53.507] [INFO ] [pid=67396] [watcher] event=change file=slides\11.slide
+[2026-08-28 21:23:54.022] [INFO ] [pid=67396] [watcher] flush batch dirty=[11] size=1
+[2026-08-28 21:23:54.027] [INFO ] [pid=67396] [sync] submit nextRound=24 dirty=11 pendingDirtySize=1 merged=no
+[2026-08-28 21:23:54.031] [INFO ] [pid=67396] [sync] drain start round=24 pendingDirtySize=1
+[2026-08-28 21:23:54.035] [INFO ] [pid=67396] [sync] step=remove-dirty round=24 attempt=1 pageId=11 index=10
+[2026-08-28 21:23:54.037] [INFO ] [pid=67396] [backend-ops] removeSlideAt start index=10
+[2026-08-28 21:23:54.044] [INFO ] [pid=67396] [mcp] mcp:slide_remove_slide send url=http://127.0.0.1:39099/mcp args={"file_id":"sid_mtczclb9_bqipml9k","page_index":10}
+[2026-08-28 21:23:54.048] [INFO ] [pid=67396] [mcp] mcp:slide_remove_slide ok ms=2
+[2026-08-28 21:23:54.049] [INFO ] [pid=67396] [backend-ops] removeSlideAt ok index=10 serverVersion=33 ms=12
+[2026-08-28 21:23:54.051] [INFO ] [pid=67396] [sync] step=add round=24 attempt=1 pageId=11 index=10
+[2026-08-28 21:23:54.051] [INFO ] [pid=67396] [backend-ops] addSlideAt start pageId=11 index=10
+[2026-08-28 21:23:54.052] [INFO ] [pid=67396] [render] start pageId=11 file=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报\slides\11.slide
+[2026-08-28 21:23:54.097] [INFO ] [pid=67396] [render] ok pageId=11 slides=1 ms=45
+[2026-08-28 21:23:54.097] [INFO ] [pid=67396] [render] renderSlideData result.resources={ images: {}, videos: {}, audios: {}, fonts: {} }
+[2026-08-28 21:23:54.105] [INFO ] [pid=67396] [commit] commit send pageId=51e56d targetIndex=10 version=23 baseVersion=33 revisionBytes=22072
+[2026-08-28 21:23:54.111] [INFO ] [pid=67396] [commit] commit ok pageId=51e56d revisionId=991fa41e ms=5
+[2026-08-28 21:23:54.113] [INFO ] [pid=67396] [backend-ops] addSlideAt ok pageId=11 slideId=51e56d index=10 version=23 baseVersion=33 revisionId=991fa41e code=0 images=[local=0 remote=0 cached=0 failed=0] ms=62
+[2026-08-28 21:23:54.114] [INFO ] [pid=67396] [sync] aligned round=24 attempt=1 size=12 desired=12 pendingDirtySize=0
+[2026-08-28 21:23:54.116] [INFO ] [pid=67396] [sync] reconcile ok round=24 attempt=1 ms=81
+[2026-08-28 21:23:54.116] [INFO ] [pid=67396] [backend-ops] save start file=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报\以动代屏_童健韶华_体质提升篇_汇报.pptx
+[2026-08-28 21:23:54.117] [INFO ] [pid=67396] [commit] save send filePath=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报\以动代屏_童健韶华_体质提升篇_汇报.pptx
+[2026-08-28 21:23:54.244] [INFO ] [pid=67396] [commit] save ok file_path=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报\以动代屏_童健韶华_体质提升篇_汇报.pptx ms=126
+[2026-08-28 21:23:54.245] [INFO ] [pid=67396] [backend-ops] save ok file_path=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报\以动代屏_童健韶华_体质提升篇_汇报.pptx ms=129
+[2026-08-28 21:23:54.245] [INFO ] [pid=67396] [sync] drain end round=24 reconciles=1 mergedSubmits=1 pendingDirtySize=0 ms=214
+[2026-08-28 21:23:56.760] [INFO ] [pid=67396] [watcher] event=change file=slides\12.slide
+[2026-08-28 21:23:57.263] [INFO ] [pid=67396] [watcher] flush batch dirty=[12] size=1
+[2026-08-28 21:23:57.264] [INFO ] [pid=67396] [sync] submit nextRound=25 dirty=12 pendingDirtySize=1 merged=no
+[2026-08-28 21:23:57.265] [INFO ] [pid=67396] [sync] drain start round=25 pendingDirtySize=1
+[2026-08-28 21:23:57.266] [INFO ] [pid=67396] [sync] step=remove-dirty round=25 attempt=1 pageId=12 index=11
+[2026-08-28 21:23:57.267] [INFO ] [pid=67396] [backend-ops] removeSlideAt start index=11
+[2026-08-28 21:23:57.270] [INFO ] [pid=67396] [mcp] mcp:slide_remove_slide send url=http://127.0.0.1:39099/mcp args={"file_id":"sid_mtczclb9_bqipml9k","page_index":11}
+[2026-08-28 21:23:57.272] [INFO ] [pid=67396] [mcp] mcp:slide_remove_slide ok ms=2
+[2026-08-28 21:23:57.273] [INFO ] [pid=67396] [backend-ops] removeSlideAt ok index=11 serverVersion=35 ms=6
+[2026-08-28 21:23:57.274] [INFO ] [pid=67396] [sync] step=add round=25 attempt=1 pageId=12 index=11
+[2026-08-28 21:23:57.274] [INFO ] [pid=67396] [backend-ops] addSlideAt start pageId=12 index=11
+[2026-08-28 21:23:57.275] [INFO ] [pid=67396] [render] start pageId=12 file=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报\slides\12.slide
+[2026-08-28 21:23:57.313] [INFO ] [pid=67396] [render] ok pageId=12 slides=1 ms=38
+[2026-08-28 21:23:57.327] [INFO ] [pid=67396] [render] renderSlideData result.resources={ images: {}, videos: {}, audios: {}, fonts: {} }
+[2026-08-28 21:23:57.330] [INFO ] [pid=67396] [commit] commit send pageId=dc000c targetIndex=11 version=24 baseVersion=35 revisionBytes=9904
+[2026-08-28 21:23:57.337] [INFO ] [pid=67396] [commit] commit ok pageId=dc000c revisionId=b47586d4 ms=7
+[2026-08-28 21:23:57.342] [INFO ] [pid=67396] [backend-ops] addSlideAt ok pageId=12 slideId=dc000c index=11 version=24 baseVersion=35 revisionId=b47586d4 code=0 images=[local=0 remote=0 cached=0 failed=0] ms=68
+[2026-08-28 21:23:57.343] [INFO ] [pid=67396] [sync] aligned round=25 attempt=1 size=12 desired=12 pendingDirtySize=0
+[2026-08-28 21:23:57.344] [INFO ] [pid=67396] [sync] reconcile ok round=25 attempt=1 ms=78
+[2026-08-28 21:23:57.344] [INFO ] [pid=67396] [backend-ops] save start file=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报\以动代屏_童健韶华_体质提升篇_汇报.pptx
+[2026-08-28 21:23:57.345] [INFO ] [pid=67396] [commit] save send filePath=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报\以动代屏_童健韶华_体质提升篇_汇报.pptx
+[2026-08-28 21:23:57.446] [INFO ] [pid=67396] [commit] save ok file_path=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报\以动代屏_童健韶华_体质提升篇_汇报.pptx ms=101
+[2026-08-28 21:23:57.447] [INFO ] [pid=67396] [backend-ops] save ok file_path=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报\以动代屏_童健韶华_体质提升篇_汇报.pptx ms=103
+[2026-08-28 21:23:57.447] [INFO ] [pid=67396] [sync] drain end round=25 reconciles=1 mergedSubmits=1 pendingDirtySize=0 ms=182
+=== boot pid=63208 ts=2026-08-28 21:24:03.904 cwd=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报 argv=C:\Users\Yanzongning\.workbuddy\binaries\node\versions\22.22.2\node_modules\@tencent\slidep\dist\slidep-validate.js --all --project . ===
+[2026-08-28 21:24:03.902] [INFO ] [pid=63208] [validate] --all mode: found 12 files in C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报\slides
+[2026-08-28 21:24:03.906] [INFO ] [pid=63208] [validate] batch start files=12 checkOverflow=true
+[2026-08-28 21:24:05.380] [INFO ] [pid=63208] [validate] batch done total=12 passed=12 failed=0 ms=1478
+[2026-08-28 21:39:43.268] [INFO ] [pid=67396] [watcher] event=change file=slides\01.slide
+[2026-08-28 21:39:43.783] [INFO ] [pid=67396] [watcher] flush batch dirty=[01] size=1
+[2026-08-28 21:39:43.784] [INFO ] [pid=67396] [sync] submit nextRound=26 dirty=01 pendingDirtySize=1 merged=no
+[2026-08-28 21:39:43.784] [INFO ] [pid=67396] [sync] drain start round=26 pendingDirtySize=1
+[2026-08-28 21:39:43.785] [INFO ] [pid=67396] [sync] step=remove-dirty round=26 attempt=1 pageId=01 index=0
+[2026-08-28 21:39:43.785] [INFO ] [pid=67396] [backend-ops] removeSlideAt start index=0
+[2026-08-28 21:39:43.789] [INFO ] [pid=67396] [mcp] mcp:slide_remove_slide send url=http://127.0.0.1:39099/mcp args={"file_id":"sid_mtczclb9_bqipml9k","page_index":0}
+[2026-08-28 21:39:43.792] [INFO ] [pid=67396] [mcp] mcp:slide_remove_slide ok ms=3
+[2026-08-28 21:39:43.792] [INFO ] [pid=67396] [backend-ops] removeSlideAt ok index=0 serverVersion=37 ms=7
+[2026-08-28 21:39:43.793] [INFO ] [pid=67396] [sync] step=add round=26 attempt=1 pageId=01 index=0
+[2026-08-28 21:39:43.793] [INFO ] [pid=67396] [backend-ops] addSlideAt start pageId=01 index=0
+[2026-08-28 21:39:43.794] [INFO ] [pid=67396] [render] start pageId=01 file=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报\slides\01.slide
+[2026-08-28 21:39:43.851] [INFO ] [pid=67396] [render] ok pageId=01 slides=1 ms=57
+[2026-08-28 21:39:43.852] [INFO ] [pid=67396] [render] renderSlideData result.resources={
+  images: {
+    'rel:00zb7re7': {
+      id: 'rel:00zb7re7',
+      src: 'C:\\Users\\Yanzongning\\Desktop\\童健韶华资料库\\以动代屏_童健韶华_体质提升篇_汇报\\.cache\\media\\images\\276a5b30482f66f82dba4e55d40c2aa9.png'
+    }
+  },
+  videos: {},
+  audios: {},
+  fonts: {}
+}
+[2026-08-28 21:39:43.861] [INFO ] [pid=67396] [commit] commit send pageId=72930d targetIndex=0 version=25 baseVersion=37 revisionBytes=2754988
+[2026-08-28 21:39:43.908] [INFO ] [pid=67396] [commit] commit ok pageId=72930d revisionId=45ee29fa ms=46
+[2026-08-28 21:39:43.910] [INFO ] [pid=67396] [backend-ops] addSlideAt ok pageId=01 slideId=72930d index=0 version=25 baseVersion=37 revisionId=45ee29fa code=0 images=[local=1 remote=0 cached=0 failed=0] ms=117
+[2026-08-28 21:39:43.911] [INFO ] [pid=67396] [sync] aligned round=26 attempt=1 size=12 desired=12 pendingDirtySize=0
+[2026-08-28 21:39:43.911] [INFO ] [pid=67396] [sync] reconcile ok round=26 attempt=1 ms=126
+[2026-08-28 21:39:43.912] [INFO ] [pid=67396] [backend-ops] save start file=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报\以动代屏_童健韶华_体质提升篇_汇报.pptx
+[2026-08-28 21:39:43.912] [INFO ] [pid=67396] [commit] save send filePath=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报\以动代屏_童健韶华_体质提升篇_汇报.pptx
+[2026-08-28 21:39:43.916] [ERROR] [pid=67396] [http] save http 500 url=http://127.0.0.1:39099/localapi/save body={"code":10201,"message":"[10201]Export file is occupied: C:\\Users\\Yanzongning\\Desktop\\童健韶华资料库\\以动代屏_童健韶华_体质提升篇_汇报\\以动代屏_童健韶华_体质提升篇_汇报.pptx@TimePointBegin1787924383915|0@TimePointEnd"} ms=3
+[2026-08-28 21:39:43.917] [ERROR] [pid=67396] [backend-ops] save FAIL file=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报\以动代屏_童健韶华_体质提升篇_汇报.pptx ms=5
+[2026-08-28 21:39:43.918] [ERROR] [pid=67396] [sync] save FAIL round=26 HttpStatusError: save bad response: HTTP 500 body={"code":10201,"message":"[10201]Export file is occupied: C:\\Users\\Yanzongning\\Desktop\\童健韶华资料库\\以动代屏_童健韶华_体质提升篇_汇报\\以动代屏_童健韶华_体质提升篇_汇报.pptx@TimePointBegin1787924383915|0@TimePointEnd"}
+    at v6 (C:\Users\Yanzongning\.workbuddy\binaries\node\versions\22.22.2\node_modules\@tencent\slidep\dist\slidep.js:5995:476590)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async C:\Users\Yanzongning\.workbuddy\binaries\node\versions\22.22.2\node_modules\@tencent\slidep\dist\slidep.js:5995:485008
+    at async Sw.withReopenRetry (C:\Users\Yanzongning\.workbuddy\binaries\node\versions\22.22.2\node_modules\@tencent\slidep\dist\slidep.js:5995:483350)
+    at async mh.save (C:\Users\Yanzongning\.workbuddy\binaries\node\versions\22.22.2\node_modules\@tencent\slidep\dist\slidep.js:5993:19870)
+    at async L.drain (C:\Users\Yanzongning\.workbuddy\binaries\node\versions\22.22.2\node_modules\@tencent\slidep\dist\slidep.js:5993:22625)
+[2026-08-28 21:39:43.946] [INFO ] [pid=67396] [sync] drain end round=26 reconciles=1 mergedSubmits=1 pendingDirtySize=0 ms=162
+=== boot pid=52252 ts=2026-08-28 21:39:57.474 cwd=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报 argv=C:\Users\Yanzongning\.workbuddy\binaries\node\versions\22.22.2\node_modules\@tencent\slidep\dist\slidep-validate.js --all --project . ===
+[2026-08-28 21:39:57.471] [INFO ] [pid=52252] [validate] --all mode: found 12 files in C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报\slides
+[2026-08-28 21:39:57.478] [INFO ] [pid=52252] [validate] batch start files=12 checkOverflow=true
+[2026-08-28 21:39:59.052] [INFO ] [pid=52252] [validate] batch done total=12 passed=12 failed=0 ms=1581
+[2026-08-28 21:41:56.253] [INFO ] [pid=67396] [watcher] event=change file=slides\01.slide
+[2026-08-28 21:41:56.755] [INFO ] [pid=67396] [watcher] flush batch dirty=[01] size=1
+[2026-08-28 21:41:56.755] [INFO ] [pid=67396] [sync] submit nextRound=27 dirty=01 pendingDirtySize=1 merged=no
+[2026-08-28 21:41:56.756] [INFO ] [pid=67396] [sync] drain start round=27 pendingDirtySize=1
+[2026-08-28 21:41:56.757] [INFO ] [pid=67396] [sync] step=remove-dirty round=27 attempt=1 pageId=01 index=0
+[2026-08-28 21:41:56.757] [INFO ] [pid=67396] [backend-ops] removeSlideAt start index=0
+[2026-08-28 21:41:56.761] [INFO ] [pid=67396] [mcp] mcp:slide_remove_slide send url=http://127.0.0.1:39099/mcp args={"file_id":"sid_mtczclb9_bqipml9k","page_index":0}
+[2026-08-28 21:41:56.763] [INFO ] [pid=67396] [mcp] mcp:slide_remove_slide ok ms=2
+[2026-08-28 21:41:56.764] [INFO ] [pid=67396] [backend-ops] removeSlideAt ok index=0 serverVersion=39 ms=7
+[2026-08-28 21:41:56.764] [INFO ] [pid=67396] [sync] step=add round=27 attempt=1 pageId=01 index=0
+[2026-08-28 21:41:56.765] [INFO ] [pid=67396] [backend-ops] addSlideAt start pageId=01 index=0
+[2026-08-28 21:41:56.766] [INFO ] [pid=67396] [render] start pageId=01 file=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报\slides\01.slide
+[2026-08-28 21:41:56.819] [INFO ] [pid=67396] [render] ok pageId=01 slides=1 ms=53
+[2026-08-28 21:41:56.819] [INFO ] [pid=67396] [render] renderSlideData result.resources={
+  images: {
+    'rel:01fq1qpe': {
+      id: 'rel:01fq1qpe',
+      src: 'C:\\Users\\Yanzongning\\Desktop\\童健韶华资料库\\以动代屏_童健韶华_体质提升篇_汇报\\.cache\\media\\images\\5d124c7436b16efd1413cb2b8f2268c7.png'
+    }
+  },
+  videos: {},
+  audios: {},
+  fonts: {}
+}
+[2026-08-28 21:41:56.827] [INFO ] [pid=67396] [commit] commit send pageId=eaef96 targetIndex=0 version=26 baseVersion=39 revisionBytes=162620
+[2026-08-28 21:41:56.835] [INFO ] [pid=67396] [commit] commit ok pageId=eaef96 revisionId=a076151a ms=8
+[2026-08-28 21:41:56.837] [INFO ] [pid=67396] [backend-ops] addSlideAt ok pageId=01 slideId=eaef96 index=0 version=26 baseVersion=39 revisionId=a076151a code=0 images=[local=1 remote=0 cached=0 failed=0] ms=72
+[2026-08-28 21:41:56.838] [INFO ] [pid=67396] [sync] aligned round=27 attempt=1 size=12 desired=12 pendingDirtySize=0
+[2026-08-28 21:41:56.839] [INFO ] [pid=67396] [sync] reconcile ok round=27 attempt=1 ms=83
+[2026-08-28 21:41:56.839] [INFO ] [pid=67396] [backend-ops] save start file=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报\以动代屏_童健韶华_体质提升篇_汇报.pptx
+[2026-08-28 21:41:56.839] [INFO ] [pid=67396] [commit] save send filePath=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报\以动代屏_童健韶华_体质提升篇_汇报.pptx
+[2026-08-28 21:41:56.843] [ERROR] [pid=67396] [http] save http 500 url=http://127.0.0.1:39099/localapi/save body={"code":10201,"message":"[10201]Export file is occupied: C:\\Users\\Yanzongning\\Desktop\\童健韶华资料库\\以动代屏_童健韶华_体质提升篇_汇报\\以动代屏_童健韶华_体质提升篇_汇报.pptx@TimePointBegin1787924516842|0@TimePointEnd"} ms=3
+[2026-08-28 21:41:56.844] [ERROR] [pid=67396] [backend-ops] save FAIL file=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报\以动代屏_童健韶华_体质提升篇_汇报.pptx ms=5
+[2026-08-28 21:41:56.844] [ERROR] [pid=67396] [sync] save FAIL round=27 HttpStatusError: save bad response: HTTP 500 body={"code":10201,"message":"[10201]Export file is occupied: C:\\Users\\Yanzongning\\Desktop\\童健韶华资料库\\以动代屏_童健韶华_体质提升篇_汇报\\以动代屏_童健韶华_体质提升篇_汇报.pptx@TimePointBegin1787924516842|0@TimePointEnd"}
+    at v6 (C:\Users\Yanzongning\.workbuddy\binaries\node\versions\22.22.2\node_modules\@tencent\slidep\dist\slidep.js:5995:476590)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async C:\Users\Yanzongning\.workbuddy\binaries\node\versions\22.22.2\node_modules\@tencent\slidep\dist\slidep.js:5995:485008
+    at async Sw.withReopenRetry (C:\Users\Yanzongning\.workbuddy\binaries\node\versions\22.22.2\node_modules\@tencent\slidep\dist\slidep.js:5995:483350)
+    at async mh.save (C:\Users\Yanzongning\.workbuddy\binaries\node\versions\22.22.2\node_modules\@tencent\slidep\dist\slidep.js:5993:19870)
+    at async L.drain (C:\Users\Yanzongning\.workbuddy\binaries\node\versions\22.22.2\node_modules\@tencent\slidep\dist\slidep.js:5993:22625)
+[2026-08-28 21:41:56.845] [INFO ] [pid=67396] [sync] drain end round=27 reconciles=1 mergedSubmits=1 pendingDirtySize=0 ms=89
+=== boot pid=69248 ts=2026-08-28 21:42:04.316 cwd=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报 argv=C:\Users\Yanzongning\.workbuddy\binaries\node\versions\22.22.2\node_modules\@tencent\slidep\dist\slidep-validate.js --all --project . ===
+[2026-08-28 21:42:04.314] [INFO ] [pid=69248] [validate] --all mode: found 12 files in C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报\slides
+[2026-08-28 21:42:04.320] [INFO ] [pid=69248] [validate] batch start files=12 checkOverflow=true
+[2026-08-28 21:42:05.827] [INFO ] [pid=69248] [validate] batch done total=12 passed=12 failed=0 ms=1514
+[2026-08-28 21:56:05.540] [INFO ] [pid=67396] [watcher] event=unlink file=slides\12.slide
+[2026-08-28 21:56:05.541] [INFO ] [pid=67396] [sync] submit nextRound=28 dirty=<none> pendingDirtySize=0 merged=no
+[2026-08-28 21:56:05.543] [INFO ] [pid=67396] [sync] drain start round=28 pendingDirtySize=0
+[2026-08-28 21:56:05.544] [INFO ] [pid=67396] [sync] step=remove-orphan round=28 attempt=1 pageId=12 index=11
+[2026-08-28 21:56:05.544] [INFO ] [pid=67396] [backend-ops] removeSlideAt start index=11
+[2026-08-28 21:56:05.549] [INFO ] [pid=67396] [mcp] mcp:slide_remove_slide send url=http://127.0.0.1:39099/mcp args={"file_id":"sid_mtd0e4j1_wllwn0yx","page_index":11}
+[2026-08-28 21:56:05.554] [INFO ] [pid=67396] [mcp] mcp:slide_remove_slide ok ms=4
+[2026-08-28 21:56:05.561] [INFO ] [pid=67396] [backend-ops] removeSlideAt ok index=11 serverVersion=41 ms=17
+[2026-08-28 21:56:05.563] [INFO ] [pid=67396] [sync] step=remove-orphan round=28 attempt=1 pageId=11 index=10
+[2026-08-28 21:56:05.563] [INFO ] [pid=67396] [backend-ops] removeSlideAt start index=10
+[2026-08-28 21:56:05.569] [INFO ] [pid=67396] [mcp] mcp:slide_remove_slide send url=http://127.0.0.1:39099/mcp args={"file_id":"sid_mtd0e4j1_wllwn0yx","page_index":10}
+[2026-08-28 21:56:05.581] [INFO ] [pid=67396] [mcp] mcp:slide_remove_slide ok ms=3
+[2026-08-28 21:56:05.582] [INFO ] [pid=67396] [backend-ops] removeSlideAt ok index=10 serverVersion=42 ms=19
+[2026-08-28 21:56:05.583] [INFO ] [pid=67396] [sync] step=add round=28 attempt=1 pageId=12 index=10
+[2026-08-28 21:56:05.583] [INFO ] [pid=67396] [backend-ops] addSlideAt start pageId=12 index=10
+[2026-08-28 21:56:05.585] [INFO ] [pid=67396] [render] start pageId=12 file=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报\slides\12.slide
+[2026-08-28 21:56:05.639] [INFO ] [pid=67396] [render] ok pageId=12 slides=1 ms=55
+[2026-08-28 21:56:05.640] [INFO ] [pid=67396] [render] renderSlideData result.resources={ images: {}, videos: {}, audios: {}, fonts: {} }
+[2026-08-28 21:56:05.652] [INFO ] [pid=67396] [commit] commit send pageId=81518e targetIndex=10 version=27 baseVersion=42 revisionBytes=22072
+[2026-08-28 21:56:05.654] [INFO ] [pid=67396] [watcher] event=unlink file=slides\11.slide
+[2026-08-28 21:56:05.655] [INFO ] [pid=67396] [sync] submit round=28 dirty=<none> pendingDirtySize=0 merged=yes
+[2026-08-28 21:56:05.656] [INFO ] [pid=67396] [watcher] event=add file=slides\13.slide
+[2026-08-28 21:56:05.659] [INFO ] [pid=67396] [commit] commit ok pageId=81518e revisionId=401a8040 ms=6
+[2026-08-28 21:56:05.662] [INFO ] [pid=67396] [backend-ops] addSlideAt ok pageId=12 slideId=81518e index=10 version=27 baseVersion=42 revisionId=401a8040 code=0 images=[local=0 remote=0 cached=0 failed=0] ms=79
+[2026-08-28 21:56:05.674] [INFO ] [pid=67396] [sync] step=remove-orphan round=28 attempt=1 pageId=10 index=9
+[2026-08-28 21:56:05.676] [INFO ] [pid=67396] [backend-ops] removeSlideAt start index=9
+[2026-08-28 21:56:05.683] [INFO ] [pid=67396] [mcp] mcp:slide_remove_slide send url=http://127.0.0.1:39099/mcp args={"file_id":"sid_mtd0e4j1_wllwn0yx","page_index":9}
+[2026-08-28 21:56:05.688] [INFO ] [pid=67396] [mcp] mcp:slide_remove_slide ok ms=3
+[2026-08-28 21:56:05.688] [INFO ] [pid=67396] [backend-ops] removeSlideAt ok index=9 serverVersion=44 ms=12
+[2026-08-28 21:56:05.689] [INFO ] [pid=67396] [sync] step=add round=28 attempt=1 pageId=11 index=9
+[2026-08-28 21:56:05.690] [INFO ] [pid=67396] [backend-ops] addSlideAt start pageId=11 index=9
+[2026-08-28 21:56:05.691] [INFO ] [pid=67396] [render] start pageId=11 file=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报\slides\11.slide
+[2026-08-28 21:56:05.749] [INFO ] [pid=67396] [render] ok pageId=11 slides=1 ms=58
+[2026-08-28 21:56:05.750] [INFO ] [pid=67396] [render] renderSlideData result.resources={ images: {}, videos: {}, audios: {}, fonts: {} }
+[2026-08-28 21:56:05.755] [INFO ] [pid=67396] [commit] commit send pageId=282a68 targetIndex=9 version=28 baseVersion=44 revisionBytes=24124
+[2026-08-28 21:56:05.758] [INFO ] [pid=67396] [watcher] event=add file=slides\12.slide
+[2026-08-28 21:56:05.762] [INFO ] [pid=67396] [commit] commit ok pageId=282a68 revisionId=9da0579d ms=6
+[2026-08-28 21:56:05.765] [INFO ] [pid=67396] [backend-ops] addSlideAt ok pageId=11 slideId=282a68 index=9 version=28 baseVersion=44 revisionId=9da0579d code=0 images=[local=0 remote=0 cached=0 failed=0] ms=75
+[2026-08-28 21:56:05.772] [INFO ] [pid=67396] [sync] step=remove-orphan round=28 attempt=1 pageId=09 index=8
+[2026-08-28 21:56:05.773] [INFO ] [pid=67396] [backend-ops] removeSlideAt start index=8
+[2026-08-28 21:56:05.781] [INFO ] [pid=67396] [watcher] event=unlink file=slides\10.slide
+[2026-08-28 21:56:05.782] [INFO ] [pid=67396] [watcher] flush batch dirty=[13,12] size=2
+[2026-08-28 21:56:05.783] [INFO ] [pid=67396] [sync] submit round=28 dirty=13,12 pendingDirtySize=2 merged=yes
+[2026-08-28 21:56:05.784] [INFO ] [pid=67396] [sync] submit round=28 dirty=<none> pendingDirtySize=2 merged=yes
+[2026-08-28 21:56:05.788] [INFO ] [pid=67396] [mcp] mcp:slide_remove_slide send url=http://127.0.0.1:39099/mcp args={"file_id":"sid_mtd0e4j1_wllwn0yx","page_index":8}
+[2026-08-28 21:56:05.794] [INFO ] [pid=67396] [mcp] mcp:slide_remove_slide ok ms=5
+[2026-08-28 21:56:05.795] [INFO ] [pid=67396] [backend-ops] removeSlideAt ok index=8 serverVersion=46 ms=22
+[2026-08-28 21:56:05.796] [INFO ] [pid=67396] [sync] step=remove-dirty round=28 attempt=1 pageId=12 index=9
+[2026-08-28 21:56:05.797] [INFO ] [pid=67396] [backend-ops] removeSlideAt start index=9
+[2026-08-28 21:56:05.801] [INFO ] [pid=67396] [mcp] mcp:slide_remove_slide send url=http://127.0.0.1:39099/mcp args={"file_id":"sid_mtd0e4j1_wllwn0yx","page_index":9}
+[2026-08-28 21:56:05.805] [INFO ] [pid=67396] [mcp] mcp:slide_remove_slide ok ms=3
+[2026-08-28 21:56:05.806] [INFO ] [pid=67396] [backend-ops] removeSlideAt ok index=9 serverVersion=47 ms=9
+[2026-08-28 21:56:05.808] [INFO ] [pid=67396] [sync] step=add round=28 attempt=1 pageId=10 index=8
+[2026-08-28 21:56:05.809] [INFO ] [pid=67396] [backend-ops] addSlideAt start pageId=10 index=8
+[2026-08-28 21:56:05.811] [INFO ] [pid=67396] [render] start pageId=10 file=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报\slides\10.slide
+[2026-08-28 21:56:05.880] [INFO ] [pid=67396] [render] ok pageId=10 slides=1 ms=69
+[2026-08-28 21:56:05.882] [INFO ] [pid=67396] [render] renderSlideData result.resources={ images: {}, videos: {}, audios: {}, fonts: {} }
+[2026-08-28 21:56:05.890] [INFO ] [pid=67396] [commit] commit send pageId=19b86e targetIndex=8 version=29 baseVersion=47 revisionBytes=28380
+[2026-08-28 21:56:05.892] [INFO ] [pid=67396] [watcher] event=unlink file=slides\09.slide
+[2026-08-28 21:56:05.893] [INFO ] [pid=67396] [sync] submit round=28 dirty=<none> pendingDirtySize=1 merged=yes
+[2026-08-28 21:56:05.897] [INFO ] [pid=67396] [watcher] event=add file=slides\11.slide
+[2026-08-28 21:56:05.901] [INFO ] [pid=67396] [commit] commit ok pageId=19b86e revisionId=a8d0c307 ms=10
+[2026-08-28 21:56:05.904] [INFO ] [pid=67396] [backend-ops] addSlideAt ok pageId=10 slideId=19b86e index=8 version=29 baseVersion=47 revisionId=a8d0c307 code=0 images=[local=0 remote=0 cached=0 failed=0] ms=95
+[2026-08-28 21:56:05.906] [INFO ] [pid=67396] [sync] step=remove-orphan round=28 attempt=1 pageId=08 index=7
+[2026-08-28 21:56:05.907] [INFO ] [pid=67396] [backend-ops] removeSlideAt start index=7
+[2026-08-28 21:56:05.912] [INFO ] [pid=67396] [mcp] mcp:slide_remove_slide send url=http://127.0.0.1:39099/mcp args={"file_id":"sid_mtd0e4j1_wllwn0yx","page_index":7}
+[2026-08-28 21:56:05.916] [INFO ] [pid=67396] [mcp] mcp:slide_remove_slide ok ms=3
+[2026-08-28 21:56:05.917] [INFO ] [pid=67396] [backend-ops] removeSlideAt ok index=7 serverVersion=49 ms=11
+[2026-08-28 21:56:05.918] [INFO ] [pid=67396] [sync] step=add round=28 attempt=1 pageId=09 index=7
+[2026-08-28 21:56:05.919] [INFO ] [pid=67396] [backend-ops] addSlideAt start pageId=09 index=7
+[2026-08-28 21:56:05.920] [INFO ] [pid=67396] [render] start pageId=09 file=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报\slides\09.slide
+[2026-08-28 21:56:05.972] [INFO ] [pid=67396] [render] ok pageId=09 slides=1 ms=52
+[2026-08-28 21:56:05.974] [INFO ] [pid=67396] [render] renderSlideData result.resources={ images: {}, videos: {}, audios: {}, fonts: {} }
+[2026-08-28 21:56:05.978] [INFO ] [pid=67396] [commit] commit send pageId=214e61 targetIndex=7 version=30 baseVersion=49 revisionBytes=26300
+[2026-08-28 21:56:05.988] [INFO ] [pid=67396] [commit] commit ok pageId=214e61 revisionId=86224ce9 ms=7
+[2026-08-28 21:56:05.991] [INFO ] [pid=67396] [backend-ops] addSlideAt ok pageId=09 slideId=214e61 index=7 version=30 baseVersion=49 revisionId=86224ce9 code=0 images=[local=0 remote=0 cached=0 failed=0] ms=72
+[2026-08-28 21:56:05.992] [INFO ] [pid=67396] [sync] step=remove-orphan round=28 attempt=1 pageId=07 index=6
+[2026-08-28 21:56:05.995] [INFO ] [pid=67396] [backend-ops] removeSlideAt start index=6
+[2026-08-28 21:56:05.998] [INFO ] [pid=67396] [watcher] event=unlink file=slides\07.slide
+[2026-08-28 21:56:05.999] [INFO ] [pid=67396] [watcher] flush batch dirty=[11] size=1
+[2026-08-28 21:56:06.000] [INFO ] [pid=67396] [sync] submit round=28 dirty=11 pendingDirtySize=2 merged=yes
+[2026-08-28 21:56:06.001] [INFO ] [pid=67396] [sync] submit round=28 dirty=<none> pendingDirtySize=2 merged=yes
+[2026-08-28 21:56:06.002] [INFO ] [pid=67396] [watcher] event=add file=slides\10.slide
+[2026-08-28 21:56:06.004] [INFO ] [pid=67396] [mcp] mcp:slide_remove_slide send url=http://127.0.0.1:39099/mcp args={"file_id":"sid_mtd0e4j1_wllwn0yx","page_index":6}
+[2026-08-28 21:56:06.008] [INFO ] [pid=67396] [mcp] mcp:slide_remove_slide ok ms=3
+[2026-08-28 21:56:06.009] [INFO ] [pid=67396] [backend-ops] removeSlideAt ok index=6 serverVersion=51 ms=14
+[2026-08-28 21:56:06.011] [INFO ] [pid=67396] [sync] step=remove-dirty round=28 attempt=1 pageId=11 index=8
+[2026-08-28 21:56:06.011] [INFO ] [pid=67396] [backend-ops] removeSlideAt start index=8
+[2026-08-28 21:56:06.015] [INFO ] [pid=67396] [mcp] mcp:slide_remove_slide send url=http://127.0.0.1:39099/mcp args={"file_id":"sid_mtd0e4j1_wllwn0yx","page_index":8}
+[2026-08-28 21:56:06.019] [INFO ] [pid=67396] [mcp] mcp:slide_remove_slide ok ms=3
+[2026-08-28 21:56:06.020] [INFO ] [pid=67396] [backend-ops] removeSlideAt ok index=8 serverVersion=52 ms=9
+[2026-08-28 21:56:06.021] [INFO ] [pid=67396] [sync] step=add round=28 attempt=1 pageId=08 index=6
+[2026-08-28 21:56:06.022] [INFO ] [pid=67396] [backend-ops] addSlideAt start pageId=08 index=6
+[2026-08-28 21:56:06.024] [INFO ] [pid=67396] [render] start pageId=08 file=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报\slides\08.slide
+[2026-08-28 21:56:06.046] [INFO ] [pid=67396] [render] ok pageId=08 slides=1 ms=22
+[2026-08-28 21:56:06.047] [INFO ] [pid=67396] [render] renderSlideData result.resources={
+  images: {
+    'rel:00csu4y8': {
+      id: 'rel:00csu4y8',
+      src: 'C:\\Users\\Yanzongning\\Desktop\\童健韶华资料库\\以动代屏_童健韶华_体质提升篇_汇报\\.cache\\media\\images\\6d1536b2c1ea0f0423079c635a26417c.png'
+    }
+  },
+  videos: {},
+  audios: {},
+  fonts: {}
+}
+[2026-08-28 21:56:06.055] [INFO ] [pid=67396] [commit] commit send pageId=b7ab6b targetIndex=6 version=31 baseVersion=52 revisionBytes=981476
+[2026-08-28 21:56:06.075] [INFO ] [pid=67396] [commit] commit ok pageId=b7ab6b revisionId=a1f83606 ms=19
+[2026-08-28 21:56:06.078] [INFO ] [pid=67396] [backend-ops] addSlideAt ok pageId=08 slideId=b7ab6b index=6 version=31 baseVersion=52 revisionId=a1f83606 code=0 images=[local=1 remote=0 cached=0 failed=0] ms=56
+[2026-08-28 21:56:06.079] [INFO ] [pid=67396] [sync] step=add round=28 attempt=1 pageId=11 index=9
+[2026-08-28 21:56:06.080] [INFO ] [pid=67396] [backend-ops] addSlideAt start pageId=11 index=9
+[2026-08-28 21:56:06.082] [INFO ] [pid=67396] [render] start pageId=11 file=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报\slides\11.slide
+[2026-08-28 21:56:06.129] [INFO ] [pid=67396] [render] ok pageId=11 slides=1 ms=48
+[2026-08-28 21:56:06.130] [INFO ] [pid=67396] [render] renderSlideData result.resources={ images: {}, videos: {}, audios: {}, fonts: {} }
+[2026-08-28 21:56:06.136] [INFO ] [pid=67396] [commit] commit send pageId=09314d targetIndex=9 version=32 baseVersion=53 revisionBytes=24140
+[2026-08-28 21:56:06.139] [INFO ] [pid=67396] [watcher] event=add file=slides\09.slide
+[2026-08-28 21:56:06.143] [INFO ] [pid=67396] [commit] commit ok pageId=09314d revisionId=10d976e8 ms=6
+[2026-08-28 21:56:06.150] [INFO ] [pid=67396] [backend-ops] addSlideAt ok pageId=11 slideId=09314d index=9 version=32 baseVersion=53 revisionId=10d976e8 code=0 images=[local=0 remote=0 cached=0 failed=0] ms=69
+[2026-08-28 21:56:06.151] [INFO ] [pid=67396] [sync] step=add round=28 attempt=1 pageId=12 index=10
+[2026-08-28 21:56:06.155] [INFO ] [pid=67396] [backend-ops] addSlideAt start pageId=12 index=10
+[2026-08-28 21:56:06.157] [INFO ] [pid=67396] [render] start pageId=12 file=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报\slides\12.slide
+[2026-08-28 21:56:06.189] [INFO ] [pid=67396] [render] ok pageId=12 slides=1 ms=33
+[2026-08-28 21:56:06.190] [INFO ] [pid=67396] [render] renderSlideData result.resources={ images: {}, videos: {}, audios: {}, fonts: {} }
+[2026-08-28 21:56:06.195] [INFO ] [pid=67396] [commit] commit send pageId=bd94b2 targetIndex=10 version=33 baseVersion=54 revisionBytes=22080
+[2026-08-28 21:56:06.201] [INFO ] [pid=67396] [commit] commit ok pageId=bd94b2 revisionId=3196669d ms=5
+[2026-08-28 21:56:06.205] [INFO ] [pid=67396] [backend-ops] addSlideAt ok pageId=12 slideId=bd94b2 index=10 version=33 baseVersion=54 revisionId=3196669d code=0 images=[local=0 remote=0 cached=0 failed=0] ms=50
+[2026-08-28 21:56:06.206] [INFO ] [pid=67396] [sync] step=add round=28 attempt=1 pageId=13 index=11
+[2026-08-28 21:56:06.207] [INFO ] [pid=67396] [backend-ops] addSlideAt start pageId=13 index=11
+[2026-08-28 21:56:06.208] [INFO ] [pid=67396] [render] start pageId=13 file=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报\slides\13.slide
+[2026-08-28 21:56:06.224] [INFO ] [pid=67396] [render] ok pageId=13 slides=1 ms=16
+[2026-08-28 21:56:06.225] [INFO ] [pid=67396] [render] renderSlideData result.resources={ images: {}, videos: {}, audios: {}, fonts: {} }
+[2026-08-28 21:56:06.228] [INFO ] [pid=67396] [commit] commit send pageId=6f21b1 targetIndex=11 version=34 baseVersion=55 revisionBytes=9904
+[2026-08-28 21:56:06.233] [INFO ] [pid=67396] [commit] commit ok pageId=6f21b1 revisionId=ea571dc7 ms=4
+[2026-08-28 21:56:06.236] [INFO ] [pid=67396] [backend-ops] addSlideAt ok pageId=13 slideId=6f21b1 index=11 version=34 baseVersion=55 revisionId=ea571dc7 code=0 images=[local=0 remote=0 cached=0 failed=0] ms=29
+[2026-08-28 21:56:06.237] [INFO ] [pid=67396] [sync] aligned round=28 attempt=1 size=12 desired=12 pendingDirtySize=0
+[2026-08-28 21:56:06.238] [INFO ] [pid=67396] [sync] reconcile ok round=28 attempt=1 ms=695
+[2026-08-28 21:56:06.239] [INFO ] [pid=67396] [sync] aligned round=28 attempt=2 size=12 desired=12 pendingDirtySize=0
+[2026-08-28 21:56:06.241] [INFO ] [pid=67396] [sync] reconcile ok round=28 attempt=2 ms=2
+[2026-08-28 21:56:06.242] [INFO ] [pid=67396] [backend-ops] save start file=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报\以动代屏_童健韶华_体质提升篇_汇报.pptx
+[2026-08-28 21:56:06.243] [INFO ] [pid=67396] [commit] save send filePath=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报\以动代屏_童健韶华_体质提升篇_汇报.pptx
+[2026-08-28 21:56:06.245] [INFO ] [pid=67396] [watcher] event=change file=slides\08.slide
+[2026-08-28 21:56:06.248] [ERROR] [pid=67396] [http] save http 500 url=http://127.0.0.1:39099/localapi/save body={"code":10201,"message":"[10201]Export file is occupied: C:\\Users\\Yanzongning\\Desktop\\童健韶华资料库\\以动代屏_童健韶华_体质提升篇_汇报\\以动代屏_童健韶华_体质提升篇_汇报.pptx@TimePointBegin1787925366246|0@TimePointEnd"} ms=4
+[2026-08-28 21:56:06.249] [ERROR] [pid=67396] [backend-ops] save FAIL file=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报\以动代屏_童健韶华_体质提升篇_汇报.pptx ms=7
+[2026-08-28 21:56:06.250] [ERROR] [pid=67396] [sync] save FAIL round=28 HttpStatusError: save bad response: HTTP 500 body={"code":10201,"message":"[10201]Export file is occupied: C:\\Users\\Yanzongning\\Desktop\\童健韶华资料库\\以动代屏_童健韶华_体质提升篇_汇报\\以动代屏_童健韶华_体质提升篇_汇报.pptx@TimePointBegin1787925366246|0@TimePointEnd"}
+    at v6 (C:\Users\Yanzongning\.workbuddy\binaries\node\versions\22.22.2\node_modules\@tencent\slidep\dist\slidep.js:5995:476590)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async C:\Users\Yanzongning\.workbuddy\binaries\node\versions\22.22.2\node_modules\@tencent\slidep\dist\slidep.js:5995:485008
+    at async Sw.withReopenRetry (C:\Users\Yanzongning\.workbuddy\binaries\node\versions\22.22.2\node_modules\@tencent\slidep\dist\slidep.js:5995:483350)
+    at async mh.save (C:\Users\Yanzongning\.workbuddy\binaries\node\versions\22.22.2\node_modules\@tencent\slidep\dist\slidep.js:5993:19870)
+    at async L.drain (C:\Users\Yanzongning\.workbuddy\binaries\node\versions\22.22.2\node_modules\@tencent\slidep\dist\slidep.js:5993:22625)
+[2026-08-28 21:56:06.251] [INFO ] [pid=67396] [sync] drain end round=28 reconciles=2 mergedSubmits=7 pendingDirtySize=0 ms=708
+[2026-08-28 21:56:06.746] [INFO ] [pid=67396] [watcher] flush batch dirty=[10,09,08] size=3
+[2026-08-28 21:56:06.747] [INFO ] [pid=67396] [sync] submit nextRound=29 dirty=10,09,08 pendingDirtySize=3 merged=no
+[2026-08-28 21:56:06.747] [INFO ] [pid=67396] [sync] drain start round=29 pendingDirtySize=3
+[2026-08-28 21:56:06.748] [INFO ] [pid=67396] [sync] step=remove-dirty round=29 attempt=1 pageId=08 index=6
+[2026-08-28 21:56:06.748] [INFO ] [pid=67396] [backend-ops] removeSlideAt start index=6
+[2026-08-28 21:56:06.751] [INFO ] [pid=67396] [mcp] mcp:slide_remove_slide send url=http://127.0.0.1:39099/mcp args={"file_id":"sid_mtd0e4j1_wllwn0yx","page_index":6}
+[2026-08-28 21:56:06.754] [INFO ] [pid=67396] [mcp] mcp:slide_remove_slide ok ms=2
+[2026-08-28 21:56:06.755] [INFO ] [pid=67396] [backend-ops] removeSlideAt ok index=6 serverVersion=57 ms=7
+[2026-08-28 21:56:06.756] [INFO ] [pid=67396] [sync] step=remove-dirty round=29 attempt=1 pageId=09 index=6
+[2026-08-28 21:56:06.756] [INFO ] [pid=67396] [backend-ops] removeSlideAt start index=6
+[2026-08-28 21:56:06.759] [INFO ] [pid=67396] [mcp] mcp:slide_remove_slide send url=http://127.0.0.1:39099/mcp args={"file_id":"sid_mtd0e4j1_wllwn0yx","page_index":6}
+[2026-08-28 21:56:06.763] [INFO ] [pid=67396] [mcp] mcp:slide_remove_slide ok ms=2
+[2026-08-28 21:56:06.763] [INFO ] [pid=67396] [backend-ops] removeSlideAt ok index=6 serverVersion=58 ms=7
+[2026-08-28 21:56:06.764] [INFO ] [pid=67396] [sync] step=remove-dirty round=29 attempt=1 pageId=10 index=6
+[2026-08-28 21:56:06.764] [INFO ] [pid=67396] [backend-ops] removeSlideAt start index=6
+[2026-08-28 21:56:06.767] [INFO ] [pid=67396] [mcp] mcp:slide_remove_slide send url=http://127.0.0.1:39099/mcp args={"file_id":"sid_mtd0e4j1_wllwn0yx","page_index":6}
+[2026-08-28 21:56:06.771] [INFO ] [pid=67396] [mcp] mcp:slide_remove_slide ok ms=3
+[2026-08-28 21:56:06.772] [INFO ] [pid=67396] [backend-ops] removeSlideAt ok index=6 serverVersion=59 ms=8
+[2026-08-28 21:56:06.773] [INFO ] [pid=67396] [sync] step=add round=29 attempt=1 pageId=08 index=6
+[2026-08-28 21:56:06.773] [INFO ] [pid=67396] [backend-ops] addSlideAt start pageId=08 index=6
+[2026-08-28 21:56:06.774] [INFO ] [pid=67396] [render] start pageId=08 file=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报\slides\08.slide
+[2026-08-28 21:56:06.792] [INFO ] [pid=67396] [render] ok pageId=08 slides=1 ms=18
+[2026-08-28 21:56:06.793] [INFO ] [pid=67396] [render] renderSlideData result.resources={
+  images: {
+    'rel:00csu4y8': {
+      id: 'rel:00csu4y8',
+      src: 'C:\\Users\\Yanzongning\\Desktop\\童健韶华资料库\\以动代屏_童健韶华_体质提升篇_汇报\\.cache\\media\\images\\6d1536b2c1ea0f0423079c635a26417c.png'
+    }
+  },
+  videos: {},
+  audios: {},
+  fonts: {}
+}
+[2026-08-28 21:56:06.798] [INFO ] [pid=67396] [commit] commit send pageId=e221fb targetIndex=6 version=35 baseVersion=59 revisionBytes=981476
+[2026-08-28 21:56:06.812] [INFO ] [pid=67396] [commit] commit ok pageId=e221fb revisionId=5b4b990c ms=13
+[2026-08-28 21:56:06.814] [INFO ] [pid=67396] [backend-ops] addSlideAt ok pageId=08 slideId=e221fb index=6 version=35 baseVersion=59 revisionId=5b4b990c code=0 images=[local=1 remote=0 cached=0 failed=0] ms=41
+[2026-08-28 21:56:06.815] [INFO ] [pid=67396] [sync] step=add round=29 attempt=1 pageId=09 index=7
+[2026-08-28 21:56:06.816] [INFO ] [pid=67396] [backend-ops] addSlideAt start pageId=09 index=7
+[2026-08-28 21:56:06.817] [INFO ] [pid=67396] [render] start pageId=09 file=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报\slides\09.slide
+[2026-08-28 21:56:06.855] [INFO ] [pid=67396] [render] ok pageId=09 slides=1 ms=39
+[2026-08-28 21:56:06.856] [INFO ] [pid=67396] [render] renderSlideData result.resources={ images: {}, videos: {}, audios: {}, fonts: {} }
+[2026-08-28 21:56:06.859] [INFO ] [pid=67396] [commit] commit send pageId=b8157e targetIndex=7 version=36 baseVersion=60 revisionBytes=26316
+[2026-08-28 21:56:06.866] [INFO ] [pid=67396] [commit] commit ok pageId=b8157e revisionId=69de6f5c ms=6
+[2026-08-28 21:56:06.870] [INFO ] [pid=67396] [backend-ops] addSlideAt ok pageId=09 slideId=b8157e index=7 version=36 baseVersion=60 revisionId=69de6f5c code=0 images=[local=0 remote=0 cached=0 failed=0] ms=54
+[2026-08-28 21:56:06.872] [INFO ] [pid=67396] [sync] step=add round=29 attempt=1 pageId=10 index=8
+[2026-08-28 21:56:06.873] [INFO ] [pid=67396] [backend-ops] addSlideAt start pageId=10 index=8
+[2026-08-28 21:56:06.875] [INFO ] [pid=67396] [render] start pageId=10 file=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报\slides\10.slide
+[2026-08-28 21:56:06.932] [INFO ] [pid=67396] [render] ok pageId=10 slides=1 ms=57
+[2026-08-28 21:56:06.932] [INFO ] [pid=67396] [render] renderSlideData result.resources={ images: {}, videos: {}, audios: {}, fonts: {} }
+[2026-08-28 21:56:06.937] [INFO ] [pid=67396] [commit] commit send pageId=2d4a4c targetIndex=8 version=37 baseVersion=61 revisionBytes=28360
+[2026-08-28 21:56:06.944] [INFO ] [pid=67396] [commit] commit ok pageId=2d4a4c revisionId=6c4f8b64 ms=7
+[2026-08-28 21:56:06.947] [INFO ] [pid=67396] [backend-ops] addSlideAt ok pageId=10 slideId=2d4a4c index=8 version=37 baseVersion=61 revisionId=6c4f8b64 code=0 images=[local=0 remote=0 cached=0 failed=0] ms=74
+[2026-08-28 21:56:06.947] [INFO ] [pid=67396] [sync] aligned round=29 attempt=1 size=12 desired=12 pendingDirtySize=0
+[2026-08-28 21:56:06.948] [INFO ] [pid=67396] [sync] reconcile ok round=29 attempt=1 ms=200
+[2026-08-28 21:56:06.948] [INFO ] [pid=67396] [backend-ops] save start file=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报\以动代屏_童健韶华_体质提升篇_汇报.pptx
+[2026-08-28 21:56:06.949] [INFO ] [pid=67396] [commit] save send filePath=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报\以动代屏_童健韶华_体质提升篇_汇报.pptx
+[2026-08-28 21:56:06.953] [ERROR] [pid=67396] [http] save http 500 url=http://127.0.0.1:39099/localapi/save body={"code":10201,"message":"[10201]Export file is occupied: C:\\Users\\Yanzongning\\Desktop\\童健韶华资料库\\以动代屏_童健韶华_体质提升篇_汇报\\以动代屏_童健韶华_体质提升篇_汇报.pptx@TimePointBegin1787925366952|0@TimePointEnd"} ms=3
+[2026-08-28 21:56:06.954] [ERROR] [pid=67396] [backend-ops] save FAIL file=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报\以动代屏_童健韶华_体质提升篇_汇报.pptx ms=6
+[2026-08-28 21:56:06.954] [ERROR] [pid=67396] [sync] save FAIL round=29 HttpStatusError: save bad response: HTTP 500 body={"code":10201,"message":"[10201]Export file is occupied: C:\\Users\\Yanzongning\\Desktop\\童健韶华资料库\\以动代屏_童健韶华_体质提升篇_汇报\\以动代屏_童健韶华_体质提升篇_汇报.pptx@TimePointBegin1787925366952|0@TimePointEnd"}
+    at v6 (C:\Users\Yanzongning\.workbuddy\binaries\node\versions\22.22.2\node_modules\@tencent\slidep\dist\slidep.js:5995:476590)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async C:\Users\Yanzongning\.workbuddy\binaries\node\versions\22.22.2\node_modules\@tencent\slidep\dist\slidep.js:5995:485008
+    at async Sw.withReopenRetry (C:\Users\Yanzongning\.workbuddy\binaries\node\versions\22.22.2\node_modules\@tencent\slidep\dist\slidep.js:5995:483350)
+    at async mh.save (C:\Users\Yanzongning\.workbuddy\binaries\node\versions\22.22.2\node_modules\@tencent\slidep\dist\slidep.js:5993:19870)
+    at async L.drain (C:\Users\Yanzongning\.workbuddy\binaries\node\versions\22.22.2\node_modules\@tencent\slidep\dist\slidep.js:5993:22625)
+[2026-08-28 21:56:06.955] [INFO ] [pid=67396] [sync] drain end round=29 reconciles=1 mergedSubmits=1 pendingDirtySize=0 ms=208
+[2026-08-28 21:56:47.128] [INFO ] [pid=67396] [watcher] event=add file=slides\07.slide
+[2026-08-28 21:56:47.629] [INFO ] [pid=67396] [watcher] flush batch dirty=[07] size=1
+[2026-08-28 21:56:47.630] [INFO ] [pid=67396] [sync] submit nextRound=30 dirty=07 pendingDirtySize=1 merged=no
+[2026-08-28 21:56:47.631] [INFO ] [pid=67396] [sync] drain start round=30 pendingDirtySize=1
+[2026-08-28 21:56:47.632] [INFO ] [pid=67396] [sync] step=add round=30 attempt=1 pageId=07 index=6
+[2026-08-28 21:56:47.632] [INFO ] [pid=67396] [backend-ops] addSlideAt start pageId=07 index=6
+[2026-08-28 21:56:47.633] [INFO ] [pid=67396] [render] start pageId=07 file=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报\slides\07.slide
+[2026-08-28 21:56:47.748] [INFO ] [pid=67396] [render] ok pageId=07 slides=1 ms=115
+[2026-08-28 21:56:47.749] [INFO ] [pid=67396] [render] renderSlideData result.resources={
+  images: {
+    'rel:00npow0a': {
+      id: 'rel:00npow0a',
+      src: 'C:\\Users\\Yanzongning\\Desktop\\童健韶华资料库\\以动代屏_童健韶华_体质提升篇_汇报\\.cache\\media\\images\\7ae4aab8a23d9285b8d870a11b8205ab.png'
+    },
+    'rel:01w2dqub': {
+      id: 'rel:01w2dqub',
+      src: 'C:\\Users\\Yanzongning\\Desktop\\童健韶华资料库\\以动代屏_童健韶华_体质提升篇_汇报\\.cache\\media\\images\\bf5b5c03dffdc95489fe3dc89dd588e0.png'
+    },
+    'rel:013jfe81': {
+      id: 'rel:013jfe81',
+      src: 'C:\\Users\\Yanzongning\\Desktop\\童健韶华资料库\\以动代屏_童健韶华_体质提升篇_汇报\\.cache\\media\\images\\45ce50a3beed097deb66e9b8434dd3d9.png'
+    }
+  },
+  videos: {},
+  audios: {},
+  fonts: {}
+}
+[2026-08-28 21:56:47.761] [INFO ] [pid=67396] [commit] commit send pageId=28bb03 targetIndex=6 version=38 baseVersion=62 revisionBytes=903828
+[2026-08-28 21:56:47.781] [INFO ] [pid=67396] [commit] commit ok pageId=28bb03 revisionId=20aa6930 ms=19
+[2026-08-28 21:56:47.784] [INFO ] [pid=67396] [backend-ops] addSlideAt ok pageId=07 slideId=28bb03 index=6 version=38 baseVersion=62 revisionId=20aa6930 code=0 images=[local=3 remote=0 cached=0 failed=0] ms=152
+[2026-08-28 21:56:47.785] [INFO ] [pid=67396] [sync] aligned round=30 attempt=1 size=13 desired=13 pendingDirtySize=0
+[2026-08-28 21:56:47.785] [INFO ] [pid=67396] [sync] reconcile ok round=30 attempt=1 ms=154
+[2026-08-28 21:56:47.786] [INFO ] [pid=67396] [backend-ops] save start file=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报\以动代屏_童健韶华_体质提升篇_汇报.pptx
+[2026-08-28 21:56:47.786] [INFO ] [pid=67396] [commit] save send filePath=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报\以动代屏_童健韶华_体质提升篇_汇报.pptx
+[2026-08-28 21:56:47.790] [ERROR] [pid=67396] [http] save http 500 url=http://127.0.0.1:39099/localapi/save body={"code":10201,"message":"[10201]Export file is occupied: C:\\Users\\Yanzongning\\Desktop\\童健韶华资料库\\以动代屏_童健韶华_体质提升篇_汇报\\以动代屏_童健韶华_体质提升篇_汇报.pptx@TimePointBegin1787925407789|0@TimePointEnd"} ms=3
+[2026-08-28 21:56:47.791] [ERROR] [pid=67396] [backend-ops] save FAIL file=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报\以动代屏_童健韶华_体质提升篇_汇报.pptx ms=5
+[2026-08-28 21:56:47.792] [ERROR] [pid=67396] [sync] save FAIL round=30 HttpStatusError: save bad response: HTTP 500 body={"code":10201,"message":"[10201]Export file is occupied: C:\\Users\\Yanzongning\\Desktop\\童健韶华资料库\\以动代屏_童健韶华_体质提升篇_汇报\\以动代屏_童健韶华_体质提升篇_汇报.pptx@TimePointBegin1787925407789|0@TimePointEnd"}
+    at v6 (C:\Users\Yanzongning\.workbuddy\binaries\node\versions\22.22.2\node_modules\@tencent\slidep\dist\slidep.js:5995:476590)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async C:\Users\Yanzongning\.workbuddy\binaries\node\versions\22.22.2\node_modules\@tencent\slidep\dist\slidep.js:5995:485008
+    at async Sw.withReopenRetry (C:\Users\Yanzongning\.workbuddy\binaries\node\versions\22.22.2\node_modules\@tencent\slidep\dist\slidep.js:5995:483350)
+    at async mh.save (C:\Users\Yanzongning\.workbuddy\binaries\node\versions\22.22.2\node_modules\@tencent\slidep\dist\slidep.js:5993:19870)
+    at async L.drain (C:\Users\Yanzongning\.workbuddy\binaries\node\versions\22.22.2\node_modules\@tencent\slidep\dist\slidep.js:5993:22625)
+[2026-08-28 21:56:47.793] [INFO ] [pid=67396] [sync] drain end round=30 reconciles=1 mergedSubmits=1 pendingDirtySize=0 ms=162
+[2026-08-28 21:57:12.989] [INFO ] [pid=67396] [watcher] event=change file=slides\08.slide
+[2026-08-28 21:57:13.490] [INFO ] [pid=67396] [watcher] flush batch dirty=[08] size=1
+[2026-08-28 21:57:13.492] [INFO ] [pid=67396] [sync] submit nextRound=31 dirty=08 pendingDirtySize=1 merged=no
+[2026-08-28 21:57:13.493] [INFO ] [pid=67396] [sync] drain start round=31 pendingDirtySize=1
+[2026-08-28 21:57:13.494] [INFO ] [pid=67396] [sync] step=remove-dirty round=31 attempt=1 pageId=08 index=7
+[2026-08-28 21:57:13.494] [INFO ] [pid=67396] [backend-ops] removeSlideAt start index=7
+[2026-08-28 21:57:13.497] [INFO ] [pid=67396] [mcp] mcp:slide_remove_slide send url=http://127.0.0.1:39099/mcp args={"file_id":"sid_mtd0e4j1_wllwn0yx","page_index":7}
+[2026-08-28 21:57:13.500] [INFO ] [pid=67396] [mcp] mcp:slide_remove_slide ok ms=2
+[2026-08-28 21:57:13.501] [INFO ] [pid=67396] [backend-ops] removeSlideAt ok index=7 serverVersion=64 ms=7
+[2026-08-28 21:57:13.502] [INFO ] [pid=67396] [sync] step=add round=31 attempt=1 pageId=08 index=7
+[2026-08-28 21:57:13.502] [INFO ] [pid=67396] [backend-ops] addSlideAt start pageId=08 index=7
+[2026-08-28 21:57:13.503] [INFO ] [pid=67396] [render] start pageId=08 file=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报\slides\08.slide
+[2026-08-28 21:57:13.528] [INFO ] [pid=67396] [render] ok pageId=08 slides=1 ms=25
+[2026-08-28 21:57:13.529] [INFO ] [pid=67396] [render] renderSlideData result.resources={
+  images: {
+    'rel:00csu4y8': {
+      id: 'rel:00csu4y8',
+      src: 'C:\\Users\\Yanzongning\\Desktop\\童健韶华资料库\\以动代屏_童健韶华_体质提升篇_汇报\\.cache\\media\\images\\6d1536b2c1ea0f0423079c635a26417c.png'
+    }
+  },
+  videos: {},
+  audios: {},
+  fonts: {}
+}
+[2026-08-28 21:57:13.535] [INFO ] [pid=67396] [commit] commit send pageId=5b8464 targetIndex=7 version=39 baseVersion=64 revisionBytes=981472
+[2026-08-28 21:57:13.559] [INFO ] [pid=67396] [commit] commit ok pageId=5b8464 revisionId=594cb4d6 ms=22
+[2026-08-28 21:57:13.561] [INFO ] [pid=67396] [backend-ops] addSlideAt ok pageId=08 slideId=5b8464 index=7 version=39 baseVersion=64 revisionId=594cb4d6 code=0 images=[local=1 remote=0 cached=0 failed=0] ms=59
+[2026-08-28 21:57:13.562] [INFO ] [pid=67396] [sync] aligned round=31 attempt=1 size=13 desired=13 pendingDirtySize=0
+[2026-08-28 21:57:13.563] [INFO ] [pid=67396] [sync] reconcile ok round=31 attempt=1 ms=70
+[2026-08-28 21:57:13.563] [INFO ] [pid=67396] [backend-ops] save start file=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报\以动代屏_童健韶华_体质提升篇_汇报.pptx
+[2026-08-28 21:57:13.564] [INFO ] [pid=67396] [commit] save send filePath=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报\以动代屏_童健韶华_体质提升篇_汇报.pptx
+[2026-08-28 21:57:13.568] [ERROR] [pid=67396] [http] save http 500 url=http://127.0.0.1:39099/localapi/save body={"code":10201,"message":"[10201]Export file is occupied: C:\\Users\\Yanzongning\\Desktop\\童健韶华资料库\\以动代屏_童健韶华_体质提升篇_汇报\\以动代屏_童健韶华_体质提升篇_汇报.pptx@TimePointBegin1787925433567|0@TimePointEnd"} ms=4
+[2026-08-28 21:57:13.569] [ERROR] [pid=67396] [backend-ops] save FAIL file=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报\以动代屏_童健韶华_体质提升篇_汇报.pptx ms=6
+[2026-08-28 21:57:13.569] [ERROR] [pid=67396] [sync] save FAIL round=31 HttpStatusError: save bad response: HTTP 500 body={"code":10201,"message":"[10201]Export file is occupied: C:\\Users\\Yanzongning\\Desktop\\童健韶华资料库\\以动代屏_童健韶华_体质提升篇_汇报\\以动代屏_童健韶华_体质提升篇_汇报.pptx@TimePointBegin1787925433567|0@TimePointEnd"}
+    at v6 (C:\Users\Yanzongning\.workbuddy\binaries\node\versions\22.22.2\node_modules\@tencent\slidep\dist\slidep.js:5995:476590)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async C:\Users\Yanzongning\.workbuddy\binaries\node\versions\22.22.2\node_modules\@tencent\slidep\dist\slidep.js:5995:485008
+    at async Sw.withReopenRetry (C:\Users\Yanzongning\.workbuddy\binaries\node\versions\22.22.2\node_modules\@tencent\slidep\dist\slidep.js:5995:483350)
+    at async mh.save (C:\Users\Yanzongning\.workbuddy\binaries\node\versions\22.22.2\node_modules\@tencent\slidep\dist\slidep.js:5993:19870)
+    at async L.drain (C:\Users\Yanzongning\.workbuddy\binaries\node\versions\22.22.2\node_modules\@tencent\slidep\dist\slidep.js:5993:22625)
+[2026-08-28 21:57:13.571] [INFO ] [pid=67396] [sync] drain end round=31 reconciles=1 mergedSubmits=1 pendingDirtySize=0 ms=78
+[2026-08-28 21:57:21.223] [INFO ] [pid=67396] [watcher] event=change file=slides\09.slide
+[2026-08-28 21:57:21.723] [INFO ] [pid=67396] [watcher] flush batch dirty=[09] size=1
+[2026-08-28 21:57:21.724] [INFO ] [pid=67396] [sync] submit nextRound=32 dirty=09 pendingDirtySize=1 merged=no
+[2026-08-28 21:57:21.725] [INFO ] [pid=67396] [sync] drain start round=32 pendingDirtySize=1
+[2026-08-28 21:57:21.726] [INFO ] [pid=67396] [sync] step=remove-dirty round=32 attempt=1 pageId=09 index=8
+[2026-08-28 21:57:21.727] [INFO ] [pid=67396] [backend-ops] removeSlideAt start index=8
+[2026-08-28 21:57:21.730] [INFO ] [pid=67396] [mcp] mcp:slide_remove_slide send url=http://127.0.0.1:39099/mcp args={"file_id":"sid_mtd0e4j1_wllwn0yx","page_index":8}
+[2026-08-28 21:57:21.733] [INFO ] [pid=67396] [mcp] mcp:slide_remove_slide ok ms=3
+[2026-08-28 21:57:21.733] [INFO ] [pid=67396] [backend-ops] removeSlideAt ok index=8 serverVersion=66 ms=6
+[2026-08-28 21:57:21.734] [INFO ] [pid=67396] [sync] step=add round=32 attempt=1 pageId=09 index=8
+[2026-08-28 21:57:21.734] [INFO ] [pid=67396] [backend-ops] addSlideAt start pageId=09 index=8
+[2026-08-28 21:57:21.735] [INFO ] [pid=67396] [render] start pageId=09 file=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报\slides\09.slide
+[2026-08-28 21:57:21.785] [INFO ] [pid=67396] [render] ok pageId=09 slides=1 ms=50
+[2026-08-28 21:57:21.786] [INFO ] [pid=67396] [render] renderSlideData result.resources={ images: {}, videos: {}, audios: {}, fonts: {} }
+[2026-08-28 21:57:21.790] [INFO ] [pid=67396] [commit] commit send pageId=577a8c targetIndex=8 version=40 baseVersion=66 revisionBytes=26296
+[2026-08-28 21:57:21.796] [INFO ] [pid=67396] [commit] commit ok pageId=577a8c revisionId=6d0bf18a ms=5
+[2026-08-28 21:57:21.799] [INFO ] [pid=67396] [backend-ops] addSlideAt ok pageId=09 slideId=577a8c index=8 version=40 baseVersion=66 revisionId=6d0bf18a code=0 images=[local=0 remote=0 cached=0 failed=0] ms=65
+[2026-08-28 21:57:21.800] [INFO ] [pid=67396] [sync] aligned round=32 attempt=1 size=13 desired=13 pendingDirtySize=0
+[2026-08-28 21:57:21.801] [INFO ] [pid=67396] [sync] reconcile ok round=32 attempt=1 ms=75
+[2026-08-28 21:57:21.801] [INFO ] [pid=67396] [backend-ops] save start file=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报\以动代屏_童健韶华_体质提升篇_汇报.pptx
+[2026-08-28 21:57:21.802] [INFO ] [pid=67396] [commit] save send filePath=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报\以动代屏_童健韶华_体质提升篇_汇报.pptx
+[2026-08-28 21:57:21.810] [ERROR] [pid=67396] [http] save http 500 url=http://127.0.0.1:39099/localapi/save body={"code":10201,"message":"[10201]Export file is occupied: C:\\Users\\Yanzongning\\Desktop\\童健韶华资料库\\以动代屏_童健韶华_体质提升篇_汇报\\以动代屏_童健韶华_体质提升篇_汇报.pptx@TimePointBegin1787925441806|0@TimePointEnd"} ms=8
+[2026-08-28 21:57:21.811] [ERROR] [pid=67396] [backend-ops] save FAIL file=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报\以动代屏_童健韶华_体质提升篇_汇报.pptx ms=10
+[2026-08-28 21:57:21.812] [ERROR] [pid=67396] [sync] save FAIL round=32 HttpStatusError: save bad response: HTTP 500 body={"code":10201,"message":"[10201]Export file is occupied: C:\\Users\\Yanzongning\\Desktop\\童健韶华资料库\\以动代屏_童健韶华_体质提升篇_汇报\\以动代屏_童健韶华_体质提升篇_汇报.pptx@TimePointBegin1787925441806|0@TimePointEnd"}
+    at v6 (C:\Users\Yanzongning\.workbuddy\binaries\node\versions\22.22.2\node_modules\@tencent\slidep\dist\slidep.js:5995:476590)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async C:\Users\Yanzongning\.workbuddy\binaries\node\versions\22.22.2\node_modules\@tencent\slidep\dist\slidep.js:5995:485008
+    at async Sw.withReopenRetry (C:\Users\Yanzongning\.workbuddy\binaries\node\versions\22.22.2\node_modules\@tencent\slidep\dist\slidep.js:5995:483350)
+    at async mh.save (C:\Users\Yanzongning\.workbuddy\binaries\node\versions\22.22.2\node_modules\@tencent\slidep\dist\slidep.js:5993:19870)
+    at async L.drain (C:\Users\Yanzongning\.workbuddy\binaries\node\versions\22.22.2\node_modules\@tencent\slidep\dist\slidep.js:5993:22625)
+[2026-08-28 21:57:21.813] [INFO ] [pid=67396] [sync] drain end round=32 reconciles=1 mergedSubmits=1 pendingDirtySize=0 ms=88
+[2026-08-28 21:57:29.884] [INFO ] [pid=67396] [watcher] event=change file=slides\10.slide
+[2026-08-28 21:57:30.385] [INFO ] [pid=67396] [watcher] flush batch dirty=[10] size=1
+[2026-08-28 21:57:30.386] [INFO ] [pid=67396] [sync] submit nextRound=33 dirty=10 pendingDirtySize=1 merged=no
+[2026-08-28 21:57:30.387] [INFO ] [pid=67396] [sync] drain start round=33 pendingDirtySize=1
+[2026-08-28 21:57:30.387] [INFO ] [pid=67396] [sync] step=remove-dirty round=33 attempt=1 pageId=10 index=9
+[2026-08-28 21:57:30.388] [INFO ] [pid=67396] [backend-ops] removeSlideAt start index=9
+[2026-08-28 21:57:30.391] [INFO ] [pid=67396] [mcp] mcp:slide_remove_slide send url=http://127.0.0.1:39099/mcp args={"file_id":"sid_mtd0e4j1_wllwn0yx","page_index":9}
+[2026-08-28 21:57:30.394] [INFO ] [pid=67396] [mcp] mcp:slide_remove_slide ok ms=2
+[2026-08-28 21:57:30.395] [INFO ] [pid=67396] [backend-ops] removeSlideAt ok index=9 serverVersion=68 ms=7
+[2026-08-28 21:57:30.396] [INFO ] [pid=67396] [sync] step=add round=33 attempt=1 pageId=10 index=9
+[2026-08-28 21:57:30.396] [INFO ] [pid=67396] [backend-ops] addSlideAt start pageId=10 index=9
+[2026-08-28 21:57:30.397] [INFO ] [pid=67396] [render] start pageId=10 file=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报\slides\10.slide
+[2026-08-28 21:57:30.456] [INFO ] [pid=67396] [render] ok pageId=10 slides=1 ms=59
+[2026-08-28 21:57:30.457] [INFO ] [pid=67396] [render] renderSlideData result.resources={ images: {}, videos: {}, audios: {}, fonts: {} }
+[2026-08-28 21:57:30.461] [INFO ] [pid=67396] [commit] commit send pageId=c85537 targetIndex=9 version=41 baseVersion=68 revisionBytes=28380
+[2026-08-28 21:57:30.468] [INFO ] [pid=67396] [commit] commit ok pageId=c85537 revisionId=c28dac94 ms=5
+[2026-08-28 21:57:30.470] [INFO ] [pid=67396] [backend-ops] addSlideAt ok pageId=10 slideId=c85537 index=9 version=41 baseVersion=68 revisionId=c28dac94 code=0 images=[local=0 remote=0 cached=0 failed=0] ms=74
+[2026-08-28 21:57:30.471] [INFO ] [pid=67396] [sync] aligned round=33 attempt=1 size=13 desired=13 pendingDirtySize=0
+[2026-08-28 21:57:30.472] [INFO ] [pid=67396] [sync] reconcile ok round=33 attempt=1 ms=85
+[2026-08-28 21:57:30.472] [INFO ] [pid=67396] [backend-ops] save start file=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报\以动代屏_童健韶华_体质提升篇_汇报.pptx
+[2026-08-28 21:57:30.473] [INFO ] [pid=67396] [commit] save send filePath=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报\以动代屏_童健韶华_体质提升篇_汇报.pptx
+[2026-08-28 21:57:30.478] [ERROR] [pid=67396] [http] save http 500 url=http://127.0.0.1:39099/localapi/save body={"code":10201,"message":"[10201]Export file is occupied: C:\\Users\\Yanzongning\\Desktop\\童健韶华资料库\\以动代屏_童健韶华_体质提升篇_汇报\\以动代屏_童健韶华_体质提升篇_汇报.pptx@TimePointBegin1787925450476|0@TimePointEnd"} ms=5
+[2026-08-28 21:57:30.479] [ERROR] [pid=67396] [backend-ops] save FAIL file=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报\以动代屏_童健韶华_体质提升篇_汇报.pptx ms=7
+[2026-08-28 21:57:30.479] [ERROR] [pid=67396] [sync] save FAIL round=33 HttpStatusError: save bad response: HTTP 500 body={"code":10201,"message":"[10201]Export file is occupied: C:\\Users\\Yanzongning\\Desktop\\童健韶华资料库\\以动代屏_童健韶华_体质提升篇_汇报\\以动代屏_童健韶华_体质提升篇_汇报.pptx@TimePointBegin1787925450476|0@TimePointEnd"}
+    at v6 (C:\Users\Yanzongning\.workbuddy\binaries\node\versions\22.22.2\node_modules\@tencent\slidep\dist\slidep.js:5995:476590)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async C:\Users\Yanzongning\.workbuddy\binaries\node\versions\22.22.2\node_modules\@tencent\slidep\dist\slidep.js:5995:485008
+    at async Sw.withReopenRetry (C:\Users\Yanzongning\.workbuddy\binaries\node\versions\22.22.2\node_modules\@tencent\slidep\dist\slidep.js:5995:483350)
+    at async mh.save (C:\Users\Yanzongning\.workbuddy\binaries\node\versions\22.22.2\node_modules\@tencent\slidep\dist\slidep.js:5993:19870)
+    at async L.drain (C:\Users\Yanzongning\.workbuddy\binaries\node\versions\22.22.2\node_modules\@tencent\slidep\dist\slidep.js:5993:22625)
+[2026-08-28 21:57:30.480] [INFO ] [pid=67396] [sync] drain end round=33 reconciles=1 mergedSubmits=1 pendingDirtySize=0 ms=93
+[2026-08-28 21:57:39.647] [INFO ] [pid=67396] [watcher] event=change file=slides\11.slide
+[2026-08-28 21:57:40.149] [INFO ] [pid=67396] [watcher] flush batch dirty=[11] size=1
+[2026-08-28 21:57:40.150] [INFO ] [pid=67396] [sync] submit nextRound=34 dirty=11 pendingDirtySize=1 merged=no
+[2026-08-28 21:57:40.150] [INFO ] [pid=67396] [sync] drain start round=34 pendingDirtySize=1
+[2026-08-28 21:57:40.151] [INFO ] [pid=67396] [sync] step=remove-dirty round=34 attempt=1 pageId=11 index=10
+[2026-08-28 21:57:40.151] [INFO ] [pid=67396] [backend-ops] removeSlideAt start index=10
+[2026-08-28 21:57:40.154] [INFO ] [pid=67396] [mcp] mcp:slide_remove_slide send url=http://127.0.0.1:39099/mcp args={"file_id":"sid_mtd0e4j1_wllwn0yx","page_index":10}
+[2026-08-28 21:57:40.157] [INFO ] [pid=67396] [mcp] mcp:slide_remove_slide ok ms=2
+[2026-08-28 21:57:40.158] [INFO ] [pid=67396] [backend-ops] removeSlideAt ok index=10 serverVersion=70 ms=7
+[2026-08-28 21:57:40.159] [INFO ] [pid=67396] [sync] step=add round=34 attempt=1 pageId=11 index=10
+[2026-08-28 21:57:40.159] [INFO ] [pid=67396] [backend-ops] addSlideAt start pageId=11 index=10
+[2026-08-28 21:57:40.160] [INFO ] [pid=67396] [render] start pageId=11 file=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报\slides\11.slide
+[2026-08-28 21:57:40.199] [INFO ] [pid=67396] [render] ok pageId=11 slides=1 ms=39
+[2026-08-28 21:57:40.200] [INFO ] [pid=67396] [render] renderSlideData result.resources={ images: {}, videos: {}, audios: {}, fonts: {} }
+[2026-08-28 21:57:40.203] [INFO ] [pid=67396] [commit] commit send pageId=8a08b2 targetIndex=10 version=42 baseVersion=70 revisionBytes=24124
+[2026-08-28 21:57:40.209] [INFO ] [pid=67396] [commit] commit ok pageId=8a08b2 revisionId=02f5035b ms=5
+[2026-08-28 21:57:40.211] [INFO ] [pid=67396] [backend-ops] addSlideAt ok pageId=11 slideId=8a08b2 index=10 version=42 baseVersion=70 revisionId=02f5035b code=0 images=[local=0 remote=0 cached=0 failed=0] ms=52
+[2026-08-28 21:57:40.212] [INFO ] [pid=67396] [sync] aligned round=34 attempt=1 size=13 desired=13 pendingDirtySize=0
+[2026-08-28 21:57:40.213] [INFO ] [pid=67396] [sync] reconcile ok round=34 attempt=1 ms=62
+[2026-08-28 21:57:40.213] [INFO ] [pid=67396] [backend-ops] save start file=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报\以动代屏_童健韶华_体质提升篇_汇报.pptx
+[2026-08-28 21:57:40.214] [INFO ] [pid=67396] [commit] save send filePath=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报\以动代屏_童健韶华_体质提升篇_汇报.pptx
+[2026-08-28 21:57:40.218] [ERROR] [pid=67396] [http] save http 500 url=http://127.0.0.1:39099/localapi/save body={"code":10201,"message":"[10201]Export file is occupied: C:\\Users\\Yanzongning\\Desktop\\童健韶华资料库\\以动代屏_童健韶华_体质提升篇_汇报\\以动代屏_童健韶华_体质提升篇_汇报.pptx@TimePointBegin1787925460217|0@TimePointEnd"} ms=4
+[2026-08-28 21:57:40.218] [ERROR] [pid=67396] [backend-ops] save FAIL file=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报\以动代屏_童健韶华_体质提升篇_汇报.pptx ms=5
+[2026-08-28 21:57:40.219] [ERROR] [pid=67396] [sync] save FAIL round=34 HttpStatusError: save bad response: HTTP 500 body={"code":10201,"message":"[10201]Export file is occupied: C:\\Users\\Yanzongning\\Desktop\\童健韶华资料库\\以动代屏_童健韶华_体质提升篇_汇报\\以动代屏_童健韶华_体质提升篇_汇报.pptx@TimePointBegin1787925460217|0@TimePointEnd"}
+    at v6 (C:\Users\Yanzongning\.workbuddy\binaries\node\versions\22.22.2\node_modules\@tencent\slidep\dist\slidep.js:5995:476590)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async C:\Users\Yanzongning\.workbuddy\binaries\node\versions\22.22.2\node_modules\@tencent\slidep\dist\slidep.js:5995:485008
+    at async Sw.withReopenRetry (C:\Users\Yanzongning\.workbuddy\binaries\node\versions\22.22.2\node_modules\@tencent\slidep\dist\slidep.js:5995:483350)
+    at async mh.save (C:\Users\Yanzongning\.workbuddy\binaries\node\versions\22.22.2\node_modules\@tencent\slidep\dist\slidep.js:5993:19870)
+    at async L.drain (C:\Users\Yanzongning\.workbuddy\binaries\node\versions\22.22.2\node_modules\@tencent\slidep\dist\slidep.js:5993:22625)
+[2026-08-28 21:57:40.219] [INFO ] [pid=67396] [sync] drain end round=34 reconciles=1 mergedSubmits=1 pendingDirtySize=0 ms=69
+[2026-08-28 21:57:54.979] [INFO ] [pid=67396] [watcher] event=change file=slides\12.slide
+[2026-08-28 21:57:55.480] [INFO ] [pid=67396] [watcher] flush batch dirty=[12] size=1
+[2026-08-28 21:57:55.481] [INFO ] [pid=67396] [sync] submit nextRound=35 dirty=12 pendingDirtySize=1 merged=no
+[2026-08-28 21:57:55.481] [INFO ] [pid=67396] [sync] drain start round=35 pendingDirtySize=1
+[2026-08-28 21:57:55.482] [INFO ] [pid=67396] [sync] step=remove-dirty round=35 attempt=1 pageId=12 index=11
+[2026-08-28 21:57:55.482] [INFO ] [pid=67396] [backend-ops] removeSlideAt start index=11
+[2026-08-28 21:57:55.486] [INFO ] [pid=67396] [mcp] mcp:slide_remove_slide send url=http://127.0.0.1:39099/mcp args={"file_id":"sid_mtd0e4j1_wllwn0yx","page_index":11}
+[2026-08-28 21:57:55.489] [INFO ] [pid=67396] [mcp] mcp:slide_remove_slide ok ms=3
+[2026-08-28 21:57:55.489] [INFO ] [pid=67396] [backend-ops] removeSlideAt ok index=11 serverVersion=72 ms=7
+[2026-08-28 21:57:55.490] [INFO ] [pid=67396] [sync] step=add round=35 attempt=1 pageId=12 index=11
+[2026-08-28 21:57:55.491] [INFO ] [pid=67396] [backend-ops] addSlideAt start pageId=12 index=11
+[2026-08-28 21:57:55.492] [INFO ] [pid=67396] [render] start pageId=12 file=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报\slides\12.slide
+[2026-08-28 21:57:55.529] [INFO ] [pid=67396] [render] ok pageId=12 slides=1 ms=37
+[2026-08-28 21:57:55.530] [INFO ] [pid=67396] [render] renderSlideData result.resources={ images: {}, videos: {}, audios: {}, fonts: {} }
+[2026-08-28 21:57:55.533] [INFO ] [pid=67396] [commit] commit send pageId=4f4a14 targetIndex=11 version=43 baseVersion=72 revisionBytes=22056
+[2026-08-28 21:57:55.538] [INFO ] [pid=67396] [commit] commit ok pageId=4f4a14 revisionId=12b52ece ms=4
+[2026-08-28 21:57:55.541] [INFO ] [pid=67396] [backend-ops] addSlideAt ok pageId=12 slideId=4f4a14 index=11 version=43 baseVersion=72 revisionId=12b52ece code=0 images=[local=0 remote=0 cached=0 failed=0] ms=50
+[2026-08-28 21:57:55.542] [INFO ] [pid=67396] [sync] aligned round=35 attempt=1 size=13 desired=13 pendingDirtySize=0
+[2026-08-28 21:57:55.542] [INFO ] [pid=67396] [sync] reconcile ok round=35 attempt=1 ms=60
+[2026-08-28 21:57:55.543] [INFO ] [pid=67396] [backend-ops] save start file=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报\以动代屏_童健韶华_体质提升篇_汇报.pptx
+[2026-08-28 21:57:55.543] [INFO ] [pid=67396] [commit] save send filePath=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报\以动代屏_童健韶华_体质提升篇_汇报.pptx
+[2026-08-28 21:57:55.548] [ERROR] [pid=67396] [http] save http 500 url=http://127.0.0.1:39099/localapi/save body={"code":10201,"message":"[10201]Export file is occupied: C:\\Users\\Yanzongning\\Desktop\\童健韶华资料库\\以动代屏_童健韶华_体质提升篇_汇报\\以动代屏_童健韶华_体质提升篇_汇报.pptx@TimePointBegin1787925475547|0@TimePointEnd"} ms=4
+[2026-08-28 21:57:55.548] [ERROR] [pid=67396] [backend-ops] save FAIL file=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报\以动代屏_童健韶华_体质提升篇_汇报.pptx ms=5
+[2026-08-28 21:57:55.549] [ERROR] [pid=67396] [sync] save FAIL round=35 HttpStatusError: save bad response: HTTP 500 body={"code":10201,"message":"[10201]Export file is occupied: C:\\Users\\Yanzongning\\Desktop\\童健韶华资料库\\以动代屏_童健韶华_体质提升篇_汇报\\以动代屏_童健韶华_体质提升篇_汇报.pptx@TimePointBegin1787925475547|0@TimePointEnd"}
+    at v6 (C:\Users\Yanzongning\.workbuddy\binaries\node\versions\22.22.2\node_modules\@tencent\slidep\dist\slidep.js:5995:476590)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async C:\Users\Yanzongning\.workbuddy\binaries\node\versions\22.22.2\node_modules\@tencent\slidep\dist\slidep.js:5995:485008
+    at async Sw.withReopenRetry (C:\Users\Yanzongning\.workbuddy\binaries\node\versions\22.22.2\node_modules\@tencent\slidep\dist\slidep.js:5995:483350)
+    at async mh.save (C:\Users\Yanzongning\.workbuddy\binaries\node\versions\22.22.2\node_modules\@tencent\slidep\dist\slidep.js:5993:19870)
+    at async L.drain (C:\Users\Yanzongning\.workbuddy\binaries\node\versions\22.22.2\node_modules\@tencent\slidep\dist\slidep.js:5993:22625)
+[2026-08-28 21:57:55.550] [INFO ] [pid=67396] [sync] drain end round=35 reconciles=1 mergedSubmits=1 pendingDirtySize=0 ms=69
+=== boot pid=69972 ts=2026-08-28 21:58:05.659 cwd=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报 argv=C:\Users\Yanzongning\.workbuddy\binaries\node\versions\22.22.2\node_modules\@tencent\slidep\dist\slidep-validate.js --all --project . ===
+[2026-08-28 21:58:05.657] [INFO ] [pid=69972] [validate] --all mode: found 13 files in C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报\slides
+[2026-08-28 21:58:05.663] [INFO ] [pid=69972] [validate] batch start files=13 checkOverflow=true
+[2026-08-28 21:58:07.413] [INFO ] [pid=69972] [validate] batch done total=13 passed=13 failed=0 ms=1757
+[2026-08-29 15:40:27.207] [INFO ] [pid=67396] [watcher] event=unlink file=slides\13.slide
+[2026-08-29 15:40:27.209] [INFO ] [pid=67396] [sync] submit nextRound=36 dirty=<none> pendingDirtySize=0 merged=no
+[2026-08-29 15:40:27.210] [INFO ] [pid=67396] [sync] drain start round=36 pendingDirtySize=0
+[2026-08-29 15:40:27.210] [INFO ] [pid=67396] [sync] step=remove-orphan round=36 attempt=1 pageId=13 index=12
+[2026-08-29 15:40:27.211] [INFO ] [pid=67396] [backend-ops] removeSlideAt start index=12
+[2026-08-29 15:40:27.217] [INFO ] [pid=67396] [mcp] mcp:slide_remove_slide send url=http://127.0.0.1:39099/mcp args={"file_id":"sid_mtd0e4j1_wllwn0yx","page_index":12}
+[2026-08-29 15:40:27.220] [INFO ] [pid=67396] [mcp] mcp:slide_remove_slide ok ms=3
+[2026-08-29 15:40:27.221] [INFO ] [pid=67396] [backend-ops] removeSlideAt ok index=12 serverVersion=74 ms=10
+[2026-08-29 15:40:27.222] [INFO ] [pid=67396] [sync] step=add round=36 attempt=1 pageId=14 index=12
+[2026-08-29 15:40:27.223] [INFO ] [pid=67396] [backend-ops] addSlideAt start pageId=14 index=12
+[2026-08-29 15:40:27.224] [INFO ] [pid=67396] [render] start pageId=14 file=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报\slides\14.slide
+[2026-08-29 15:40:27.242] [INFO ] [pid=67396] [render] ok pageId=14 slides=1 ms=18
+[2026-08-29 15:40:27.243] [INFO ] [pid=67396] [render] renderSlideData result.resources={ images: {}, videos: {}, audios: {}, fonts: {} }
+[2026-08-29 15:40:27.251] [INFO ] [pid=67396] [commit] commit send pageId=53b083 targetIndex=12 version=44 baseVersion=74 revisionBytes=9904
+[2026-08-29 15:40:27.257] [INFO ] [pid=67396] [commit] commit ok pageId=53b083 revisionId=aa12cd6f ms=5
+[2026-08-29 15:40:27.260] [INFO ] [pid=67396] [backend-ops] addSlideAt ok pageId=14 slideId=53b083 index=12 version=44 baseVersion=74 revisionId=aa12cd6f code=0 images=[local=0 remote=0 cached=0 failed=0] ms=37
+[2026-08-29 15:40:27.261] [INFO ] [pid=67396] [sync] aligned round=36 attempt=1 size=13 desired=13 pendingDirtySize=0
+[2026-08-29 15:40:27.262] [INFO ] [pid=67396] [sync] reconcile ok round=36 attempt=1 ms=52
+[2026-08-29 15:40:27.263] [INFO ] [pid=67396] [backend-ops] save start file=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报\以动代屏_童健韶华_体质提升篇_汇报.pptx
+[2026-08-29 15:40:27.265] [INFO ] [pid=67396] [commit] save send filePath=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报\以动代屏_童健韶华_体质提升篇_汇报.pptx
+[2026-08-29 15:40:27.273] [ERROR] [pid=67396] [http] save http 500 url=http://127.0.0.1:39099/localapi/save body={"code":10201,"message":"[10201]Export file is occupied: C:\\Users\\Yanzongning\\Desktop\\童健韶华资料库\\以动代屏_童健韶华_体质提升篇_汇报\\以动代屏_童健韶华_体质提升篇_汇报.pptx@TimePointBegin1787989227271|0@TimePointEnd"} ms=4
+[2026-08-29 15:40:27.273] [ERROR] [pid=67396] [backend-ops] save FAIL file=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报\以动代屏_童健韶华_体质提升篇_汇报.pptx ms=10
+[2026-08-29 15:40:27.274] [ERROR] [pid=67396] [sync] save FAIL round=36 HttpStatusError: save bad response: HTTP 500 body={"code":10201,"message":"[10201]Export file is occupied: C:\\Users\\Yanzongning\\Desktop\\童健韶华资料库\\以动代屏_童健韶华_体质提升篇_汇报\\以动代屏_童健韶华_体质提升篇_汇报.pptx@TimePointBegin1787989227271|0@TimePointEnd"}
+    at v6 (C:\Users\Yanzongning\.workbuddy\binaries\node\versions\22.22.2\node_modules\@tencent\slidep\dist\slidep.js:5995:476590)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async C:\Users\Yanzongning\.workbuddy\binaries\node\versions\22.22.2\node_modules\@tencent\slidep\dist\slidep.js:5995:485008
+    at async Sw.withReopenRetry (C:\Users\Yanzongning\.workbuddy\binaries\node\versions\22.22.2\node_modules\@tencent\slidep\dist\slidep.js:5995:483350)
+    at async mh.save (C:\Users\Yanzongning\.workbuddy\binaries\node\versions\22.22.2\node_modules\@tencent\slidep\dist\slidep.js:5993:19870)
+    at async L.drain (C:\Users\Yanzongning\.workbuddy\binaries\node\versions\22.22.2\node_modules\@tencent\slidep\dist\slidep.js:5993:22625)
+[2026-08-29 15:40:27.275] [INFO ] [pid=67396] [sync] drain end round=36 reconciles=1 mergedSubmits=1 pendingDirtySize=0 ms=65
+[2026-08-29 15:40:27.315] [INFO ] [pid=67396] [watcher] event=add file=slides\14.slide
+[2026-08-29 15:40:27.816] [INFO ] [pid=67396] [watcher] flush batch dirty=[14] size=1
+[2026-08-29 15:40:27.817] [INFO ] [pid=67396] [sync] submit nextRound=37 dirty=14 pendingDirtySize=1 merged=no
+[2026-08-29 15:40:27.818] [INFO ] [pid=67396] [sync] drain start round=37 pendingDirtySize=1
+[2026-08-29 15:40:27.818] [INFO ] [pid=67396] [sync] step=remove-orphan round=37 attempt=1 pageId=12 index=11
+[2026-08-29 15:40:27.822] [INFO ] [pid=67396] [backend-ops] removeSlideAt start index=11
+[2026-08-29 15:40:27.825] [INFO ] [pid=67396] [mcp] mcp:slide_remove_slide send url=http://127.0.0.1:39099/mcp args={"file_id":"sid_mtd0e4j1_wllwn0yx","page_index":11}
+[2026-08-29 15:40:27.828] [INFO ] [pid=67396] [mcp] mcp:slide_remove_slide ok ms=2
+[2026-08-29 15:40:27.829] [INFO ] [pid=67396] [backend-ops] removeSlideAt ok index=11 serverVersion=76 ms=7
+[2026-08-29 15:40:27.830] [INFO ] [pid=67396] [sync] step=remove-dirty round=37 attempt=1 pageId=14 index=11
+[2026-08-29 15:40:27.832] [INFO ] [pid=67396] [backend-ops] removeSlideAt start index=11
+[2026-08-29 15:40:27.833] [INFO ] [pid=67396] [watcher] event=unlink file=slides\12.slide
+[2026-08-29 15:40:27.834] [INFO ] [pid=67396] [sync] submit round=37 dirty=<none> pendingDirtySize=1 merged=yes
+[2026-08-29 15:40:27.836] [INFO ] [pid=67396] [mcp] mcp:slide_remove_slide send url=http://127.0.0.1:39099/mcp args={"file_id":"sid_mtd0e4j1_wllwn0yx","page_index":11}
+[2026-08-29 15:40:27.840] [INFO ] [pid=67396] [mcp] mcp:slide_remove_slide ok ms=3
+[2026-08-29 15:40:27.842] [INFO ] [pid=67396] [backend-ops] removeSlideAt ok index=11 serverVersion=77 ms=10
+[2026-08-29 15:40:27.843] [INFO ] [pid=67396] [sync] step=add round=37 attempt=1 pageId=13 index=11
+[2026-08-29 15:40:27.843] [INFO ] [pid=67396] [backend-ops] addSlideAt start pageId=13 index=11
+[2026-08-29 15:40:27.844] [INFO ] [pid=67396] [render] start pageId=13 file=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报\slides\13.slide
+[2026-08-29 15:40:27.877] [INFO ] [pid=67396] [render] ok pageId=13 slides=1 ms=33
+[2026-08-29 15:40:27.879] [INFO ] [pid=67396] [render] renderSlideData result.resources={ images: {}, videos: {}, audios: {}, fonts: {} }
+[2026-08-29 15:40:27.882] [INFO ] [pid=67396] [commit] commit send pageId=cfffcf targetIndex=11 version=45 baseVersion=77 revisionBytes=22064
+[2026-08-29 15:40:27.889] [INFO ] [pid=67396] [commit] commit ok pageId=cfffcf revisionId=31cb5350 ms=5
+[2026-08-29 15:40:27.892] [INFO ] [pid=67396] [backend-ops] addSlideAt ok pageId=13 slideId=cfffcf index=11 version=45 baseVersion=77 revisionId=31cb5350 code=0 images=[local=0 remote=0 cached=0 failed=0] ms=49
+[2026-08-29 15:40:27.893] [INFO ] [pid=67396] [sync] step=add round=37 attempt=1 pageId=14 index=12
+[2026-08-29 15:40:27.893] [INFO ] [pid=67396] [backend-ops] addSlideAt start pageId=14 index=12
+[2026-08-29 15:40:27.895] [INFO ] [pid=67396] [render] start pageId=14 file=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报\slides\14.slide
+[2026-08-29 15:40:27.919] [INFO ] [pid=67396] [render] ok pageId=14 slides=1 ms=24
+[2026-08-29 15:40:27.920] [INFO ] [pid=67396] [render] renderSlideData result.resources={ images: {}, videos: {}, audios: {}, fonts: {} }
+[2026-08-29 15:40:27.925] [INFO ] [pid=67396] [commit] commit send pageId=2dc1f9 targetIndex=12 version=46 baseVersion=78 revisionBytes=9904
+[2026-08-29 15:40:27.931] [INFO ] [pid=67396] [commit] commit ok pageId=2dc1f9 revisionId=e917622a ms=5
+[2026-08-29 15:40:27.935] [INFO ] [pid=67396] [backend-ops] addSlideAt ok pageId=14 slideId=2dc1f9 index=12 version=46 baseVersion=78 revisionId=e917622a code=0 images=[local=0 remote=0 cached=0 failed=0] ms=42
+[2026-08-29 15:40:27.936] [INFO ] [pid=67396] [sync] aligned round=37 attempt=1 size=13 desired=13 pendingDirtySize=0
+[2026-08-29 15:40:27.937] [INFO ] [pid=67396] [sync] reconcile ok round=37 attempt=1 ms=119
+[2026-08-29 15:40:27.937] [INFO ] [pid=67396] [sync] aligned round=37 attempt=2 size=13 desired=13 pendingDirtySize=0
+[2026-08-29 15:40:27.938] [INFO ] [pid=67396] [sync] reconcile ok round=37 attempt=2 ms=1
+[2026-08-29 15:40:27.938] [INFO ] [pid=67396] [backend-ops] save start file=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报\以动代屏_童健韶华_体质提升篇_汇报.pptx
+[2026-08-29 15:40:27.939] [INFO ] [pid=67396] [commit] save send filePath=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报\以动代屏_童健韶华_体质提升篇_汇报.pptx
+[2026-08-29 15:40:27.941] [INFO ] [pid=67396] [watcher] event=add file=slides\13.slide
+[2026-08-29 15:40:27.943] [ERROR] [pid=67396] [http] save http 500 url=http://127.0.0.1:39099/localapi/save body={"code":10201,"message":"[10201]Export file is occupied: C:\\Users\\Yanzongning\\Desktop\\童健韶华资料库\\以动代屏_童健韶华_体质提升篇_汇报\\以动代屏_童健韶华_体质提升篇_汇报.pptx@TimePointBegin1787989227942|0@TimePointEnd"} ms=3
+[2026-08-29 15:40:27.944] [ERROR] [pid=67396] [backend-ops] save FAIL file=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报\以动代屏_童健韶华_体质提升篇_汇报.pptx ms=6
+[2026-08-29 15:40:27.945] [ERROR] [pid=67396] [sync] save FAIL round=37 HttpStatusError: save bad response: HTTP 500 body={"code":10201,"message":"[10201]Export file is occupied: C:\\Users\\Yanzongning\\Desktop\\童健韶华资料库\\以动代屏_童健韶华_体质提升篇_汇报\\以动代屏_童健韶华_体质提升篇_汇报.pptx@TimePointBegin1787989227942|0@TimePointEnd"}
+    at v6 (C:\Users\Yanzongning\.workbuddy\binaries\node\versions\22.22.2\node_modules\@tencent\slidep\dist\slidep.js:5995:476590)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async C:\Users\Yanzongning\.workbuddy\binaries\node\versions\22.22.2\node_modules\@tencent\slidep\dist\slidep.js:5995:485008
+    at async Sw.withReopenRetry (C:\Users\Yanzongning\.workbuddy\binaries\node\versions\22.22.2\node_modules\@tencent\slidep\dist\slidep.js:5995:483350)
+    at async mh.save (C:\Users\Yanzongning\.workbuddy\binaries\node\versions\22.22.2\node_modules\@tencent\slidep\dist\slidep.js:5993:19870)
+    at async L.drain (C:\Users\Yanzongning\.workbuddy\binaries\node\versions\22.22.2\node_modules\@tencent\slidep\dist\slidep.js:5993:22625)
+[2026-08-29 15:40:27.945] [INFO ] [pid=67396] [sync] drain end round=37 reconciles=2 mergedSubmits=2 pendingDirtySize=0 ms=127
+[2026-08-29 15:40:28.441] [INFO ] [pid=67396] [watcher] flush batch dirty=[13] size=1
+[2026-08-29 15:40:28.442] [INFO ] [pid=67396] [sync] submit nextRound=38 dirty=13 pendingDirtySize=1 merged=no
+[2026-08-29 15:40:28.443] [INFO ] [pid=67396] [sync] drain start round=38 pendingDirtySize=1
+[2026-08-29 15:40:28.443] [INFO ] [pid=67396] [sync] step=remove-dirty round=38 attempt=1 pageId=13 index=11
+[2026-08-29 15:40:28.444] [INFO ] [pid=67396] [backend-ops] removeSlideAt start index=11
+[2026-08-29 15:40:28.448] [INFO ] [pid=67396] [mcp] mcp:slide_remove_slide send url=http://127.0.0.1:39099/mcp args={"file_id":"sid_mtd0e4j1_wllwn0yx","page_index":11}
+[2026-08-29 15:40:28.451] [INFO ] [pid=67396] [mcp] mcp:slide_remove_slide ok ms=3
+[2026-08-29 15:40:28.452] [INFO ] [pid=67396] [backend-ops] removeSlideAt ok index=11 serverVersion=80 ms=8
+[2026-08-29 15:40:28.452] [INFO ] [pid=67396] [sync] step=add round=38 attempt=1 pageId=13 index=11
+[2026-08-29 15:40:28.453] [INFO ] [pid=67396] [backend-ops] addSlideAt start pageId=13 index=11
+[2026-08-29 15:40:28.454] [INFO ] [pid=67396] [render] start pageId=13 file=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报\slides\13.slide
+[2026-08-29 15:40:28.484] [INFO ] [pid=67396] [render] ok pageId=13 slides=1 ms=30
+[2026-08-29 15:40:28.485] [INFO ] [pid=67396] [render] renderSlideData result.resources={ images: {}, videos: {}, audios: {}, fonts: {} }
+[2026-08-29 15:40:28.488] [INFO ] [pid=67396] [commit] commit send pageId=3a5373 targetIndex=11 version=47 baseVersion=80 revisionBytes=22064
+[2026-08-29 15:40:28.495] [INFO ] [pid=67396] [commit] commit ok pageId=3a5373 revisionId=e52366dd ms=6
+[2026-08-29 15:40:28.498] [INFO ] [pid=67396] [backend-ops] addSlideAt ok pageId=13 slideId=3a5373 index=11 version=47 baseVersion=80 revisionId=e52366dd code=0 images=[local=0 remote=0 cached=0 failed=0] ms=45
+[2026-08-29 15:40:28.502] [INFO ] [pid=67396] [sync] step=remove-orphan round=38 attempt=1 pageId=11 index=10
+[2026-08-29 15:40:28.503] [INFO ] [pid=67396] [backend-ops] removeSlideAt start index=10
+[2026-08-29 15:40:28.508] [INFO ] [pid=67396] [mcp] mcp:slide_remove_slide send url=http://127.0.0.1:39099/mcp args={"file_id":"sid_mtd0e4j1_wllwn0yx","page_index":10}
+[2026-08-29 15:40:28.513] [INFO ] [pid=67396] [mcp] mcp:slide_remove_slide ok ms=4
+[2026-08-29 15:40:28.514] [INFO ] [pid=67396] [backend-ops] removeSlideAt ok index=10 serverVersion=82 ms=11
+[2026-08-29 15:40:28.515] [INFO ] [pid=67396] [sync] step=add round=38 attempt=1 pageId=12 index=10
+[2026-08-29 15:40:28.516] [INFO ] [pid=67396] [backend-ops] addSlideAt start pageId=12 index=10
+[2026-08-29 15:40:28.517] [INFO ] [pid=67396] [render] start pageId=12 file=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报\slides\12.slide
+[2026-08-29 15:40:28.557] [INFO ] [pid=67396] [render] ok pageId=12 slides=1 ms=40
+[2026-08-29 15:40:28.558] [INFO ] [pid=67396] [render] renderSlideData result.resources={ images: {}, videos: {}, audios: {}, fonts: {} }
+[2026-08-29 15:40:28.561] [INFO ] [pid=67396] [commit] commit send pageId=a8ef16 targetIndex=10 version=48 baseVersion=82 revisionBytes=24140
+[2026-08-29 15:40:28.568] [INFO ] [pid=67396] [commit] commit ok pageId=a8ef16 revisionId=7e0a51ff ms=5
+[2026-08-29 15:40:28.570] [INFO ] [pid=67396] [backend-ops] addSlideAt ok pageId=12 slideId=a8ef16 index=10 version=48 baseVersion=82 revisionId=7e0a51ff code=0 images=[local=0 remote=0 cached=0 failed=0] ms=54
+[2026-08-29 15:40:28.571] [INFO ] [pid=67396] [sync] aligned round=38 attempt=1 size=13 desired=13 pendingDirtySize=0
+[2026-08-29 15:40:28.572] [INFO ] [pid=67396] [sync] reconcile ok round=38 attempt=1 ms=129
+[2026-08-29 15:40:28.573] [INFO ] [pid=67396] [backend-ops] save start file=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报\以动代屏_童健韶华_体质提升篇_汇报.pptx
+[2026-08-29 15:40:28.573] [INFO ] [pid=67396] [commit] save send filePath=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报\以动代屏_童健韶华_体质提升篇_汇报.pptx
+[2026-08-29 15:40:28.577] [ERROR] [pid=67396] [http] save http 500 url=http://127.0.0.1:39099/localapi/save body={"code":10201,"message":"[10201]Export file is occupied: C:\\Users\\Yanzongning\\Desktop\\童健韶华资料库\\以动代屏_童健韶华_体质提升篇_汇报\\以动代屏_童健韶华_体质提升篇_汇报.pptx@TimePointBegin1787989228576|0@TimePointEnd"} ms=3
+[2026-08-29 15:40:28.578] [ERROR] [pid=67396] [backend-ops] save FAIL file=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报\以动代屏_童健韶华_体质提升篇_汇报.pptx ms=5
+[2026-08-29 15:40:28.579] [ERROR] [pid=67396] [sync] save FAIL round=38 HttpStatusError: save bad response: HTTP 500 body={"code":10201,"message":"[10201]Export file is occupied: C:\\Users\\Yanzongning\\Desktop\\童健韶华资料库\\以动代屏_童健韶华_体质提升篇_汇报\\以动代屏_童健韶华_体质提升篇_汇报.pptx@TimePointBegin1787989228576|0@TimePointEnd"}
+    at v6 (C:\Users\Yanzongning\.workbuddy\binaries\node\versions\22.22.2\node_modules\@tencent\slidep\dist\slidep.js:5995:476590)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async C:\Users\Yanzongning\.workbuddy\binaries\node\versions\22.22.2\node_modules\@tencent\slidep\dist\slidep.js:5995:485008
+    at async Sw.withReopenRetry (C:\Users\Yanzongning\.workbuddy\binaries\node\versions\22.22.2\node_modules\@tencent\slidep\dist\slidep.js:5995:483350)
+    at async mh.save (C:\Users\Yanzongning\.workbuddy\binaries\node\versions\22.22.2\node_modules\@tencent\slidep\dist\slidep.js:5993:19870)
+    at async L.drain (C:\Users\Yanzongning\.workbuddy\binaries\node\versions\22.22.2\node_modules\@tencent\slidep\dist\slidep.js:5993:22625)
+[2026-08-29 15:40:28.580] [INFO ] [pid=67396] [sync] drain end round=38 reconciles=1 mergedSubmits=1 pendingDirtySize=0 ms=137
+[2026-08-29 15:40:28.592] [INFO ] [pid=67396] [watcher] event=unlink file=slides\11.slide
+[2026-08-29 15:40:28.593] [INFO ] [pid=67396] [sync] submit nextRound=39 dirty=<none> pendingDirtySize=0 merged=no
+[2026-08-29 15:40:28.594] [INFO ] [pid=67396] [sync] drain start round=39 pendingDirtySize=0
+[2026-08-29 15:40:28.594] [INFO ] [pid=67396] [sync] aligned round=39 attempt=1 size=13 desired=13 pendingDirtySize=0
+[2026-08-29 15:40:28.595] [INFO ] [pid=67396] [sync] reconcile ok round=39 attempt=1 ms=1
+[2026-08-29 15:40:28.596] [INFO ] [pid=67396] [sync] drain end round=39 reconciles=1 mergedSubmits=1 pendingDirtySize=0 ms=2
+[2026-08-29 15:40:28.697] [INFO ] [pid=67396] [watcher] event=add file=slides\12.slide
+[2026-08-29 15:40:29.199] [INFO ] [pid=67396] [watcher] flush batch dirty=[12] size=1
+[2026-08-29 15:40:29.200] [INFO ] [pid=67396] [sync] submit nextRound=40 dirty=12 pendingDirtySize=1 merged=no
+[2026-08-29 15:40:29.201] [INFO ] [pid=67396] [sync] drain start round=40 pendingDirtySize=1
+[2026-08-29 15:40:29.202] [INFO ] [pid=67396] [sync] step=remove-dirty round=40 attempt=1 pageId=12 index=10
+[2026-08-29 15:40:29.208] [INFO ] [pid=67396] [backend-ops] removeSlideAt start index=10
+[2026-08-29 15:40:29.211] [INFO ] [pid=67396] [mcp] mcp:slide_remove_slide send url=http://127.0.0.1:39099/mcp args={"file_id":"sid_mtd0e4j1_wllwn0yx","page_index":10}
+[2026-08-29 15:40:29.216] [INFO ] [pid=67396] [mcp] mcp:slide_remove_slide ok ms=4
+[2026-08-29 15:40:29.217] [INFO ] [pid=67396] [backend-ops] removeSlideAt ok index=10 serverVersion=84 ms=9
+[2026-08-29 15:40:29.222] [INFO ] [pid=67396] [sync] step=add round=40 attempt=1 pageId=12 index=10
+[2026-08-29 15:40:29.223] [INFO ] [pid=67396] [backend-ops] addSlideAt start pageId=12 index=10
+[2026-08-29 15:40:29.224] [INFO ] [pid=67396] [render] start pageId=12 file=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报\slides\12.slide
+[2026-08-29 15:40:29.259] [INFO ] [pid=67396] [render] ok pageId=12 slides=1 ms=34
+[2026-08-29 15:40:29.259] [INFO ] [pid=67396] [render] renderSlideData result.resources={ images: {}, videos: {}, audios: {}, fonts: {} }
+[2026-08-29 15:40:29.263] [INFO ] [pid=67396] [commit] commit send pageId=e74bf7 targetIndex=10 version=49 baseVersion=84 revisionBytes=24140
+[2026-08-29 15:40:29.269] [INFO ] [pid=67396] [commit] commit ok pageId=e74bf7 revisionId=d7610dfc ms=5
+[2026-08-29 15:40:29.273] [INFO ] [pid=67396] [backend-ops] addSlideAt ok pageId=12 slideId=e74bf7 index=10 version=49 baseVersion=84 revisionId=d7610dfc code=0 images=[local=0 remote=0 cached=0 failed=0] ms=50
+[2026-08-29 15:40:29.274] [INFO ] [pid=67396] [sync] aligned round=40 attempt=1 size=13 desired=13 pendingDirtySize=0
+[2026-08-29 15:40:29.274] [INFO ] [pid=67396] [sync] reconcile ok round=40 attempt=1 ms=73
+[2026-08-29 15:40:29.279] [INFO ] [pid=67396] [backend-ops] save start file=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报\以动代屏_童健韶华_体质提升篇_汇报.pptx
+[2026-08-29 15:40:29.280] [INFO ] [pid=67396] [commit] save send filePath=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报\以动代屏_童健韶华_体质提升篇_汇报.pptx
+[2026-08-29 15:40:29.285] [ERROR] [pid=67396] [http] save http 500 url=http://127.0.0.1:39099/localapi/save body={"code":10201,"message":"[10201]Export file is occupied: C:\\Users\\Yanzongning\\Desktop\\童健韶华资料库\\以动代屏_童健韶华_体质提升篇_汇报\\以动代屏_童健韶华_体质提升篇_汇报.pptx@TimePointBegin1787989229283|0@TimePointEnd"} ms=5
+[2026-08-29 15:40:29.286] [ERROR] [pid=67396] [backend-ops] save FAIL file=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报\以动代屏_童健韶华_体质提升篇_汇报.pptx ms=7
+[2026-08-29 15:40:29.286] [ERROR] [pid=67396] [sync] save FAIL round=40 HttpStatusError: save bad response: HTTP 500 body={"code":10201,"message":"[10201]Export file is occupied: C:\\Users\\Yanzongning\\Desktop\\童健韶华资料库\\以动代屏_童健韶华_体质提升篇_汇报\\以动代屏_童健韶华_体质提升篇_汇报.pptx@TimePointBegin1787989229283|0@TimePointEnd"}
+    at v6 (C:\Users\Yanzongning\.workbuddy\binaries\node\versions\22.22.2\node_modules\@tencent\slidep\dist\slidep.js:5995:476590)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async C:\Users\Yanzongning\.workbuddy\binaries\node\versions\22.22.2\node_modules\@tencent\slidep\dist\slidep.js:5995:485008
+    at async Sw.withReopenRetry (C:\Users\Yanzongning\.workbuddy\binaries\node\versions\22.22.2\node_modules\@tencent\slidep\dist\slidep.js:5995:483350)
+    at async mh.save (C:\Users\Yanzongning\.workbuddy\binaries\node\versions\22.22.2\node_modules\@tencent\slidep\dist\slidep.js:5993:19870)
+    at async L.drain (C:\Users\Yanzongning\.workbuddy\binaries\node\versions\22.22.2\node_modules\@tencent\slidep\dist\slidep.js:5993:22625)
+[2026-08-29 15:40:29.287] [INFO ] [pid=67396] [sync] drain end round=40 reconciles=1 mergedSubmits=1 pendingDirtySize=0 ms=86
+[2026-08-29 15:41:11.102] [INFO ] [pid=67396] [watcher] event=add file=slides\11.slide
+[2026-08-29 15:41:11.605] [INFO ] [pid=67396] [watcher] flush batch dirty=[11] size=1
+[2026-08-29 15:41:11.606] [INFO ] [pid=67396] [sync] submit nextRound=41 dirty=11 pendingDirtySize=1 merged=no
+[2026-08-29 15:41:11.607] [INFO ] [pid=67396] [sync] drain start round=41 pendingDirtySize=1
+[2026-08-29 15:41:11.607] [INFO ] [pid=67396] [sync] step=add round=41 attempt=1 pageId=11 index=10
+[2026-08-29 15:41:11.608] [INFO ] [pid=67396] [backend-ops] addSlideAt start pageId=11 index=10
+[2026-08-29 15:41:11.609] [INFO ] [pid=67396] [render] start pageId=11 file=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报\slides\11.slide
+[2026-08-29 15:41:11.771] [INFO ] [pid=67396] [render] ok pageId=11 slides=1 ms=162
+[2026-08-29 15:41:11.772] [INFO ] [pid=67396] [render] renderSlideData result.resources={ images: {}, videos: {}, audios: {}, fonts: {} }
+[2026-08-29 15:41:11.781] [INFO ] [pid=67396] [commit] commit send pageId=be88a3 targetIndex=10 version=50 baseVersion=85 revisionBytes=39100
+[2026-08-29 15:41:11.796] [INFO ] [pid=67396] [commit] commit ok pageId=be88a3 revisionId=fe906b03 ms=14
+[2026-08-29 15:41:11.802] [INFO ] [pid=67396] [backend-ops] addSlideAt ok pageId=11 slideId=be88a3 index=10 version=50 baseVersion=85 revisionId=fe906b03 code=0 images=[local=0 remote=0 cached=0 failed=0] ms=194
+[2026-08-29 15:41:11.803] [INFO ] [pid=67396] [sync] aligned round=41 attempt=1 size=14 desired=14 pendingDirtySize=0
+[2026-08-29 15:41:11.804] [INFO ] [pid=67396] [sync] reconcile ok round=41 attempt=1 ms=197
+[2026-08-29 15:41:11.805] [INFO ] [pid=67396] [backend-ops] save start file=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报\以动代屏_童健韶华_体质提升篇_汇报.pptx
+[2026-08-29 15:41:11.805] [INFO ] [pid=67396] [commit] save send filePath=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报\以动代屏_童健韶华_体质提升篇_汇报.pptx
+[2026-08-29 15:41:11.812] [ERROR] [pid=67396] [http] save http 500 url=http://127.0.0.1:39099/localapi/save body={"code":10201,"message":"[10201]Export file is occupied: C:\\Users\\Yanzongning\\Desktop\\童健韶华资料库\\以动代屏_童健韶华_体质提升篇_汇报\\以动代屏_童健韶华_体质提升篇_汇报.pptx@TimePointBegin1787989271810|0@TimePointEnd"} ms=6
+[2026-08-29 15:41:11.815] [ERROR] [pid=67396] [backend-ops] save FAIL file=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报\以动代屏_童健韶华_体质提升篇_汇报.pptx ms=10
+[2026-08-29 15:41:11.816] [ERROR] [pid=67396] [sync] save FAIL round=41 HttpStatusError: save bad response: HTTP 500 body={"code":10201,"message":"[10201]Export file is occupied: C:\\Users\\Yanzongning\\Desktop\\童健韶华资料库\\以动代屏_童健韶华_体质提升篇_汇报\\以动代屏_童健韶华_体质提升篇_汇报.pptx@TimePointBegin1787989271810|0@TimePointEnd"}
+    at v6 (C:\Users\Yanzongning\.workbuddy\binaries\node\versions\22.22.2\node_modules\@tencent\slidep\dist\slidep.js:5995:476590)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async C:\Users\Yanzongning\.workbuddy\binaries\node\versions\22.22.2\node_modules\@tencent\slidep\dist\slidep.js:5995:485008
+    at async Sw.withReopenRetry (C:\Users\Yanzongning\.workbuddy\binaries\node\versions\22.22.2\node_modules\@tencent\slidep\dist\slidep.js:5995:483350)
+    at async mh.save (C:\Users\Yanzongning\.workbuddy\binaries\node\versions\22.22.2\node_modules\@tencent\slidep\dist\slidep.js:5993:19870)
+    at async L.drain (C:\Users\Yanzongning\.workbuddy\binaries\node\versions\22.22.2\node_modules\@tencent\slidep\dist\slidep.js:5993:22625)
+[2026-08-29 15:41:11.817] [INFO ] [pid=67396] [sync] drain end round=41 reconciles=1 mergedSubmits=1 pendingDirtySize=0 ms=210
+[2026-08-29 15:41:33.812] [INFO ] [pid=67396] [watcher] event=change file=slides\12.slide
+[2026-08-29 15:41:34.314] [INFO ] [pid=67396] [watcher] flush batch dirty=[12] size=1
+[2026-08-29 15:41:34.314] [INFO ] [pid=67396] [sync] submit nextRound=42 dirty=12 pendingDirtySize=1 merged=no
+[2026-08-29 15:41:34.315] [INFO ] [pid=67396] [sync] drain start round=42 pendingDirtySize=1
+[2026-08-29 15:41:34.316] [INFO ] [pid=67396] [sync] step=remove-dirty round=42 attempt=1 pageId=12 index=11
+[2026-08-29 15:41:34.316] [INFO ] [pid=67396] [backend-ops] removeSlideAt start index=11
+[2026-08-29 15:41:34.319] [INFO ] [pid=67396] [mcp] mcp:slide_remove_slide send url=http://127.0.0.1:39099/mcp args={"file_id":"sid_mtd0e4j1_wllwn0yx","page_index":11}
+[2026-08-29 15:41:34.322] [INFO ] [pid=67396] [mcp] mcp:slide_remove_slide ok ms=2
+[2026-08-29 15:41:34.323] [INFO ] [pid=67396] [backend-ops] removeSlideAt ok index=11 serverVersion=87 ms=7
+[2026-08-29 15:41:34.323] [INFO ] [pid=67396] [sync] step=add round=42 attempt=1 pageId=12 index=11
+[2026-08-29 15:41:34.324] [INFO ] [pid=67396] [backend-ops] addSlideAt start pageId=12 index=11
+[2026-08-29 15:41:34.325] [INFO ] [pid=67396] [render] start pageId=12 file=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报\slides\12.slide
+[2026-08-29 15:41:34.384] [INFO ] [pid=67396] [render] ok pageId=12 slides=1 ms=59
+[2026-08-29 15:41:34.387] [INFO ] [pid=67396] [render] renderSlideData result.resources={ images: {}, videos: {}, audios: {}, fonts: {} }
+[2026-08-29 15:41:34.393] [INFO ] [pid=67396] [commit] commit send pageId=d74ff0 targetIndex=11 version=51 baseVersion=87 revisionBytes=24128
+[2026-08-29 15:41:34.402] [INFO ] [pid=67396] [commit] commit ok pageId=d74ff0 revisionId=9ad6c736 ms=8
+[2026-08-29 15:41:34.405] [INFO ] [pid=67396] [backend-ops] addSlideAt ok pageId=12 slideId=d74ff0 index=11 version=51 baseVersion=87 revisionId=9ad6c736 code=0 images=[local=0 remote=0 cached=0 failed=0] ms=81
+[2026-08-29 15:41:34.406] [INFO ] [pid=67396] [sync] aligned round=42 attempt=1 size=14 desired=14 pendingDirtySize=0
+[2026-08-29 15:41:34.407] [INFO ] [pid=67396] [sync] reconcile ok round=42 attempt=1 ms=92
+[2026-08-29 15:41:34.407] [INFO ] [pid=67396] [backend-ops] save start file=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报\以动代屏_童健韶华_体质提升篇_汇报.pptx
+[2026-08-29 15:41:34.408] [INFO ] [pid=67396] [commit] save send filePath=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报\以动代屏_童健韶华_体质提升篇_汇报.pptx
+[2026-08-29 15:41:34.415] [ERROR] [pid=67396] [http] save http 500 url=http://127.0.0.1:39099/localapi/save body={"code":10201,"message":"[10201]Export file is occupied: C:\\Users\\Yanzongning\\Desktop\\童健韶华资料库\\以动代屏_童健韶华_体质提升篇_汇报\\以动代屏_童健韶华_体质提升篇_汇报.pptx@TimePointBegin1787989294411|2@TimePointEnd"} ms=7
+[2026-08-29 15:41:34.416] [ERROR] [pid=67396] [backend-ops] save FAIL file=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报\以动代屏_童健韶华_体质提升篇_汇报.pptx ms=9
+[2026-08-29 15:41:34.416] [ERROR] [pid=67396] [sync] save FAIL round=42 HttpStatusError: save bad response: HTTP 500 body={"code":10201,"message":"[10201]Export file is occupied: C:\\Users\\Yanzongning\\Desktop\\童健韶华资料库\\以动代屏_童健韶华_体质提升篇_汇报\\以动代屏_童健韶华_体质提升篇_汇报.pptx@TimePointBegin1787989294411|2@TimePointEnd"}
+    at v6 (C:\Users\Yanzongning\.workbuddy\binaries\node\versions\22.22.2\node_modules\@tencent\slidep\dist\slidep.js:5995:476590)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async C:\Users\Yanzongning\.workbuddy\binaries\node\versions\22.22.2\node_modules\@tencent\slidep\dist\slidep.js:5995:485008
+    at async Sw.withReopenRetry (C:\Users\Yanzongning\.workbuddy\binaries\node\versions\22.22.2\node_modules\@tencent\slidep\dist\slidep.js:5995:483350)
+    at async mh.save (C:\Users\Yanzongning\.workbuddy\binaries\node\versions\22.22.2\node_modules\@tencent\slidep\dist\slidep.js:5993:19870)
+    at async L.drain (C:\Users\Yanzongning\.workbuddy\binaries\node\versions\22.22.2\node_modules\@tencent\slidep\dist\slidep.js:5993:22625)
+[2026-08-29 15:41:34.418] [INFO ] [pid=67396] [sync] drain end round=42 reconciles=1 mergedSubmits=1 pendingDirtySize=0 ms=103
+[2026-08-29 15:41:44.616] [INFO ] [pid=67396] [watcher] event=change file=slides\13.slide
+[2026-08-29 15:41:45.117] [INFO ] [pid=67396] [watcher] flush batch dirty=[13] size=1
+[2026-08-29 15:41:45.118] [INFO ] [pid=67396] [sync] submit nextRound=43 dirty=13 pendingDirtySize=1 merged=no
+[2026-08-29 15:41:45.119] [INFO ] [pid=67396] [sync] drain start round=43 pendingDirtySize=1
+[2026-08-29 15:41:45.119] [INFO ] [pid=67396] [sync] step=remove-dirty round=43 attempt=1 pageId=13 index=12
+[2026-08-29 15:41:45.120] [INFO ] [pid=67396] [backend-ops] removeSlideAt start index=12
+[2026-08-29 15:41:45.123] [INFO ] [pid=67396] [mcp] mcp:slide_remove_slide send url=http://127.0.0.1:39099/mcp args={"file_id":"sid_mtd0e4j1_wllwn0yx","page_index":12}
+[2026-08-29 15:41:45.127] [INFO ] [pid=67396] [mcp] mcp:slide_remove_slide ok ms=2
+[2026-08-29 15:41:45.127] [INFO ] [pid=67396] [backend-ops] removeSlideAt ok index=12 serverVersion=89 ms=7
+[2026-08-29 15:41:45.128] [INFO ] [pid=67396] [sync] step=add round=43 attempt=1 pageId=13 index=12
+[2026-08-29 15:41:45.129] [INFO ] [pid=67396] [backend-ops] addSlideAt start pageId=13 index=12
+[2026-08-29 15:41:45.130] [INFO ] [pid=67396] [render] start pageId=13 file=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报\slides\13.slide
+[2026-08-29 15:41:45.173] [INFO ] [pid=67396] [render] ok pageId=13 slides=1 ms=43
+[2026-08-29 15:41:45.174] [INFO ] [pid=67396] [render] renderSlideData result.resources={ images: {}, videos: {}, audios: {}, fonts: {} }
+[2026-08-29 15:41:45.178] [INFO ] [pid=67396] [commit] commit send pageId=88d209 targetIndex=12 version=52 baseVersion=89 revisionBytes=22080
+[2026-08-29 15:41:45.185] [INFO ] [pid=67396] [commit] commit ok pageId=88d209 revisionId=4ad3c3ca ms=6
+[2026-08-29 15:41:45.187] [INFO ] [pid=67396] [backend-ops] addSlideAt ok pageId=13 slideId=88d209 index=12 version=52 baseVersion=89 revisionId=4ad3c3ca code=0 images=[local=0 remote=0 cached=0 failed=0] ms=58
+[2026-08-29 15:41:45.188] [INFO ] [pid=67396] [sync] aligned round=43 attempt=1 size=14 desired=14 pendingDirtySize=0
+[2026-08-29 15:41:45.189] [INFO ] [pid=67396] [sync] reconcile ok round=43 attempt=1 ms=70
+[2026-08-29 15:41:45.190] [INFO ] [pid=67396] [backend-ops] save start file=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报\以动代屏_童健韶华_体质提升篇_汇报.pptx
+[2026-08-29 15:41:45.190] [INFO ] [pid=67396] [commit] save send filePath=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报\以动代屏_童健韶华_体质提升篇_汇报.pptx
+[2026-08-29 15:41:45.195] [ERROR] [pid=67396] [http] save http 500 url=http://127.0.0.1:39099/localapi/save body={"code":10201,"message":"[10201]Export file is occupied: C:\\Users\\Yanzongning\\Desktop\\童健韶华资料库\\以动代屏_童健韶华_体质提升篇_汇报\\以动代屏_童健韶华_体质提升篇_汇报.pptx@TimePointBegin1787989305193|0@TimePointEnd"} ms=4
+[2026-08-29 15:41:45.197] [ERROR] [pid=67396] [backend-ops] save FAIL file=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报\以动代屏_童健韶华_体质提升篇_汇报.pptx ms=7
+[2026-08-29 15:41:45.198] [ERROR] [pid=67396] [sync] save FAIL round=43 HttpStatusError: save bad response: HTTP 500 body={"code":10201,"message":"[10201]Export file is occupied: C:\\Users\\Yanzongning\\Desktop\\童健韶华资料库\\以动代屏_童健韶华_体质提升篇_汇报\\以动代屏_童健韶华_体质提升篇_汇报.pptx@TimePointBegin1787989305193|0@TimePointEnd"}
+    at v6 (C:\Users\Yanzongning\.workbuddy\binaries\node\versions\22.22.2\node_modules\@tencent\slidep\dist\slidep.js:5995:476590)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async C:\Users\Yanzongning\.workbuddy\binaries\node\versions\22.22.2\node_modules\@tencent\slidep\dist\slidep.js:5995:485008
+    at async Sw.withReopenRetry (C:\Users\Yanzongning\.workbuddy\binaries\node\versions\22.22.2\node_modules\@tencent\slidep\dist\slidep.js:5995:483350)
+    at async mh.save (C:\Users\Yanzongning\.workbuddy\binaries\node\versions\22.22.2\node_modules\@tencent\slidep\dist\slidep.js:5993:19870)
+    at async L.drain (C:\Users\Yanzongning\.workbuddy\binaries\node\versions\22.22.2\node_modules\@tencent\slidep\dist\slidep.js:5993:22625)
+[2026-08-29 15:41:45.199] [INFO ] [pid=67396] [sync] drain end round=43 reconciles=1 mergedSubmits=1 pendingDirtySize=0 ms=80
+=== boot pid=73956 ts=2026-08-29 15:41:59.857 cwd=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报 argv=C:\Users\Yanzongning\.workbuddy\binaries\node\versions\22.22.2\node_modules\@tencent\slidep\dist\slidep-validate.js --all --project . ===
+[2026-08-29 15:41:59.855] [INFO ] [pid=73956] [validate] --all mode: found 14 files in C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报\slides
+[2026-08-29 15:41:59.861] [INFO ] [pid=73956] [validate] batch start files=14 checkOverflow=true
+[2026-08-29 15:42:01.775] [INFO ] [pid=73956] [validate] batch done total=14 passed=14 failed=0 ms=1921
+=== boot pid=42452 ts=2026-09-01 22:50:43.193 cwd=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报 argv=C:\Users\Yanzongning\.workbuddy\binaries\node\versions\22.22.2\node_modules\@tencent\slidep\dist\slidep-validate.js --all --project . ===
+[2026-09-01 22:50:43.191] [INFO ] [pid=42452] [validate] --all mode: found 15 files in C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_童健韶华_体质提升篇_汇报\slides
+[2026-09-01 22:50:43.198] [INFO ] [pid=42452] [validate] batch start files=15 checkOverflow=true
+[2026-09-01 22:50:44.955] [INFO ] [pid=42452] [validate] batch done total=15 passed=15 failed=0 ms=1764

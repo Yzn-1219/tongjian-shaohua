@@ -1,0 +1,66 @@
+=== boot pid=15556 ts=2026-09-01 23:30:27.019 cwd=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_模块化模式图 argv=C:\Users\Yanzongning\.workbuddy\binaries\node\versions\22.22.2\node_modules\@tencent\slidep\dist\slidep-start.js --project . --filename 以动代屏_一套模板两模块三场落地.pptx ===
+[2026-09-01 23:30:27.016] [INFO ] [pid=15556] [start] invoked pid=15556 cwd=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_模块化模式图 daemonChild=no dev=no argv=[--project . --filename 以动代屏_一套模板两模块三场落地.pptx]
+[2026-09-01 23:30:27.021] [INFO ] [pid=15556] [start] spawning daemon projectDir=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_模块化模式图 filename=以动代屏_一套模板两模块三场落地.pptx
+[2026-09-01 23:30:27.034] [INFO ] [pid=15556] [start] daemon spawned childPid=53112; waiting started ipc
+=== boot pid=53112 ts=2026-09-01 23:30:28.839 cwd=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_模块化模式图 argv=C:\Users\Yanzongning\.workbuddy\binaries\node\versions\22.22.2\node_modules\@tencent\slidep\dist\slidep-start.js --project . --filename 以动代屏_一套模板两模块三场落地.pptx --__daemon-child ===
+[2026-09-01 23:30:28.836] [INFO ] [pid=53112] [start] invoked pid=53112 cwd=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_模块化模式图 daemonChild=yes dev=no argv=[--project . --filename 以动代屏_一套模板两模块三场落地.pptx --__daemon-child]
+[2026-09-01 23:30:28.840] [INFO ] [pid=53112] [start] daemon child runWorker ppid=15556
+[2026-09-01 23:30:28.841] [INFO ] [pid=53112] [worker] start projectDir=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_模块化模式图 filename=以动代屏_一套模板两模块三场落地.pptx version=5.4.4
+[2026-09-01 23:30:28.842] [INFO ] [pid=53112] [worker] init ok dirs=ready
+[2026-09-01 23:30:28.843] [INFO ] [pid=53112] [server-url] env TENCENT_DOCS_LOCAL_MCP = http://127.0.0.1:39099/mcp
+[2026-09-01 23:30:28.843] [INFO ] [pid=53112] [worker] openFile start
+[2026-09-01 23:30:28.845] [INFO ] [pid=53112] [open-file] copy blank.pptx start src=C:\Users\Yanzongning\.workbuddy\binaries\node\versions\22.22.2\node_modules\@tencent\slidep\dist\resources\pptx\blank.pptx dest=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_模块化模式图\以动代屏_一套模板两模块三场落地.pptx
+[2026-09-01 23:30:28.855] [INFO ] [pid=53112] [open-file] copy blank.pptx ok dest=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_模块化模式图\以动代屏_一套模板两模块三场落地.pptx ms=10
+[2026-09-01 23:30:28.880] [ERROR] [pid=53112] [http] editorStatus http 404 url=http://127.0.0.1:39099/api/editor/status body={"code":-1,"message":"no editor open for file_path=C:\\Users\\Yanzongning\\Desktop\\童健韶华资料库\\以动代屏_模块化模式图\\以动代屏_一套模板两模块三场落地.pptx"} ms=23
+[2026-09-01 23:30:28.881] [INFO ] [pid=53112] [open-file] open send url=http://127.0.0.1:39099/localapi/open filePath=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_模块化模式图\以动代屏_一套模板两模块三场落地.pptx
+[2026-09-01 23:30:28.889] [INFO ] [pid=53112] [open-file] open ok fileId=D5203829 fileType=slide filePath=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_模块化模式图\以动代屏_一套模板两模块三场落地.pptx ms=7
+[2026-09-01 23:30:28.890] [INFO ] [pid=53112] [worker] openFile ok fileId=D5203829 filePath=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_模块化模式图\以动代屏_一套模板两模块三场落地.pptx
+[2026-09-01 23:30:28.891] [INFO ] [pid=53112] [worker] previewUrl=http://127.0.0.1:39099/static/slide/pc.html?local_edit=1&client=sdk_local&localFilePath=C%3A%5CUsers%5CYanzongning%5CDesktop%5C%E7%AB%A5%E5%81%A5%E9%9F%B6%E5%8D%8E%E8%B5%84%E6%96%99%E5%BA%93%5C%E4%BB%A5%E5%8A%A8%E4%BB%A3%E5%B1%8F_%E6%A8%A1%E5%9D%97%E5%8C%96%E6%A8%A1%E5%BC%8F%E5%9B%BE%5C%E4%BB%A5%E5%8A%A8%E4%BB%A3%E5%B1%8F_%E4%B8%80%E5%A5%97%E6%A8%A1%E6%9D%BF%E4%B8%A4%E6%A8%A1%E5%9D%97%E4%B8%89%E5%9C%BA%E8%90%BD%E5%9C%B0.pptx
+[2026-09-01 23:30:28.892] [INFO ] [pid=53112] [state] state.json not found, creating path=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_模块化模式图\.slidep\state.json filePath=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_模块化模式图\以动代屏_一套模板两模块三场落地.pptx
+[2026-09-01 23:30:28.896] [INFO ] [pid=53112] [worker] commitEndpoint=http://127.0.0.1:39099/localapi/commitrevision
+[2026-09-01 23:30:28.902] [INFO ] [pid=53112] [mcp] mcp:slide_get_info send url=http://127.0.0.1:39099/mcp args={"file_id":"D5203829-EB7B-4AD9-8A47-F57307851842"}
+[2026-09-01 23:30:28.906] [INFO ] [pid=53112] [mcp] mcp:slide_get_info ok ms=3
+[2026-09-01 23:30:28.906] [INFO ] [pid=53112] [purge] purge start backendSlideCount=0
+[2026-09-01 23:30:28.907] [INFO ] [pid=53112] [purge] purge ok removed=0 ms=9
+[2026-09-01 23:30:28.908] [INFO ] [pid=53112] [worker] initial sync submitted pages=1
+[2026-09-01 23:30:28.909] [INFO ] [pid=53112] [sync] submit nextRound=1 dirty=<none> pendingDirtySize=0 merged=no
+[2026-09-01 23:30:28.909] [INFO ] [pid=53112] [sync] drain start round=1 pendingDirtySize=0
+[2026-09-01 23:30:28.910] [INFO ] [pid=53112] [sync] step=add round=1 attempt=1 pageId=01 index=0
+[2026-09-01 23:30:28.911] [INFO ] [pid=53112] [backend-ops] addSlideAt start pageId=01 index=0
+[2026-09-01 23:30:28.912] [INFO ] [pid=53112] [render] start pageId=01 file=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_模块化模式图\slides\01.slide
+[2026-09-01 23:30:28.923] [INFO ] [pid=53112] [worker] ready fileId=D5203829 backendUrl=http://127.0.0.1:39099 initialPages=1 ms=82
+[2026-09-01 23:30:28.924] [INFO ] [pid=15556] [start] daemon started childPid=53112 ms=1903
+[2026-09-01 23:30:29.829] [INFO ] [pid=53112] [watcher] ready dir=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_模块化模式图\slides
+[2026-09-01 23:30:30.031] [INFO ] [pid=53112] [render] ok pageId=01 slides=1 ms=1119
+[2026-09-01 23:30:30.033] [INFO ] [pid=53112] [render] renderSlideData result.resources={
+  images: {
+    'rel:018haqdl': {
+      id: 'rel:018haqdl',
+      src: 'C:\\Users\\Yanzongning\\Desktop\\童健韶华资料库\\以动代屏_模块化模式图\\.cache\\media\\images\\7ae4aab8a23d9285b8d870a11b8205ab.png'
+    },
+    'rel:00hsvj8i': {
+      id: 'rel:00hsvj8i',
+      src: 'C:\\Users\\Yanzongning\\Desktop\\童健韶华资料库\\以动代屏_模块化模式图\\.cache\\media\\images\\bf5b5c03dffdc95489fe3dc89dd588e0.png'
+    },
+    'rel:01ob18lc': {
+      id: 'rel:01ob18lc',
+      src: 'C:\\Users\\Yanzongning\\Desktop\\童健韶华资料库\\以动代屏_模块化模式图\\.cache\\media\\images\\45ce50a3beed097deb66e9b8434dd3d9.png'
+    }
+  },
+  videos: {},
+  audios: {},
+  fonts: {}
+}
+[2026-09-01 23:30:30.052] [INFO ] [pid=53112] [commit] commit send pageId=cde2d4 targetIndex=0 version=1 baseVersion=0 revisionBytes=922904
+[2026-09-01 23:30:30.082] [INFO ] [pid=53112] [commit] commit ok pageId=cde2d4 revisionId=7da3203b ms=29
+[2026-09-01 23:30:30.085] [INFO ] [pid=53112] [backend-ops] addSlideAt ok pageId=01 slideId=cde2d4 index=0 version=1 baseVersion=0 revisionId=7da3203b code=0 images=[local=3 remote=0 cached=0 failed=0] ms=1174
+[2026-09-01 23:30:30.086] [INFO ] [pid=53112] [sync] aligned round=1 attempt=1 size=1 desired=1 pendingDirtySize=0
+[2026-09-01 23:30:30.087] [INFO ] [pid=53112] [sync] reconcile ok round=1 attempt=1 ms=1177
+[2026-09-01 23:30:30.087] [INFO ] [pid=53112] [backend-ops] save start file=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_模块化模式图\以动代屏_一套模板两模块三场落地.pptx
+[2026-09-01 23:30:30.088] [INFO ] [pid=53112] [commit] save send filePath=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_模块化模式图\以动代屏_一套模板两模块三场落地.pptx
+[2026-09-01 23:30:30.118] [INFO ] [pid=53112] [commit] save ok file_path=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_模块化模式图\以动代屏_一套模板两模块三场落地.pptx ms=30
+[2026-09-01 23:30:30.119] [INFO ] [pid=53112] [backend-ops] save ok file_path=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_模块化模式图\以动代屏_一套模板两模块三场落地.pptx ms=32
+[2026-09-01 23:30:30.119] [INFO ] [pid=53112] [sync] drain end round=1 reconciles=1 mergedSubmits=1 pendingDirtySize=0 ms=1210
+=== boot pid=58840 ts=2026-09-01 23:30:34.323 cwd=C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_模块化模式图 argv=C:\Users\Yanzongning\.workbuddy\binaries\node\versions\22.22.2\node_modules\@tencent\slidep\dist\slidep-validate.js --all --project . ===
+[2026-09-01 23:30:34.321] [INFO ] [pid=58840] [validate] --all mode: found 1 files in C:\Users\Yanzongning\Desktop\童健韶华资料库\以动代屏_模块化模式图\slides
+[2026-09-01 23:30:35.389] [INFO ] [pid=58840] [validate] ok slideId=01 status=ready ms=1069
