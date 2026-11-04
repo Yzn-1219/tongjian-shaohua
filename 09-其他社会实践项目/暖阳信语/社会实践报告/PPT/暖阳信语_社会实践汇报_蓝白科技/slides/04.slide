@@ -1,0 +1,125 @@
+<Slide style={{
+    width: 1280,
+    height: 720,
+    background: '#FFFFFF',
+    position: 'relative',
+    display: 'flex',
+    flexDirection: 'column',
+    padding: '36px 60px'
+}}>
+    {/* 右上大圆斑 - 浅蓝 */}
+    <Box style={{
+        position: 'absolute', top: -150, right: -150,
+        width: 380, height: 380, borderRadius: '50%',
+        background: 'radial-gradient(circle, rgba(30, 136, 229, 0.12) 0%, rgba(30, 136, 229, 0) 70%)'
+    }} />
+
+    {/* A 区：标题块 */}
+    <Box style={{ flexDirection: 'row', alignItems: 'center', gap: 16, position: 'relative', zIndex: 2 }}>
+        <Box style={{
+            width: 6, height: 36, background: 'linear-gradient(180deg, #0B2545 0%, #1E88E5 100%)',
+            borderRadius: 3
+        }} />
+        <Text style={{ fontSize: 32, fontWeight: 'bold', color: '#0B2545', letterSpacing: 1 }}>
+            阶段性成果
+        </Text>
+        <Box style={{
+            background: '#E3F2FD', padding: '4px 14px', borderRadius: 14,
+            marginLeft: 8
+        }}>
+            <Text style={{ fontSize: 13, color: '#0B2545', fontWeight: 'bold' }}>
+                8 天扎实的果实
+            </Text>
+        </Box>
+    </Box>
+
+    {/* B 区：内容 */}
+    <Box style={{ flex: 1, flexDirection: 'column', gap: 14, marginTop: 16, position: 'relative', zIndex: 2 }}>
+        {/* 三大核心数字 */}
+        <Box style={{ flexDirection: 'row', gap: 14, flex: 1 }}>
+            {[
+                { num: '86', unit: '名次', label: '累计服务儿童', icon: '', color: '#0B2545' },
+                { num: '32', unit: '个',   label: '完成微心愿',   icon: '', color: '#1E88E5' },
+                { num: '24', unit: '对',   label: '建立书信结对', icon: '', color: '#0B2545' }
+            ].map((d, i) => (
+                <Box key={i} style={{
+                    flex: 1, background: 'linear-gradient(135deg, #E3F2FD 0%, #D6EBFF 100%)',
+                    borderRadius: 14, padding: 22, flexDirection: 'column',
+                    alignItems: 'center', justifyContent: 'center',
+                    borderLeft: `6px solid ${d.color}`,
+                    boxShadow: '0 8px 24px rgba(11, 37, 69, 0.08)'
+                }}>
+                    <Text style={{ fontSize: 28 }}>{d.icon}</Text>
+                    <Box style={{ flexDirection: 'row', alignItems: 'baseline', marginTop: 6 }}>
+                        <Text style={{ fontSize: 72, color: d.color, fontWeight: 'bold' }}>{d.num}</Text>
+                        <Text style={{ fontSize: 20, color: d.color, fontWeight: 'bold', marginLeft: 4 }}>{d.unit}</Text>
+                    </Box>
+                    <Text style={{ fontSize: 16, color: '#0B2545', fontWeight: 'bold', marginTop: 4 }}>{d.label}</Text>
+                </Box>
+            ))}
+        </Box>
+
+        {/* 三项产出 */}
+        <Box style={{ flexDirection: 'row', gap: 14 }}>
+            {[
+                { num: '120+', label: '张照片记录', icon: '' },
+                { num: '6',    label: '篇心得体会', icon: '' },
+                { num: '1',    label: '套帮扶档案', icon: '' }
+            ].map((d, i) => (
+                <Box key={i} style={{
+                    flex: 1, background: '#FFFFFF', borderRadius: 10,
+                    padding: '14px 18px', flexDirection: 'row', alignItems: 'center', gap: 14,
+                    border: '1px solid rgba(30, 136, 229, 0.3)'
+                }}>
+                    <Text style={{ fontSize: 30 }}>{d.icon}</Text>
+                    <Box>
+                        <Text style={{ fontSize: 28, color: '#1E88E5', fontWeight: 'bold' }}>{d.num}</Text>
+                        <Text style={{ fontSize: 13, color: '#475569', marginTop: 2 }}>{d.label}</Text>
+                    </Box>
+                </Box>
+            ))}
+        </Box>
+
+        {/* 关键变化 - 金句卡片 */}
+        <Box style={{
+            flexDirection: 'row', gap: 14
+        }}>
+            <Box style={{
+                flex: 1, background: 'linear-gradient(135deg, #0B2545 0%, #1E88E5 100%)',
+                borderRadius: 10, padding: '14px 18px', flexDirection: 'row', alignItems: 'center', gap: 12
+            }}>
+                <Text style={{ fontSize: 28 }}>成</Text>
+                <Text style={{ fontSize: 14, color: '#FFFFFF', lineHeight: 1.6, flex: 1 }}>
+                    3 名原本拒绝交流的孩子，在第 5 天主动加入跳房子游戏。
+                </Text>
+            </Box>
+            <Box style={{
+                flex: 1, background: 'linear-gradient(135deg, #0B2545 0%, #1E88E5 100%)',
+                borderRadius: 10, padding: '14px 18px', flexDirection: 'row', alignItems: 'center', gap: 12
+            }}>
+                <Text style={{ fontSize: 28 }}></Text>
+                <Text style={{ fontSize: 14, color: '#FFFFFF', lineHeight: 1.6, flex: 1 }}>
+                    怡合佳苑 8 岁女孩收到书包，连说三遍"谢谢哥哥姐姐"。
+                </Text>
+            </Box>
+        </Box>
+    </Box>
+
+    {/* C 区：页脚 */}
+    <Box style={{
+        flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center',
+        borderTop: '1px solid rgba(11, 37, 69, 0.15)', paddingTop: 12,
+        position: 'relative', zIndex: 2
+    }}>
+        <Text style={{ fontSize: 12, color: '#64748B' }}>暖阳信语 · 星光伴成长</Text>
+        <Box style={{ flexDirection: 'row', alignItems: 'center', gap: 10 }}>
+            <Box style={{
+                background: '#FFFFFF', borderRadius: 8, padding: 4,
+                border: '1px solid rgba(30, 136, 229, 0.3)'
+            }}>
+                <Image src="assets/image5.jpg" style={{ width: 90, height: 60, objectFit: 'contain', borderRadius: 4 }} />
+            </Box>
+            <Text style={{ fontSize: 12, color: '#0B2545', fontWeight: 'bold' }}>04 / 05</Text>
+        </Box>
+    </Box>
+</Slide>

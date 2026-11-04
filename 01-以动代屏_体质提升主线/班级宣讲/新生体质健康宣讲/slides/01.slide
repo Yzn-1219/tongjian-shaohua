@@ -1,0 +1,19 @@
+<Slide style={{ padding: 60, background: '#0B1E4B', position: 'relative', overflow: 'hidden' }}>
+    <Box style={{ position: 'absolute', right: -180, top: -230, width: 780, height: 780, borderRadius: '50%', background: 'radial-gradient(circle, rgba(56,116,238,0.75) 0%, rgba(11,30,75,0) 68%)' }} />
+    <Box style={{ position: 'absolute', left: -140, bottom: -280, width: 640, height: 640, borderRadius: '50%', background: 'radial-gradient(circle, rgba(14,165,233,0.32) 0%, rgba(11,30,75,0) 70%)' }} />
+    <Box style={{ flexDirection: 'column', justifyContent: 'space-between', height: '100%', position: 'relative' }}>
+        <Box style={{ flexDirection: 'column', gap: 8 }}>
+            <Text style={{ fontSize: 16, color: '#7EA6F0', letterSpacing: 3 }}>山东药品食品职业学院 · 质量管理系</Text>
+            <Text style={{ fontSize: 16, color: '#3E68BE', letterSpacing: 3 }}>「童健韶华」志愿服务队</Text>
+        </Box>
+        <Box style={{ flexDirection: 'column', gap: 26 }}>
+            <Box style={{ width: 64, height: 5, borderRadius: 3, background: '#F97316' }} />
+            <Text style={{ fontSize: 76, fontWeight: 'bold', color: '#FFFFFF', lineHeight: 1.14, letterSpacing: 2 }}>健体正学风<br />蓄力向未来</Text>
+            <Text style={{ fontSize: 26, color: '#BFD4F7', lineHeight: 1.5 }}>2026 级新生体质健康专题宣讲</Text>
+        </Box>
+        <Box style={{ flexDirection: 'row', justifyContent: 'space-between', alignItems: 'flex-end' }}>
+            <Text style={{ fontSize: 16, color: '#7EA6F0', lineHeight: 1.6 }}>体质健康测试标准解读　·　评优评奖政策解析　·　学风建设</Text>
+            <Text style={{ fontSize: 16, color: '#7EA6F0' }}>2026.11</Text>
+        </Box>
+    </Box>
+</Slide>

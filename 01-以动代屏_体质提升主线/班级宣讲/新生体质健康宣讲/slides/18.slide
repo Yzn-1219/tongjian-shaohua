@@ -1,0 +1,49 @@
+<Slide style={{ padding: 60, background: '#FFFFFF', position: 'relative', fontFamily: 'Microsoft YaHei' }}>
+    <Box style={{ flexDirection: 'column', height: '100%', gap: 22 }}>
+        <Box style={{ flexDirection: 'column', gap: 12 }}>
+            <Text style={{ fontSize: 34, fontWeight: 'bold', color: '#0F172A', lineHeight: 1.2 }}>四条等级线，划出四种结果</Text>
+            <Box style={{ height: 3, width: '100%', background: '#E2E8F0' }} />
+        </Box>
+        <Box style={{ flexDirection: 'row', gap: 40, flex: 1 }}>
+            <Box style={{ width: 650, flexDirection: 'column', gap: 12, justifyContent: 'center' }}>
+                <Box style={{ flexDirection: 'row', alignItems: 'center', gap: 18, background: '#DCFCE7', borderRadius: 8, padding: '16px 22px' }}>
+                    <Text style={{ width: 96, fontSize: 20, fontWeight: 'bold', color: '#15803D' }}>优秀</Text>
+                    <Text style={{ width: 132, fontSize: 22, fontWeight: 'bold', color: '#15803D' }}>90 分及以上</Text>
+                    <Text style={{ flex: 1, fontSize: 17, color: '#166534', lineHeight: 1.5 }}>够得上体育之星，是拿星最近的一条路</Text>
+                </Box>
+                <Box style={{ flexDirection: 'row', alignItems: 'center', gap: 18, background: '#DBEAFE', borderRadius: 8, padding: '16px 22px' }}>
+                    <Text style={{ width: 96, fontSize: 20, fontWeight: 'bold', color: '#1D4ED8' }}>良好</Text>
+                    <Text style={{ width: 132, fontSize: 22, fontWeight: 'bold', color: '#1D4ED8' }}>80 至 89.9 分</Text>
+                    <Text style={{ flex: 1, fontSize: 17, color: '#1E3A8A', lineHeight: 1.5 }}>国家奖学金、省政府奖学金的门槛</Text>
+                </Box>
+                <Box style={{ flexDirection: 'row', alignItems: 'center', gap: 18, background: '#FFF7ED', borderRadius: 8, padding: '16px 22px' }}>
+                    <Text style={{ width: 96, fontSize: 20, fontWeight: 'bold', color: '#EA580C' }}>及格</Text>
+                    <Text style={{ width: 132, fontSize: 22, fontWeight: 'bold', color: '#EA580C' }}>60 至 79.9 分</Text>
+                    <Text style={{ flex: 1, fontSize: 17, color: '#9A3412', lineHeight: 1.5 }}>评优评奖的最低线，达不到就直接出局</Text>
+                </Box>
+                <Box style={{ flexDirection: 'row', alignItems: 'center', gap: 18, background: '#FEE2E2', borderRadius: 8, padding: '16px 22px' }}>
+                    <Text style={{ width: 96, fontSize: 20, fontWeight: 'bold', color: '#B91C1C' }}>不及格</Text>
+                    <Text style={{ width: 132, fontSize: 22, fontWeight: 'bold', color: '#B91C1C' }}>59.9 分及以下</Text>
+                    <Text style={{ flex: 1, fontSize: 17, color: '#991B1B', lineHeight: 1.5 }}>本学年评优评奖全部关门，只有一次补测机会</Text>
+                </Box>
+            </Box>
+            <Box style={{ width: 460, flexDirection: 'column', justifyContent: 'center', gap: 22 }}>
+                <Box style={{ flexDirection: 'column', gap: 10 }}>
+                    <Text style={{ fontSize: 68, fontWeight: 'bold', color: '#1D4ED8', lineHeight: 1 }}>120</Text>
+                    <Text style={{ fontSize: 19, color: '#334155', lineHeight: 1.6 }}>总分上限。标准分满分是 100，加上附加分最多 20，合计 120。</Text>
+                </Box>
+                <Box style={{ height: 1, background: '#E2E8F0' }} />
+                <Box style={{ flexDirection: 'column', gap: 10 }}>
+                    <Text style={{ fontSize: 19, fontWeight: 'bold', color: '#0F172A', lineHeight: 1.5 }}>附加分怎么来的</Text>
+                    <Text style={{ fontSize: 17, color: '#475569', lineHeight: 1.7 }}>男生：引体向上超过 19 次、1000 米跑进 3′17″</Text>
+                    <Text style={{ fontSize: 17, color: '#475569', lineHeight: 1.7 }}>女生：仰卧起坐超过 56 次、800 米跑进 3′18″</Text>
+                    <Text style={{ fontSize: 17, color: '#475569', lineHeight: 1.7 }}>超出满分线后逐级加分，每项最多加 10 分。</Text>
+                </Box>
+            </Box>
+        </Box>
+    </Box>
+    <Box style={{ position: 'absolute', left: 60, right: 60, bottom: 24, flexDirection: 'row', justifyContent: 'space-between' }}>
+        <Text style={{ fontSize: 14, color: '#CBD5E1' }}>山东药品食品职业学院 · 质量管理系 ·「童健韶华」志愿服务队</Text>
+        <Text style={{ fontSize: 14, color: '#CBD5E1' }}>18</Text>
+    </Box>
+</Slide>

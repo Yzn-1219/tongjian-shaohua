@@ -1,0 +1,196 @@
+<Slide style={{
+    width: 1280,
+    height: 720,
+    background: 'linear-gradient(135deg, #E3F2FD 0%, #FFFFFF 50%, #D6EBFF 100%)',
+    position: 'relative',
+    display: 'flex',
+    flexDirection: 'column',
+    justifyContent: 'space-between',
+    padding: '36px 60px'
+}}>
+    {/* 右上装饰圆斑 - 中蓝 */}
+    <Box style={{
+        position: 'absolute', top: -120, right: -120,
+        width: 360, height: 360, borderRadius: '50%',
+        background: 'radial-gradient(circle, rgba(30, 136, 229, 0.18) 0%, rgba(30, 136, 229, 0) 70%)'
+    }} />
+
+    {/* 左下装饰圆斑 - 深蓝 */}
+    <Box style={{
+        position: 'absolute', bottom: -100, left: -100,
+        width: 320, height: 320, borderRadius: '50%',
+        background: 'radial-gradient(circle, rgba(11, 37, 69, 0.08) 0%, rgba(11, 37, 69, 0) 70%)'
+    }} />
+
+    {/* 顶部：文字徽标 + 项目标签 */}
+    <Box style={{ flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center', position: 'relative', zIndex: 2 }}>
+        <Box style={{ flexDirection: 'row', alignItems: 'center', gap: 14 }}>
+            {/* 文字 logo：⭐ + 团队名 */}
+            <Box style={{
+                flexDirection: 'row', alignItems: 'center', gap: 8,
+                background: '#FFFFFF', padding: '8px 18px', borderRadius: 16,
+                boxShadow: '0 4px 12px rgba(11, 37, 69, 0.08)',
+                border: '1px solid rgba(30, 136, 229, 0.3)'
+            }}>
+                <Text style={{ fontSize: 26 }}>⭐</Text>
+                <Text style={{ fontSize: 18, color: '#0B2545', fontWeight: 'bold', letterSpacing: 1 }}>
+                    暖阳信语
+                </Text>
+            </Box>
+            <Box style={{ flexDirection: 'column' }}>
+                <Text style={{ fontSize: 14, color: '#0B2545', fontWeight: 'bold', letterSpacing: 1 }}>
+                    山东药品食品职业学院 · 质量管理系
+                </Text>
+                <Text style={{ fontSize: 12, color: '#1E88E5' }}>
+                    「暖阳信语」志愿服务队
+                </Text>
+            </Box>
+        </Box>
+        <Box style={{
+            background: 'linear-gradient(135deg, #0B2545 0%, #1E88E5 100%)',
+            padding: '8px 20px', borderRadius: 20,
+            boxShadow: '0 4px 12px rgba(30, 136, 229, 0.25)'
+        }}>
+            <Text style={{ fontSize: 13, color: '#FFFFFF', fontWeight: 'bold', letterSpacing: 1 }}>
+                2026 暑期 · 三下乡社会实践
+            </Text>
+        </Box>
+    </Box>
+
+    {/* 中部：左侧标题 / 右侧 4 社区示意 */}
+    <Box style={{ flexDirection: 'row', gap: 28, flex: 1, marginTop: 18, marginBottom: 14, position: 'relative', zIndex: 2 }}>
+        {/* 左侧：标题与信息 */}
+        <Box style={{ flex: 1.1, flexDirection: 'column', justifyContent: 'center', gap: 18 }}>
+            <Text style={{
+                fontSize: 54, fontWeight: 'bold', color: '#0B2545',
+                lineHeight: 1.15, letterSpacing: 2
+            }}>
+                星光伴成长
+            </Text>
+            <Text style={{
+                fontSize: 44, fontWeight: 'bold', color: '#1E88E5',
+                lineHeight: 1.2, letterSpacing: 2
+            }}>
+                暖心护童行
+            </Text>
+            <Text style={{
+                fontSize: 20, fontWeight: 'bold', color: '#0B2545',
+                lineHeight: 1.4, letterSpacing: 1
+            }}>
+                留守儿童暖心关怀志愿服务
+            </Text>
+
+            {/* 核心理念胶囊 */}
+            <Box style={{ flexDirection: 'row', gap: 10, marginTop: 6 }}>
+                <Box style={{ background: '#FFFFFF', padding: '8px 18px', borderRadius: 16, border: '1px solid #1E88E5' }}>
+                    <Text style={{ fontSize: 13, color: '#0B2545', fontWeight: 'bold' }}>心理疏导</Text>
+                </Box>
+                <Box style={{ background: '#FFFFFF', padding: '8px 18px', borderRadius: 16, border: '1px solid #1E88E5' }}>
+                    <Text style={{ fontSize: 13, color: '#0B2545', fontWeight: 'bold' }}>书信结对</Text>
+                </Box>
+                <Box style={{ background: '#FFFFFF', padding: '8px 18px', borderRadius: 16, border: '1px solid #1E88E5' }}>
+                    <Text style={{ fontSize: 13, color: '#0B2545', fontWeight: 'bold' }}>成长陪伴</Text>
+                </Box>
+                <Box style={{ background: '#FFFFFF', padding: '8px 18px', borderRadius: 16, border: '1px solid #1E88E5' }}>
+                    <Text style={{ fontSize: 13, color: '#0B2545', fontWeight: 'bold' }}>微心愿帮扶</Text>
+                </Box>
+            </Box>
+
+            {/* 地点时间 */}
+            <Box style={{ marginTop: 8, flexDirection: 'column', gap: 4 }}>
+                <Text style={{ fontSize: 14, color: '#0B2545', fontWeight: 'bold' }}>
+                    威海市环翠区 · 四个社区同步开展
+                </Text>
+                <Text style={{ fontSize: 13, color: '#64748B' }}>
+                    2026 年 7 月 15 日 — 22 日（共 8 天）
+                </Text>
+            </Box>
+        </Box>
+
+        {/* 右侧：4 社区方阵 + 中心"暖阳"图标 */}
+        <Box style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+            <Box style={{
+                background: '#FFFFFF', borderRadius: 16, padding: 24,
+                border: '1px solid rgba(30, 136, 229, 0.3)',
+                boxShadow: '0 12px 36px rgba(11, 37, 69, 0.12)',
+                flexDirection: 'column', gap: 14,
+                width: '100%', maxWidth: 500
+            }}>
+                {/* 顶部图标 */}
+                <Box style={{ justifyContent: 'center', alignItems: 'center', flexDirection: 'row', gap: 10 }}>
+                    <Text style={{ fontSize: 36 }}></Text>
+                    <Text style={{ fontSize: 22, color: '#0B2545', fontWeight: 'bold' }}>暖阳信语 · 服务矩阵</Text>
+                </Box>
+
+                {/* 4 社区方阵 */}
+                <Box style={{ flexDirection: 'row', gap: 10 }}>
+                    {[
+                        { name: '银杏社区', icon: '杏' },
+                        { name: '西海社区', icon: '西' },
+                        { name: '宏泰社区', icon: '宏' },
+                        { name: '怡合佳苑', icon: '怡' }
+                    ].map((c, i) => (
+                        <Box key={i} style={{
+                            flex: 1, background: '#E3F2FD', borderRadius: 10,
+                            padding: '14px 8px', alignItems: 'center',
+                            border: '1px solid rgba(30, 136, 229, 0.2)'
+                        }}>
+                            <Text style={{ fontSize: 28 }}>{c.icon}</Text>
+                            <Text style={{ fontSize: 12, color: '#0B2545', fontWeight: 'bold', marginTop: 4 }}>{c.name}</Text>
+                        </Box>
+                    ))}
+                </Box>
+
+                {/* 底部标签条 */}
+                <Box style={{
+                    flexDirection: 'row', justifyContent: 'space-around',
+                    background: 'linear-gradient(135deg, #E3F2FD 0%, #D6EBFF 100%)',
+                    borderRadius: 10, padding: '10px 8px'
+                }}>
+                    <Text style={{ fontSize: 13, color: '#0B2545', fontWeight: 'bold' }}> 书信结对</Text>
+                    <Text style={{ fontSize: 13, color: '#0B2545', fontWeight: 'bold' }}> 成长陪伴</Text>
+                    <Text style={{ fontSize: 13, color: '#0B2545', fontWeight: 'bold' }}> 微心愿</Text>
+                </Box>
+            </Box>
+        </Box>
+    </Box>
+
+    {/* 底部：团队 + 汇报人 */}
+    <Box style={{
+        flexDirection: 'row', justifyContent: 'space-between', alignItems: 'flex-end',
+        borderTop: '1px solid rgba(11, 37, 69, 0.15)', paddingTop: 16,
+        position: 'relative', zIndex: 2
+    }}>
+        <Box style={{ flexDirection: 'column', gap: 4 }}>
+            <Text style={{ fontSize: 15, color: '#0B2545', fontWeight: 'bold' }}>
+                汇报人：阎宗宁（队长）
+            </Text>
+            <Text style={{ fontSize: 13, color: '#475569' }}>
+                团队成员：祝鸣轩、李响、郭亦彤、陈虹宇、段文烁
+            </Text>
+            <Text style={{ fontSize: 12, color: '#64748B' }}>
+                指导老师：张红朗、董怡静
+            </Text>
+        </Box>
+        <Box style={{ flexDirection: 'row', justifyContent: 'space-between', alignItems: 'flex-end' }}>
+            <Box style={{ flexDirection: 'column', gap: 4 }}>
+                <Text style={{ fontSize: 15, color: '#0B2545', fontWeight: 'bold' }}>
+                    汇报人：阎宗宁（队长）
+                </Text>
+                <Text style={{ fontSize: 13, color: '#475569' }}>
+                    团队成员：祝鸣轩、李响、郭亦彤、陈虹宇、段文烁
+                </Text>
+                <Text style={{ fontSize: 12, color: '#64748B' }}>
+                    指导老师：张红朗、董怡静
+                </Text>
+            </Box>
+            <Box style={{
+                background: '#FFFFFF', borderRadius: 10, padding: 5,
+                border: '1px solid rgba(30, 136, 229, 0.3)',
+                boxShadow: '0 6px 16px rgba(11, 37, 69, 0.10)'
+            }}>
+                <Image src="assets/image3.jpg" style={{ width: 140, height: 90, objectFit: 'contain', borderRadius: 6 }} />
+            </Box>
+        </Box>
+    </Box>
+</Slide>

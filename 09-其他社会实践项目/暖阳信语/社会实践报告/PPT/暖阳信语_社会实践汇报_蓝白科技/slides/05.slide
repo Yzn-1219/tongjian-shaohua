@@ -1,0 +1,140 @@
+<Slide style={{
+    width: 1280,
+    height: 720,
+    background: 'linear-gradient(135deg, #E3F2FD 0%, #FFFFFF 50%, #D6EBFF 100%)',
+    position: 'relative',
+    display: 'flex',
+    flexDirection: 'column',
+    padding: '36px 60px'
+}}>
+    {/* 右上圆斑 */}
+    <Box style={{
+        position: 'absolute', top: -120, right: -120,
+        width: 360, height: 360, borderRadius: '50%',
+        background: 'radial-gradient(circle, rgba(30, 136, 229, 0.15) 0%, rgba(30, 136, 229, 0) 70%)'
+    }} />
+
+    {/* 左下圆斑 */}
+    <Box style={{
+        position: 'absolute', bottom: -100, left: -100,
+        width: 320, height: 320, borderRadius: '50%',
+        background: 'radial-gradient(circle, rgba(11, 37, 69, 0.06) 0%, rgba(11, 37, 69, 0) 70%)'
+    }} />
+
+    {/* A 区：标题块 */}
+    <Box style={{ flexDirection: 'row', alignItems: 'center', gap: 16, position: 'relative', zIndex: 2 }}>
+        <Box style={{
+            width: 6, height: 36, background: 'linear-gradient(180deg, #0B2545 0%, #1E88E5 100%)',
+            borderRadius: 3
+        }} />
+        <Text style={{ fontSize: 32, fontWeight: 'bold', color: '#0B2545', letterSpacing: 1 }}>
+            收获与展望
+        </Text>
+        <Box style={{
+            background: '#E3F2FD', padding: '4px 14px', borderRadius: 14,
+            marginLeft: 8
+        }}>
+            <Text style={{ fontSize: 13, color: '#0B2545', fontWeight: 'bold' }}>
+                让短暂的三下乡 沉淀为长期的暖阳
+            </Text>
+        </Box>
+    </Box>
+
+    {/* B 区：内容 */}
+    <Box style={{ flex: 1, flexDirection: 'column', gap: 14, marginTop: 16, position: 'relative', zIndex: 2 }}>
+        {/* 核心收获金句 */}
+        <Box style={{
+            background: 'linear-gradient(135deg, #0B2545 0%, #1E88E5 100%)',
+            borderRadius: 14, padding: '18px 28px',
+            flexDirection: 'row', alignItems: 'center', gap: 16
+        }}>
+            <Text style={{ fontSize: 38 }}>暖</Text>
+            <Box style={{ flex: 1, flexDirection: 'column' }}>
+                <Text style={{ fontSize: 22, color: '#FFFFFF', fontWeight: 'bold', letterSpacing: 1 }}>
+                    留守儿童最缺的不是物质，而是被倾听、被看见、被记住。
+                </Text>
+                <Text style={{ fontSize: 14, color: '#E3F2FD', marginTop: 4, fontWeight: 'bold' }}>
+                    团队感悟 · 陪伴优于灌输
+                </Text>
+            </Box>
+        </Box>
+
+        {/* 三项改进方向 */}
+        <Box style={{ flexDirection: 'row', gap: 14, flex: 1 }}>
+            {[
+                {
+                    icon: '信',
+                    tag: '改进 1',
+                    title: '书信常态化',
+                    desc: '对接社工站建立长期档案，让书信结对机制有平台承载。'
+                },
+                {
+                    icon: '时',
+                    tag: '改进 2',
+                    title: '预热节奏前移',
+                    desc: '心愿征集提前 3 天预热，避免孩子等待焦虑。'
+                },
+                {
+                    icon: '趣',
+                    tag: '改进 3',
+                    title: '分龄段设计',
+                    desc: '低龄段以户外游戏为主，进一步贴合儿童兴趣。'
+                }
+            ].map((card, i) => (
+                <Box key={i} style={{
+                    flex: 1, background: '#FFFFFF', borderRadius: 12,
+                    padding: 16, flexDirection: 'column', gap: 6,
+                    borderTop: '4px solid #1E88E5',
+                    boxShadow: '0 6px 18px rgba(11, 37, 69, 0.08)'
+                }}>
+                    <Box style={{ flexDirection: 'row', alignItems: 'center', gap: 8 }}>
+                        <Text style={{ fontSize: 30 }}>{card.icon}</Text>
+                        <Box style={{
+                            background: '#E3F2FD', padding: '3px 10px', borderRadius: 10
+                        }}>
+                            <Text style={{ fontSize: 11, color: '#0B2545', fontWeight: 'bold' }}>{card.tag}</Text>
+                        </Box>
+                    </Box>
+                    <Text style={{ fontSize: 18, color: '#0B2545', fontWeight: 'bold' }}>{card.title}</Text>
+                    <Text style={{ fontSize: 12, color: '#475569', lineHeight: 1.55 }}>{card.desc}</Text>
+                </Box>
+            ))}
+        </Box>
+
+        {/* 下一步展望 */}
+        <Box style={{
+            background: 'rgba(255, 255, 255, 0.7)',
+            border: '1px dashed rgba(30, 136, 229, 0.5)',
+            borderRadius: 10, padding: '12px 18px',
+            flexDirection: 'row', alignItems: 'center', gap: 12
+        }}>
+            <Text style={{ fontSize: 26 }}>行</Text>
+            <Text style={{ fontSize: 14, color: '#0B2545', fontWeight: 'bold', flex: 1, lineHeight: 1.5 }}>
+                下一步：整理书信与心愿卡形成长效结对档案，尝试在周边社区常态化推开。
+            </Text>
+        </Box>
+    </Box>
+
+    {/* C 区：页脚 + 致谢 */}
+    <Box style={{
+        flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center',
+        borderTop: '1px solid rgba(11, 37, 69, 0.15)', paddingTop: 12,
+        position: 'relative', zIndex: 2
+    }}>
+        <Box style={{ flexDirection: 'row', alignItems: 'center', gap: 10 }}>
+            <Box style={{
+                background: '#FFFFFF', borderRadius: 8, padding: 4,
+                border: '1px solid rgba(30, 136, 229, 0.3)'
+            }}>
+                <Image src="assets/image2.jpg" style={{ width: 90, height: 60, objectFit: 'contain', borderRadius: 4 }} />
+            </Box>
+            <Text style={{ fontSize: 12, color: '#64748B' }}>暖阳信语 · 星光伴成长 · 汇报结束 感谢聆听</Text>
+        </Box>
+        <Box style={{
+            background: 'linear-gradient(135deg, #0B2545 0%, #1E88E5 100%)',
+            padding: '6px 16px', borderRadius: 14
+        }}>
+            <Text style={{ fontSize: 12, color: '#FFFFFF', fontWeight: 'bold' }}>05 / 05</Text>
+        </Box>
+    </Box>
+</Slide>

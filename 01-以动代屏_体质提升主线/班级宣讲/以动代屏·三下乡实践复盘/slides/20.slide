@@ -1,0 +1,67 @@
+<Slide style={{ width: 1280, height: 720, backgroundColor: '#FBFAF7', padding: '60px', display: 'flex', flexDirection: 'column' }}>
+    <Text style={{ fontFamily: 'Microsoft YaHei', fontSize: 15, color: '#0D7D6A', fontWeight: 'bold', letterSpacing: 1.5, marginBottom: 10 }}>
+        04 · 交卷
+    </Text>
+    <Text style={{ fontFamily: 'SimSun', fontSize: 34, fontWeight: 'bold', color: '#1F2937', lineHeight: 1.25 }}>
+        交卷之前，先自问三事
+    </Text>
+    <Box style={{ width: 1160, height: 1, background: '#E0DDD5', marginTop: 16, marginBottom: 22 }} />
+
+    <Box style={{ display: 'flex', flexDirection: 'column' }}>
+        {[
+            { n: '一', t: '我发现了什么问题', d: '这一问最好答，也最容易答得漂亮。' },
+            { n: '二', t: '我解决了什么问题', d: '这一问开始要证据：做了什么、改了什么、留下了什么。' },
+            { n: '三', t: '我到底解决了没有', d: '最难的一问。前两个都能说得很漂亮，只有第三个会当场把你问住。' }
+        ].map((it, i) => {
+            const emph = i === 2;
+            return (
+                <Box key={i} style={{
+                    display: 'flex',
+                    flexDirection: 'row',
+                    alignItems: 'center',
+                    backgroundColor: emph ? '#0D7D6A' : 'transparent',
+                    borderRadius: emph ? 6 : 0,
+                    paddingTop: emph ? 14 : 10,
+                    paddingBottom: emph ? 14 : 10,
+                    paddingLeft: emph ? 18 : 0,
+                    paddingRight: emph ? 18 : 0,
+                    borderBottom: emph ? 'none' : '1px solid #ECE9E2'
+                }}>
+                    <Text style={{ fontFamily: 'SimSun', fontSize: 19, fontWeight: 'bold', color: emph ? '#9ED8C9' : '#B6B2A8', width: 50 }}>
+                        {it.n}
+                    </Text>
+                    <Text style={{ fontFamily: 'SimSun', fontSize: emph ? 26 : 22, fontWeight: 'bold', color: emph ? '#FFFFFF' : '#1F2937', width: emph ? 300 : 280, lineHeight: 1.4 }}>
+                        {it.t}
+                    </Text>
+                    <Text style={{ fontFamily: 'Microsoft YaHei', fontSize: 16, color: emph ? '#D9EDE8' : '#6B7280', flex: 1, lineHeight: 1.55 }}>
+                        {it.d}
+                    </Text>
+                </Box>
+            );
+        })}
+    </Box>
+
+    <Box style={{ display: 'flex', flexDirection: 'row', alignItems: 'flex-end', marginTop: 24 }}>
+        <Box style={{ width: 560, paddingRight: 40 }}>
+            <Text style={{ fontFamily: 'Microsoft YaHei', fontSize: 16, color: '#6B7280', lineHeight: 1.6, marginBottom: 6 }}>
+                十月十五日通知发下来，我们才知道拿了奖。
+            </Text>
+            <Text style={{ fontFamily: 'SimSun', fontSize: 24, fontWeight: 'bold', color: '#1F2937', lineHeight: 1.45 }}>
+                那个奖是结果，不是目标。
+            </Text>
+        </Box>
+
+        <Box style={{ flex: 1, display: 'flex', flexDirection: 'column' }}>
+            <Box style={{ display: 'flex', flexDirection: 'row', alignItems: 'center' }}>
+                <Text style={{ fontFamily: 'SimSun', fontSize: 30, fontWeight: 'bold', color: '#1F2937' }}>初心</Text>
+                <Text style={{ fontFamily: 'Arial', fontSize: 26, color: '#9CA3AF', marginLeft: 10, marginRight: 10 }}>+</Text>
+                <Text style={{ fontFamily: 'SimSun', fontSize: 30, fontWeight: 'bold', color: '#1F2937' }}>行动</Text>
+                <Text style={{ fontFamily: 'Arial', fontSize: 26, color: '#9CA3AF', marginLeft: 10, marginRight: 10 }}>=</Text>
+                <Text style={{ fontFamily: 'SimSun', fontSize: 32, fontWeight: 'bold', color: '#C2410C' }}>成果</Text>
+            </Box>
+            <Text style={{ fontFamily: 'Microsoft YaHei', fontSize: 16, color: '#6B7280', lineHeight: 1.6, marginTop: 8 }}>
+                只有初心没有行动，那是空想；只有行动没有初心，那是应付。
+            </Text>
+        </Box>
+    </Box>
+</Slide>

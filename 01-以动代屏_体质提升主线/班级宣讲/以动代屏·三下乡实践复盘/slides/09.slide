@@ -1,0 +1,65 @@
+<Slide style={{ width: 1280, height: 720, backgroundColor: '#FBFAF7', padding: '60px', display: 'flex', flexDirection: 'column' }}>
+    <Text style={{ fontFamily: 'Microsoft YaHei', fontSize: 15, color: '#0D7D6A', fontWeight: 'bold', letterSpacing: 1.5, marginBottom: 10 }}>
+        02 · 选题
+    </Text>
+    <Text style={{ fontFamily: 'SimSun', fontSize: 34, fontWeight: 'bold', color: '#1F2937', lineHeight: 1.25 }}>
+        方向是追出来的，不是想出来的
+    </Text>
+    <Box style={{ width: 1160, height: 1, background: '#E0DDD5', marginTop: 16, marginBottom: 26 }} />
+
+    <Box style={{ display: 'flex', flexDirection: 'row', flex: 1 }}>
+        <Box style={{ width: 640, display: 'flex', flexDirection: 'column', paddingRight: 46 }}>
+            {[
+                { t: '信号', d: '学校开始抓体质提升，要体测了。这是最容易看见的信号，多数人看见了也就看见了。' },
+                { t: '疑问', d: '学校为何忽然要抓？往上追一步，发现省里在提高要求，再往上是一整层政策在推动。' },
+                { t: '查证', d: '青少年体质整体偏弱——不是某一所学校的问题，是一个面上的问题。' },
+                { t: '定向', d: '先有信号，再有疑问，然后去查证，最后才定方向。不是先有想法，再回头找材料证明它。' }
+            ].map((it, i) => (
+                <Box key={i} style={{ display: 'flex', flexDirection: 'row' }}>
+                    <Box style={{ width: 34, display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+                        <Box style={{ width: 26, height: 26, borderRadius: 13, backgroundColor: i === 3 ? '#0D7D6A' : '#D9EDE8', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+                            <Text style={{ fontFamily: 'Arial', fontSize: 14, fontWeight: 'bold', color: i === 3 ? '#FFFFFF' : '#0D7D6A' }}>
+                                {i + 1}
+                            </Text>
+                        </Box>
+                        {i < 3 ? <Box style={{ width: 1, flex: 1, background: '#D9EDE8', marginTop: 6, marginBottom: 6 }} /> : null}
+                    </Box>
+                    <Box style={{ flex: 1, display: 'flex', flexDirection: 'column', paddingLeft: 14, paddingBottom: i < 3 ? 18 : 0 }}>
+                        <Text style={{ fontFamily: 'SimSun', fontSize: 23, fontWeight: 'bold', color: '#1F2937', lineHeight: 1.35, marginBottom: 5 }}>
+                            {it.t}
+                        </Text>
+                        <Text style={{ fontFamily: 'Microsoft YaHei', fontSize: 17, color: '#4B5563', lineHeight: 1.6 }}>
+                            {it.d}
+                        </Text>
+                    </Box>
+                </Box>
+            ))}
+        </Box>
+
+        <Box style={{ width: 1, height: 470, background: '#E0DDD5', marginRight: 40 }} />
+
+        <Box style={{ flex: 1, display: 'flex', flexDirection: 'column' }}>
+            <Text style={{ fontFamily: 'Microsoft YaHei', fontSize: 15, color: '#9CA3AF', letterSpacing: 1, marginBottom: 12 }}>
+                追到这一步，才去查的四份文件
+            </Text>
+            {[
+                { f: '「健康中国 2030」规划纲要', q: '2030 年学生体质健康达标优秀率达到 25% 以上' },
+                { f: '全民健身计划（2026—2030）', q: '中小学生每天综合体育活动不低于两小时；运用 AI 赋能' },
+                { f: '「人工智能+」行动的意见', q: '提出「人人可享」的健康助手' },
+                { f: '鲁教体字〔2025〕1 号', q: '首次提出探索「AI+体育」' }
+            ].map((it, i) => (
+                <Box key={i} style={{ marginBottom: 14, borderLeft: '2px solid #D9EDE8', paddingLeft: 14 }}>
+                    <Text style={{ fontFamily: 'Microsoft YaHei', fontSize: 17, fontWeight: 'bold', color: '#1F2937', lineHeight: 1.45, marginBottom: 3 }}>
+                        {it.f}
+                    </Text>
+                    <Text style={{ fontFamily: 'Microsoft YaHei', fontSize: 15, color: '#6B7280', lineHeight: 1.55 }}>
+                        {it.q}
+                    </Text>
+                </Box>
+            ))}
+            <Text style={{ fontFamily: 'Microsoft YaHei', fontSize: 16, color: '#0D7D6A', lineHeight: 1.6, marginTop: 2 }}>
+                政策不是用来凑字数，也不是找背书——它告诉你这件事已经被推到了哪一步。
+            </Text>
+        </Box>
+    </Box>
+</Slide>

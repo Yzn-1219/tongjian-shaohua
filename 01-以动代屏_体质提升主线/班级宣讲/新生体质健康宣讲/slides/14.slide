@@ -1,0 +1,52 @@
+<Slide style={{ padding: 60, background: '#FFFFFF', position: 'relative', fontFamily: 'Microsoft YaHei' }}>
+    <Box style={{ flexDirection: 'column', height: '100%', gap: 22 }}>
+        <Box style={{ flexDirection: 'column', gap: 12 }}>
+            <Text style={{ fontSize: 34, fontWeight: 'bold', color: '#0F172A', lineHeight: 1.2 }}>50 米跑：2.4 秒，值 40 分</Text>
+            <Box style={{ height: 3, width: '100%', background: '#E2E8F0' }} />
+        </Box>
+        <Box style={{ flexDirection: 'row', gap: 40, flex: 1 }}>
+            <Box style={{ width: 520, flexDirection: 'column', gap: 14, justifyContent: 'center' }}>
+                <Table
+                    style={{ width: '100%', height: 360 }}
+                    defaultTextStyle={{ fontSize: 19, textAlign: 'center', color: '#1E293B' }}
+                    defaultCellStyle={{
+                        border: {
+                            left: { width: 1, color: '#E2E8F0' },
+                            right: { width: 1, color: '#E2E8F0' },
+                            top: { width: 1, color: '#E2E8F0' },
+                            bottom: { width: 1, color: '#E2E8F0' },
+                        },
+                    }}
+                    cells={[
+                        [
+                            { text: '单项得分', textStyle: { bold: true, color: '#FFFFFF' }, cellStyle: { background: { color: '#1D4ED8' } } },
+                            { text: '男生', textStyle: { bold: true, color: '#FFFFFF' }, cellStyle: { background: { color: '#1D4ED8' } } },
+                            { text: '女生', textStyle: { bold: true, color: '#FFFFFF' }, cellStyle: { background: { color: '#1D4ED8' } } },
+                        ],
+                        [{ text: '100 分', textStyle: { bold: true, color: '#15803D' } }, { text: '6.7 秒', textStyle: { bold: true, color: '#15803D' } }, { text: '7.5 秒', textStyle: { bold: true, color: '#15803D' } }],
+                        ['90 分', '6.9 秒', '7.7 秒'],
+                        ['80 分', '7.1 秒', '8.3 秒'],
+                        ['70 分', '8.1 秒', '9.3 秒'],
+                        [{ text: '60 分（及格）', textStyle: { bold: true, color: '#EA580C' } }, { text: '9.1 秒', textStyle: { bold: true, color: '#EA580C' } }, { text: '10.3 秒', textStyle: { bold: true, color: '#EA580C' } }],
+                    ]}
+                />
+                <Text style={{ fontSize: 15, color: '#94A3B8', lineHeight: 1.5 }}>数据来源：《国家学生体质健康标准》大学一、二年级单项评分表</Text>
+            </Box>
+            <Box style={{ flex: 1, flexDirection: 'column', justifyContent: 'center', gap: 24 }}>
+                <Box style={{ flexDirection: 'column', gap: 10 }}>
+                    <Text style={{ fontSize: 56, fontWeight: 'bold', color: '#1D4ED8', lineHeight: 1.1 }}>2.4 秒</Text>
+                    <Text style={{ fontSize: 19, color: '#334155', lineHeight: 1.6 }}>男生从 6.7 秒到 9.1 秒，只慢了这么多，分数就从 100 掉到 60。</Text>
+                </Box>
+                <Box style={{ height: 1, background: '#E2E8F0' }} />
+                <Box style={{ flexDirection: 'column', gap: 12 }}>
+                    <Text style={{ fontSize: 19, color: '#475569', lineHeight: 1.7 }}>50 米不是拼天赋的项目。起跑反应、前 10 米的摆臂频率、最后不减速，这三件事练两个月都能改。</Text>
+                    <Text style={{ fontSize: 19, color: '#0F172A', lineHeight: 1.7, fontWeight: 'bold' }}>它占 20%，是引体向上的两倍。</Text>
+                </Box>
+            </Box>
+        </Box>
+    </Box>
+    <Box style={{ position: 'absolute', left: 60, right: 60, bottom: 24, flexDirection: 'row', justifyContent: 'space-between' }}>
+        <Text style={{ fontSize: 14, color: '#CBD5E1' }}>山东药品食品职业学院 · 质量管理系 ·「童健韶华」志愿服务队</Text>
+        <Text style={{ fontSize: 14, color: '#CBD5E1' }}>14</Text>
+    </Box>
+</Slide>

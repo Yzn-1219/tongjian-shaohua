@@ -1,0 +1,33 @@
+<Slide style={{ width: 1280, height: 720, backgroundColor: '#FBFAF7', padding: '60px', position: 'relative', display: 'flex', flexDirection: 'column', justifyContent: 'center' }}>
+    <Box style={{ position: 'absolute', left: 60, top: 168, width: 4, height: 330, background: '#0D7D6A' }} />
+
+    <Box style={{ paddingLeft: 46, display: 'flex', flexDirection: 'column' }}>
+        <Box style={{ marginBottom: 28 }}>
+            {[
+                '先把题看懂，再动手。',
+                '先把人带住，再谈成绩。',
+                '做完之后，留下一点别人可以接着用的东西。'
+            ].map((t, i) => (
+                <Text key={i} style={{ fontFamily: 'SimSun', fontSize: 27, color: '#4B5563', lineHeight: 1.7 }}>
+                    {t}
+                </Text>
+            ))}
+        </Box>
+
+        <Box style={{ width: 420, height: 1, background: '#D6D3CB', marginBottom: 28 }} />
+
+        <Text style={{ fontFamily: 'SimSun', fontSize: 34, fontWeight: 'bold', color: '#1F2937', lineHeight: 1.5, marginBottom: 18 }}>
+            把孩子的目光，从一块发光的屏幕上，
+            <br />
+            挪到天空里去。
+        </Text>
+
+        <Text style={{ fontFamily: 'Microsoft YaHei', fontSize: 17, color: '#6B7280', lineHeight: 1.65, marginBottom: 26 }}>
+            「童健韶华」：童，是孩子；健，是健康；韶华，是他们最好的年纪，也是我们现在这个年纪。
+        </Text>
+
+        <Text style={{ fontFamily: 'Microsoft YaHei', fontSize: 15, color: '#9CA3AF', lineHeight: 1.6 }}>
+            山东药品食品职业学院 · 质量管理系「童健韶华」志愿服务队　阎宗宁　2026 年 11 月
+        </Text>
+    </Box>
+</Slide>

@@ -1,0 +1,31 @@
+<Slide style={{ padding: 60, background: '#0B1E4B', position: 'relative', fontFamily: 'Microsoft YaHei', overflow: 'hidden' }}>
+    <Box style={{ position: 'absolute', right: -200, top: -240, width: 760, height: 760, borderRadius: '50%', background: 'radial-gradient(circle, rgba(56,116,238,0.7) 0%, rgba(11,30,75,0) 68%)' }} />
+    <Box style={{ flexDirection: 'column', height: '100%', gap: 26, position: 'relative', justifyContent: 'space-between' }}>
+        <Box style={{ flexDirection: 'column', gap: 14 }}>
+            <Box style={{ width: 56, height: 4, borderRadius: 2, background: '#F97316' }} />
+            <Text style={{ fontSize: 46, fontWeight: 'bold', color: '#FFFFFF', lineHeight: 1.25 }}>今天回去，先做一件事</Text>
+            <Text style={{ fontSize: 20, color: '#7EA6F0', lineHeight: 1.5 }}>不用从明天开始跑五公里，先把自己现在的位置弄清楚</Text>
+        </Box>
+        <Box style={{ flexDirection: 'row', gap: 24 }}>
+            <Box style={{ width: 400, flexDirection: 'column', gap: 10, background: 'rgba(255,255,255,0.06)', borderRadius: 10, padding: 24 }}>
+                <Text style={{ fontSize: 15, color: '#7EA6F0' }}>今晚</Text>
+                <Text style={{ fontSize: 21, fontWeight: 'bold', color: '#FFFFFF', lineHeight: 1.45 }}>算一次自己的 BMI</Text>
+                <Text style={{ fontSize: 16, color: '#C7D9F8', lineHeight: 1.6 }}>体重除以身高的平方，看在不在 17.9 到 23.9 之间</Text>
+            </Box>
+            <Box style={{ width: 380, flexDirection: 'column', gap: 10, background: 'rgba(255,255,255,0.06)', borderRadius: 10, padding: 24 }}>
+                <Text style={{ fontSize: 15, color: '#7EA6F0' }}>这周</Text>
+                <Text style={{ fontSize: 21, fontWeight: 'bold', color: '#FFFFFF', lineHeight: 1.45 }}>摸一次自己的底</Text>
+                <Text style={{ fontSize: 16, color: '#C7D9F8', lineHeight: 1.6 }}>跑一次 1000 米、拉一次引体，知道自己现在几分</Text>
+            </Box>
+            <Box style={{ width: 328, flexDirection: 'column', gap: 10, background: 'rgba(249,115,22,0.14)', borderRadius: 10, padding: 24, border: '1px solid rgba(249,115,22,0.4)' }}>
+                <Text style={{ fontSize: 15, color: '#FDBA74' }}>体测前四周</Text>
+                <Text style={{ fontSize: 21, fontWeight: 'bold', color: '#FFFFFF', lineHeight: 1.45 }}>按项目练，别抱佛脚</Text>
+                <Text style={{ fontSize: 16, color: '#FED7AA', lineHeight: 1.6 }}>前两周练耐力和柔韧，后两周练速度和技巧</Text>
+            </Box>
+        </Box>
+        <Box style={{ flexDirection: 'row', justifyContent: 'space-between', alignItems: 'flex-end' }}>
+            <Text style={{ fontSize: 17, color: '#7EA6F0', lineHeight: 1.6 }}>练不明白的、想测一次的，扫这个码，或者直接找你们班长</Text>
+            <Text style={{ fontSize: 15, color: '#4F7BD6' }}>「童健韶华」志愿服务队 · 质量管理系</Text>
+        </Box>
+    </Box>
+</Slide>

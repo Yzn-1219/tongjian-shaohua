@@ -1,0 +1,67 @@
+<Slide style={{ padding: 60, background: '#FFFFFF', position: 'relative', fontFamily: 'Microsoft YaHei' }}>
+    <Box style={{ flexDirection: 'column', height: '100%', gap: 22 }}>
+        <Box style={{ flexDirection: 'column', gap: 12 }}>
+            <Text style={{ fontSize: 34, fontWeight: 'bold', color: '#0F172A', lineHeight: 1.2 }}>不用跑的三十分：体重指数和肺活量</Text>
+            <Box style={{ height: 3, width: '100%', background: '#E2E8F0' }} />
+        </Box>
+        <Box style={{ flexDirection: 'row', gap: 30, flex: 1 }}>
+            <Box style={{ width: 590, flexDirection: 'column', gap: 16 }}>
+                <Box style={{ flexDirection: 'row', alignItems: 'baseline', gap: 12 }}>
+                    <Text style={{ fontSize: 24, fontWeight: 'bold', color: '#0F172A' }}>体重指数 BMI</Text>
+                    <Text style={{ fontSize: 18, fontWeight: 'bold', color: '#3B82F6' }}>占 15%</Text>
+                </Box>
+                <Table
+                    style={{ width: '100%', height: 250 }}
+                    defaultTextStyle={{ fontSize: 17, textAlign: 'center', color: '#1E293B' }}
+                    defaultCellStyle={{
+                        border: {
+                            left: { width: 1, color: '#E2E8F0' },
+                            right: { width: 1, color: '#E2E8F0' },
+                            top: { width: 1, color: '#E2E8F0' },
+                            bottom: { width: 1, color: '#E2E8F0' },
+                        },
+                    }}
+                    cells={[
+                        [
+                            { text: '等级', textStyle: { bold: true, color: '#FFFFFF' }, cellStyle: { background: { color: '#1D4ED8' } } },
+                            { text: '大学男生', textStyle: { bold: true, color: '#FFFFFF' }, cellStyle: { background: { color: '#1D4ED8' } } },
+                            { text: '大学女生', textStyle: { bold: true, color: '#FFFFFF' }, cellStyle: { background: { color: '#1D4ED8' } } },
+                        ],
+                        [{ text: '正常（满分）', textStyle: { bold: true, color: '#15803D' } }, { text: '17.9 ～ 23.9', textStyle: { bold: true } }, { text: '17.2 ～ 23.9', textStyle: { bold: true } }],
+                        ['低体重', '≤ 17.8', '≤ 17.1'],
+                        ['超重', '24.0 ～ 27.9', '24.0 ～ 27.9'],
+                        [{ text: '肥胖', textStyle: { color: '#B91C1C' } }, { text: '≥ 28.0', textStyle: { color: '#B91C1C' } }, { text: '≥ 28.0', textStyle: { color: '#B91C1C' } }],
+                    ]}
+                />
+                <Text style={{ fontSize: 17, color: '#475569', lineHeight: 1.6 }}>算一遍：体重 ÷ 身高（米）的平方。落在正常区间就是满分，偏瘦偏胖都要掉分。</Text>
+            </Box>
+            <Box style={{ width: 520, flexDirection: 'column', gap: 16 }}>
+                <Box style={{ flexDirection: 'row', alignItems: 'baseline', gap: 12 }}>
+                    <Text style={{ fontSize: 24, fontWeight: 'bold', color: '#0F172A' }}>肺活量</Text>
+                    <Text style={{ fontSize: 18, fontWeight: 'bold', color: '#3B82F6' }}>占 15%</Text>
+                </Box>
+                <Box style={{ flexDirection: 'column', gap: 14, background: '#F8FAFC', borderRadius: 10, padding: 24 }}>
+                    <Box style={{ flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center' }}>
+                        <Text style={{ fontSize: 18, color: '#334155' }}>男生满分</Text>
+                        <Text style={{ fontSize: 26, fontWeight: 'bold', color: '#1D4ED8' }}>5040 mL</Text>
+                    </Box>
+                    <Box style={{ height: 1, background: '#E2E8F0' }} />
+                    <Box style={{ flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center' }}>
+                        <Text style={{ fontSize: 18, color: '#334155' }}>女生满分</Text>
+                        <Text style={{ fontSize: 26, fontWeight: 'bold', color: '#1D4ED8' }}>5140 mL</Text>
+                    </Box>
+                    <Box style={{ height: 1, background: '#E2E8F0' }} />
+                    <Box style={{ flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center' }}>
+                        <Text style={{ fontSize: 18, color: '#334155' }}>及格线（男 / 女）</Text>
+                        <Text style={{ fontSize: 22, fontWeight: 'bold', color: '#64748B' }}>3100 / 3200 mL</Text>
+                    </Box>
+                </Box>
+                <Text style={{ fontSize: 17, color: '#475569', lineHeight: 1.6 }}>肺活量是唯一能靠呼吸方式短期提分的项目，也是判断心肺功能最直接的指标。</Text>
+            </Box>
+        </Box>
+    </Box>
+    <Box style={{ position: 'absolute', left: 60, right: 60, bottom: 24, flexDirection: 'row', justifyContent: 'space-between' }}>
+        <Text style={{ fontSize: 14, color: '#CBD5E1' }}>山东药品食品职业学院 · 质量管理系 ·「童健韶华」志愿服务队</Text>
+        <Text style={{ fontSize: 14, color: '#CBD5E1' }}>13</Text>
+    </Box>
+</Slide>

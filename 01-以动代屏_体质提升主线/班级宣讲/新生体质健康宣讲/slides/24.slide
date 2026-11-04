@@ -1,0 +1,33 @@
+<Slide style={{ padding: 60, background: '#FFFFFF', position: 'relative', fontFamily: 'Microsoft YaHei' }}>
+    <Box style={{ flexDirection: 'column', height: '100%', gap: 22 }}>
+        <Box style={{ flexDirection: 'column', gap: 12 }}>
+            <Text style={{ fontSize: 34, fontWeight: 'bold', color: '#0F172A', lineHeight: 1.2 }}>它还是毕业学分：2 分</Text>
+            <Box style={{ height: 3, width: '100%', background: '#E2E8F0' }} />
+        </Box>
+        <Box style={{ flexDirection: 'row', gap: 44, flex: 1 }}>
+            <Box style={{ width: 400, flexDirection: 'column', justifyContent: 'center', gap: 16 }}>
+                <Box style={{ flexDirection: 'row', alignItems: 'flex-end', gap: 12 }}>
+                    <Text style={{ fontSize: 120, fontWeight: 'bold', color: '#1D4ED8', lineHeight: 1 }}>2</Text>
+                    <Text style={{ fontSize: 26, color: '#1D4ED8', lineHeight: 1.3 }}>学分</Text>
+                </Box>
+                <Text style={{ fontSize: 19, color: '#334155', lineHeight: 1.7 }}>完成体质健康测试，直接记 2 个第二课堂学分。这 2 分在文体素质拓展类里，是要修满 12 分的那一类。</Text>
+                <Box style={{ height: 1, background: '#E2E8F0' }} />
+                <Text style={{ fontSize: 15, color: '#94A3B8' }}>学生手册 · 第 97 页 · 文体素质拓展类学分分值表</Text>
+            </Box>
+            <Box style={{ flex: 1, flexDirection: 'column', justifyContent: 'center', gap: 20 }}>
+                <Box style={{ flexDirection: 'column', gap: 12, background: '#F8FAFC', borderRadius: 12, padding: 26, borderLeft: '4px solid #3B82F6' }}>
+                    <Text style={{ fontSize: 21, fontWeight: 'bold', color: '#0F172A', lineHeight: 1.4 }}>申请免测，只能拿 1 分</Text>
+                    <Text style={{ fontSize: 18, color: '#475569', lineHeight: 1.7 }}>确有身体原因不能测的，要携带医学证明，经系党总支负责人签字以后，才可以免予测试。</Text>
+                </Box>
+                <Box style={{ flexDirection: 'column', gap: 12, background: '#FFF7ED', borderRadius: 12, padding: 26, borderLeft: '4px solid #EA580C' }}>
+                    <Text style={{ fontSize: 21, fontWeight: 'bold', color: '#0F172A', lineHeight: 1.4 }}>免测不等于免测这一项</Text>
+                    <Text style={{ fontSize: 18, color: '#7C2D12', lineHeight: 1.7 }}>免测少 1 分，评优评奖里那条“体测成绩合格”的条件依然对不上。真有情况，开学就把手续办清楚。</Text>
+                </Box>
+            </Box>
+        </Box>
+    </Box>
+    <Box style={{ position: 'absolute', left: 60, right: 60, bottom: 24, flexDirection: 'row', justifyContent: 'space-between' }}>
+        <Text style={{ fontSize: 14, color: '#CBD5E1' }}>山东药品食品职业学院 · 质量管理系 ·「童健韶华」志愿服务队</Text>
+        <Text style={{ fontSize: 14, color: '#CBD5E1' }}>24</Text>
+    </Box>
+</Slide>

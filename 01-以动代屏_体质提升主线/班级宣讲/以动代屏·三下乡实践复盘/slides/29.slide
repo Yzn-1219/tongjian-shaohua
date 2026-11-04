@@ -1,0 +1,38 @@
+<Slide style={{ width: 1280, height: 720, backgroundColor: '#FBFAF7', padding: '60px', display: 'flex', flexDirection: 'column' }}>
+    <Text style={{ fontFamily: 'Microsoft YaHei', fontSize: 15, color: '#0D7D6A', fontWeight: 'bold', letterSpacing: 1.5, marginBottom: 10 }}>
+        07 · AI
+    </Text>
+    <Text style={{ fontFamily: 'SimSun', fontSize: 34, fontWeight: 'bold', color: '#1F2937', lineHeight: 1.25 }}>
+        做工具的这四条规矩，是撞出来的
+    </Text>
+    <Box style={{ width: 1160, height: 1, background: '#E0DDD5', marginTop: 16, marginBottom: 20 }} />
+
+    <Box style={{ display: 'flex', flexDirection: 'column' }}>
+        {[
+            { no: '01', t: '算数不交给 AI', d: 'BMI、基础代谢这些指标全部由程序自己计算，算完再交给模型，让它只负责转述成家长听得懂的话。模型会算错，而这件事算错一次的代价太高。' },
+            { no: '02', t: '输出格式必须固定', d: '必须输出表格，表头固定三列：天数、训练重点、具体安排，每格不超过三十六个字，并且必须标出休息日。不是模型不会做，是你没告诉它做到什么程度算合格。' },
+            { no: '03', t: '医疗边界写进提示词', d: '不是写在说明书里，是直接写进指令：不许出现任何诊断性表述。你不写，它就会很热心地告诉你「您的孩子可能属于肥胖」。' },
+            { no: '04', t: '密钥不进前端', d: '早期把密钥写在页面代码里，等于把钥匙挂在门上。后来改成后端转发，密钥存在服务端，用户端只导入自己的密钥。' }
+        ].map((it, i) => (
+            <Box key={i} style={{ display: 'flex', flexDirection: 'row', alignItems: 'flex-start', paddingTop: 13, paddingBottom: 13, borderBottom: i < 3 ? '1px solid #ECE9E2' : 'none' }}>
+                <Text style={{ fontFamily: 'Arial', fontSize: 17, fontWeight: 'bold', color: '#0D7D6A', width: 50, lineHeight: 1.55 }}>
+                    {it.no}
+                </Text>
+                <Text style={{ fontFamily: 'SimSun', fontSize: 21, fontWeight: 'bold', color: '#1F2937', width: 230, lineHeight: 1.45 }}>
+                    {it.t}
+                </Text>
+                <Text style={{ fontFamily: 'Microsoft YaHei', fontSize: 16, color: '#4B5563', flex: 1, lineHeight: 1.6 }}>
+                    {it.d}
+                </Text>
+            </Box>
+        ))}
+    </Box>
+
+    <Box style={{ marginTop: 14, backgroundColor: '#EFE9DC', borderRadius: 6, paddingTop: 13, paddingBottom: 13, paddingLeft: 20, paddingRight: 20 }}>
+        <Text style={{ fontFamily: 'Microsoft YaHei', fontSize: 17, color: '#7C3A12', lineHeight: 1.6 }}>
+            三条日常技巧，不需要技术门槛：<span style={{ fontWeight: 'bold' }}>先喂材料再让它写</span>、
+            <span style={{ fontWeight: 'bold' }}>给它一个样例</span>、
+            <span style={{ fontWeight: 'bold' }}>让它自己挑毛病</span>。
+        </Text>
+    </Box>
+</Slide>

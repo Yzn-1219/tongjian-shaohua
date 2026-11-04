@@ -1,0 +1,49 @@
+<Slide style={{ width: 1280, height: 720, backgroundColor: '#FBFAF7', padding: '60px', display: 'flex', flexDirection: 'column' }}>
+    <Text style={{ fontFamily: 'Microsoft YaHei', fontSize: 15, color: '#0D7D6A', fontWeight: 'bold', letterSpacing: 1.5, marginBottom: 10 }}>
+        01 · 看题
+    </Text>
+    <Text style={{ fontFamily: 'SimSun', fontSize: 34, fontWeight: 'bold', color: '#1F2937', lineHeight: 1.25 }}>
+        看题不是看要求清单
+    </Text>
+    <Box style={{ width: 1160, height: 1, background: '#E0DDD5', marginTop: 16, marginBottom: 26 }} />
+
+    <Box style={{ display: 'flex', flexDirection: 'column', gap: 22 }}>
+        {[
+            {
+                no: '01',
+                t: '它是谁发的，要什么',
+                d: '发文单位决定这件事的性质。今年是中央宣传部、教育部、共青团中央、全国学联四家联署，全国每年五百多万名学生参与——它不是一个暑期活动，是一项育人工程。'
+            },
+            {
+                no: '02',
+                t: '它要求做成什么样',
+                d: '标准不是办得热闹。通知里写的是「五个一」加「常态化」：办一件惠民实事、一次主题宣讲、一次结对共建、一项务实建议、一份调研报告，并且要留下来。'
+            },
+            {
+                no: '03',
+                t: '我有没有能力做',
+                d: '这一问最容易被跳过。很多队伍出问题不是因为不努力，而是在报名那一刻就高估了自己——热血撑不过第三天，而场地和时间已经花出去了。'
+            }
+        ].map((it, i) => (
+            <Box key={i} style={{ display: 'flex', flexDirection: 'row', borderLeft: '3px solid #0D7D6A', paddingLeft: 20 }}>
+                <Text style={{ fontFamily: 'Arial', fontSize: 20, fontWeight: 'bold', color: '#0D7D6A', width: 46, lineHeight: 1.5 }}>
+                    {it.no}
+                </Text>
+                <Box style={{ flex: 1, display: 'flex', flexDirection: 'column' }}>
+                    <Text style={{ fontFamily: 'Microsoft YaHei', fontSize: 22, fontWeight: 'bold', color: '#1F2937', lineHeight: 1.4, marginBottom: 6 }}>
+                        {it.t}
+                    </Text>
+                    <Text style={{ fontFamily: 'Microsoft YaHei', fontSize: 18, color: '#4B5563', lineHeight: 1.62 }}>
+                        {it.d}
+                    </Text>
+                </Box>
+            </Box>
+        ))}
+    </Box>
+
+    <Box style={{ marginTop: 26, background: '#EFE9DC', borderRadius: 6, paddingTop: 16, paddingBottom: 16, paddingLeft: 22, paddingRight: 22 }}>
+        <Text style={{ fontFamily: 'SimSun', fontSize: 21, fontWeight: 'bold', color: '#7C3A12', lineHeight: 1.5 }}>
+            要求清单只告诉你交什么，不告诉你做什么。
+        </Text>
+    </Box>
+</Slide>

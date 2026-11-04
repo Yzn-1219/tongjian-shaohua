@@ -1,0 +1,104 @@
+/* ==========================================================================
+   童健韶华 · 全站左侧项目栏
+   四个页面共用这一份：index.html（问卷）/ xiaotong.html / about.html / app/
+   DOM 由 sidebar.js 注入，这里只管样式。
+   ========================================================================== */
+
+.sb-toggle {
+  display: none; flex-direction: column; justify-content: center; gap: 4px;
+  width: 34px; height: 34px; padding: 0 6px; margin-right: 4px;
+  background: rgba(255,255,255,.2); border: 1px solid rgba(255,255,255,.34);
+  border-radius: 9px; cursor: pointer; flex: 0 0 auto;
+}
+.sb-toggle span { display: block; height: 2px; background: #fff; border-radius: 2px; }
+.sb-toggle:active { background: rgba(255,255,255,.34); }
+
+/* 手机端一次性提示：告诉他们左上角能打开项目栏 */
+.sb-hint {
+  position: fixed; left: 50%; transform: translateX(-50%);
+  bottom: 92px; z-index: 130;
+  background: rgba(15,23,42,.9); color: #fff;
+  padding: 9px 16px; border-radius: 20px;
+  font-size: 12.5px; line-height: 1.5; max-width: 88vw; text-align: center;
+  box-shadow: 0 6px 20px rgba(15,23,42,.24);
+  opacity: 0; transition: opacity .3s ease; pointer-events: none;
+}
+.sb-hint.on { opacity: 1; }
+
+/* 手机上加宽了菜单按钮，把 App 头部的字号收一点，避免标题折行 */
+@media (max-width: 480px) {
+  body.is-app .brand { gap: 8px; }
+  body.is-app .sb-toggle { width: 32px; height: 32px; margin-right: 0; padding: 0 5px; }
+  body.is-app .brand h1 { font-size: 15px; letter-spacing: 0; }
+  body.is-app .brand .sub { font-size: 10px; }
+}
+
+.sidebar {
+  position: fixed; top: 0; bottom: 0; left: 0; width: 232px; z-index: 120;
+  background: #fff; border-right: 1px solid #e2e8e0;
+  padding: 18px 12px 16px; display: flex; flex-direction: column;
+  transform: translateX(-100%); transition: transform .24s ease;
+  overflow-y: auto;
+}
+.sidebar.open { transform: translateX(0); box-shadow: 8px 0 28px rgba(15,23,42,.16); }
+
+.sb-brand { display: flex; align-items: center; gap: 10px; padding: 0 6px 16px; border-bottom: 1px solid #edf2f0; }
+.sb-brand img { width: 38px; height: 38px; border-radius: 50%; background: #f0f7f5; padding: 2px; object-fit: cover; }
+.sb-brand b { display: block; font-size: 14.5px; color: #0d7d6a; line-height: 1.2; }
+.sb-brand span { display: block; font-size: 10.5px; color: #8e9b95; margin-top: 2px; }
+
+.sb-group {
+  font-size: 10.5px; color: #a8b3ae; letter-spacing: 1px;
+  padding: 16px 8px 7px;
+}
+.sb-item {
+  display: flex; align-items: center; gap: 10px;
+  padding: 11px 10px; border-radius: 10px; text-decoration: none;
+  font-size: 14px; color: #3d4a44; transition: .15s; line-height: 1.2;
+}
+.sb-item i { font-style: normal; font-size: 16px; }
+.sb-item:active { background: #f0f7f5; }
+.sb-item.on {
+  background: linear-gradient(135deg, #159c84, #0d7d6a);
+  color: #fff; font-weight: 600;
+  box-shadow: 0 3px 10px rgba(13,125,106,.25);
+}
+.sb-item.on:active { background: linear-gradient(135deg, #159c84, #0d7d6a); }
+
+.sb-foot {
+  margin-top: auto; padding: 14px 8px 0; border-top: 1px solid #edf2f0;
+  font-size: 10.5px; color: #a8b3ae; line-height: 1.7;
+}
+
+.sb-mask {
+  display: none; position: fixed; inset: 0; z-index: 110;
+  background: rgba(15,23,42,.42);
+}
+.sb-mask.on { display: block; }
+
+@media (max-width: 899px) {
+  .sb-toggle { display: flex; }
+}
+
+@media (min-width: 900px) {
+  body.has-sidebar { padding-left: 232px; }
+  .sidebar { transform: none; }
+  .sb-mask { display: none !important; }
+}
+
+/* ---- App 页（app/index.html）在桌面端的额外位移 ---- */
+@media (min-width: 900px) and (max-width: 1023px) {
+  body.is-app .tabbar { left: 232px; }
+}
+@media (min-width: 1024px) {
+  body.is-app .tabbar { left: calc(50% + 116px); }
+}
+@media (min-width: 900px) {
+  body.is-app .offline-toast { left: calc(50% + 116px); }
+}
+
+/* 侧栏底部版本号 */
+.sb-ver {
+  margin-top: 6px; font-size: 10.5px; letter-spacing: .2px;
+  color: var(--muted, #94A3B8); opacity: .85;
+}

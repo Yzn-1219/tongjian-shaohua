@@ -1,0 +1,55 @@
+<Slide style={{ padding: 60, background: '#FFFFFF', position: 'relative', fontFamily: 'Microsoft YaHei' }}>
+    <Box style={{ flexDirection: 'column', height: '100%', gap: 20 }}>
+        <Box style={{ flexDirection: 'column', gap: 12 }}>
+            <Text style={{ fontSize: 34, fontWeight: 'bold', color: '#0F172A', lineHeight: 1.2 }}>90 分：体育之星，四选一里最容易的一条</Text>
+            <Box style={{ height: 3, width: '100%', background: '#E2E8F0' }} />
+        </Box>
+        <Box style={{ flexDirection: 'row', alignItems: 'baseline', gap: 14 }}>
+            <Text style={{ fontSize: 17, color: '#64748B', lineHeight: 1.5 }}>手册原文：满足其中一项即可 ——</Text>
+            <Text style={{ fontSize: 15, color: '#94A3B8' }}>学生手册 · 第 152 页</Text>
+        </Box>
+        <Box style={{ flexDirection: 'row', gap: 20 }}>
+            <Box style={{ width: 300, flexDirection: 'column', gap: 10, background: '#1D4ED8', borderRadius: 10, padding: 22 }}>
+                <Text style={{ fontSize: 15, color: '#93C5FD' }}>条件一</Text>
+                <Text style={{ fontSize: 21, fontWeight: 'bold', color: '#FFFFFF', lineHeight: 1.4 }}>体测总评 90 分及以上</Text>
+                <Text style={{ fontSize: 15, color: '#C7D9F8', lineHeight: 1.5 }}>不用比赛、不用名次，自己在操场上练</Text>
+            </Box>
+            <Box style={{ width: 280, flexDirection: 'column', gap: 10, background: '#F8FAFC', borderRadius: 10, padding: 22 }}>
+                <Text style={{ fontSize: 15, color: '#94A3B8' }}>条件二</Text>
+                <Text style={{ fontSize: 21, fontWeight: 'bold', color: '#334155', lineHeight: 1.4 }}>校运动会第一名或破纪录</Text>
+                <Text style={{ fontSize: 15, color: '#94A3B8', lineHeight: 1.5 }}>全校只有一个第一</Text>
+            </Box>
+            <Box style={{ width: 265, flexDirection: 'column', gap: 10, background: '#F8FAFC', borderRadius: 10, padding: 22 }}>
+                <Text style={{ fontSize: 15, color: '#94A3B8' }}>条件三</Text>
+                <Text style={{ fontSize: 21, fontWeight: 'bold', color: '#334155', lineHeight: 1.4 }}>参加马拉松并完赛</Text>
+                <Text style={{ fontSize: 15, color: '#94A3B8', lineHeight: 1.5 }}>要专门报一场，跑完全程</Text>
+            </Box>
+            <Box style={{ width: 250, flexDirection: 'column', gap: 10, background: '#F8FAFC', borderRadius: 10, padding: 22 }}>
+                <Text style={{ fontSize: 15, color: '#94A3B8' }}>条件四</Text>
+                <Text style={{ fontSize: 21, fontWeight: 'bold', color: '#334155', lineHeight: 1.4 }}>体育竞赛获奖</Text>
+                <Text style={{ fontSize: 15, color: '#94A3B8', lineHeight: 1.5 }}>市级三等奖及以上</Text>
+            </Box>
+        </Box>
+        <Box style={{ height: 1, background: '#E2E8F0' }} />
+        <Box style={{ flexDirection: 'row', alignItems: 'center', gap: 14 }}>
+            <Box style={{ width: 210, flexDirection: 'column', gap: 4, background: '#DBEAFE', borderRadius: 8, padding: '14px 18px' }}>
+                <Text style={{ fontSize: 19, fontWeight: 'bold', color: '#1D4ED8' }}>体育之星</Text>
+                <Text style={{ fontSize: 14, color: '#3B82F6' }}>系级 · 按参评学生数 10% 评选</Text>
+            </Box>
+            <Text style={{ fontSize: 22, color: '#CBD5E1' }}>＋</Text>
+            <Box style={{ width: 210, flexDirection: 'column', gap: 4, background: '#F1F5F9', borderRadius: 8, padding: '14px 18px' }}>
+                <Text style={{ fontSize: 19, fontWeight: 'bold', color: '#334155' }}>任意另外两星</Text>
+                <Text style={{ fontSize: 14, color: '#94A3B8' }}>志愿 / 美育 / 技能 / 劳动 / 创新</Text>
+            </Box>
+            <Text style={{ fontSize: 22, color: '#CBD5E1' }}>＝</Text>
+            <Box style={{ flex: 1, flexDirection: 'column', gap: 4, background: '#0F172A', borderRadius: 8, padding: '14px 18px' }}>
+                <Text style={{ fontSize: 19, fontWeight: 'bold', color: '#FFFFFF' }}>青年卓越之星</Text>
+                <Text style={{ fontSize: 14, color: '#94A3B8' }}>同学期三颗不同星 ＋ 综测班级前 60%</Text>
+            </Box>
+        </Box>
+    </Box>
+    <Box style={{ position: 'absolute', left: 60, right: 60, bottom: 24, flexDirection: 'row', justifyContent: 'space-between' }}>
+        <Text style={{ fontSize: 14, color: '#CBD5E1' }}>山东药品食品职业学院 · 质量管理系 ·「童健韶华」志愿服务队</Text>
+        <Text style={{ fontSize: 14, color: '#CBD5E1' }}>22</Text>
+    </Box>
+</Slide>

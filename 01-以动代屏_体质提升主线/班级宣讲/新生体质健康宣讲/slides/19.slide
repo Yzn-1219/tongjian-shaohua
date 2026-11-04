@@ -1,0 +1,73 @@
+<Slide style={{ padding: 60, background: '#FFFFFF', position: 'relative', fontFamily: 'Microsoft YaHei' }}>
+    <Box style={{ flexDirection: 'column', height: '100%', gap: 22 }}>
+        <Box style={{ flexDirection: 'column', gap: 12 }}>
+            <Text style={{ fontSize: 34, fontWeight: 'bold', color: '#0F172A', lineHeight: 1.2 }}>一条链子：体测分数卡住了哪些荣誉</Text>
+            <Box style={{ height: 3, width: '100%', background: '#E2E8F0' }} />
+        </Box>
+        <Box style={{ flex: 1, flexDirection: 'column', gap: 20, justifyContent: 'center' }}>
+            <Box style={{ background: '#F8FAFC', borderRadius: 12, padding: 18 }}>
+                <Table
+                    style={{ width: '100%', height: 340 }}
+                    defaultTextStyle={{ fontSize: 18, textAlign: 'center', color: '#1E293B' }}
+                    defaultCellStyle={{
+                        border: {
+                            left: { width: 1, color: '#E2E8F0' },
+                            right: { width: 1, color: '#E2E8F0' },
+                            top: { width: 1, color: '#E2E8F0' },
+                            bottom: { width: 1, color: '#E2E8F0' },
+                        },
+                    }}
+                    cells={[
+                        [
+                            { text: '体测总评', textStyle: { bold: true, color: '#FFFFFF' }, cellStyle: { background: { color: '#1D4ED8' } } },
+                            { text: '优秀学生／干部', textStyle: { bold: true, color: '#FFFFFF' }, cellStyle: { background: { color: '#1D4ED8' } } },
+                            { text: '学院奖学金', textStyle: { bold: true, color: '#FFFFFF' }, cellStyle: { background: { color: '#1D4ED8' } } },
+                            { text: '国家奖·省奖', textStyle: { bold: true, color: '#FFFFFF' }, cellStyle: { background: { color: '#1D4ED8' } } },
+                            { text: '体育之星', textStyle: { bold: true, color: '#FFFFFF' }, cellStyle: { background: { color: '#1D4ED8' } } },
+                            { text: '青年卓越之星', textStyle: { bold: true, color: '#FFFFFF' }, cellStyle: { background: { color: '#1D4ED8' } } },
+                        ],
+                        [
+                            { text: '90 分及以上', textStyle: { bold: true, color: '#15803D' } },
+                            { text: '✓', textStyle: { color: '#15803D', bold: true } },
+                            { text: '✓', textStyle: { color: '#15803D', bold: true } },
+                            { text: '✓', textStyle: { color: '#15803D', bold: true } },
+                            { text: '✓ 可直接评', textStyle: { color: '#15803D', bold: true } },
+                            { text: '✓ 再凑两星', textStyle: { color: '#15803D', bold: true } },
+                        ],
+                        [
+                            { text: '80 至 89.9 分', textStyle: { bold: true, color: '#1D4ED8' } },
+                            { text: '✓', textStyle: { color: '#1D4ED8', bold: true } },
+                            { text: '✓', textStyle: { color: '#1D4ED8', bold: true } },
+                            { text: '✓', textStyle: { color: '#1D4ED8', bold: true } },
+                            { text: '—', textStyle: { color: '#CBD5E1' } },
+                            { text: '—', textStyle: { color: '#CBD5E1' } },
+                        ],
+                        [
+                            { text: '60 至 79.9 分', textStyle: { bold: true, color: '#EA580C' } },
+                            { text: '✓', textStyle: { color: '#EA580C', bold: true } },
+                            { text: '✓', textStyle: { color: '#EA580C', bold: true } },
+                            { text: '—', textStyle: { color: '#CBD5E1' } },
+                            { text: '—', textStyle: { color: '#CBD5E1' } },
+                            { text: '—', textStyle: { color: '#CBD5E1' } },
+                        ],
+                        [
+                            { text: '59.9 分及以下', textStyle: { bold: true, color: '#B91C1C' } },
+                            { text: '不可参评', textStyle: { color: '#B91C1C' } },
+                            { text: '不可参评', textStyle: { color: '#B91C1C' } },
+                            { text: '—', textStyle: { color: '#CBD5E1' } },
+                            { text: '—', textStyle: { color: '#CBD5E1' } },
+                            { text: '—', textStyle: { color: '#CBD5E1' } },
+                        ],
+                    ]}
+                />
+            </Box>
+            <Box style={{ flexDirection: 'row', alignItems: 'center', gap: 14, background: '#EFF6FF', borderRadius: 8, padding: '14px 22px' }}>
+                <Text style={{ fontSize: 18, color: '#1E3A8A', lineHeight: 1.5 }}>下面三页把这张表拆开，一条一条对着学生手册的原文讲。</Text>
+            </Box>
+        </Box>
+    </Box>
+    <Box style={{ position: 'absolute', left: 60, right: 60, bottom: 24, flexDirection: 'row', justifyContent: 'space-between' }}>
+        <Text style={{ fontSize: 14, color: '#CBD5E1' }}>山东药品食品职业学院 · 质量管理系 ·「童健韶华」志愿服务队</Text>
+        <Text style={{ fontSize: 14, color: '#CBD5E1' }}>19</Text>
+    </Box>
+</Slide>

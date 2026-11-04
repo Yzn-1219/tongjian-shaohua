@@ -1,0 +1,44 @@
+<Slide style={{ padding: 60, background: '#FFFFFF', position: 'relative', fontFamily: 'Microsoft YaHei' }}>
+    <Box style={{ flexDirection: 'column', height: '100%', gap: 24 }}>
+        <Box style={{ flexDirection: 'column', gap: 12 }}>
+            <Text style={{ fontSize: 34, fontWeight: 'bold', color: '#0F172A', lineHeight: 1.2 }}>先花 40 秒，回答几个问题</Text>
+            <Box style={{ height: 3, width: '100%', background: '#E2E8F0' }} />
+        </Box>
+        <Box style={{ flexDirection: 'row', gap: 44, flex: 1 }}>
+            <Box style={{ width: 340, flexDirection: 'column', alignItems: 'center', justifyContent: 'center', gap: 18, background: '#F8FAFC', border: '1px solid #E2E8F0', borderRadius: 12 }}>
+                <Image src="data:image/png;base64,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" style={{ width: 240, height: 240 }} />
+                <Text style={{ fontSize: 16, color: '#64748B' }}>课前问卷二维码</Text>
+            </Box>
+            <Box style={{ flex: 1, flexDirection: 'column', justifyContent: 'center', gap: 28 }}>
+                <Box style={{ flexDirection: 'row', gap: 18 }}>
+                    <Text style={{ fontSize: 22, fontWeight: 'bold', color: '#EA580C' }}>01</Text>
+                    <Box style={{ flexDirection: 'column', gap: 6 }}>
+                        <Text style={{ fontSize: 22, fontWeight: 'bold', color: '#0F172A' }}>不记名</Text>
+                        <Text style={{ fontSize: 18, color: '#475569', lineHeight: 1.6 }}>只统计到全年级一张总表，不落到任何个人头上</Text>
+                    </Box>
+                </Box>
+                <Box style={{ flexDirection: 'row', gap: 18 }}>
+                    <Text style={{ fontSize: 22, fontWeight: 'bold', color: '#EA580C' }}>02</Text>
+                    <Box style={{ flexDirection: 'column', gap: 6 }}>
+                        <Text style={{ fontSize: 22, fontWeight: 'bold', color: '#0F172A' }}>现在填一次，讲完再填一次</Text>
+                        <Text style={{ fontSize: 18, color: '#475569', lineHeight: 1.6 }}>同一套题，前后各一遍，中间隔 40 分钟</Text>
+                    </Box>
+                </Box>
+                <Box style={{ flexDirection: 'row', gap: 18 }}>
+                    <Text style={{ fontSize: 22, fontWeight: 'bold', color: '#EA580C' }}>03</Text>
+                    <Box style={{ flexDirection: 'column', gap: 6 }}>
+                        <Text style={{ fontSize: 22, fontWeight: 'bold', color: '#0F172A' }}>我们要看的不是答案</Text>
+                        <Text style={{ fontSize: 18, color: '#475569', lineHeight: 1.6 }}>是这 40 分钟里，你前后有没有变化</Text>
+                    </Box>
+                </Box>
+            </Box>
+        </Box>
+        <Box style={{ flexDirection: 'row', alignItems: 'center', gap: 12, background: '#EFF6FF', borderRadius: 8, padding: '14px 20px' }}>
+            <Text style={{ fontSize: 18, color: '#1D4ED8', lineHeight: 1.5 }}>扫不上或者没带手机的，跟旁边的同学说一声，我们有人帮你填。</Text>
+        </Box>
+    </Box>
+    <Box style={{ position: 'absolute', left: 60, right: 60, bottom: 24, flexDirection: 'row', justifyContent: 'space-between' }}>
+        <Text style={{ fontSize: 14, color: '#CBD5E1' }}>山东药品食品职业学院 · 质量管理系 ·「童健韶华」志愿服务队</Text>
+        <Text style={{ fontSize: 14, color: '#CBD5E1' }}>02</Text>
+    </Box>
+</Slide>

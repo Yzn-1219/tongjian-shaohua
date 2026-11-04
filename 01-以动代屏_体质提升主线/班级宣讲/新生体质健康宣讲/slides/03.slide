@@ -1,0 +1,33 @@
+<Slide style={{ padding: 60, background: '#FFFFFF', position: 'relative', fontFamily: 'Microsoft YaHei' }}>
+    <Box style={{ flexDirection: 'column', height: '100%', gap: 24 }}>
+        <Box style={{ flexDirection: 'column', gap: 12 }}>
+            <Text style={{ fontSize: 34, fontWeight: 'bold', color: '#0F172A', lineHeight: 1.2 }}>先做三件事：把手举起来</Text>
+            <Box style={{ height: 3, width: '100%', background: '#E2E8F0' }} />
+        </Box>
+        <Box style={{ flexDirection: 'row', gap: 20, flex: 1, alignItems: 'stretch' }}>
+            <Box style={{ width: 458, flexDirection: 'column', justifyContent: 'space-between', background: '#F1F5F9', borderRadius: 12, padding: 28 }}>
+                <Text style={{ fontSize: 40, fontWeight: 'bold', color: '#1D4ED8', lineHeight: 1.2 }}>Q1</Text>
+                <Text style={{ fontSize: 24, fontWeight: 'bold', color: '#0F172A', lineHeight: 1.5 }}>昨天玩手机，超过 4 小时的举手</Text>
+                <Text style={{ fontSize: 16, color: '#64748B', lineHeight: 1.5 }}>短视频、游戏、社交都算，学习不算</Text>
+            </Box>
+            <Box style={{ width: 324, flexDirection: 'column', justifyContent: 'space-between', background: '#F1F5F9', borderRadius: 12, padding: 28 }}>
+                <Text style={{ fontSize: 40, fontWeight: 'bold', color: '#1D4ED8', lineHeight: 1.2 }}>Q2</Text>
+                <Text style={{ fontSize: 24, fontWeight: 'bold', color: '#0F172A', lineHeight: 1.5 }}>每天主动锻炼不到 15 分钟的举手</Text>
+                <Text style={{ fontSize: 16, color: '#64748B', lineHeight: 1.5 }}>体育课和跑操不算</Text>
+            </Box>
+            <Box style={{ width: 324, flexDirection: 'column', justifyContent: 'space-between', background: '#F1F5F9', borderRadius: 12, padding: 28 }}>
+                <Text style={{ fontSize: 40, fontWeight: 'bold', color: '#1D4ED8', lineHeight: 1.2 }}>Q3</Text>
+                <Text style={{ fontSize: 24, fontWeight: 'bold', color: '#0F172A', lineHeight: 1.5 }}>说不清体测怎么算分的举手</Text>
+                <Text style={{ fontSize: 16, color: '#64748B', lineHeight: 1.5 }}>七个项目各占多少、多少分及格</Text>
+            </Box>
+        </Box>
+        <Box style={{ flexDirection: 'row', alignItems: 'center', gap: 14, background: '#FFF7ED', borderRadius: 8, padding: '16px 22px', border: '1px solid #FED7AA' }}>
+            <Box style={{ width: 4, height: 44, borderRadius: 2, background: '#EA580C' }} />
+            <Text style={{ fontSize: 20, color: '#9A3412', lineHeight: 1.5 }}>三次举手，你会发现重合度很高——这三件事，本来就是同一件事。</Text>
+        </Box>
+    </Box>
+    <Box style={{ position: 'absolute', left: 60, right: 60, bottom: 24, flexDirection: 'row', justifyContent: 'space-between' }}>
+        <Text style={{ fontSize: 14, color: '#CBD5E1' }}>山东药品食品职业学院 · 质量管理系 ·「童健韶华」志愿服务队</Text>
+        <Text style={{ fontSize: 14, color: '#CBD5E1' }}>03</Text>
+    </Box>
+</Slide>

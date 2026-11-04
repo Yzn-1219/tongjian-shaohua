@@ -1,0 +1,51 @@
+<Slide style={{ padding: 60, background: '#FFFFFF', position: 'relative', fontFamily: 'Microsoft YaHei' }}>
+    <Box style={{ flexDirection: 'column', height: '100%', gap: 24 }}>
+        <Box style={{ flexDirection: 'column', gap: 12 }}>
+            <Text style={{ fontSize: 34, fontWeight: 'bold', color: '#0F172A', lineHeight: 1.2 }}>关于体测，三个最常见的误会</Text>
+            <Box style={{ height: 3, width: '100%', background: '#E2E8F0' }} />
+        </Box>
+        <Box style={{ flexDirection: 'column', flex: 1, justifyContent: 'center', gap: 0 }}>
+            <Box style={{ flexDirection: 'row', alignItems: 'center', gap: 28, paddingTop: 24, paddingBottom: 24, borderTop: '1px solid #E2E8F0' }}>
+                <Text style={{ width: 56, fontSize: 22, fontWeight: 'bold', color: '#EA580C' }}>01</Text>
+                <Box style={{ width: 380, flexDirection: 'column', gap: 6 }}>
+                    <Text style={{ fontSize: 16, color: '#94A3B8' }}>以为</Text>
+                    <Text style={{ fontSize: 22, fontWeight: 'bold', color: '#64748B', lineHeight: 1.4 }}>体测就是体育课的考试</Text>
+                </Box>
+                <Box style={{ width: 2, height: 52, background: '#E2E8F0' }} />
+                <Box style={{ flex: 1, flexDirection: 'column', gap: 6 }}>
+                    <Text style={{ fontSize: 16, color: '#94A3B8' }}>其实</Text>
+                    <Text style={{ fontSize: 22, fontWeight: 'bold', color: '#0F172A', lineHeight: 1.4 }}>它单独记分、单独入档，还卡着评优评奖的报名资格</Text>
+                </Box>
+            </Box>
+            <Box style={{ flexDirection: 'row', alignItems: 'center', gap: 28, paddingTop: 24, paddingBottom: 24, borderTop: '1px solid #E2E8F0' }}>
+                <Text style={{ width: 56, fontSize: 22, fontWeight: 'bold', color: '#EA580C' }}>02</Text>
+                <Box style={{ width: 380, flexDirection: 'column', gap: 6 }}>
+                    <Text style={{ fontSize: 16, color: '#94A3B8' }}>以为</Text>
+                    <Text style={{ fontSize: 22, fontWeight: 'bold', color: '#64748B', lineHeight: 1.4 }}>跑得快就行</Text>
+                </Box>
+                <Box style={{ width: 2, height: 52, background: '#E2E8F0' }} />
+                <Box style={{ flex: 1, flexDirection: 'column', gap: 6 }}>
+                    <Text style={{ fontSize: 16, color: '#94A3B8' }}>其实</Text>
+                    <Text style={{ fontSize: 22, fontWeight: 'bold', color: '#0F172A', lineHeight: 1.4 }}>七项加权算总分，长跑只占 20%，身高体重也占 15%</Text>
+                </Box>
+            </Box>
+            <Box style={{ flexDirection: 'row', alignItems: 'center', gap: 28, paddingTop: 24, paddingBottom: 24, borderTop: '1px solid #E2E8F0' }}>
+                <Text style={{ width: 56, fontSize: 22, fontWeight: 'bold', color: '#EA580C' }}>03</Text>
+                <Box style={{ width: 380, flexDirection: 'column', gap: 6 }}>
+                    <Text style={{ fontSize: 16, color: '#94A3B8' }}>以为</Text>
+                    <Text style={{ fontSize: 22, fontWeight: 'bold', color: '#64748B', lineHeight: 1.4 }}>到大三大四才用管</Text>
+                </Box>
+                <Box style={{ width: 2, height: 52, background: '#E2E8F0' }} />
+                <Box style={{ flex: 1, flexDirection: 'column', gap: 6 }}>
+                    <Text style={{ fontSize: 16, color: '#94A3B8' }}>其实</Text>
+                    <Text style={{ fontSize: 22, fontWeight: 'bold', color: '#0F172A', lineHeight: 1.4 }}>大一的成绩就进档案，明年评优看的就是这一学年</Text>
+                </Box>
+            </Box>
+            <Box style={{ borderTop: '1px solid #E2E8F0' }} />
+        </Box>
+    </Box>
+    <Box style={{ position: 'absolute', left: 60, right: 60, bottom: 24, flexDirection: 'row', justifyContent: 'space-between' }}>
+        <Text style={{ fontSize: 14, color: '#CBD5E1' }}>山东药品食品职业学院 · 质量管理系 ·「童健韶华」志愿服务队</Text>
+        <Text style={{ fontSize: 14, color: '#CBD5E1' }}>04</Text>
+    </Box>
+</Slide>

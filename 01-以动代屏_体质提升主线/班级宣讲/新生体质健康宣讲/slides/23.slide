@@ -1,0 +1,36 @@
+<Slide style={{ padding: 60, background: '#0B1E4B', position: 'relative', fontFamily: 'Microsoft YaHei', overflow: 'hidden' }}>
+    <Box style={{ position: 'absolute', right: -160, bottom: -220, width: 700, height: 700, borderRadius: '50%', background: 'radial-gradient(circle, rgba(220,38,38,0.35) 0%, rgba(11,30,75,0) 70%)' }} />
+    <Box style={{ flexDirection: 'column', height: '100%', gap: 28, position: 'relative' }}>
+        <Box style={{ flexDirection: 'column', gap: 10 }}>
+            <Text style={{ fontSize: 15, color: '#7EA6F0', letterSpacing: 2 }}>59.9 分及以下</Text>
+            <Text style={{ fontSize: 38, fontWeight: 'bold', color: '#FFFFFF', lineHeight: 1.25 }}>不及格，这一年的评优就结束了</Text>
+        </Box>
+        <Box style={{ flexDirection: 'row', gap: 60, flex: 1, alignItems: 'center' }}>
+            <Box style={{ width: 380, flexDirection: 'column', gap: 6 }}>
+                <Text style={{ fontSize: 132, fontWeight: 'bold', color: '#F87171', lineHeight: 1 }}>59.9</Text>
+                <Text style={{ fontSize: 18, color: '#7EA6F0', lineHeight: 1.5 }}>差 0.1 分，也是不及格</Text>
+            </Box>
+            <Box style={{ flex: 1, flexDirection: 'column', gap: 0 }}>
+                <Box style={{ flexDirection: 'row', alignItems: 'center', gap: 16, paddingTop: 18, paddingBottom: 18, borderBottom: '1px solid rgba(126,166,240,0.25)' }}>
+                    <Text style={{ fontSize: 18, fontWeight: 'bold', color: '#F87171', width: 28 }}>01</Text>
+                    <Text style={{ fontSize: 20, color: '#E2E8F0', lineHeight: 1.6 }}>本学年优秀学生、优秀学生干部、各类奖学金，全部不可参评</Text>
+                </Box>
+                <Box style={{ flexDirection: 'row', alignItems: 'center', gap: 16, paddingTop: 18, paddingBottom: 18, borderBottom: '1px solid rgba(126,166,240,0.25)' }}>
+                    <Text style={{ fontSize: 18, fontWeight: 'bold', color: '#F87171', width: 28 }}>02</Text>
+                    <Text style={{ fontSize: 20, color: '#E2E8F0', lineHeight: 1.6 }}>本学年度准予补测一次，补测仍不及格就到此为止</Text>
+                </Box>
+                <Box style={{ flexDirection: 'row', alignItems: 'center', gap: 16, paddingTop: 18, paddingBottom: 18, borderBottom: '1px solid rgba(126,166,240,0.25)' }}>
+                    <Text style={{ fontSize: 18, fontWeight: 'bold', color: '#F87171', width: 28 }}>03</Text>
+                    <Text style={{ fontSize: 20, color: '#E2E8F0', lineHeight: 1.6 }}>毕业时总评仍达不到 50 分，按结业或肄业处理</Text>
+                </Box>
+                <Box style={{ flexDirection: 'row', alignItems: 'center', gap: 16, paddingTop: 18, paddingBottom: 18 }}>
+                    <Text style={{ fontSize: 18, fontWeight: 'bold', color: '#F87171', width: 28 }}>04</Text>
+                    <Text style={{ fontSize: 20, color: '#E2E8F0', lineHeight: 1.6 }}>第二课堂里那 2 个毕业学分，也要重新想办法</Text>
+                </Box>
+            </Box>
+        </Box>
+        <Box style={{ flexDirection: 'row', alignItems: 'center', gap: 12, background: 'rgba(248,113,113,0.12)', borderRadius: 8, padding: '14px 20px' }}>
+            <Text style={{ fontSize: 18, color: '#FCA5A5', lineHeight: 1.5 }}>这不是吓人。手册里每一条都写着“参评学年体质健康测试成绩合格”，不合格就是没有资格。</Text>
+        </Box>
+    </Box>
+</Slide>

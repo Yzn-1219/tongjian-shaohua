@@ -1,0 +1,21 @@
+{
+  "name": "童健韶华 AI 智能健康应用系统",
+  "short_name": "智能健康应用",
+  "description": "AI 体质评估 + 健身教练 PWA",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#f3faf7",
+  "theme_color": "#208c78",
+  "icons": [
+    {
+      "src": "assets/logo.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/logo.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

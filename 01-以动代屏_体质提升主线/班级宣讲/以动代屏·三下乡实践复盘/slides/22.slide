@@ -1,0 +1,50 @@
+<Slide style={{ width: 1280, height: 720, backgroundColor: '#FBFAF7', padding: '60px', display: 'flex', flexDirection: 'column' }}>
+    <Text style={{ fontFamily: 'Microsoft YaHei', fontSize: 15, color: '#0D7D6A', fontWeight: 'bold', letterSpacing: 1.5, marginBottom: 10 }}>
+        05 · 团队
+    </Text>
+    <Text style={{ fontFamily: 'SimSun', fontSize: 34, fontWeight: 'bold', color: '#1F2937', lineHeight: 1.25 }}>
+        分工按能力，对外把话说低
+    </Text>
+    <Box style={{ width: 1160, height: 1, background: '#E0DDD5', marginTop: 16, marginBottom: 22 }} />
+
+    <Box style={{ display: 'flex', flexDirection: 'row', flex: 1 }}>
+        <Box style={{ width: 640, display: 'flex', flexDirection: 'column', paddingRight: 44 }}>
+            <Text style={{ fontFamily: 'Microsoft YaHei', fontSize: 15, color: '#9CA3AF', letterSpacing: 1, marginBottom: 10 }}>
+                六个人，六个位置（按能力分，不按关系分）
+            </Text>
+            {[
+                { n: '阎宗宁', r: '统筹进度、对外协调、文案主笔、AI 工具开发' },
+                { n: '祝鸣轩', r: '事迹材料、纪实稿这类文书' },
+                { n: '李响', r: '汇报 PPT、现场宣讲、摄影记录' },
+                { n: '陈虹宇', r: '课件讲解、运动项目带领（跟孩子接触最多）' },
+                { n: '郭亦彤', r: '短视频剪辑、物料搬运、现场保障' },
+                { n: '段文烁', r: '短视频剪辑、物料搬运、现场保障' }
+            ].map((it, i) => (
+                <Box key={i} style={{ display: 'flex', flexDirection: 'row', alignItems: 'center', paddingTop: 10, paddingBottom: 10, borderBottom: '1px solid #ECE9E2' }}>
+                    <Text style={{ fontFamily: 'SimSun', fontSize: 18, fontWeight: 'bold', color: '#1F2937', width: 90 }}>
+                        {it.n}
+                    </Text>
+                    <Text style={{ fontFamily: 'Microsoft YaHei', fontSize: 16, color: '#6B7280', flex: 1, lineHeight: 1.5 }}>
+                        {it.r}
+                    </Text>
+                </Box>
+            ))}
+            <Text style={{ fontFamily: 'Microsoft YaHei', fontSize: 16, color: '#4B5563', lineHeight: 1.6, marginTop: 14 }}>
+                每场活动之前按模块点人，活动结束当晚复盘，第二天就调整——今天的问题不改，明天会重复犯一遍。
+            </Text>
+        </Box>
+
+        <Box style={{ flex: 1, display: 'flex', flexDirection: 'column' }}>
+            <Image src="assets/team.jpg" style={{ width: 476, height: 268, objectFit: 'cover', borderRadius: 6 }} />
+            <Text style={{ fontFamily: 'Microsoft YaHei', fontSize: 14, color: '#B6B2A8', lineHeight: 1.5, marginTop: 8, marginBottom: 14 }}>
+                第二期宣讲现场，六名队员与队旗
+            </Text>
+            <Text style={{ fontFamily: 'SimSun', fontSize: 20, fontWeight: 'bold', color: '#0D7D6A', lineHeight: 1.5, marginBottom: 8 }}>
+                对外只求谈到「不反对」
+            </Text>
+            <Text style={{ fontFamily: 'Microsoft YaHei', fontSize: 16, color: '#4B5563', lineHeight: 1.6 }}>
+                队员愿不愿意去、社区能不能接受、接受程度有多高——三个问题有一个卡住，活动就办不成。进门先问清楚：你们几点方便、孩子几点午睡、哪个场地不能用、有没有忌讳。
+            </Text>
+        </Box>
+    </Box>
+</Slide>

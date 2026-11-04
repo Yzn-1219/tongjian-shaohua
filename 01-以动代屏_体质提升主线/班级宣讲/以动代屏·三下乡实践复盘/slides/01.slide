@@ -1,0 +1,33 @@
+<Slide style={{ width: 1280, height: 720, backgroundColor: '#FBFAF7', padding: '60px', position: 'relative', display: 'flex', flexDirection: 'column', justifyContent: 'center' }}>
+    <Box style={{ position: 'absolute', left: 60, top: 150, width: 4, height: 320, background: '#0D7D6A' }} />
+
+    <Box style={{ paddingLeft: 46, display: 'flex', flexDirection: 'column' }}>
+        <Text style={{ fontFamily: 'Microsoft YaHei', fontSize: 15, color: '#0D7D6A', fontWeight: 'bold', letterSpacing: 3, marginBottom: 26 }}>
+            清风讲堂 · 社会实践复盘
+        </Text>
+
+        <Text style={{ fontFamily: 'SimSun', fontSize: 66, fontWeight: 'bold', color: '#1F2937', lineHeight: 1.22, marginBottom: 18 }}>
+            从一纸通知到一方讲台
+        </Text>
+
+        <Text style={{ fontFamily: 'SimSun', fontSize: 28, color: '#6B7280', lineHeight: 1.4, marginBottom: 34 }}>
+            ——「以动代屏」三下乡实践复盘
+        </Text>
+
+        <Box style={{ width: 420, height: 1, background: '#D6D3CB', marginBottom: 26 }} />
+
+        <Text style={{ fontFamily: 'Microsoft YaHei', fontSize: 19, color: '#6B7280', lineHeight: 1.6 }}>
+            看题 · 选题 · 做题 · 交卷：六个人、七天、三个点位的完整打法
+        </Text>
+    </Box>
+
+    <Box style={{ position: 'absolute', left: 106, bottom: 62, display: 'flex', flexDirection: 'row', alignItems: 'center' }}>
+        <Text style={{ fontFamily: 'Microsoft YaHei', fontSize: 15, color: '#9CA3AF', lineHeight: 1.5 }}>
+            山东药品食品职业学院 · 质量管理系「童健韶华」志愿服务队
+        </Text>
+        <Text style={{ fontFamily: 'Microsoft YaHei', fontSize: 15, color: '#C9C5BB', marginLeft: 14, marginRight: 14 }}>/</Text>
+        <Text style={{ fontFamily: 'Microsoft YaHei', fontSize: 15, color: '#9CA3AF' }}>
+            阎宗宁 · 2026 年 11 月
+        </Text>
+    </Box>
+</Slide>

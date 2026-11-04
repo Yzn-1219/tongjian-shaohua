@@ -1,0 +1,41 @@
+<Slide style={{ padding: 60, background: '#FFFFFF', position: 'relative', fontFamily: 'Microsoft YaHei' }}>
+    <Box style={{ flexDirection: 'column', height: '100%', gap: 24 }}>
+        <Box style={{ flexDirection: 'column', gap: 12 }}>
+            <Text style={{ fontSize: 34, fontWeight: 'bold', color: '#0F172A', lineHeight: 1.2 }}>接下来 40 分钟，只讲三件事</Text>
+            <Box style={{ height: 3, width: '100%', background: '#E2E8F0' }} />
+        </Box>
+        <Box style={{ flexDirection: 'row', gap: 20, flex: 1 }}>
+            <Box style={{ width: 410, flexDirection: 'column', justifyContent: 'space-between', background: '#1D4ED8', borderRadius: 12, padding: 30 }}>
+                <Text style={{ fontSize: 44, fontWeight: 'bold', color: '#93C5FD', lineHeight: 1.1 }}>01</Text>
+                <Box style={{ flexDirection: 'column', gap: 12 }}>
+                    <Text style={{ fontSize: 24, fontWeight: 'bold', color: '#FFFFFF', lineHeight: 1.4 }}>体测到底怎么测、怎么算分</Text>
+                    <Text style={{ fontSize: 18, color: '#C7D9F8', lineHeight: 1.7 }}>七项各占多少权重、每项的及格线和满分线在哪、总分是怎么加出来的</Text>
+                </Box>
+                <Text style={{ fontSize: 16, color: '#7EA6F0' }}>约 15 分钟</Text>
+            </Box>
+            <Box style={{ width: 365, flexDirection: 'column', justifyContent: 'space-between', background: '#EFF6FF', borderRadius: 12, padding: 30 }}>
+                <Text style={{ fontSize: 44, fontWeight: 'bold', color: '#93C5FD', lineHeight: 1.1 }}>02</Text>
+                <Box style={{ flexDirection: 'column', gap: 12 }}>
+                    <Text style={{ fontSize: 24, fontWeight: 'bold', color: '#0F172A', lineHeight: 1.4 }}>成绩和什么挂钩</Text>
+                    <Text style={{ fontSize: 18, color: '#475569', lineHeight: 1.7 }}>优秀学生、奖学金、体育之星、卓越之星，学生手册原文逐条对着看</Text>
+                </Box>
+                <Text style={{ fontSize: 16, color: '#94A3B8' }}>约 9 分钟</Text>
+            </Box>
+            <Box style={{ width: 325, flexDirection: 'column', justifyContent: 'space-between', background: '#FFF7ED', borderRadius: 12, padding: 30 }}>
+                <Text style={{ fontSize: 44, fontWeight: 'bold', color: '#FDBA74', lineHeight: 1.1 }}>03</Text>
+                <Box style={{ flexDirection: 'column', gap: 12 }}>
+                    <Text style={{ fontSize: 24, fontWeight: 'bold', color: '#0F172A', lineHeight: 1.4 }}>现在开始练，来不来得及</Text>
+                    <Text style={{ fontSize: 18, color: '#57534E', lineHeight: 1.7 }}>哪几项最快提分、按什么顺序练、一周练几次够</Text>
+                </Box>
+                <Text style={{ fontSize: 16, color: '#94A3B8' }}>约 3 分钟</Text>
+            </Box>
+        </Box>
+        <Box style={{ flexDirection: 'row', alignItems: 'center', gap: 14, background: '#F1F5F9', borderRadius: 8, padding: '14px 22px' }}>
+            <Text style={{ fontSize: 18, color: '#334155', lineHeight: 1.5 }}>前两件是信息，第三件才是今天的目的。</Text>
+        </Box>
+    </Box>
+    <Box style={{ position: 'absolute', left: 60, right: 60, bottom: 24, flexDirection: 'row', justifyContent: 'space-between' }}>
+        <Text style={{ fontSize: 14, color: '#CBD5E1' }}>山东药品食品职业学院 · 质量管理系 ·「童健韶华」志愿服务队</Text>
+        <Text style={{ fontSize: 14, color: '#CBD5E1' }}>09</Text>
+    </Box>
+</Slide>

@@ -1,0 +1,62 @@
+<Slide style={{ width: 1280, height: 720, backgroundColor: '#FBFAF7', padding: '60px', display: 'flex', flexDirection: 'column' }}>
+    <Text style={{ fontFamily: 'Microsoft YaHei', fontSize: 15, color: '#0D7D6A', fontWeight: 'bold', letterSpacing: 1.5, marginBottom: 10 }}>
+        03 · 做题
+    </Text>
+    <Text style={{ fontFamily: 'SimSun', fontSize: 34, fontWeight: 'bold', color: '#1F2937', lineHeight: 1.25 }}>
+        一套模板，两个模块，三场落地
+    </Text>
+    <Box style={{ width: 1160, height: 1, background: '#E0DDD5', marginTop: 16, marginBottom: 22 }} />
+
+    <Box style={{ display: 'flex', flexDirection: 'row', marginBottom: 22 }}>
+        {[
+            { k: '一套模板', v: '从进场到收尾的标准流程：出发前准备、进场布置、活动推进、离场清点、回去复盘' },
+            { k: '两个模块', v: '两套内容：一套宣讲，讲网络素养；一套运动，就是趣味运动会' },
+            { k: '三场落地', v: '不是同一套东西演三遍——每个点位先看条件，再决定这一场用哪几个模块' }
+        ].map((it, i) => (
+            <Box key={i} style={{ width: i === 2 ? 420 : 360, paddingRight: 26 }}>
+                <Text style={{ fontFamily: 'SimSun', fontSize: 21, fontWeight: 'bold', color: '#0D7D6A', marginBottom: 6 }}>
+                    {it.k}
+                </Text>
+                <Text style={{ fontFamily: 'Microsoft YaHei', fontSize: 16, color: '#4B5563', lineHeight: 1.6 }}>
+                    {it.v}
+                </Text>
+            </Box>
+        ))}
+    </Box>
+
+    <Box style={{ border: '1px solid #E0DDD5', borderRadius: 6, overflow: 'hidden' }}>
+        <Box style={{ display: 'flex', flexDirection: 'row', backgroundColor: '#F1EDE4', paddingTop: 11, paddingBottom: 11 }}>
+            <Text style={{ fontFamily: 'Microsoft YaHei', fontSize: 15, color: '#7C7263', width: 210, paddingLeft: 18 }}>
+                点位
+            </Text>
+            <Text style={{ fontFamily: 'Microsoft YaHei', fontSize: 15, color: '#7C7263', width: 400 }}>
+                当场看到的条件
+            </Text>
+            <Text style={{ fontFamily: 'Microsoft YaHei', fontSize: 15, color: '#7C7263', flex: 1 }}>
+                这一场用了什么
+            </Text>
+        </Box>
+        {[
+            { p: '黄家皂幼儿园', c: '室内、对接中班 34 人、年龄偏低', u: '只上宣讲（室内空间不足，低龄孩子跑动既不安全也组织不起来）' },
+            { p: '蓝海社区', c: '户外开阔、年龄跨度大', u: '运动会四个项目全部铺开' },
+            { p: '西海社区', c: '两类都具备、人员流动频繁、诈骗案件多发', u: '双模块叠加，另加反诈内容，一次进场多重成效' }
+        ].map((it, i) => (
+            <Box key={i} style={{ display: 'flex', flexDirection: 'row', alignItems: 'center', paddingTop: 13, paddingBottom: 13, borderTop: '1px solid #ECE9E2' }}>
+                <Text style={{ fontFamily: 'SimSun', fontSize: 18, fontWeight: 'bold', color: '#1F2937', width: 210, paddingLeft: 18 }}>
+                    {it.p}
+                </Text>
+                <Text style={{ fontFamily: 'Microsoft YaHei', fontSize: 16, color: '#6B7280', width: 400, lineHeight: 1.5 }}>
+                    {it.c}
+                </Text>
+                <Text style={{ fontFamily: 'Microsoft YaHei', fontSize: 16, color: '#1F2937', flex: 1, lineHeight: 1.5, paddingRight: 18 }}>
+                    {it.u}
+                </Text>
+            </Box>
+        ))}
+    </Box>
+
+    <Text style={{ fontFamily: 'Microsoft YaHei', fontSize: 18, color: '#1F2937', lineHeight: 1.6, marginTop: 20 }}>
+        <span style={{ fontFamily: 'SimSun', fontWeight: 'bold', fontSize: 20, color: '#0D7D6A' }}>模块不是流程，模块是配置项。</span>
+        条件不允许，少上一块不丢人；硬把积木全堆上去，最后塌了才丢人。
+    </Text>
+</Slide>

@@ -1,0 +1,62 @@
+<Slide style={{ padding: 60, background: '#FFFFFF', position: 'relative', fontFamily: 'Microsoft YaHei' }}>
+    <Box style={{ flexDirection: 'column', height: '100%', gap: 22 }}>
+        <Box style={{ flexDirection: 'column', gap: 12 }}>
+            <Text style={{ fontSize: 34, fontWeight: 'bold', color: '#0F172A', lineHeight: 1.2 }}>总分是怎么加出来的</Text>
+            <Box style={{ height: 3, width: '100%', background: '#E2E8F0' }} />
+        </Box>
+        <Box style={{ flexDirection: 'row', gap: 34, flex: 1 }}>
+            <Box style={{ width: 400, flexDirection: 'column', justifyContent: 'center', gap: 22 }}>
+                <Text style={{ fontSize: 20, fontWeight: 'bold', color: '#0F172A', lineHeight: 1.5 }}>三步：查表折分 → 乘权重 → 求和</Text>
+                <Box style={{ flexDirection: 'column', gap: 14 }}>
+                    <Text style={{ fontSize: 18, color: '#475569', lineHeight: 1.7 }}>① 每项成绩先查表折成 100 分制</Text>
+                    <Text style={{ fontSize: 18, color: '#475569', lineHeight: 1.7 }}>② 再乘该项权重，得到一个加权分</Text>
+                    <Text style={{ fontSize: 18, color: '#475569', lineHeight: 1.7 }}>③ 七项加权分加起来，就是总评成绩</Text>
+                </Box>
+                <Box style={{ height: 1, background: '#E2E8F0' }} />
+                <Box style={{ flexDirection: 'column', gap: 10 }}>
+                    <Text style={{ fontSize: 18, color: '#475569', lineHeight: 1.7 }}>如果长跑和引体超过满分线，还能拿附加分，每项最多 10 分。</Text>
+                    <Text style={{ fontSize: 18, color: '#EA580C', lineHeight: 1.7, fontWeight: 'bold' }}>所以总分最高不是 100，是 120。</Text>
+                </Box>
+            </Box>
+            <Box style={{ flex: 1, background: '#F8FAFC', borderRadius: 12, padding: 20 }}>
+                <Table
+                    style={{ width: '100%', height: 470 }}
+                    defaultTextStyle={{ fontSize: 17, textAlign: 'center', color: '#1E293B' }}
+                    defaultCellStyle={{
+                        border: {
+                            left: { width: 1, color: '#E2E8F0' },
+                            right: { width: 1, color: '#E2E8F0' },
+                            top: { width: 1, color: '#E2E8F0' },
+                            bottom: { width: 1, color: '#E2E8F0' },
+                        },
+                    }}
+                    cells={[
+                        [
+                            { text: '项目', textStyle: { bold: true, color: '#FFFFFF' }, cellStyle: { background: { color: '#1D4ED8' } } },
+                            { text: '成绩', textStyle: { bold: true, color: '#FFFFFF' }, cellStyle: { background: { color: '#1D4ED8' } } },
+                            { text: '单项分', textStyle: { bold: true, color: '#FFFFFF' }, cellStyle: { background: { color: '#1D4ED8' } } },
+                            { text: '加权分', textStyle: { bold: true, color: '#FFFFFF' }, cellStyle: { background: { color: '#1D4ED8' } } },
+                        ],
+                        ['50 米跑（20%）', '7.9 秒', '72', '14.4'],
+                        ['1000 米跑（20%）', '4′12″', '68', '13.6'],
+                        ['肺活量（15%）', '3820 mL', '72', '10.8'],
+                        ['体重指数（15%）', '22.0', '100', '15.0'],
+                        ['坐位体前屈（10%）', '12.1 cm', '72', '7.2'],
+                        ['立定跳远（10%）', '232 cm', '72', '7.2'],
+                        [{ text: '引体向上（10%）', textStyle: { color: '#B91C1C', bold: true } }, { text: '8 次', textStyle: { color: '#B91C1C' } }, { text: '40', textStyle: { color: '#B91C1C', bold: true } }, { text: '4.0', textStyle: { color: '#B91C1C', bold: true } }],
+                        [
+                            { text: '合计', textStyle: { bold: true }, cellStyle: { background: { color: '#EFF6FF' } } },
+                            { text: '—', cellStyle: { background: { color: '#EFF6FF' } } },
+                            { text: '—', cellStyle: { background: { color: '#EFF6FF' } } },
+                            { text: '72.2', textStyle: { bold: true, color: '#1D4ED8' }, cellStyle: { background: { color: '#EFF6FF' } } },
+                        ],
+                    ]}
+                />
+            </Box>
+        </Box>
+    </Box>
+    <Box style={{ position: 'absolute', left: 60, right: 60, bottom: 24, flexDirection: 'row', justifyContent: 'space-between' }}>
+        <Text style={{ fontSize: 14, color: '#CBD5E1' }}>山东药品食品职业学院 · 质量管理系 ·「童健韶华」志愿服务队</Text>
+        <Text style={{ fontSize: 14, color: '#CBD5E1' }}>11</Text>
+    </Box>
+</Slide>

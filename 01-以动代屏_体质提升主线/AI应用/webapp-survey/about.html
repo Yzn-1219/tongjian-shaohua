@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+<title>关于我们 | 童健韶华</title>
+<link rel="icon" href="assets/logo.png" />
+<link rel="stylesheet" href="sidebar.css" />
+<style>
+  * { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
+  body {
+    margin: 0; padding: 0 0 40px;
+    font-family: "PingFang SC", "Microsoft YaHei", system-ui, sans-serif;
+    background: #f0f2f1; color: #1a202c;
+    -webkit-font-smoothing: antialiased;
+  }
+  header {
+    background: linear-gradient(150deg, #0d7d6a 0%, #159c84 100%);
+    padding: 22px 20px 24px; color: #fff;
+    border-radius: 0 0 22px 22px;
+    position: relative; overflow: hidden;
+  }
+  header::after {
+    content: ""; position: absolute; right: -70px; top: -90px;
+    width: 240px; height: 240px; border-radius: 50%;
+    background: radial-gradient(circle, rgba(76,191,170,.75) 0%, rgba(13,125,106,0) 70%);
+  }
+  .brand { display: flex; align-items: center; gap: 10px; position: relative; margin-bottom: 16px; }
+  .brand-logo {
+    width: 38px; height: 38px; border-radius: 50%; flex: 0 0 auto;
+    background: rgba(255,255,255,.16); padding: 2px; object-fit: cover;
+    box-shadow: 0 0 0 2px rgba(255,255,255,.22);
+  }
+  .brand-txt { display: flex; flex-direction: column; gap: 2px; min-width: 0; }
+  .brand-txt b { font-size: 14.5px; font-weight: 700; letter-spacing: .3px; line-height: 1.2; }
+  .brand-txt span { font-size: 10.5px; opacity: .82; line-height: 1.2; }
+  .brand-badges { display: flex; gap: 6px; margin-left: auto; }
+  .brand-badges img {
+    width: 28px; height: 28px; border-radius: 50%; object-fit: contain;
+    background: #fff; border: 1.5px solid rgba(255,255,255,.75);
+    box-shadow: 0 2px 6px rgba(0,0,0,.14);
+  }
+  .title { font-size: 22px; font-weight: 700; line-height: 1.35; position: relative; }
+  .subtitle { font-size: 12.5px; color: #d8efe9; margin-top: 8px; line-height: 1.6; position: relative; }
+
+  .wrapx { max-width: 760px; margin: 0 auto; padding: 16px 14px 0; }
+  .cardx {
+    background: #fff; border-radius: 18px; padding: 20px 20px 22px;
+    box-shadow: 0 2px 12px rgba(15,23,42,.05); margin-bottom: 14px;
+  }
+  .cardx h3 {
+    font-size: 16px; margin: 0 0 12px; color: #0d7d6a;
+    display: flex; align-items: center; gap: 7px;
+  }
+  .cardx h3::before {
+    content: ""; width: 4px; height: 15px; border-radius: 2px;
+    background: linear-gradient(180deg, #159c84, #0d7d6a);
+  }
+  .cardx p { font-size: 14px; line-height: 1.85; color: #3d4a44; margin: 0 0 10px; }
+  .cardx p:last-child { margin-bottom: 0; }
+
+  /* ---- 顶部队伍卡 ---- */
+  .hero-row { display: flex; align-items: center; gap: 14px; margin-bottom: 14px; }
+  .hero-row img {
+    width: 62px; height: 62px; border-radius: 50%; object-fit: cover; flex: 0 0 auto;
+    background: #f0f7f5; padding: 3px; border: 2px solid #e8f5f2;
+    box-shadow: 0 4px 12px rgba(0,0,0,.06);
+  }
+  .hero-row h2 { font-size: 18px; margin: 0 0 4px; color: #0d7d6a; line-height: 1.3; }
+  .hero-row .meta { font-size: 12px; color: #8e9b95; margin: 0; }
+  .lead {
+    font-size: 14px; line-height: 1.8; color: #3d4a44; margin: 0 0 16px;
+    padding: 12px 14px; background: #f3faf8; border-radius: 12px;
+    border-left: 3px solid #159c84;
+  }
+
+  /* ---- 校徽 / 系徽 + 官网入口 ---- */
+  .affiliation {
+    display: flex; justify-content: center; align-items: center; gap: 22px;
+    margin: 4px 0 12px;
+  }
+  .affiliation a { display: inline-flex; transition: transform .2s; }
+  .affiliation a:hover { transform: scale(1.08); }
+  .affiliation img {
+    width: 66px; height: 66px; object-fit: contain; border-radius: 50%;
+    background: #fff; border: 2px solid #e8f5f2;
+    box-shadow: 0 4px 12px rgba(0,0,0,.07);
+  }
+  .affiliation-text {
+    text-align: center; font-size: 14px; font-weight: 700; color: #0d7d6a;
+    margin: 0 0 12px; letter-spacing: .5px;
+  }
+  .site-btns { display: flex; gap: 10px; justify-content: center; flex-wrap: wrap; }
+  .visit-site {
+    display: inline-block; padding: 8px 18px; border-radius: 20px;
+    font-size: 12.5px; font-weight: 600; color: #fff; text-decoration: none;
+    background: linear-gradient(135deg, #159c84, #0d7d6a);
+    box-shadow: 0 3px 10px rgba(13,125,106,.25);
+  }
+  .visit-site.alt { background: linear-gradient(135deg, #3a7bd5, #2a5fa8); box-shadow: 0 3px 10px rgba(58,123,213,.25); }
+  .visit-site:active { transform: scale(.97); }
+
+  /* ---- 四个数字 ---- */
+  .facts { display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; margin-top: 14px; }
+  .fact { background: #f6faf9; border: 1px solid #e4f0ec; border-radius: 12px; padding: 12px 13px; }
+  .fact b { display: block; font-size: 16px; color: #0d7d6a; margin-bottom: 3px; }
+  .fact span { font-size: 11.5px; color: #7b8b85; line-height: 1.5; }
+
+  /* ---- 团队介绍 ---- */
+  .team-lines { list-style: none; padding: 0; margin: 10px 0 0; display: flex; flex-direction: column; gap: 8px; }
+  .team-lines li {
+    font-size: 13.5px; line-height: 1.7; color: #3d4a44;
+    background: #f6faf9; border-left: 3px solid #159c84;
+    padding: 9px 12px; border-radius: 0 10px 10px 0;
+  }
+  .team-lines b { color: #0d7d6a; }
+
+  /* ---- 成员名单 ---- */
+  .member-teacher {
+    text-align: center; font-size: 14px; font-weight: 800; color: #a9700f;
+    background: #fff8ec; border: 1px solid #f0dca8; border-radius: 10px;
+    padding: 9px 10px; margin: 0 0 10px; letter-spacing: .5px;
+  }
+  .member-list { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; }
+  .mb {
+    background: #f6faf9; border: 1px solid #e4f0ec; border-radius: 12px;
+    padding: 12px 6px; text-align: center;
+  }
+  .mb b { display: block; font-size: 14px; color: #1f4a42; }
+  .mb small { font-size: 11px; color: #7b8b85; }
+  .mb.captain { background: linear-gradient(135deg, #fff3d6, #ffe6b0); border-color: #f0d28a; }
+  .mb.captain b { color: #a9700f; }
+  .mb.captain small { color: #b8860b; }
+
+  /* ---- 照片轮播 ---- */
+  .gallery { position: relative; margin: 6px 0 8px; border-radius: 14px; overflow: hidden; background: #0c1410; }
+  .gallery-track { display: flex; transition: transform .4s ease; }
+  .gallery-track img {
+    width: 100%; flex: 0 0 100%; height: clamp(180px, 42vw, 300px);
+    object-fit: cover; display: block;
+  }
+  .gallery-arrow {
+    position: absolute; top: 50%; transform: translateY(-50%);
+    width: 34px; height: 34px; border: none; border-radius: 50%;
+    background: rgba(255,255,255,.86); color: #0d7d6a; font-size: 22px; line-height: 1;
+    cursor: pointer; box-shadow: 0 2px 6px rgba(0,0,0,.2); z-index: 2;
+  }
+  .gallery-arrow.left { left: 8px; }
+  .gallery-arrow.right { right: 8px; }
+  .gallery-dots { display: flex; justify-content: center; flex-wrap: wrap; gap: 6px; margin: 10px 0 2px; }
+  .gallery-dots .dot {
+    width: 7px; height: 7px; border-radius: 50%; background: #cdded9;
+    transition: all .2s; cursor: pointer;
+  }
+  .gallery-dots .dot.active { background: #159c84; width: 16px; border-radius: 4px; }
+  .gallery-cap { text-align: center; font-size: 11.5px; color: #a8b3ae; margin: 6px 0 0; }
+
+  /* ---- 抖音 ---- */
+  .douyin-block {
+    margin-top: 4px; padding: 12px; background: #f6faf9; border-radius: 12px;
+    border: 1px dashed #b8e0d8; display: flex; align-items: center; gap: 14px;
+  }
+  .douyin-code { width: 92px; height: 92px; object-fit: cover; border-radius: 10px; flex-shrink: 0; background: #fff; }
+  .douyin-info { flex: 1; min-width: 0; }
+  .douyin-title { font-size: 13.5px; font-weight: 700; color: #0d7d6a; margin: 0 0 4px; }
+  .douyin-sub { font-size: 11.5px; color: #7b9a93; margin: 0; line-height: 1.6; }
+
+  /* ---- 模块说明 ---- */
+  .mods { display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; }
+  .modx { background: #f6faf9; border: 1px solid #e4f0ec; border-radius: 12px; padding: 13px 14px; }
+  .modx i { font-style: normal; font-size: 18px; display: block; margin-bottom: 5px; }
+  .modx b { display: block; font-size: 13.5px; color: #0d7d6a; margin-bottom: 4px; }
+  .modx p { font-size: 12px; line-height: 1.65; color: #6b7a74; margin: 0; }
+
+  .plain { margin: 0; padding-left: 18px; }
+  .plain li { font-size: 13.5px; line-height: 1.8; color: #3d4a44; margin-bottom: 6px; }
+  .plain b { color: #0d7d6a; }
+  .tiny { font-size: 11.5px; color: #a8b3ae; line-height: 1.7; }
+
+  .footx { text-align: center; font-size: 11.5px; color: #a8b3ae; padding: 10px 0 24px; }
+
+  @media (max-width: 420px) {
+    .mods { grid-template-columns: 1fr; }
+    .member-list { grid-template-columns: repeat(2, 1fr); }
+  }
+</style>
+</head>
+<body class="has-sidebar" data-page="about">
+
+<header>
+  <div class="brand">
+    <button class="sb-toggle" id="sbToggle" aria-label="打开菜单"><span></span><span></span><span></span></button>
+    <img class="brand-logo" src="assets/logo.png" alt="童健韶华队徽" />
+    <div class="brand-txt">
+      <b>童健韶华 · AI 智能健康</b>
+      <span>山东药品食品职业学院 · 质量管理系</span>
+    </div>
+    <div class="brand-badges">
+      <img src="assets/school_badge.png" alt="校徽" title="山东药品食品职业学院" />
+      <img src="assets/dept_badge.png" alt="系徽" title="质量管理系" />
+    </div>
+  </div>
+  <div class="title">关于我们</div>
+  <div class="subtitle">一支由质量管理系学生组成的志愿服务队，和一个想让孩子少看屏幕的念头。</div>
+</header>
+
+<main class="wrapx">
+
+  <section class="cardx">
+    <div class="hero-row">
+      <img src="assets/logo.png" alt="队徽" />
+      <div>
+        <h2>「童健韶华」志愿服务队</h2>
+        <p class="meta">山东药品食品职业学院 · 质量管理系</p>
+      </div>
+    </div>
+    <p class="lead">以运动代替屏幕，把体质健康带回孩子和同学的日常。</p>
+
+    <div class="affiliation">
+      <a href="http://www.sddfvc.edu.cn/" target="_blank" rel="noopener" title="访问山东药品食品职业学院官网"><img src="assets/school_badge.png" alt="山东药品食品职业学院校徽" /></a>
+      <a href="http://zlgl.wzq.sddfvc.edu.cn/index.htm" target="_blank" rel="noopener" title="访问质量管理系官网"><img src="assets/dept_badge.png" alt="质量管理系系徽" /></a>
+    </div>
+    <p class="affiliation-text">山东药品食品职业学院 · 质量管理系</p>
+    <div class="site-btns">
+      <a class="visit-site" href="http://www.sddfvc.edu.cn/" target="_blank" rel="noopener">↗ 学校官网</a>
+      <a class="visit-site alt" href="http://zlgl.wzq.sddfvc.edu.cn/index.htm" target="_blank" rel="noopener">↗ 质量管理系官网</a>
+    </div>
+  </section>
+
+  <section class="cardx">
+    <h3>我们在做什么</h3>
+    <p>服务队围绕「<b>以动代屏 · 儿童与青少年体质健康守护</b>」开展工作：用趣味运动加上 AI 体质评估工具，
+    回应城乡结合部儿童体质偏弱、电子产品依赖的问题，也把这套方法带回校园，帮同学看懂自己的体测、练起来。</p>
+    <div class="facts">
+      <div class="fact"><b>2026 年 7 月</b><span>赴威海开展暑期三下乡实践</span></div>
+      <div class="fact"><b>3 个点位</b><span>黄家皂幼儿园、蓝海社区、西海社区</span></div>
+      <div class="fact"><b>百余名</b><span>儿童参与体质评估与趣味运动</span></div>
+      <div class="fact"><b>207 份</b><span>家长与儿童问卷，形成调研数据</span></div>
+    </div>
+    <ul class="team-lines">
+      <li><b>以动代屏</b>：面向儿童开展网络素养启蒙与趣味运动，疏堵结合，远离屏幕依赖；</li>
+      <li><b>带回校园</b>：把体测算分、评优挂钩、怎么练讲清楚，让同学知道分数从哪来、怎么提。</li>
+    </ul>
+  </section>
+
+  <section class="cardx">
+    <h3>团队成员</h3>
+    <p class="member-teacher">指导老师：董怡静　张红朗</p>
+    <div class="member-list">
+      <div class="mb captain"><b>阎宗宁</b><small>队长</small></div>
+      <div class="mb"><b>郭亦彤</b><small>宣讲工作</small></div>
+      <div class="mb"><b>李响</b><small>社区联系</small></div>
+      <div class="mb"><b>陈虹宇</b><small>准备宣讲</small></div>
+      <div class="mb"><b>祝鸣轩</b><small>合理评分</small></div>
+      <div class="mb"><b>段文烁</b><small>队员</small></div>
+    </div>
+    <p class="tiny" style="margin-top:10px">本应用为团队公益科普作品，结合 AI 技术，助力「以动代屏、向光而行」。</p>
+  </section>
+
+  <section class="cardx">
+    <h3>活动剪影</h3>
+    <div class="gallery" id="group-gallery">
+      <div class="gallery-track" id="group-track">
+        <img src="assets/gallery/photo01.jpg" alt="童健韶华志愿服务队活动掠影（一）" loading="lazy">
+        <img src="assets/gallery/photo02.jpg" alt="童健韶华志愿服务队活动掠影（二）" loading="lazy">
+        <img src="assets/gallery/photo03.jpg" alt="童健韶华志愿服务队活动掠影（三）" loading="lazy">
+        <img src="assets/gallery/photo04.jpg" alt="童健韶华志愿服务队活动掠影（四）" loading="lazy">
+        <img src="assets/gallery/photo05.jpg" alt="童健韶华志愿服务队活动掠影（五）" loading="lazy">
+        <img src="assets/gallery/photo06.jpg" alt="童健韶华志愿服务队活动掠影（六）" loading="lazy">
+        <img src="assets/gallery/photo07.jpg" alt="童健韶华志愿服务队活动掠影（七）" loading="lazy">
+        <img src="assets/gallery/photo08.jpg" alt="童健韶华志愿服务队活动掠影（八）" loading="lazy">
+        <img src="assets/gallery/photo09.jpg" alt="童健韶华志愿服务队活动掠影（九）" loading="lazy">
+        <img src="assets/gallery/photo10.jpg" alt="童健韶华志愿服务队活动掠影（十）" loading="lazy">
+        <img src="assets/gallery/photo11.jpg" alt="童健韶华志愿服务队合影（一）" loading="lazy">
+        <img src="assets/gallery/photo12.jpg" alt="童健韶华志愿服务队合影（二）" loading="lazy">
+        <img src="assets/gallery/photo13.jpg" alt="童健韶华志愿服务队活动掠影（十一）" loading="lazy">
+      </div>
+      <button class="gallery-arrow left" id="group-prev" aria-label="上一张">‹</button>
+      <button class="gallery-arrow right" id="group-next" aria-label="下一张">›</button>
+    </div>
+    <div class="gallery-dots" id="group-dots"></div>
+    <p class="gallery-cap">📸 志愿服务队活动剪影（可左右滑动，自动轮播，点一下暂停）</p>
+  </section>
+
+  <section class="cardx">
+    <h3>关注我们</h3>
+    <div class="douyin-block">
+      <img src="assets/douyin.jpg" alt="童健韶华服务队抖音码" class="douyin-code" />
+      <div class="douyin-info">
+        <p class="douyin-title">📱 抖音 · @童健韶华服务队</p>
+        <p class="douyin-sub">抖音号 69634054202<br />扫码关注，看三下乡现场</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="cardx">
+    <h3>这个应用能做什么</h3>
+    <div class="mods">
+      <div class="modx">
+        <i>🤖</i><b>AI 小童</b>
+        <p>综合问答助手。体测算分、评优挂钩、怎么开始锻炼、屏幕时间怎么管，都可以问它。</p>
+      </div>
+      <div class="modx">
+        <i>📋</i><b>体质评估</b>
+        <p>填身高体重等基础数据，生成一份属于你自己的体质报告和运动建议。</p>
+      </div>
+      <div class="modx">
+        <i>🤔</i><b>AI 教练</b>
+        <p>结合你的训练记录，给出阶段性的训练安排和调整建议。</p>
+      </div>
+      <div class="modx">
+        <i>💪</i><b>训练打卡</b>
+        <p>记录每次训练，看得到自己的连续天数和本周运动量。</p>
+      </div>
+      <div class="modx">
+        <i>⚖️</i><b>身体数据</b>
+        <p>体重、体脂等数据的变化曲线，比体重秤上的一次数字更有意义。</p>
+      </div>
+      <div class="modx">
+        <i>📝</i><b>体质问卷</b>
+        <p>宣讲前后各一次的匿名问卷，用来检验这场宣讲到底有没有用。</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="cardx">
+    <h3>数据与隐私</h3>
+    <ul class="plain">
+      <li>体质问卷<b>不记名</b>，不收集姓名和学号，只统计到全年级一张总表。</li>
+      <li>评估、训练、身体数据都保存在<b>你自己手机的本地</b>，不上传服务器。</li>
+      <li>AI 功能的调用密钥由你自己填写、只存在本机，我们看不到。</li>
+      <li>「使用看板」只记录打开次数、调用次数和 token 量，用于了解工具是否有人使用，
+          不记录你的提问内容、生成的报告和密钥。</li>
+    </ul>
+  </section>
+
+  <section class="cardx">
+    <h3>说明</h3>
+    <p>本应用由「童健韶华」志愿服务队制作，<b>仅用于志愿服务与校园公益，禁止商用</b>；引用政策以学院学生手册与国家和山东省正式文件为准。</p>
+    <p class="tiny">政策数据来源：《国家学生体质健康标准》《「健康中国 2030」规划纲要》、学院学生手册（第二课堂、评优评奖、奖学金相关章节）。</p>
+  </section>
+
+  <div class="footx">山东药品食品职业学院 · 质量管理系 ·「童健韶华」志愿服务队</div>
+</main>
+
+<script src="sidebar.js"></script>
+<script>
+// ---------- 合照轮播 ----------
+(function () {
+  var gallery = document.getElementById('group-gallery');
+  if (!gallery) return;
+  var track = document.getElementById('group-track');
+  var prev = document.getElementById('group-prev');
+  var next = document.getElementById('group-next');
+  var dotsWrap = document.getElementById('group-dots');
+  var slides = track.children.length;
+  var idx = 0;
+
+  for (var i = 0; i < slides; i++) {
+    var d = document.createElement('span');
+    d.className = 'dot' + (i === 0 ? ' active' : '');
+    d.setAttribute('data-i', i);
+    dotsWrap.appendChild(d);
+  }
+  var dots = dotsWrap.children;
+
+  function go(n) {
+    idx = (n + slides) % slides;
+    track.style.transform = 'translateX(-' + idx * 100 + '%)';
+    for (var i = 0; i < dots.length; i++) dots[i].classList.toggle('active', i === idx);
+  }
+  prev.addEventListener('click', function () { go(idx - 1); });
+  next.addEventListener('click', function () { go(idx + 1); });
+  dotsWrap.addEventListener('click', function (e) {
+    var t = e.target;
+    if (t.classList.contains('dot')) go(parseInt(t.getAttribute('data-i'), 10));
+  });
+
+  // 自动轮播，手指/鼠标落到图上或点任意按钮就停
+  var timer = setInterval(function () { go(idx + 1); }, 4000);
+  function stop() { clearInterval(timer); timer = null; }
+  gallery.addEventListener('pointerdown', stop, { once: true });
+  prev.addEventListener('click', stop, { once: true });
+  next.addEventListener('click', stop, { once: true });
+  document.addEventListener('visibilitychange', function () {
+    if (document.hidden) stop();
+  });
+
+  // 手机左右滑
+  var x0 = null;
+  gallery.addEventListener('touchstart', function (e) { x0 = e.touches[0].clientX; }, { passive: true });
+  gallery.addEventListener('touchend', function (e) {
+    if (x0 === null) return;
+    var dx = e.changedTouches[0].clientX - x0;
+    if (Math.abs(dx) > 40) go(idx + (dx < 0 ? 1 : -1));
+    x0 = null;
+  }, { passive: true });
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,45 @@
+<Slide style={{ padding: 60, background: '#FFFFFF', position: 'relative', fontFamily: 'Microsoft YaHei' }}>
+    <Box style={{ flexDirection: 'column', height: '100%', gap: 22 }}>
+        <Box style={{ flexDirection: 'column', gap: 12 }}>
+            <Text style={{ fontSize: 34, fontWeight: 'bold', color: '#0F172A', lineHeight: 1.2 }}>80 分：国奖和省奖的门槛在这里</Text>
+            <Box style={{ height: 3, width: '100%', background: '#E2E8F0' }} />
+        </Box>
+        <Box style={{ flexDirection: 'row', gap: 36, flex: 1 }}>
+            <Box style={{ width: 560, flexDirection: 'column', justifyContent: 'center', gap: 20 }}>
+                <Box style={{ flexDirection: 'row', gap: 26 }}>
+                    <Box style={{ flex: 1, flexDirection: 'column', gap: 8, background: '#1D4ED8', borderRadius: 10, padding: 24 }}>
+                        <Text style={{ fontSize: 16, color: '#93C5FD' }}>国家奖学金</Text>
+                        <Text style={{ fontSize: 44, fontWeight: 'bold', color: '#FFFFFF', lineHeight: 1.1 }}>10000</Text>
+                        <Text style={{ fontSize: 15, color: '#C7D9F8' }}>元 / 年</Text>
+                    </Box>
+                    <Box style={{ flex: 1, flexDirection: 'column', gap: 8, background: '#EFF6FF', borderRadius: 10, padding: 24 }}>
+                        <Text style={{ fontSize: 16, color: '#3B82F6' }}>省政府奖学金</Text>
+                        <Text style={{ fontSize: 44, fontWeight: 'bold', color: '#1D4ED8', lineHeight: 1.1 }}>6000</Text>
+                        <Text style={{ fontSize: 15, color: '#64748B' }}>元 / 年</Text>
+                    </Box>
+                </Box>
+                <Box style={{ height: 1, background: '#E2E8F0' }} />
+                <Box style={{ flexDirection: 'column', gap: 10 }}>
+                    <Text style={{ fontSize: 19, fontWeight: 'bold', color: '#0F172A', lineHeight: 1.5 }}>另外还要满足</Text>
+                    <Text style={{ fontSize: 17, color: '#475569', lineHeight: 1.7 }}>学年学习成绩不低于 85 分，且无不及格科目</Text>
+                    <Text style={{ fontSize: 17, color: '#475569', lineHeight: 1.7 }}>成绩排名与综测排名均在本专业前 10%</Text>
+                    <Text style={{ fontSize: 17, color: '#475569', lineHeight: 1.7 }}>全院按参评人数 0.7% 下达推选名额，还要现场答辩</Text>
+                </Box>
+            </Box>
+            <Box style={{ width: 560, flexDirection: 'column', justifyContent: 'center', gap: 18 }}>
+                <Box style={{ flexDirection: 'column', gap: 14, background: '#F8FAFC', borderRadius: 12, padding: 28, borderLeft: '4px solid #1D4ED8' }}>
+                    <Text style={{ fontSize: 16, color: '#94A3B8' }}>学生手册 · 第 180 页 · 第五条</Text>
+                    <Text style={{ fontSize: 22, color: '#0F172A', lineHeight: 1.7 }}>“积极参加体育锻炼，身体健康，当年《国家学生体质健康标准》测试达到<span style={{ fontWeight: 'bold', color: '#1D4ED8' }}>良好及以上</span>。”</Text>
+                </Box>
+                <Box style={{ flexDirection: 'column', gap: 10, paddingLeft: 4 }}>
+                    <Text style={{ fontSize: 19, color: '#0F172A', lineHeight: 1.7, fontWeight: 'bold' }}>注意是“当年”，不是“在校期间”。</Text>
+                    <Text style={{ fontSize: 18, color: '#475569', lineHeight: 1.7 }}>每年评一次，每年都要达标。今年 79.9 分，明年成绩再好也补不回今年这次。</Text>
+                </Box>
+            </Box>
+        </Box>
+    </Box>
+    <Box style={{ position: 'absolute', left: 60, right: 60, bottom: 24, flexDirection: 'row', justifyContent: 'space-between' }}>
+        <Text style={{ fontSize: 14, color: '#CBD5E1' }}>山东药品食品职业学院 · 质量管理系 ·「童健韶华」志愿服务队</Text>
+        <Text style={{ fontSize: 14, color: '#CBD5E1' }}>21</Text>
+    </Box>
+</Slide>

@@ -1,0 +1,44 @@
+<Slide style={{ width: 1280, height: 720, backgroundColor: '#FBFAF7', padding: '60px', display: 'flex', flexDirection: 'column' }}>
+    <Text style={{ fontFamily: 'Microsoft YaHei', fontSize: 15, color: '#0D7D6A', fontWeight: 'bold', letterSpacing: 1.5, marginBottom: 10 }}>
+        04 · 交卷
+    </Text>
+    <Text style={{ fontFamily: 'SimSun', fontSize: 34, fontWeight: 'bold', color: '#1F2937', lineHeight: 1.25 }}>
+        我们最后留下了四样东西
+    </Text>
+    <Box style={{ width: 1160, height: 1, background: '#E0DDD5', marginTop: 16, marginBottom: 8 }} />
+
+    {[
+        {
+            no: '01', t: '一篇能投出去的纪实',
+            d: '投给「中青校园」（中国青年网三下乡专栏），稿子通过了。我们投的题目是《以动代屏 向光而行》，刊发出来改成《跳出屏幕方寸地，跑向健康新天地》——你写的是你的角度，他改的是能给读者的角度。'
+        },
+        {
+            no: '02', t: '一个能用的工具',
+            d: '小程序加 AI 教练。价值不在技术多高，而在别人没有：一个自己写出来的工具，别人抄不走，因为它背后是一个月的晚上。'
+        },
+        {
+            no: '03', t: '把东西开源',
+            d: '小程序、课件、运动方案全部放到 GitHub。我们六个人明年就散了，但东西可以不散。十月三十日第二期，三位老队员带十二位新同学，培训只安排半天——因为东西是现成的。'
+        },
+        {
+            no: '04', t: '让更多人看见',
+            d: '抖音、B 站、公众号同步发布，累计浏览超过一万。数字不算大，但写材料时「浏览量一万」比「获得一致好评」实在得多。'
+        }
+    ].map((it, i) => (
+        <Box key={i} style={{ display: 'flex', flexDirection: 'row', paddingTop: 15, paddingBottom: 15, borderBottom: '1px solid #ECE9E2' }}>
+            <Text style={{ fontFamily: 'Arial', fontSize: 17, fontWeight: 'bold', color: '#0D7D6A', width: 46, lineHeight: 1.5 }}>
+                {it.no}
+            </Text>
+            <Text style={{ fontFamily: 'SimSun', fontSize: 21, fontWeight: 'bold', color: '#1F2937', width: 250, lineHeight: 1.45 }}>
+                {it.t}
+            </Text>
+            <Text style={{ fontFamily: 'Microsoft YaHei', fontSize: 17, color: '#4B5563', flex: 1, lineHeight: 1.6 }}>
+                {it.d}
+            </Text>
+        </Box>
+    ))}
+
+    <Text style={{ fontFamily: 'Microsoft YaHei', fontSize: 18, color: '#0D7D6A', lineHeight: 1.6, marginTop: 16 }}>
+        四样东西的共同点：都不属于我们六个人，都能被别人接着用。
+    </Text>
+</Slide>

@@ -1,0 +1,55 @@
+<Slide style={{ width: 1280, height: 720, backgroundColor: '#FBFAF7', padding: '60px', display: 'flex', flexDirection: 'column' }}>
+    <Text style={{ fontFamily: 'Microsoft YaHei', fontSize: 15, color: '#0D7D6A', fontWeight: 'bold', letterSpacing: 1.5, marginBottom: 10 }}>
+        02 · 选题
+    </Text>
+    <Text style={{ fontFamily: 'SimSun', fontSize: 34, fontWeight: 'bold', color: '#1F2937', lineHeight: 1.25 }}>
+        三条省力路，一条也不走
+    </Text>
+    <Box style={{ width: 1160, height: 1, background: '#E0DDD5', marginTop: 16, marginBottom: 26 }} />
+
+    <Box style={{ display: 'flex', flexDirection: 'row', flex: 1 }}>
+        <Box style={{ width: 560, display: 'flex', flexDirection: 'column', paddingRight: 44 }}>
+            <Text style={{ fontFamily: 'Microsoft YaHei', fontSize: 15, color: '#9CA3AF', letterSpacing: 1, marginBottom: 14 }}>
+                任何一条都能让一支队伍顺利做完三下乡
+            </Text>
+            {[
+                { t: '选好写的', d: '资料现成，网上搜一搜就有' },
+                { t: '选好看的', d: '照片好拍，场面热闹' },
+                { t: '选好交差的', d: '按模板套一套，交上去就行' }
+            ].map((it, i) => (
+                <Box key={i} style={{ display: 'flex', flexDirection: 'row', alignItems: 'baseline', paddingTop: 15, paddingBottom: 15, borderBottom: '1px solid #ECE9E2' }}>
+                    <Text style={{ fontFamily: 'SimSun', fontSize: 24, fontWeight: 'bold', color: '#B6B2A8', width: 168 }}>
+                        {it.t}
+                    </Text>
+                    <Text style={{ fontFamily: 'Microsoft YaHei', fontSize: 18, color: '#B6B2A8', flex: 1 }}>
+                        {it.d}
+                    </Text>
+                </Box>
+            ))}
+            <Text style={{ fontFamily: 'Microsoft YaHei', fontSize: 16, color: '#9CA3AF', lineHeight: 1.6, marginTop: 16 }}>
+                走这三条路的队伍也不少。它们都能交差，但都留不下东西。
+            </Text>
+        </Box>
+
+        <Box style={{ width: 1, height: 400, background: '#D6D3CB', marginRight: 44 }} />
+
+        <Box style={{ flex: 1, display: 'flex', flexDirection: 'column' }}>
+            <Text style={{ fontFamily: 'Microsoft YaHei', fontSize: 15, color: '#0D7D6A', letterSpacing: 1, marginBottom: 14 }}>
+                我们立的唯一一条标准
+            </Text>
+            <Text style={{ fontFamily: 'SimSun', fontSize: 28, fontWeight: 'bold', color: '#1F2937', lineHeight: 1.55, marginBottom: 18 }}>
+                活动就那几天。那几天做不成大事，但若能留下一个别人可以接着用的东西，就值。
+            </Text>
+            <Text style={{ fontFamily: 'Microsoft YaHei', fontSize: 17, color: '#4B5563', lineHeight: 1.62 }}>
+                这句话后来成了整支队伍的自我约束——它挡住的不只是那三条路，还挡住了后面很多次「随便做做算了」的念头。
+            </Text>
+        </Box>
+    </Box>
+
+    <Box style={{ marginTop: 24, borderTop: '1px solid #E0DDD5', paddingTop: 16 }}>
+        <Text style={{ fontFamily: 'Microsoft YaHei', fontSize: 18, color: '#1F2937', lineHeight: 1.62 }}>
+            <span style={{ fontFamily: 'SimSun', fontWeight: 'bold', fontSize: 20 }}>主题是筛子，不是标语。</span>
+            「以动代屏」四个字里没有作业，所以有人提议加作业辅导，不加；也没有防溺水，所以那个也不加。
+        </Text>
+    </Box>
+</Slide>

@@ -1,0 +1,58 @@
+<Slide style={{ width: 1280, height: 720, backgroundColor: '#FBFAF7', padding: '60px', display: 'flex', flexDirection: 'column' }}>
+    <Text style={{ fontFamily: 'Microsoft YaHei', fontSize: 15, color: '#0D7D6A', fontWeight: 'bold', letterSpacing: 1.5, marginBottom: 10 }}>
+        07 · AI
+    </Text>
+    <Text style={{ fontFamily: 'SimSun', fontSize: 34, fontWeight: 'bold', color: '#1F2937', lineHeight: 1.25 }}>
+        用 AI 补上家长缺的那一块
+    </Text>
+    <Box style={{ width: 1160, height: 1, background: '#E0DDD5', marginTop: 16, marginBottom: 24 }} />
+
+    <Box style={{ display: 'flex', flexDirection: 'row', flex: 1 }}>
+        <Box style={{ width: 660, display: 'flex', flexDirection: 'column', paddingRight: 44 }}>
+            <Text style={{ fontFamily: 'Microsoft YaHei', fontSize: 17, color: '#4B5563', lineHeight: 1.65, marginBottom: 20 }}>
+                一个社区请一位体育教师，成本多少，能覆盖几个孩子？我们想的办法是——用 AI 把一个专家的能力，复制成很多份。
+            </Text>
+
+            {[
+                { t: 'AI 健康成长助手', d: '家长填孩子的年龄、身高、体重三个数，就能得到 BMI 区间、一份十一天的运动计划，以及屏幕依赖程度的自评。' },
+                { t: '个人 AI 教练', d: '用于长期记录：每天记下练了什么、数据有什么变化，给出趋势分析。' }
+            ].map((it, i) => (
+                <Box key={i} style={{ borderLeft: '3px solid #D9EDE8', paddingLeft: 16, marginBottom: 18 }}>
+                    <Text style={{ fontFamily: 'SimSun', fontSize: 22, fontWeight: 'bold', color: '#1F2937', lineHeight: 1.45, marginBottom: 6 }}>
+                        {it.t}
+                    </Text>
+                    <Text style={{ fontFamily: 'Microsoft YaHei', fontSize: 17, color: '#4B5563', lineHeight: 1.62 }}>
+                        {it.d}
+                    </Text>
+                </Box>
+            ))}
+
+            <Text style={{ fontFamily: 'Microsoft YaHei', fontSize: 16, color: '#6B7280', lineHeight: 1.6 }}>
+                工具累计被调用一千多次，随活动覆盖一百多名儿童，完成回访十余户。
+            </Text>
+        </Box>
+
+        <Box style={{ flex: 1, display: 'flex', flexDirection: 'column' }}>
+            <Box style={{ backgroundColor: '#0D7D6A', borderRadius: 8, paddingTop: 26, paddingBottom: 24, paddingLeft: 26, paddingRight: 26, flex: 1, display: 'flex', flexDirection: 'column', justifyContent: 'space-between' }}>
+                <Box>
+                    <Text style={{ fontFamily: 'Microsoft YaHei', fontSize: 15, color: '#9ED8C9', letterSpacing: 1, marginBottom: 14 }}>
+                        一条必须讲清楚的边界
+                    </Text>
+                    <Text style={{ fontFamily: 'SimSun', fontSize: 24, fontWeight: 'bold', color: '#FFFFFF', lineHeight: 1.5, marginBottom: 12 }}>
+                        有家长问：「我孩子是不是肥胖症？」
+                    </Text>
+                    <Text style={{ fontFamily: 'Microsoft YaHei', fontSize: 17, color: '#D9EDE8', lineHeight: 1.65 }}>
+                        我们只回答区间，然后建议他去医院，不下结论。我们是学生，不是医生。工具只做健康教育和习惯引导，不做诊断。
+                    </Text>
+                </Box>
+
+                <Box style={{ borderTop: '1px solid #2E8F7D', paddingTop: 16, marginTop: 20 }}>
+                    <Text style={{ fontFamily: 'SimSun', fontSize: 21, fontWeight: 'bold', color: '#FFFFFF', lineHeight: 1.5 }}>
+                        聪明是本事，守界是分寸。
+                        <span style={{ color: '#9ED8C9' }}>本事可以慢慢练，分寸一次错不得。</span>
+                    </Text>
+                </Box>
+            </Box>
+        </Box>
+    </Box>
+</Slide>

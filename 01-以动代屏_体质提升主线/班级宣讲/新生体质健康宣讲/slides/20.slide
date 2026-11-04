@@ -1,0 +1,50 @@
+<Slide style={{ padding: 60, background: '#FFFFFF', position: 'relative', fontFamily: 'Microsoft YaHei' }}>
+    <Box style={{ flexDirection: 'column', height: '100%', gap: 22 }}>
+        <Box style={{ flexDirection: 'column', gap: 12 }}>
+            <Text style={{ fontSize: 34, fontWeight: 'bold', color: '#0F172A', lineHeight: 1.2 }}>60 分：评优评奖的最低入场券</Text>
+            <Box style={{ height: 3, width: '100%', background: '#E2E8F0' }} />
+        </Box>
+        <Box style={{ flexDirection: 'row', gap: 20, flex: 1 }}>
+            <Box style={{ width: 400, flexDirection: 'column', justifyContent: 'space-between', background: '#F8FAFC', borderRadius: 12, padding: 26 }}>
+                <Box style={{ flexDirection: 'column', gap: 12 }}>
+                    <Text style={{ fontSize: 22, fontWeight: 'bold', color: '#0F172A', lineHeight: 1.4 }}>院级优秀学生</Text>
+                    <Box style={{ height: 1, background: '#E2E8F0' }} />
+                    <Text style={{ fontSize: 17, color: '#334155', lineHeight: 1.75 }}>“具有较好的身体素质，积极参加体育锻炼，参评学年体质健康测试成绩合格。”</Text>
+                </Box>
+                <Box style={{ flexDirection: 'column', gap: 8 }}>
+                    <Text style={{ fontSize: 16, color: '#64748B', lineHeight: 1.6 }}>另需：成绩专业前 30%、综测班级前 20%、第二课堂每学期 20 学分</Text>
+                    <Text style={{ fontSize: 15, color: '#94A3B8' }}>学生手册 · 第 149 页</Text>
+                </Box>
+            </Box>
+            <Box style={{ width: 380, flexDirection: 'column', justifyContent: 'space-between', background: '#F8FAFC', borderRadius: 12, padding: 26 }}>
+                <Box style={{ flexDirection: 'column', gap: 12 }}>
+                    <Text style={{ fontSize: 22, fontWeight: 'bold', color: '#0F172A', lineHeight: 1.4 }}>院级优秀学生干部</Text>
+                    <Box style={{ height: 1, background: '#E2E8F0' }} />
+                    <Text style={{ fontSize: 17, color: '#334155', lineHeight: 1.75 }}>“具有较好的身体素质，积极参加体育锻炼，参评学年体质健康测试成绩合格。”</Text>
+                </Box>
+                <Box style={{ flexDirection: 'column', gap: 8 }}>
+                    <Text style={{ fontSize: 16, color: '#64748B', lineHeight: 1.6 }}>班级干部每班 2 名，系、院学生干部按参评人数 30%</Text>
+                    <Text style={{ fontSize: 15, color: '#94A3B8' }}>学生手册 · 第 150 页</Text>
+                </Box>
+            </Box>
+            <Box style={{ width: 340, flexDirection: 'column', justifyContent: 'space-between', background: '#F8FAFC', borderRadius: 12, padding: 26 }}>
+                <Box style={{ flexDirection: 'column', gap: 12 }}>
+                    <Text style={{ fontSize: 22, fontWeight: 'bold', color: '#0F172A', lineHeight: 1.4 }}>学院奖学金</Text>
+                    <Box style={{ height: 1, background: '#E2E8F0' }} />
+                    <Text style={{ fontSize: 17, color: '#334155', lineHeight: 1.75 }}>“积极参加体育锻炼，《国家学生体质健康标准》测试成绩合格。”</Text>
+                </Box>
+                <Box style={{ flexDirection: 'column', gap: 8 }}>
+                    <Text style={{ fontSize: 16, color: '#64748B', lineHeight: 1.6 }}>二年级及以上可参评，按学年组织评选</Text>
+                    <Text style={{ fontSize: 15, color: '#94A3B8' }}>学生手册 · 第 192 页</Text>
+                </Box>
+            </Box>
+        </Box>
+        <Box style={{ flexDirection: 'row', alignItems: 'center', gap: 14, background: '#FFF7ED', borderRadius: 8, padding: '14px 22px', border: '1px solid #FED7AA' }}>
+            <Text style={{ fontSize: 18, color: '#9A3412', lineHeight: 1.5 }}>三项写的都是“合格”两个字。差 0.1 分没到 60，这些就都和你无关了。</Text>
+        </Box>
+    </Box>
+    <Box style={{ position: 'absolute', left: 60, right: 60, bottom: 24, flexDirection: 'row', justifyContent: 'space-between' }}>
+        <Text style={{ fontSize: 14, color: '#CBD5E1' }}>山东药品食品职业学院 · 质量管理系 ·「童健韶华」志愿服务队</Text>
+        <Text style={{ fontSize: 14, color: '#CBD5E1' }}>20</Text>
+    </Box>
+</Slide>

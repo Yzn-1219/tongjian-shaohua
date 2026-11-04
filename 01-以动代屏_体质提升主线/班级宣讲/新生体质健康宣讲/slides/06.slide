@@ -1,0 +1,43 @@
+<Slide style={{ padding: 60, background: '#FFFFFF', position: 'relative', fontFamily: 'Microsoft YaHei' }}>
+    <Box style={{ flexDirection: 'column', height: '100%', gap: 22 }}>
+        <Box style={{ flexDirection: 'column', gap: 12 }}>
+            <Text style={{ fontSize: 34, fontWeight: 'bold', color: '#0F172A', lineHeight: 1.2 }}>今年暑假，我们在威海看到了什么</Text>
+            <Box style={{ height: 3, width: '100%', background: '#E2E8F0' }} />
+        </Box>
+        <Box style={{ flexDirection: 'row', gap: 40, flex: 1 }}>
+            <Box style={{ width: 480, flexDirection: 'column', justifyContent: 'center', gap: 18 }}>
+                <Text style={{ fontSize: 19, color: '#334155', lineHeight: 1.75 }}>7 月 2 日到 8 日，我们服务队去了威海市环翠区三个地方：黄家皂幼儿园、蓝海社区、西海社区。</Text>
+                <Text style={{ fontSize: 19, color: '#334155', lineHeight: 1.75 }}>给一百多个孩子做了体质检测和趣味运动，带回来 207 份问卷——家长 183 份，社区工作者 24 份。</Text>
+                <Box style={{ height: 1, background: '#E2E8F0' }} />
+                <Box style={{ flexDirection: 'column', gap: 8 }}>
+                    <Text style={{ fontSize: 17, color: '#64748B', lineHeight: 1.6 }}>做完以后，有四组数字我们印象最深。</Text>
+                </Box>
+            </Box>
+            <Box style={{ flex: 1, flexDirection: 'column', justifyContent: 'center', gap: 14 }}>
+                <Box style={{ flexDirection: 'row', alignItems: 'baseline', gap: 16, borderBottom: '1px solid #E2E8F0', paddingBottom: 14 }}>
+                    <Text style={{ width: 162, fontSize: 32, fontWeight: 'bold', color: '#1D4ED8', lineHeight: 1.1 }}>68.3%</Text>
+                    <Text style={{ flex: 1, fontSize: 18, color: '#334155', lineHeight: 1.6 }}>的孩子，每天屏幕时间超过 2 小时</Text>
+                </Box>
+                <Box style={{ flexDirection: 'row', alignItems: 'baseline', gap: 16, borderBottom: '1px solid #E2E8F0', paddingBottom: 14 }}>
+                    <Text style={{ width: 162, fontSize: 32, fontWeight: 'bold', color: '#1D4ED8', lineHeight: 1.1 }}>41.7%</Text>
+                    <Text style={{ flex: 1, fontSize: 18, color: '#334155', lineHeight: 1.6 }}>的孩子，每天户外活动不到 30 分钟</Text>
+                </Box>
+                <Box style={{ flexDirection: 'row', alignItems: 'baseline', gap: 16, borderBottom: '1px solid #E2E8F0', paddingBottom: 14 }}>
+                    <Text style={{ width: 162, fontSize: 32, fontWeight: 'bold', color: '#EA580C', lineHeight: 1.1 }}>不足 25%</Text>
+                    <Text style={{ flex: 1, fontSize: 18, color: '#334155', lineHeight: 1.6 }}>的孩子，每天运动时间能达到 2 小时</Text>
+                </Box>
+                <Box style={{ flexDirection: 'row', alignItems: 'baseline', gap: 16 }}>
+                    <Text style={{ width: 162, fontSize: 32, fontWeight: 'bold', color: '#EA580C', lineHeight: 1.1 }}>36.1%</Text>
+                    <Text style={{ flex: 1, fontSize: 18, color: '#334155', lineHeight: 1.6 }}>的家长，会主动帮孩子培养一项体育兴趣</Text>
+                </Box>
+            </Box>
+        </Box>
+        <Box style={{ flexDirection: 'row', alignItems: 'center', gap: 14, background: '#EFF6FF', borderRadius: 8, padding: '14px 22px' }}>
+            <Text style={{ fontSize: 18, color: '#1E3A8A', lineHeight: 1.5 }}>这些孩子不是不爱动。是没人告诉他们该练什么、练多久、练到什么程度算够。</Text>
+        </Box>
+    </Box>
+    <Box style={{ position: 'absolute', left: 60, right: 60, bottom: 24, flexDirection: 'row', justifyContent: 'space-between' }}>
+        <Text style={{ fontSize: 14, color: '#CBD5E1' }}>山东药品食品职业学院 · 质量管理系 ·「童健韶华」志愿服务队</Text>
+        <Text style={{ fontSize: 14, color: '#CBD5E1' }}>06</Text>
+    </Box>
+</Slide>

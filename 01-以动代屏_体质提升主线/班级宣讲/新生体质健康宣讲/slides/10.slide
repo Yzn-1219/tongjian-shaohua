@@ -1,0 +1,66 @@
+<Slide style={{ padding: 60, background: '#FFFFFF', position: 'relative', fontFamily: 'Microsoft YaHei' }}>
+    <Box style={{ flexDirection: 'column', height: '100%', gap: 22 }}>
+        <Box style={{ flexDirection: 'column', gap: 12 }}>
+            <Text style={{ fontSize: 34, fontWeight: 'bold', color: '#0F172A', lineHeight: 1.2 }}>七项指标，各有各的权重</Text>
+            <Box style={{ height: 3, width: '100%', background: '#E2E8F0' }} />
+        </Box>
+        <Box style={{ flex: 1, flexDirection: 'column', justifyContent: 'center', gap: 22 }}>
+            <Box style={{ flexDirection: 'row', alignItems: 'center', gap: 18 }}>
+                <Text style={{ width: 230, fontSize: 20, fontWeight: 'bold', color: '#0F172A' }}>50 米跑</Text>
+                <Box style={{ flex: 1, height: 34, background: '#F1F5F9', borderRadius: 17 }}>
+                    <Box style={{ width: 780, height: 34, background: '#1D4ED8', borderRadius: 17 }} />
+                </Box>
+                <Text style={{ width: 76, fontSize: 22, fontWeight: 'bold', color: '#1D4ED8', textAlign: 'right' }}>20%</Text>
+            </Box>
+            <Box style={{ flexDirection: 'row', alignItems: 'center', gap: 18 }}>
+                <Text style={{ width: 230, fontSize: 20, fontWeight: 'bold', color: '#0F172A' }}>1000 米 / 800 米</Text>
+                <Box style={{ flex: 1, height: 34, background: '#F1F5F9', borderRadius: 17 }}>
+                    <Box style={{ width: 780, height: 34, background: '#1D4ED8', borderRadius: 17 }} />
+                </Box>
+                <Text style={{ width: 76, fontSize: 22, fontWeight: 'bold', color: '#1D4ED8', textAlign: 'right' }}>20%</Text>
+            </Box>
+            <Box style={{ flexDirection: 'row', alignItems: 'center', gap: 18 }}>
+                <Text style={{ width: 230, fontSize: 20, color: '#334155' }}>肺活量</Text>
+                <Box style={{ flex: 1, height: 34, background: '#F1F5F9', borderRadius: 17 }}>
+                    <Box style={{ width: 585, height: 34, background: '#3B82F6', borderRadius: 17 }} />
+                </Box>
+                <Text style={{ width: 76, fontSize: 22, fontWeight: 'bold', color: '#3B82F6', textAlign: 'right' }}>15%</Text>
+            </Box>
+            <Box style={{ flexDirection: 'row', alignItems: 'center', gap: 18 }}>
+                <Text style={{ width: 230, fontSize: 20, color: '#334155' }}>体重指数 BMI</Text>
+                <Box style={{ flex: 1, height: 34, background: '#F1F5F9', borderRadius: 17 }}>
+                    <Box style={{ width: 585, height: 34, background: '#3B82F6', borderRadius: 17 }} />
+                </Box>
+                <Text style={{ width: 76, fontSize: 22, fontWeight: 'bold', color: '#3B82F6', textAlign: 'right' }}>15%</Text>
+            </Box>
+            <Box style={{ flexDirection: 'row', alignItems: 'center', gap: 18 }}>
+                <Text style={{ width: 230, fontSize: 20, color: '#334155' }}>坐位体前屈</Text>
+                <Box style={{ flex: 1, height: 34, background: '#F1F5F9', borderRadius: 17 }}>
+                    <Box style={{ width: 390, height: 34, background: '#93C5FD', borderRadius: 17 }} />
+                </Box>
+                <Text style={{ width: 76, fontSize: 22, fontWeight: 'bold', color: '#60A5FA', textAlign: 'right' }}>10%</Text>
+            </Box>
+            <Box style={{ flexDirection: 'row', alignItems: 'center', gap: 18 }}>
+                <Text style={{ width: 230, fontSize: 20, color: '#334155' }}>立定跳远</Text>
+                <Box style={{ flex: 1, height: 34, background: '#F1F5F9', borderRadius: 17 }}>
+                    <Box style={{ width: 390, height: 34, background: '#93C5FD', borderRadius: 17 }} />
+                </Box>
+                <Text style={{ width: 76, fontSize: 22, fontWeight: 'bold', color: '#60A5FA', textAlign: 'right' }}>10%</Text>
+            </Box>
+            <Box style={{ flexDirection: 'row', alignItems: 'center', gap: 18 }}>
+                <Text style={{ width: 230, fontSize: 20, color: '#334155' }}>引体向上 / 仰卧起坐</Text>
+                <Box style={{ flex: 1, height: 34, background: '#F1F5F9', borderRadius: 17 }}>
+                    <Box style={{ width: 390, height: 34, background: '#93C5FD', borderRadius: 17 }} />
+                </Box>
+                <Text style={{ width: 76, fontSize: 22, fontWeight: 'bold', color: '#60A5FA', textAlign: 'right' }}>10%</Text>
+            </Box>
+        </Box>
+        <Box style={{ flexDirection: 'row', alignItems: 'center', gap: 14, background: '#EFF6FF', borderRadius: 8, padding: '14px 22px' }}>
+            <Text style={{ fontSize: 18, color: '#1E3A8A', lineHeight: 1.5 }}>权重就是分数分配表：跑的两项合起来占 40%，身高体重不用练也占 15%。</Text>
+        </Box>
+    </Box>
+    <Box style={{ position: 'absolute', left: 60, right: 60, bottom: 24, flexDirection: 'row', justifyContent: 'space-between' }}>
+        <Text style={{ fontSize: 14, color: '#CBD5E1' }}>山东药品食品职业学院 · 质量管理系 ·「童健韶华」志愿服务队</Text>
+        <Text style={{ fontSize: 14, color: '#CBD5E1' }}>10</Text>
+    </Box>
+</Slide>

@@ -1,0 +1,70 @@
+<Slide style={{ width: 1280, height: 720, backgroundColor: '#FBFAF7', padding: '60px', display: 'flex', flexDirection: 'column' }}>
+    <Text style={{ fontFamily: 'Microsoft YaHei', fontSize: 15, color: '#0D7D6A', fontWeight: 'bold', letterSpacing: 1.5, marginBottom: 10 }}>
+        01 · 看题
+    </Text>
+    <Text style={{ fontFamily: 'SimSun', fontSize: 34, fontWeight: 'bold', color: '#1F2937', lineHeight: 1.25 }}>
+        标准不是办得热闹
+    </Text>
+    <Box style={{ width: 1160, height: 1, background: '#E0DDD5', marginTop: 16, marginBottom: 30 }} />
+
+    <Box style={{ display: 'flex', flexDirection: 'row', flex: 1 }}>
+        <Box style={{ width: 660, display: 'flex', flexDirection: 'column', paddingRight: 46 }}>
+            <Box style={{ display: 'flex', flexDirection: 'row', alignItems: 'baseline', marginBottom: 8 }}>
+                <Text style={{ fontFamily: 'SimSun', fontSize: 40, fontWeight: 'bold', color: '#1F2937' }}>
+                    社会效应
+                </Text>
+                <Text style={{ fontFamily: 'Microsoft YaHei', fontSize: 16, color: '#9CA3AF', marginLeft: 14 }}>
+                    对当地的实际改变
+                </Text>
+            </Box>
+            <Text style={{ fontFamily: 'Microsoft YaHei', fontSize: 18, color: '#4B5563', lineHeight: 1.62, marginBottom: 26 }}>
+                孩子愿意动了，家长知道怎么带了，社区愿意继续合作。这不是自我感动，是可以被回访验证的。
+            </Text>
+
+            <Box style={{ display: 'flex', flexDirection: 'row', alignItems: 'baseline', marginBottom: 8 }}>
+                <Text style={{ fontFamily: 'SimSun', fontSize: 40, fontWeight: 'bold', color: '#0D7D6A' }}>
+                    引领作用
+                </Text>
+                <Text style={{ fontFamily: 'Microsoft YaHei', fontSize: 16, color: '#9CA3AF', marginLeft: 14 }}>
+                    别人能不能照着做
+                </Text>
+            </Box>
+            <Text style={{ fontFamily: 'Microsoft YaHei', fontSize: 18, color: '#4B5563', lineHeight: 1.62, marginBottom: 28 }}>
+                你摸索出来的模式可以复制，你踩过的坑可以被别人绕开。政策里「强化典型示范，总结推广经验」说的就是这个。
+            </Text>
+
+            <Box style={{ borderTop: '1px solid #E0DDD5', paddingTop: 18 }}>
+                <Text style={{ fontFamily: 'SimSun', fontSize: 21, fontWeight: 'bold', color: '#7C3A12', lineHeight: 1.55 }}>
+                    判断一个项目做得好不好，不问它热闹不热闹，只问两条：
+                    <span style={{ color: '#C2410C' }}>对当地有无实际改变、这套办法别人能不能照着做。</span>
+                </Text>
+            </Box>
+        </Box>
+
+        <Box style={{ flex: 1, display: 'flex', flexDirection: 'column' }}>
+            <Box style={{ backgroundColor: '#0D7D6A', borderRadius: 8, paddingTop: 24, paddingBottom: 24, paddingLeft: 26, paddingRight: 26 }}>
+                <Text style={{ fontFamily: 'Microsoft YaHei', fontSize: 15, color: '#9ED8C9', letterSpacing: 1, marginBottom: 12 }}>
+                    近几年通知里的「五个一」
+                </Text>
+                {[
+                    '办好一件惠民实事',
+                    '开展一次主题宣讲',
+                    '促成一次结对共建',
+                    '提出一项务实建议',
+                    '撰写一份调研报告'
+                ].map((t, i) => (
+                    <Box key={i} style={{ display: 'flex', flexDirection: 'row', alignItems: 'center', marginTop: 9 }}>
+                        <Box style={{ width: 5, height: 5, borderRadius: 3, backgroundColor: '#9ED8C9', marginRight: 12 }} />
+                        <Text style={{ fontFamily: 'Microsoft YaHei', fontSize: 18, color: '#FFFFFF', lineHeight: 1.5 }}>
+                            {t}
+                        </Text>
+                    </Box>
+                ))}
+                <Box style={{ height: 1, background: '#2E8F7D', marginTop: 18, marginBottom: 14 }} />
+                <Text style={{ fontFamily: 'Microsoft YaHei', fontSize: 17, color: '#D9EDE8', lineHeight: 1.6 }}>
+                    五件事，加「常态化」三个字——它要的不是办了几场活动，是你有没有真的办成一件事，并且这件事能留下来。
+                </Text>
+            </Box>
+        </Box>
+    </Box>
+</Slide>

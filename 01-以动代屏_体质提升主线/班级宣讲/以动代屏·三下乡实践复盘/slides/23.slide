@@ -1,0 +1,57 @@
+<Slide style={{ width: 1280, height: 720, backgroundColor: '#FBFAF7', padding: '60px', display: 'flex', flexDirection: 'column' }}>
+    <Text style={{ fontFamily: 'Microsoft YaHei', fontSize: 15, color: '#0D7D6A', fontWeight: 'bold', letterSpacing: 1.5, marginBottom: 10 }}>
+        05 · 团队
+    </Text>
+    <Text style={{ fontFamily: 'SimSun', fontSize: 34, fontWeight: 'bold', color: '#1F2937', lineHeight: 1.25 }}>
+        那个被取消的点位
+    </Text>
+    <Box style={{ width: 1160, height: 1, background: '#E0DDD5', marginTop: 16, marginBottom: 24 }} />
+
+    <Box style={{ display: 'flex', flexDirection: 'row', flex: 1 }}>
+        <Box style={{ width: 720, display: 'flex', flexDirection: 'column', paddingRight: 44 }}>
+            <Text style={{ fontFamily: 'Microsoft YaHei', fontSize: 17, color: '#4B5563', lineHeight: 1.65, marginBottom: 12 }}>
+                我们最初计划走四个社区。第四个已经对接完成了，时间也定了，人家已经把场地腾出来、把时间留了出来。
+            </Text>
+            <Text style={{ fontFamily: 'Microsoft YaHei', fontSize: 17, color: '#4B5563', lineHeight: 1.65, marginBottom: 12 }}>
+                从第三个点位返程的路上，有队员说，有点累了。那天我在车上做了一个决定：第四个，不去了。
+            </Text>
+            <Text style={{ fontFamily: 'Microsoft YaHei', fontSize: 17, color: '#4B5563', lineHeight: 1.65, marginBottom: 14 }}>
+                前面已经完整做完三场，材料、照片、数据、回访都留下来了。多这一个点位，成果表上会好看一点，但队伍的力气会被抽干——若为了多一个点位把人耗干，这个项目明年就没有人愿意跟了。
+            </Text>
+            <Box style={{ borderLeft: '3px solid #C2410C', paddingLeft: 16, marginBottom: 16 }}>
+                <Text style={{ fontFamily: 'SimSun', fontSize: 19, fontWeight: 'bold', color: '#7C3A12', lineHeight: 1.55 }}>
+                    我让队员去跟那个社区说明情况、道歉。这件事到今天我还是觉得不太好看——对那个社区来说，是我们失信了，这一点我不辩解。
+                </Text>
+            </Box>
+            <Text style={{ fontFamily: 'SimSun', fontSize: 25, fontWeight: 'bold', color: '#1F2937', lineHeight: 1.55 }}>
+                三下乡不是比谁去的点位多。
+                <span style={{ color: '#0D7D6A' }}>做透三场，比凑数四场值钱。</span>
+            </Text>
+        </Box>
+
+        <Box style={{ width: 1, height: 440, background: '#D6D3CB', marginRight: 40 }} />
+
+        <Box style={{ flex: 1, display: 'flex', flexDirection: 'column' }}>
+            <Text style={{ fontFamily: 'Microsoft YaHei', fontSize: 15, color: '#9CA3AF', letterSpacing: 1, marginBottom: 12 }}>
+                还有一个很实际的问题：钱
+            </Text>
+            <Text style={{ fontFamily: 'SimSun', fontSize: 20, fontWeight: 'bold', color: '#1F2937', lineHeight: 1.5, marginBottom: 14 }}>
+                没有经费，所有开销出发前商量好，六个人 AA
+            </Text>
+            {[
+                { k: '先说清楚', v: '谁出、出多少、怎么报。最怕当场掏钱、回来扯皮。' },
+                { k: '留凭证', v: '每一笔都有记录，回来结算不扯。' },
+                { k: '队长多摊', v: '你是这个项目最大的受益人，收益最多，多出一点，合理。' }
+            ].map((it, i) => (
+                <Box key={i} style={{ borderTop: '1px solid #ECE9E2', paddingTop: 12, paddingBottom: 12 }}>
+                    <Text style={{ fontFamily: 'Microsoft YaHei', fontSize: 17, fontWeight: 'bold', color: '#0D7D6A', marginBottom: 4 }}>
+                        {it.k}
+                    </Text>
+                    <Text style={{ fontFamily: 'Microsoft YaHei', fontSize: 16, color: '#6B7280', lineHeight: 1.6 }}>
+                        {it.v}
+                    </Text>
+                </Box>
+            ))}
+        </Box>
+    </Box>
+</Slide>

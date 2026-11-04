@@ -1,0 +1,59 @@
+<Slide style={{ width: 1280, height: 720, backgroundColor: '#FBFAF7', padding: '60px', display: 'flex', flexDirection: 'column' }}>
+    <Text style={{ fontFamily: 'Microsoft YaHei', fontSize: 15, color: '#0D7D6A', fontWeight: 'bold', letterSpacing: 1.5, marginBottom: 10 }}>
+        03 · 做题 / 运动模块
+    </Text>
+    <Text style={{ fontFamily: 'SimSun', fontSize: 34, fontWeight: 'bold', color: '#1F2937', lineHeight: 1.25 }}>
+        去竞技化：不排名，只看参与率
+    </Text>
+    <Box style={{ width: 1160, height: 1, background: '#E0DDD5', marginTop: 16, marginBottom: 26 }} />
+
+    <Box style={{ display: 'flex', flexDirection: 'row', flex: 1 }}>
+        <Box style={{ width: 520, display: 'flex', flexDirection: 'column', paddingRight: 44 }}>
+            <Text style={{ fontFamily: 'Microsoft YaHei', fontSize: 15, color: '#9CA3AF', letterSpacing: 1, marginBottom: 12 }}>
+                四个项目，全部低门槛
+            </Text>
+            {['跳房子', '接力赛跑', '沙包投掷', '障碍闯关'].map((t, i) => (
+                <Box key={i} style={{ display: 'flex', flexDirection: 'row', alignItems: 'center', paddingTop: 10, paddingBottom: 10, borderBottom: '1px solid #ECE9E2' }}>
+                    <Box style={{ width: 5, height: 5, borderRadius: 3, backgroundColor: '#0D7D6A', marginRight: 12 }} />
+                    <Text style={{ fontFamily: 'SimSun', fontSize: 21, fontWeight: 'bold', color: '#1F2937', flex: 1 }}>
+                        {t}
+                    </Text>
+                </Box>
+            ))}
+            <Text style={{ fontFamily: 'Microsoft YaHei', fontSize: 16, color: '#6B7280', lineHeight: 1.6, marginTop: 14, marginBottom: 18 }}>
+                不需要专业器材——粉笔画出格子、几个沙包就能开展。
+            </Text>
+            <Box style={{ display: 'flex', flexDirection: 'row' }}>
+                {['零门槛', '无需器材', '去竞技化'].map((t, i) => (
+                    <Box key={i} style={{ backgroundColor: '#D9EDE8', borderRadius: 4, paddingTop: 6, paddingBottom: 6, paddingLeft: 12, paddingRight: 12, marginRight: 8 }}>
+                        <Text style={{ fontFamily: 'Microsoft YaHei', fontSize: 16, color: '#0D7D6A', fontWeight: 'bold' }}>
+                            {t}
+                        </Text>
+                    </Box>
+                ))}
+            </Box>
+        </Box>
+
+        <Box style={{ width: 1, height: 420, background: '#D6D3CB', marginRight: 44 }} />
+
+        <Box style={{ flex: 1, display: 'flex', flexDirection: 'column' }}>
+            <Text style={{ fontFamily: 'Microsoft YaHei', fontSize: 16, color: '#C2410C', fontWeight: 'bold', letterSpacing: 1, marginBottom: 10 }}>
+                第三条最反常识
+            </Text>
+            <Text style={{ fontFamily: 'SimSun', fontSize: 22, fontWeight: 'bold', color: '#1F2937', lineHeight: 1.5, marginBottom: 14 }}>
+                运动会不排名，那还叫运动会吗？我们叫它「趣味运动会」，不叫「比赛」。
+            </Text>
+            <Text style={{ fontFamily: 'Microsoft YaHei', fontSize: 17, color: '#4B5563', lineHeight: 1.65, marginBottom: 14 }}>
+                之所以这样定，是因为试过。正式活动之前的一场测试里，我们排了名次，结果出现一个情况：一部分孩子退到场边，不玩了。跑到最后的孩子被围观、被比较，他下一次就不会再来。
+            </Text>
+            <Text style={{ fontFamily: 'Microsoft YaHei', fontSize: 17, color: '#4B5563', lineHeight: 1.65, marginBottom: 16 }}>
+                而我们真正要的是「下次还来」。
+            </Text>
+            <Box style={{ backgroundColor: '#EFE9DC', borderRadius: 6, paddingTop: 14, paddingBottom: 14, paddingLeft: 18, paddingRight: 18 }}>
+                <Text style={{ fontFamily: 'SimSun', fontSize: 19, fontWeight: 'bold', color: '#7C3A12', lineHeight: 1.55 }}>
+                    排名能带来一次热闹，但会带走一批人。从那以后我们取消排名、不设物质奖励，评价标准改成参与率。
+                </Text>
+            </Box>
+        </Box>
+    </Box>
+</Slide>

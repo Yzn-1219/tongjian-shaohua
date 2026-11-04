@@ -1,0 +1,43 @@
+<Slide style={{ padding: 60, background: '#FFFFFF', position: 'relative', fontFamily: 'Microsoft YaHei' }}>
+    <Box style={{ flexDirection: 'column', height: '100%', gap: 24 }}>
+        <Box style={{ flexDirection: 'column', gap: 12 }}>
+            <Text style={{ fontSize: 34, fontWeight: 'bold', color: '#0F172A', lineHeight: 1.2 }}>体能垮下来，是一条链子</Text>
+            <Box style={{ height: 3, width: '100%', background: '#E2E8F0' }} />
+        </Box>
+        <Box style={{ flex: 1, flexDirection: 'column', justifyContent: 'center', gap: 36 }}>
+            <Box style={{ flexDirection: 'row', alignItems: 'center', gap: 8 }}>
+                <Box style={{ width: 215, flexDirection: 'column', gap: 12, background: '#EFF6FF', borderRadius: 10, padding: 22 }}>
+                    <Text style={{ fontSize: 16, fontWeight: 'bold', color: '#93C5FD' }}>01</Text>
+                    <Text style={{ fontSize: 20, fontWeight: 'bold', color: '#0F172A', lineHeight: 1.4 }}>坐得多、动得少</Text>
+                    <Text style={{ fontSize: 16, color: '#475569', lineHeight: 1.6 }}>每天坐着的时间远超站着的时间</Text>
+                </Box>
+                <Text style={{ width: 30, fontSize: 24, color: '#CBD5E1', textAlign: 'center' }}>→</Text>
+                <Box style={{ width: 240, flexDirection: 'column', gap: 12, background: '#DBEAFE', borderRadius: 10, padding: 22 }}>
+                    <Text style={{ fontSize: 16, fontWeight: 'bold', color: '#60A5FA' }}>02</Text>
+                    <Text style={{ fontSize: 20, fontWeight: 'bold', color: '#0F172A', lineHeight: 1.4 }}>心肺和肌肉退下来</Text>
+                    <Text style={{ fontSize: 16, color: '#475569', lineHeight: 1.6 }}>爬四楼开始喘，跑两圈就想停</Text>
+                </Box>
+                <Text style={{ width: 30, fontSize: 24, color: '#CBD5E1', textAlign: 'center' }}>→</Text>
+                <Box style={{ width: 265, flexDirection: 'column', gap: 12, background: '#BFDBFE', borderRadius: 10, padding: 22 }}>
+                    <Text style={{ fontSize: 16, fontWeight: 'bold', color: '#3B82F6' }}>03</Text>
+                    <Text style={{ fontSize: 20, fontWeight: 'bold', color: '#0F172A', lineHeight: 1.4 }}>一节课下来就累</Text>
+                    <Text style={{ fontSize: 16, color: '#334155', lineHeight: 1.6 }}>上午还有精神，下午就靠硬撑</Text>
+                </Box>
+                <Text style={{ width: 30, fontSize: 24, color: '#CBD5E1', textAlign: 'center' }}>→</Text>
+                <Box style={{ width: 290, flexDirection: 'column', gap: 12, background: '#1D4ED8', borderRadius: 10, padding: 22 }}>
+                    <Text style={{ fontSize: 16, fontWeight: 'bold', color: '#93C5FD' }}>04</Text>
+                    <Text style={{ fontSize: 20, fontWeight: 'bold', color: '#FFFFFF', lineHeight: 1.4 }}>听不进去，也记不住</Text>
+                    <Text style={{ fontSize: 16, color: '#C7D9F8', lineHeight: 1.6 }}>同样的课，别人听完能复述，你只记得困</Text>
+                </Box>
+            </Box>
+            <Box style={{ flexDirection: 'column', gap: 12 }}>
+                <Box style={{ height: 1, background: '#E2E8F0' }} />
+                <Text style={{ fontSize: 22, color: '#0F172A', lineHeight: 1.6 }}>所以体测考的其实不是体育——<span style={{ fontWeight: 'bold', color: '#1D4ED8' }}>考的是你还能不能撑住一整个学期。</span></Text>
+            </Box>
+        </Box>
+    </Box>
+    <Box style={{ position: 'absolute', left: 60, right: 60, bottom: 24, flexDirection: 'row', justifyContent: 'space-between' }}>
+        <Text style={{ fontSize: 14, color: '#CBD5E1' }}>山东药品食品职业学院 · 质量管理系 ·「童健韶华」志愿服务队</Text>
+        <Text style={{ fontSize: 14, color: '#CBD5E1' }}>08</Text>
+    </Box>
+</Slide>

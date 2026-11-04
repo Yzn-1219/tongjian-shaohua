@@ -143,10 +143,17 @@ const Fitness = (function() {
   async function saveBodyData() {
     const weight = parseFloat(document.getElementById('bodyWeight').value);
     const bodyFat = parseFloat(document.getElementById('bodyFat').value);
+    const bodyHeight = parseFloat(document.getElementById('bodyHeight').value);
     if (!weight && !bodyFat) { toast('请至少填写体重或体脂率'); return; }
 
     const cfg = App.getConfig();
-    const height = cfg.height ? cfg.height / 100 : 0;
+    const heightCm = bodyHeight || cfg.height;
+    const height = heightCm ? heightCm / 100 : 0;
+    if (bodyHeight) {
+      const c = JSON.parse(localStorage.getItem('fitness_config') || '{}');
+      c.height = bodyHeight;
+      localStorage.setItem('fitness_config', JSON.stringify(c));
+    }
 
     // 输入即计算派生指标（有值才计算，确保可复算）
     const bmi = (weight && height) ? parseFloat((weight / (height * height)).toFixed(1)) : null;
@@ -327,6 +334,8 @@ const Fitness = (function() {
     const data = await DB.getRecentBodyData(1);
     const latest = data[data.length - 1];
     const cfg = App.getConfig();
+    const hInput = document.getElementById('bodyHeight');
+    if (hInput && !hInput.value && cfg.height) hInput.value = cfg.height;
 
     if (!latest) {
       const els = ['bcWeight','bcBMI','bcBMR','bcBodyFat','bcMuscle','bcWater','bcBone','bcProtein'];

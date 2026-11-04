@@ -1,0 +1,34 @@
+<Slide style={{ width: 1280, height: 720, backgroundColor: '#FBFAF7', padding: '60px', display: 'flex', flexDirection: 'column' }}>
+    <Text style={{ fontFamily: 'Microsoft YaHei', fontSize: 15, color: '#0D7D6A', fontWeight: 'bold', letterSpacing: 1.5, marginBottom: 10 }}>
+        06 · 能力
+    </Text>
+    <Text style={{ fontFamily: 'SimSun', fontSize: 34, fontWeight: 'bold', color: '#1F2937', lineHeight: 1.25 }}>
+        接住之后，你具体要会什么
+    </Text>
+    <Box style={{ width: 1160, height: 1, background: '#E0DDD5', marginTop: 16, marginBottom: 22 }} />
+
+    <Box style={{ display: 'flex', flexDirection: 'column' }}>
+        {[
+            { no: '01', t: '读文件和读论文', d: '我最开始在知网上找青少年体质的论文，很多，也很长。做这件事，就得静得下来把背景材料读完。最难的环节不在现场跑，而在出发前一个人坐在那里读。' },
+            { no: '02', t: '写四种东西', d: '纪实、报告、申报表、新闻稿——四种文体四种写法。纪实要有人物和细节，报告要有数据和分析，申报表按格子填，新闻稿要有新闻由头。' },
+            { no: '03', t: '讲四个场合', d: '对着孩子讲一节课，对着家长讲一次结果，对着社区讲一遍方案，最后对着评委讲一场汇报。四次讲话，四个听众，四种讲法。' },
+            { no: '04', t: '统筹和动手', d: '六个人、三个点位、七天，谁什么时候到哪儿、带什么东西，都要提前排出来；工具和课件是自己做还是找现成的，也要自己定。' }
+        ].map((it, i) => (
+            <Box key={i} style={{ display: 'flex', flexDirection: 'row', alignItems: 'flex-start', paddingTop: 14, paddingBottom: 14, borderBottom: i < 3 ? '1px solid #ECE9E2' : 'none' }}>
+                <Text style={{ fontFamily: 'Arial', fontSize: 17, fontWeight: 'bold', color: '#0D7D6A', width: 50, lineHeight: 1.55 }}>
+                    {it.no}
+                </Text>
+                <Text style={{ fontFamily: 'SimSun', fontSize: 22, fontWeight: 'bold', color: '#1F2937', width: 220, lineHeight: 1.45 }}>
+                    {it.t}
+                </Text>
+                <Text style={{ fontFamily: 'Microsoft YaHei', fontSize: 17, color: '#4B5563', flex: 1, lineHeight: 1.6 }}>
+                    {it.d}
+                </Text>
+            </Box>
+        ))}
+    </Box>
+
+    <Text style={{ fontFamily: 'Microsoft YaHei', fontSize: 18, color: '#0D7D6A', lineHeight: 1.6, marginTop: 16 }}>
+        这四样，没有一样是坐在教室里能学会的——你必须先干一次，才知道自己缺什么。
+    </Text>
+</Slide>

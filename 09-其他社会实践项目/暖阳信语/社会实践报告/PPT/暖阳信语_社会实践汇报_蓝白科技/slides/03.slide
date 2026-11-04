@@ -1,0 +1,131 @@
+<Slide style={{
+    width: 1280,
+    height: 720,
+    background: 'linear-gradient(180deg, #FFFFFF 0%, #E3F2FD 60%, #D6EBFF 100%)',
+    position: 'relative',
+    display: 'flex',
+    flexDirection: 'column',
+    padding: '36px 60px'
+}}>
+    {/* 右上装饰圆斑 */}
+    <Box style={{
+        position: 'absolute', top: -100, right: -100,
+        width: 280, height: 280, borderRadius: '50%',
+        background: 'radial-gradient(circle, rgba(11, 37, 69, 0.06) 0%, rgba(11, 37, 69, 0) 70%)'
+    }} />
+
+    {/* A 区：标题块 */}
+    <Box style={{ flexDirection: 'row', alignItems: 'center', gap: 16, position: 'relative', zIndex: 2 }}>
+        <Box style={{
+            width: 6, height: 36, background: 'linear-gradient(180deg, #0B2545 0%, #1E88E5 100%)',
+            borderRadius: 3
+        }} />
+        <Text style={{ fontSize: 32, fontWeight: 'bold', color: '#0B2545', letterSpacing: 1 }}>
+            四条主线 · 八天陪伴
+        </Text>
+        <Box style={{
+            background: '#E3F2FD', padding: '4px 14px', borderRadius: 14,
+            marginLeft: 8
+        }}>
+            <Text style={{ fontSize: 13, color: '#0B2545', fontWeight: 'bold' }}>
+                2026.7.15 — 7.22 · 威海四社区
+            </Text>
+        </Box>
+        <Box style={{ flex: 1 }} />
+        <Box style={{
+            background: '#FFFFFF', borderRadius: 8, padding: 4,
+            border: '1px solid rgba(30, 136, 229, 0.3)'
+        }}>
+            <Image src="assets/image4.jpg" style={{ width: 110, height: 78, objectFit: 'contain', borderRadius: 4 }} />
+        </Box>
+    </Box>
+
+    {/* B 区：4 主线卡片 + 时间地点条 */}
+    <Box style={{ flex: 1, flexDirection: 'column', gap: 16, marginTop: 16, position: 'relative', zIndex: 2 }}>
+        {/* 时间地点条 */}
+        <Box style={{
+            flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center',
+            background: 'linear-gradient(135deg, #0B2545 0%, #1E88E5 100%)',
+            borderRadius: 10, padding: '12px 22px'
+        }}>
+            <Text style={{ fontSize: 14, color: '#FFFFFF', fontWeight: 'bold' }}>威海环翠区 · 银杏 / 西海 / 宏泰 / 怡合佳苑 同步开展</Text>
+            <Text style={{ fontSize: 13, color: '#FFFFFF', opacity: 0.85 }}>8 天 / 4 社区 / 6 人</Text>
+        </Box>
+
+        {/* 4 主线卡片 */}
+        <Box style={{ flexDirection: 'row', gap: 14, flex: 1 }}>
+            {[
+                {
+                    icon: '心',
+                    title: '心理疏导',
+                    sub: '趣味小测试 + 情绪卡片',
+                    desc: '队员轮流组织，引导孩子识别并表达孤独、自卑等情绪，逐步学会倾诉。',
+                    color: '#0B2545'
+                },
+                {
+                    icon: '信',
+                    title: '书信结对',
+                    sub: '暖阳哥哥/姐姐 一对一',
+                    desc: '为每位孩子匹配一位"暖阳哥哥/姐姐"，手写信件搭桥，承诺每月至少一次回信。',
+                    color: '#1E88E5'
+                },
+                {
+                    icon: '趣',
+                    title: '成长陪伴',
+                    sub: '跳房子 / 涂鸦 / 绘本共读',
+                    desc: '户外跳房子、绘画涂鸦、绘本共读为主，按年龄分两组，每日开展 2 小时。',
+                    color: '#0B2545'
+                },
+                {
+                    icon: '愿',
+                    title: '微心愿帮扶',
+                    sub: '心愿卡 · 结营发放',
+                    desc: '提前一周征集心愿卡，统一采购书包、文具、运动鞋、科普绘本等，结营仪式上亲手发放。',
+                    color: '#1E88E5'
+                }
+            ].map((card, i) => (
+                <Box key={i} style={{
+                    flex: 1, background: '#FFFFFF', borderRadius: 12,
+                    padding: 18, flexDirection: 'column', gap: 8,
+                    borderLeft: `5px solid ${card.color}`,
+                    boxShadow: '0 6px 18px rgba(11, 37, 69, 0.08)'
+                }}>
+                    {/* 图标圈 */}
+                    <Box style={{
+                        background: 'linear-gradient(135deg, #E3F2FD 0%, #D6EBFF 100%)',
+                        borderRadius: '50%', width: 56, height: 56,
+                        justifyContent: 'center', alignItems: 'center',
+                        marginBottom: 4
+                    }}>
+                        <Text style={{ fontSize: 32 }}>{card.icon}</Text>
+                    </Box>
+                    <Text style={{ fontSize: 22, color: '#0B2545', fontWeight: 'bold' }}>{card.title}</Text>
+                    <Text style={{ fontSize: 13, color: '#1E88E5', fontWeight: 'bold' }}>{card.sub}</Text>
+                    <Text style={{ fontSize: 13, color: '#475569', lineHeight: 1.55 }}>{card.desc}</Text>
+                </Box>
+            ))}
+        </Box>
+
+        {/* 底部晚间复盘提示 */}
+        <Box style={{
+            flexDirection: 'row', alignItems: 'center', gap: 10,
+            background: 'rgba(255, 255, 255, 0.6)', borderRadius: 8,
+            padding: '8px 16px', border: '1px dashed rgba(30, 136, 229, 0.4)'
+        }}>
+            <Text style={{ fontSize: 14 }}></Text>
+            <Text style={{ fontSize: 13, color: '#0B2545', fontWeight: 'bold' }}>
+                8 天内四模块有序衔接，晚间由队长组织复盘，及时调整次日节奏。
+            </Text>
+        </Box>
+    </Box>
+
+    {/* C 区：页脚 */}
+    <Box style={{
+        flexDirection: 'row', justifyContent: 'space-between',
+        borderTop: '1px solid rgba(11, 37, 69, 0.15)', paddingTop: 12,
+        position: 'relative', zIndex: 2
+    }}>
+        <Text style={{ fontSize: 12, color: '#64748B' }}>暖阳信语 · 星光伴成长</Text>
+        <Text style={{ fontSize: 12, color: '#0B2545', fontWeight: 'bold' }}>03 / 05</Text>
+    </Box>
+</Slide>

@@ -1,0 +1,35 @@
+<Slide style={{ padding: 60, background: '#FFFFFF', position: 'relative', fontFamily: 'Microsoft YaHei' }}>
+    <Box style={{ flexDirection: 'column', height: '100%', gap: 24 }}>
+        <Box style={{ flexDirection: 'column', gap: 12 }}>
+            <Text style={{ fontSize: 34, fontWeight: 'bold', color: '#0F172A', lineHeight: 1.2 }}>久坐和低头，最先改的是这三样</Text>
+            <Box style={{ height: 3, width: '100%', background: '#E2E8F0' }} />
+        </Box>
+        <Box style={{ flexDirection: 'row', gap: 20, flex: 1 }}>
+            <Box style={{ width: 410, flexDirection: 'column', gap: 16, background: '#F8FAFC', borderRadius: 12, padding: 26 }}>
+                <Text style={{ fontSize: 26, fontWeight: 'bold', color: '#1D4ED8', lineHeight: 1.3 }}>颈椎</Text>
+                <Text style={{ fontSize: 18, color: '#334155', lineHeight: 1.7 }}>头往前低的角度越大，颈椎要扛的重量就成倍往上翻。低头看手机时，脖子承受的负担远超过头部本身的重量。</Text>
+                <Box style={{ height: 1, background: '#E2E8F0' }} />
+                <Text style={{ fontSize: 18, color: '#EA580C', lineHeight: 1.6 }}>影响：久坐两节课就开始酸胀，注意力先散一半</Text>
+            </Box>
+            <Box style={{ width: 355, flexDirection: 'column', gap: 16, background: '#F8FAFC', borderRadius: 12, padding: 26 }}>
+                <Text style={{ fontSize: 26, fontWeight: 'bold', color: '#1D4ED8', lineHeight: 1.3 }}>视力</Text>
+                <Text style={{ fontSize: 18, color: '#334155', lineHeight: 1.7 }}>长时间近距离盯着屏幕，负责调节焦距的睫状肌一直绷着，缓不过来就会视疲劳、度数往上走。</Text>
+                <Box style={{ height: 1, background: '#E2E8F0' }} />
+                <Text style={{ fontSize: 18, color: '#EA580C', lineHeight: 1.6 }}>影响：看黑板要眯眼，抄笔记开始漏行</Text>
+            </Box>
+            <Box style={{ width: 335, flexDirection: 'column', gap: 16, background: '#F8FAFC', borderRadius: 12, padding: 26 }}>
+                <Text style={{ fontSize: 26, fontWeight: 'bold', color: '#1D4ED8', lineHeight: 1.3 }}>睡眠</Text>
+                <Text style={{ fontSize: 18, color: '#334155', lineHeight: 1.7 }}>睡前刷手机，屏幕的光会让大脑误判时间，入睡被推迟，深度睡眠被压缩。</Text>
+                <Box style={{ height: 1, background: '#E2E8F0' }} />
+                <Text style={{ fontSize: 18, color: '#EA580C', lineHeight: 1.6 }}>影响：早八靠意志力撑，上午两节课最难熬</Text>
+            </Box>
+        </Box>
+        <Box style={{ flexDirection: 'row', alignItems: 'center', gap: 14, background: '#F1F5F9', borderRadius: 8, padding: '14px 22px' }}>
+            <Text style={{ fontSize: 18, color: '#334155', lineHeight: 1.5 }}>这三样不打架，是一起发生的：坐得久、看得近、睡得晚，身体先垮，课再上不进去。</Text>
+        </Box>
+    </Box>
+    <Box style={{ position: 'absolute', left: 60, right: 60, bottom: 24, flexDirection: 'row', justifyContent: 'space-between' }}>
+        <Text style={{ fontSize: 14, color: '#CBD5E1' }}>山东药品食品职业学院 · 质量管理系 ·「童健韶华」志愿服务队</Text>
+        <Text style={{ fontSize: 14, color: '#CBD5E1' }}>05</Text>
+    </Box>
+</Slide>

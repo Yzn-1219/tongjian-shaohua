@@ -1,0 +1,44 @@
+<Slide style={{ width: 1280, height: 720, backgroundColor: '#FBFAF7', padding: '60px', display: 'flex', flexDirection: 'column' }}>
+    <Text style={{ fontFamily: 'Microsoft YaHei', fontSize: 15, color: '#0D7D6A', fontWeight: 'bold', letterSpacing: 1.5, marginBottom: 10 }}>
+        03 · 做题 / 宣讲模块
+    </Text>
+    <Text style={{ fontFamily: 'SimSun', fontSize: 34, fontWeight: 'bold', color: '#1F2937', lineHeight: 1.25 }}>
+        不谈禁止，只谈边界
+    </Text>
+    <Box style={{ width: 1160, height: 1, background: '#E0DDD5', marginTop: 16, marginBottom: 24 }} />
+
+    <Box style={{ display: 'flex', flexDirection: 'row', alignItems: 'baseline', marginBottom: 8 }}>
+        <Text style={{ fontFamily: 'SimSun', fontSize: 30, fontWeight: 'bold', color: '#0D7D6A', lineHeight: 1.4 }}>
+            《真正的大神，从不被屏幕绑架》
+        </Text>
+    </Box>
+    <Text style={{ fontFamily: 'Microsoft YaHei', fontSize: 17, color: '#4B5563', lineHeight: 1.62, marginBottom: 24 }}>
+        孩子崇拜的不是老师，是游戏里那些厉害的人。你说「别玩」，他不听；你说「真正厉害的人不这么玩」，他会愣一下。
+    </Text>
+
+    <Box style={{ display: 'flex', flexDirection: 'row', marginBottom: 20 }}>
+        {[
+            { no: '01', t: '网络红绿灯', d: '用交通信号灯作类比：哪些上网行为是绿灯、哪些黄灯要限时、哪些红灯不能碰。我们不给答案，让孩子自己举牌判断。' },
+            { no: '02', t: '时间炸弹', d: '用计时器还原连续刷短视频时的时间知觉偏差。短视频厉害的地方不在内容，而在它让人感觉不到时间在走。' },
+            { no: '03', t: '健康用网契约', d: '每个孩子在笔记本扉页写下自己每天的上网上限，签上名字。你发的规定他回家就忘，他自己写的会贴在墙上。' }
+        ].map((it, i) => (
+            <Box key={i} style={{ width: i === 2 ? 360 : 390, paddingRight: 28, borderTop: '3px solid #D9EDE8', paddingTop: 14 }}>
+                <Text style={{ fontFamily: 'Arial', fontSize: 15, fontWeight: 'bold', color: '#0D7D6A', marginBottom: 6 }}>
+                    {it.no}
+                </Text>
+                <Text style={{ fontFamily: 'Microsoft YaHei', fontSize: 21, fontWeight: 'bold', color: '#1F2937', lineHeight: 1.4, marginBottom: 7 }}>
+                    {it.t}
+                </Text>
+                <Text style={{ fontFamily: 'Microsoft YaHei', fontSize: 16, color: '#6B7280', lineHeight: 1.62 }}>
+                    {it.d}
+                </Text>
+            </Box>
+        ))}
+    </Box>
+
+    <Box style={{ borderLeft: '3px solid #C2410C', paddingLeft: 16, marginTop: 4 }}>
+        <Text style={{ fontFamily: 'SimSun', fontSize: 21, fontWeight: 'bold', color: '#1F2937', lineHeight: 1.55 }}>
+            整堂课，我们不说「不许」「禁止」「不准」这类词。
+        </Text>
+    </Box>
+</Slide>

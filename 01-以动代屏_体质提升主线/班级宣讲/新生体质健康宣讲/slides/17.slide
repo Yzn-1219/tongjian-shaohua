@@ -1,0 +1,53 @@
+<Slide style={{ padding: 60, background: '#FFFFFF', position: 'relative', fontFamily: 'Microsoft YaHei' }}>
+    <Box style={{ flexDirection: 'column', height: '100%', gap: 22 }}>
+        <Box style={{ flexDirection: 'column', gap: 12 }}>
+            <Text style={{ fontSize: 34, fontWeight: 'bold', color: '#0F172A', lineHeight: 1.2 }}>柔韧和爆发力：最容易短期提分的两项</Text>
+            <Box style={{ height: 3, width: '100%', background: '#E2E8F0' }} />
+        </Box>
+        <Box style={{ flex: 1, flexDirection: 'column', gap: 20, justifyContent: 'center' }}>
+            <Box style={{ flexDirection: 'row', alignItems: 'center', gap: 30, background: '#F8FAFC', borderRadius: 12, padding: 26 }}>
+                <Box style={{ width: 300, flexDirection: 'column', gap: 8 }}>
+                    <Text style={{ fontSize: 24, fontWeight: 'bold', color: '#0F172A', lineHeight: 1.35 }}>坐位体前屈</Text>
+                    <Text style={{ fontSize: 18, fontWeight: 'bold', color: '#3B82F6' }}>占 10%</Text>
+                </Box>
+                <Box style={{ width: 190, flexDirection: 'column', gap: 6 }}>
+                    <Text style={{ fontSize: 16, color: '#94A3B8' }}>男生 100 分 / 60 分</Text>
+                    <Text style={{ fontSize: 22, fontWeight: 'bold', color: '#1D4ED8' }}>24.9 / 3.7 cm</Text>
+                </Box>
+                <Box style={{ width: 190, flexDirection: 'column', gap: 6 }}>
+                    <Text style={{ fontSize: 16, color: '#94A3B8' }}>女生 100 分 / 60 分</Text>
+                    <Text style={{ fontSize: 22, fontWeight: 'bold', color: '#1D4ED8' }}>25.8 / 6.0 cm</Text>
+                </Box>
+                <Box style={{ flex: 1, flexDirection: 'column', gap: 6, paddingLeft: 24, borderLeft: '2px solid #E2E8F0' }}>
+                    <Text style={{ fontSize: 16, color: '#94A3B8' }}>练什么</Text>
+                    <Text style={{ fontSize: 17, color: '#475569', lineHeight: 1.6 }}>不是弯腰，是腘绳肌和髋关节。每天压腿 5 分钟，一个月能前进好几厘米。</Text>
+                </Box>
+            </Box>
+            <Box style={{ flexDirection: 'row', alignItems: 'center', gap: 30, background: '#F8FAFC', borderRadius: 12, padding: 26 }}>
+                <Box style={{ width: 300, flexDirection: 'column', gap: 8 }}>
+                    <Text style={{ fontSize: 24, fontWeight: 'bold', color: '#0F172A', lineHeight: 1.35 }}>立定跳远</Text>
+                    <Text style={{ fontSize: 18, fontWeight: 'bold', color: '#3B82F6' }}>占 10%</Text>
+                </Box>
+                <Box style={{ width: 190, flexDirection: 'column', gap: 6 }}>
+                    <Text style={{ fontSize: 16, color: '#94A3B8' }}>男生 100 分 / 60 分</Text>
+                    <Text style={{ fontSize: 22, fontWeight: 'bold', color: '#1D4ED8' }}>273 / 208 cm</Text>
+                </Box>
+                <Box style={{ width: 190, flexDirection: 'column', gap: 6 }}>
+                    <Text style={{ fontSize: 16, color: '#94A3B8' }}>女生 100 分 / 60 分</Text>
+                    <Text style={{ fontSize: 22, fontWeight: 'bold', color: '#1D4ED8' }}>207 / 151 cm</Text>
+                </Box>
+                <Box style={{ flex: 1, flexDirection: 'column', gap: 6, paddingLeft: 24, borderLeft: '2px solid #E2E8F0' }}>
+                    <Text style={{ fontSize: 16, color: '#94A3B8' }}>练什么</Text>
+                    <Text style={{ fontSize: 17, color: '#475569', lineHeight: 1.6 }}>摆臂和落地收腿各能多跳十几厘米，动作对了成绩立马上来。</Text>
+                </Box>
+            </Box>
+            <Box style={{ flexDirection: 'row', alignItems: 'center', gap: 14, background: '#EFF6FF', borderRadius: 8, padding: '14px 22px' }}>
+                <Text style={{ fontSize: 18, color: '#1E3A8A', lineHeight: 1.5 }}>这两项技术含量最高、见效最快。体测前一个月开始练，性价比最好。</Text>
+            </Box>
+        </Box>
+    </Box>
+    <Box style={{ position: 'absolute', left: 60, right: 60, bottom: 24, flexDirection: 'row', justifyContent: 'space-between' }}>
+        <Text style={{ fontSize: 14, color: '#CBD5E1' }}>山东药品食品职业学院 · 质量管理系 ·「童健韶华」志愿服务队</Text>
+        <Text style={{ fontSize: 14, color: '#CBD5E1' }}>17</Text>
+    </Box>
+</Slide>

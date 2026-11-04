@@ -1,0 +1,62 @@
+<Slide style={{ width: 1280, height: 720, backgroundColor: '#FBFAF7', padding: '60px', display: 'flex', flexDirection: 'column' }}>
+    <Text style={{ fontFamily: 'Microsoft YaHei', fontSize: 15, color: '#0D7D6A', fontWeight: 'bold', letterSpacing: 1.5, marginBottom: 10 }}>
+        03 · 做题 / 调研
+    </Text>
+    <Text style={{ fontFamily: 'SimSun', fontSize: 34, fontWeight: 'bold', color: '#1F2937', lineHeight: 1.25 }}>
+        两卷同发，方见真话
+    </Text>
+    <Box style={{ width: 1160, height: 1, background: '#E0DDD5', marginTop: 16, marginBottom: 24 }} />
+
+    <Box style={{ display: 'flex', flexDirection: 'row', flex: 1 }}>
+        <Box style={{ width: 560, display: 'flex', flexDirection: 'column', paddingRight: 40 }}>
+            <Box style={{ display: 'flex', flexDirection: 'row', alignItems: 'flex-end' }}>
+                <Text style={{ fontFamily: 'Arial', fontSize: 118, fontWeight: 'bold', color: '#C2410C', lineHeight: 0.92, letterSpacing: -3 }}>
+                    75
+                </Text>
+                <Text style={{ fontFamily: 'Arial', fontSize: 40, fontWeight: 'bold', color: '#C2410C', lineHeight: 1, marginLeft: 4, marginBottom: 10 }}>
+                    %
+                </Text>
+            </Box>
+            <Text style={{ fontFamily: 'Microsoft YaHei', fontSize: 19, color: '#1F2937', lineHeight: 1.62, marginTop: 18 }}>
+                的社区工作者反映：他们看到的家长，多是站在旁边看，或者低头看手机。
+            </Text>
+            <Text style={{ fontFamily: 'Microsoft YaHei', fontSize: 15, color: '#9CA3AF', lineHeight: 1.6, marginTop: 8 }}>
+                来源：社工卷（15 题）统计，2026 年 7 月
+            </Text>
+        </Box>
+
+        <Box style={{ width: 1, height: 380, background: '#D6D3CB', marginRight: 40 }} />
+
+        <Box style={{ flex: 1, display: 'flex', flexDirection: 'column' }}>
+            <Box style={{ display: 'flex', flexDirection: 'row', marginBottom: 16 }}>
+                {[
+                    { t: '家长卷', n: '15 题', d: '多数自述：经常陪孩子运动' },
+                    { t: '社工卷', n: '15 题', d: '看到的是：站在旁边看手机' }
+                ].map((it, i) => (
+                    <Box key={i} style={{ flex: 1, borderTop: '3px solid #D9EDE8', paddingTop: 12, paddingRight: 20 }}>
+                        <Text style={{ fontFamily: 'Microsoft YaHei', fontSize: 20, fontWeight: 'bold', color: '#1F2937', marginBottom: 4 }}>
+                            {it.t}
+                            <span style={{ fontSize: 15, color: '#9CA3AF', fontWeight: 'normal' }}>　{it.n}</span>
+                        </Text>
+                        <Text style={{ fontFamily: 'Microsoft YaHei', fontSize: 16, color: '#6B7280', lineHeight: 1.55 }}>
+                            {it.d}
+                        </Text>
+                    </Box>
+                ))}
+            </Box>
+
+            <Text style={{ fontFamily: 'SimSun', fontSize: 25, fontWeight: 'bold', color: '#0D7D6A', lineHeight: 1.55, marginBottom: 10 }}>
+                两边对不上，这个数字才是真话。
+            </Text>
+            <Text style={{ fontFamily: 'Microsoft YaHei', fontSize: 17, color: '#4B5563', lineHeight: 1.65 }}>
+                它说明一件事：家长不是不想陪，而是他以为自己陪了。坐在旁边看手机，在他看来也算陪着。
+            </Text>
+        </Box>
+    </Box>
+
+    <Box style={{ marginTop: 22, backgroundColor: '#EFE9DC', borderRadius: 6, paddingTop: 15, paddingBottom: 15, paddingLeft: 22, paddingRight: 22 }}>
+        <Text style={{ fontFamily: 'Microsoft YaHei', fontSize: 18, color: '#7C3A12', lineHeight: 1.6 }}>
+            这个判断直接决定了我们的方法：不能停在「教育家长要重视」，必须给家长一个可以照着做的具体动作。
+        </Text>
+    </Box>
+</Slide>

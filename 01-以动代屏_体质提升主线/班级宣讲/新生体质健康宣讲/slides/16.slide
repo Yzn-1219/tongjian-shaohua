@@ -1,0 +1,60 @@
+<Slide style={{ padding: 60, background: '#FFFFFF', position: 'relative', fontFamily: 'Microsoft YaHei' }}>
+    <Box style={{ flexDirection: 'column', height: '100%', gap: 22 }}>
+        <Box style={{ flexDirection: 'column', gap: 12 }}>
+            <Text style={{ fontSize: 34, fontWeight: 'bold', color: '#0F172A', lineHeight: 1.2 }}>引体向上：男生最容易栽的一项</Text>
+            <Box style={{ height: 3, width: '100%', background: '#E2E8F0' }} />
+        </Box>
+        <Box style={{ flexDirection: 'row', gap: 40, flex: 1 }}>
+            <Box style={{ width: 620, flexDirection: 'column', gap: 18, justifyContent: 'center' }}>
+                <Box style={{ flexDirection: 'row', alignItems: 'baseline', gap: 12 }}>
+                    <Text style={{ fontSize: 24, fontWeight: 'bold', color: '#0F172A' }}>男生 · 引体向上</Text>
+                    <Text style={{ fontSize: 18, fontWeight: 'bold', color: '#EA580C' }}>占 10%</Text>
+                </Box>
+                <Box style={{ flexDirection: 'column', gap: 0 }}>
+                    <Box style={{ flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center', paddingTop: 14, paddingBottom: 14, borderBottom: '1px solid #E2E8F0' }}>
+                        <Text style={{ fontSize: 19, color: '#334155' }}>100 分</Text>
+                        <Text style={{ fontSize: 24, fontWeight: 'bold', color: '#15803D' }}>19 次</Text>
+                    </Box>
+                    <Box style={{ flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center', paddingTop: 14, paddingBottom: 14, borderBottom: '1px solid #E2E8F0' }}>
+                        <Text style={{ fontSize: 19, color: '#334155' }}>60 分（及格）</Text>
+                        <Text style={{ fontSize: 24, fontWeight: 'bold', color: '#EA580C' }}>10 次</Text>
+                    </Box>
+                    <Box style={{ flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center', paddingTop: 14, paddingBottom: 14, borderBottom: '1px solid #E2E8F0' }}>
+                        <Text style={{ fontSize: 19, color: '#334155' }}>30 分</Text>
+                        <Text style={{ fontSize: 24, fontWeight: 'bold', color: '#B91C1C' }}>7 次</Text>
+                    </Box>
+                    <Box style={{ flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center', paddingTop: 14, paddingBottom: 14, borderBottom: '1px solid #E2E8F0' }}>
+                        <Text style={{ fontSize: 19, color: '#334155' }}>10 分</Text>
+                        <Text style={{ fontSize: 24, fontWeight: 'bold', color: '#B91C1C' }}>5 次</Text>
+                    </Box>
+                </Box>
+                <Text style={{ fontSize: 17, color: '#475569', lineHeight: 1.6 }}>低于 5 次的，这一项基本拿不到分。这是全场最硬的一条及格线。</Text>
+            </Box>
+            <Box style={{ width: 460, flexDirection: 'column', gap: 18, justifyContent: 'center', background: '#F8FAFC', borderRadius: 12, padding: 28 }}>
+                <Box style={{ flexDirection: 'row', alignItems: 'baseline', gap: 12 }}>
+                    <Text style={{ fontSize: 24, fontWeight: 'bold', color: '#0F172A' }}>女生 · 仰卧起坐</Text>
+                    <Text style={{ fontSize: 18, fontWeight: 'bold', color: '#3B82F6' }}>占 10%</Text>
+                </Box>
+                <Box style={{ flexDirection: 'column', gap: 16 }}>
+                    <Box style={{ flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center' }}>
+                        <Text style={{ fontSize: 19, color: '#334155' }}>100 分</Text>
+                        <Text style={{ fontSize: 26, fontWeight: 'bold', color: '#15803D' }}>56 次</Text>
+                    </Box>
+                    <Box style={{ flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center' }}>
+                        <Text style={{ fontSize: 19, color: '#334155' }}>60 分（及格）</Text>
+                        <Text style={{ fontSize: 26, fontWeight: 'bold', color: '#EA580C' }}>26 次</Text>
+                    </Box>
+                </Box>
+                <Box style={{ height: 1, background: '#E2E8F0' }} />
+                <Text style={{ fontSize: 17, color: '#475569', lineHeight: 1.7 }}>一分钟 26 次，节奏对了大部分人都能做到。练的是核心，不是腰。</Text>
+            </Box>
+        </Box>
+        <Box style={{ flexDirection: 'row', alignItems: 'center', gap: 14, background: '#FFF7ED', borderRadius: 8, padding: '14px 22px', border: '1px solid #FED7AA' }}>
+            <Text style={{ fontSize: 18, color: '#9A3412', lineHeight: 1.5 }}>但记住：这一项只占 10%。为一个项目放弃另外六项，是最不划算的算法。</Text>
+        </Box>
+    </Box>
+    <Box style={{ position: 'absolute', left: 60, right: 60, bottom: 24, flexDirection: 'row', justifyContent: 'space-between' }}>
+        <Text style={{ fontSize: 14, color: '#CBD5E1' }}>山东药品食品职业学院 · 质量管理系 ·「童健韶华」志愿服务队</Text>
+        <Text style={{ fontSize: 14, color: '#CBD5E1' }}>16</Text>
+    </Box>
+</Slide>
