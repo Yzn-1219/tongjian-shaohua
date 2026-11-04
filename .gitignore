@@ -21,3 +21,12 @@ npm-debug.log*
 # Office 临时锁文件
 ~$*
 *.tmp
+
+# 生成工具的缓存（PPT/配图流水线产物，非资料内容）
+.cache/
+.slidep/
+.pagecount
+_check/
+__pycache__/
+*.pyc
+node_modules/
